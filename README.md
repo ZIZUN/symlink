@@ -14,8 +14,8 @@ Code for "JBNU-CCLab at SemEval-2022 Task 12: Fusing Maximum Entity Information 
 
 1. Environment Setting
 ```console
-pip install -r requirements.txt
-python src/others/install_mecab.py # mecab설치
+pip install -r ./NER/requirements.txt
+pip install -r ./RE/requirements.txt
 ```
 
 3. Entity model(Train, infer)
