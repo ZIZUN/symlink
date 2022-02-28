@@ -6,7 +6,6 @@ Code for "JBNU-CCLab at SemEval-2022 Task 12: Fusing Maximum Entity Information 
 * pytorch-lightning==0.9.0
 * tokenizers==0.9.3
 * pandas==1.3.3
-* torch==1.7.0
 * sklearn
 * transformers==4.10.2
 
