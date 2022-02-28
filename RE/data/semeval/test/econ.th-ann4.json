@@ -1,0 +1,1577 @@
+{
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_72": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_72",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_72",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_72",
+    "text": "Loosening monetary policy raises inflation .\nObserving higher prices , customers underinfer the underlying increase in nominal marginal costs and thus perceive higher price markups .\nFirms respond to such perceptions by cutting their actual markups .\nThe price markup falls by $1.4\\%$ , which raises output and employment by $0.7\\%$ .\n( Output and employment respond identically because the production function is calibrated to be linear . )"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_66": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_66",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_66",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_66",
+    "text": "We then simulate the dynamics of a firm 's price in response to an unexpected and permanent increase in its marginal cost ( see Appendix ~ B. 5 ) .\nWe find that the fairness parameter $\\t$ primarily affects the level of the cost passthrough , while the inference parameter $\\g$ primarily affects its persistence .\nBased on the simulations , we set $\\e=2.23$ , $\\t=9$ , and $\\g=0.8$ .\nThis calibration allows us to achieve a steady - state price markup of ~ $1.5$ , an instantaneous cost passthrough of ~ $0.4$ , and a two - year cost passthrough of ~ $0.7$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_99": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_99",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_99",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_99",
+    "text": "Next , the properties indicate that $F(0)>0$ and $F'(0)$ is finite , so $\\lim_{M^p\\to 0} \\f(M^p) = 0$ .\nAnd they indicate that $F(M^h)=0$ while $M^h>0$ and $F'(M^h)<0$ , so $\\lim_{M^p\\to M^h} \\f(M^p) = +\\infty$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_159": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_159",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_159",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_159",
+    "text": "\\paragraph{Proof of Lemma~\\ref{l:monetary} } The law of motion \\eqref{e:mphat} for the perceived price markup comes from \\eqref{e:mphata} .\nThe expression of the perceived price markup as a discounted sum of past inflation rates is obtained by iterating \\eqref{e:mphata} backward ; and by noting that $\\lim_{T\\to \\infty}\\g^T \\cdot \\wh{m^p}(t-T)=0$ as $\\g\\in(0,1)$ and $\\wh{m^p}$ is bounded ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_165": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_165",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_165",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_165",
+    "text": "\\paragraph{First-Order Condition with Respect to Price}\nThe first - order condition with respect to $P(t)$ is $\\pdx{\\Lc}{P(t)}=0$ , which gives\n\\begin{equation*}\n0=Y(t)+\\Hc(t)\\pd{Y^{d}}{P}+(1-\\g)\\Kc(t)\\frac{C^{p}(t)}{P(t)}.\n\\end{equation*}\nThis equation is the same as \\eqref{e:focpj} ; therefore , it can be re-expressed as \\eqref{e:ejmj} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_171": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_171",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_171",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_171",
+    "text": "Our calibration procedure starts by initializing $\\t$ and $\\g$ to some values .\nUsing these values and the target $\\ol{M}=1.5$ , we compute $\\e$ from \\eqref{e:mssa} .\nIn \\eqref{e:mssa} we use \\eqref{e:phia} , which holds because the fairness function is \\eqref{e:f} , and because there is no inflation in steady state so customers are acclimated .\nUsing the values of $\\t$ , $\\g$ , and $\\e$ , we simulate the dynamics of the cost passthrough ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_170": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_170",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_170",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_170",
+    "text": "\\paragraph{Calibration Procedure}\nWe set the shape of the fairness function to \\eqref{e:f} and the discount factor to $\\d=0.99$ .\nThen , using the simulations , we calibrate the three main parameters of the model : the concern for fairness , $\\t$ , the degree of underinference , $\\g$ , and the elasticity of substitution between goods , $\\e$ .\nOur goal is to produce an instantaneous cost passthrough of $\\b = 0.4$ , a two - year cost passthrough of $\\b =0.7$ , together with a steady - state price markup of $\\ol{M}=1.5$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_164": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_164",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_164",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_164",
+    "text": "\\paragraph{First-Order Condition with Respect to Output}\nThe first - order condition with respect to $Y(t)$ is $\\pdx{\\Lc}{Y(t)}=0$ .\nIt yields\n\\begin{equation*}\n\\Hc(t)=P(t) \\bs{1-\\frac{C(t)}{P(t)}},\n\\end{equation*}\nwhich is the same equation as \\eqref{e:hj2} and thus can be rewritten as \\eqref{e:hj} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_158": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_158",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_158",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_158",
+    "text": "We now bring these results together .\nEquation \\eqref{e:ema} can be written $LHS= \\E[t]{RHS}$ .\nThis equation also holds in steady state so $\\ol{LHS} =\\ol{RHS}$ .\nCombining these two equations , we infer\n\\begin{equation*}\n\\exp{\\ln(LHS)-\\ln(\\ol{LHS})} = \\E[t]{\\exp{\\ln(RHS)-\\ln(\\ol{RHS})}}.\n\\end{equation*}\nAround $x=0$ , we have $\\exp(x) = 1 + x$ .\nApplying this approximation to both sides of the previous equation , we find\n\\begin{equation*}\n1+\\ln(LHS)-\\ln(\\ol{LHS}) = 1+ \\E[t]{\\ln(RHS)-\\ln(\\ol{RHS})}.\n\\end{equation*}\nWe then use the results in \\eqref{e:lhs} and \\eqref{e:rhs} :\n\\begin{equation*}\n\\O_{1} \\wh{m}(t) + \\O_{0} \\wh{m^p}(t) = \\O_{3} \\cdot \\bs{\\O_{1} \\E[t]{\\wh{m}(t+1)} + \\O_{2} \\E[t]{\\wh{m^p}(t+1)}}.\n\\end{equation*}\nWe divide this equation by $\\O_{0}$ ; insert the values of $\\wh{m}(t)$ and $\\wh{m}(t+1)$ given by \\eqref{e:mhat} ; and insert the value of $\\wh{m^p}(t+1)$ given by \\eqref{e:mphata} .\nWe obtain\n\\begin{equation}\n-\\frac{(1+\\eta)\\O_{1}}{\\O_{0}} \\wh{n}(t) + \\wh{m^p}(t) = -\\frac{(1+\\eta)\\O_{3}\\O_{1}}{\\O_{0}} \\E[t]{\\wh{n}(t+1)} + \\frac{\\g\\O_{3}\\O_{2}}{\\O_{0}} \\E[t]{\\wh{\\pi}(t+1)+\\wh{m^p}(t)}.\n\\label{e:phillips0}\\end{equation}\nUsing \\eqref{e:omega0} , \\eqref{e:omega1} , \\eqref{e:omega2} , and \\eqref{e:omega3} , we find that \\begin{align*}\n\\frac{(1+\\eta)\\O_{1} }\n{ \\O_{0} } &= ( 1 + \\eta) \\frac{\\e+(\\e-1) \\g \\ol{\\f} }\n{ \\g \\ol{\\f}  \\ol{\\s} }\n\\bs{1+\\frac{(1-\\d)\\g}\n{ 1 - \\d\\g} \\ol{\\f} }\n\\ equiv \\l_1 \\\\\n\\frac{(1+\\eta)\\O_{3}  \\O_{1} }\n{ \\O_{0} } & = ( 1 + \\eta) \\d \\frac{\\e+(\\e-1)\\ol{\\f} }\n{ \\ol{\\f}  \\ol{\\s} }\n\\bs{1+\\frac{(1-\\d)\\g}\n{ 1 - \\d\\g} \\ol{\\f} }\n\\ equiv \\l_2 \\\\\n\\frac{\\g\\O_{3}  \\O_{2} }\n{ \\O_{0} } &= \\d\\g^2 \\frac{\\e +(\\e-1)\\ol{\\f} }\n{ \\e+(\\e-1) \\g \\ol{\\f} } \\cdot \\frac{(\\e-1) \\ol{\\f}  \\ol{\\s} }\n{ \\e+(\\e-1) \\ol{\\f} } \\cdot \\frac{\\e+(\\e-1) \\g \\ol{\\f} }\n{ ( \\e-1)\\g\\ol{\\f}  \\ol{\\s} } = \\ d\\g .\n\\end{align*}\nBringing these results into \\eqref{e:phillips0} , we obtain the short - run Phillip s curve :\n\\begin{equation}\n(1-\\d\\g) \\wh{m^p}(t) - \\l_1 \\wh{n}(t) = \\d \\g \\E[t]{\\wh{\\pi}(t+1)} - \\l_2 \\E[t]{\\wh{n}(t+1)}.\n\\label{e:phillipsa}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_98": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_98",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_98",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_98",
+    "text": "The properties also indicate that $F>0$ is decreasing in $M^p$ , and that $F'<0$ is decreasing in $M^p$ ( as $F$ is concave in $M^p$ ) .\nThus , both $1/F>0$ and $-F'>0$ are increasing in $M^p$ , which implies that $\\f$ is strictly increasing in $M^p$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_67": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_67",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_67",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_67",
+    "text": "\\paragraph{Other Parameters}\nWe set the labor - supply parameter to $\\eta=1.1$ , which gives a Frisch elasticity of labor supply of $1/1.1=0.9$ .\nThis value is the median microestimate of the Frisch elasticity for aggregate hours \\cp[Table~2]{CGM13} .\nWe then set the quarterly discount factor to $\\d=0.99$ , giving an annual rate of return on bonds of ~ $4\\%$ .\nWe set the production - function parameter to $\\a=1$ .\nThis calibration guarantees that the labor share , which equals $\\a/\\ol{M}$ in steady state , takes its conventional value of ~ $2/3$ .\nLast , we calibrate the monetary - policy parameter to $\\p=1.5$ , which is consistent with observed variations in the federal funds rate \\cp[p.~52]{G08} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_73": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_73",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_73",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_73",
+    "text": "\\begin{table} [ t ] \\caption{Opinions about price movements in Japan, 2001--2017}  \\footnotesize\\begin{tabular*} { \\textwidth}{@{\\extracolsep{\\fill} } lcc cc }\\ toprule & & \\multicolumn{3} { c } { Opinion about perceived price change } \\\\\n\\cmidrule{3-5} Perceived price change & Respondents & Favorable & Neutral & Unfavorable \\\\ \\\nmidrule Prices have gone up & 68,491 & $2.5\\%$ & $13.0\\%$ & $83.7\\%$ \\\\\nPrices have gone down & 18,257 & $43.0\\%$ & $34.2\\%$ & $21.9\\%$ \\\\ \\bottomrule\\end{tabular*}            . }\n\\label{t:japan}  \\end{table}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_59": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_59",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_59",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_59",
+    "text": "As in the monopoly model , fairness affects pricing through the price elasticity of demand $E$ , which satisfies ~ \\eqref{e:e2} .\nUnlike in the monopoly model , however , the profit - maximizing markup is not $E/(E-1)$ because $E$ does not capture the effect of the current price on future beliefs and thus future demands .\nInstead , in equilibrium , firms set their price markup $M$ such that\n\\begin{equation}\n\\frac{M(t)-1}{M(t)} E(t) = 1-\\d\\g+\\d\\E[t]{\\frac{M(t+1)-1}{M(t+1)} \\bs{E(t+1)-(1-\\g)\\e}}.\n\\label{e:em}\\end{equation}\nThe gap between $M(t)$ and $E(t)/[E(t)-1]$ reflects how much today 's price affects future perceived marginal costs , demands , and profits .\nConversely , if firms do not care about the future ( $\\d=0$ ) , the equation reduces to $M(t) = E(t)/[E(t)-1]$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_65": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_65",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_65",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_65",
+    "text": "Third , \\ct[Table~7.4]{BG14} provide estimates of the long - run exchange - rate passthrough for the United States and seven other countries .\nThe exchange - rate passthrough measures the response of import prices to exchange - rate shocks .\nIts level may not reflect that of the cost passthrough , because marginal costs may not vary one - for - one with exchange rates , but there is no reason for the two passthroughs to have different dynamics\n\\cp{AIK14} .\nThe immediate exchange - rate passthrough is estimated at $0.4$ , and the two - year exchange - rate passthrough at ~ $0.7$ .\nBased on these dynamics , and the fact that the immediate cost passthrough is also ~ $0.4$ , we target a two - year cost passthrough of ~ $0.7$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_71": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_71",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_71",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_71",
+    "text": "Figure ~ \\ref{f:monetary} depicts the dynamical response to the expansionary monetary shock .\nThe exogenous component of monetary policy and inflation rate are expressed as deviations from steady - state values , measured in percentage points and annualized ( by multiplying by four the variables $\\wh{i_0}(t)$ and $\\wh{\\pi}(t)$ ) ; all other variables are expressed as percentage deviations from steady - state values ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_172": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_172",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_172",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_172",
+    "text": "We repeat the simulation for different values of $\\t$ and $\\g$ until we obtain a cost passthrough of $0.4$ on impact and $0.7$ after two years .\nWe reach these targets with $\\t=9$ and $\\g=0.8$ .\nThe corresponding value of $\\e$ is $2.23$ .\nThe corresponding passthrough dynamics are shown in Figure ~ \\ref{f:calibration} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_166": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_166",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_166",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_166",
+    "text": "\\paragraph{First-Order Condition with Respect to Perceived Marginal Cost}\nFinally , the first - order condition with respect to $C^{p}(t)$ is $\\pdx{\\Lc}{C^p(t)}=0$ , which yields\n\\begin{equation*}\n0 =\\d \\E[t]{\\Hc(t+1) \\pd{Y^{d}}{C^{p}} +\\g \\Kc(t+1) \\frac{C^{p}(t+1)}{C^{p}(t)}} -\\Kc(t).\n\\end{equation*}\nUsing the elasticity given by \\eqref{e:ydc} , we get\n\\begin{equation*}\n\\Kc(t) = \\d \\E[t]{\\Hc(t+1) \\frac{Y(t+1)}{C^{p}(t)} \\bs{E(M^{p}(t+1))-\\e} +\\g \\Kc(t+1) \\frac{C^{p}(t+1)}{C^{p}(t)}}.\n\\end{equation*}\nNext we multiply the equation by $C^p(t)/[Y(t)P(t)]$ , and we insert the perceived price markups $M^p(t) = P(t)/C^{p}(t)$ and $M^p(t+1) = P(t+1)/C^{p}(t+1)$ .\nWe get\n\\begin{equation*}\n\\frac{\\Kc(t)}{Y(t) M^{p}(t)}=\\d \\E[t]{\\frac{Y(t+1) P(t+1)}{Y(t) P(t)}\\bc{\\frac{\\Hc(t+1)}{P(t+1)} \\bs{E(M^{p}(t+1))-\\e} +\\g\\frac{\\Kc(t+1)}{Y(t+1)M^{p}(t+1)}}}.\n\\end{equation*}\nTo conclude , we multiply the equation by $(1-\\g)$ , eliminate $\\Hc(t+1)$ using \\eqref{e:hj} , and eliminate $\\Kc(t)$ and $\\Kc(t+1)$ using \\eqref{e:ejmj} .\nThis gives the following pricing equation :\n\\begin{equation}\\medmuskip=1mu\\thickmuskip=2mu\n\\frac{M(t)-1}{M(t)} E(M^{p}(t))=1+\\d \\E[t]{\\frac{Y(t+1) P(t+1)}{Y(t)P(t)}\\bc{\\frac{M(t+1)-1}{M(t+1)}\\bs{E(M^{p}(t+1))-(1-\\g)\\e}-\\g}}.\n\\label{e:emjc}\\end{equation}\nIn steady state , this equation becomes \\eqref{e:emss1} and can therefore be written as \\eqref{e:mssa} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_167": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_167",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_167",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_167",
+    "text": "\\paragraph{Firm Pricing}\nThe firm 's pricing is described by four variables : the price $P(t)$ , markup $M(t)$ , output $Y(t)$ , and perceived markup $M^p(t)$ .\nThese four variables are determined by four equations : the pricing equation ~ \\eqref{e:emjc} , the definition of the markup $M(t) = P(t)/C(t)$ , the demand curve ~ \\eqref{e:ydjc} , and the perceived markup 's law of motion ~ \\eqref{e:mpt} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_173": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_173",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_173",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_173",
+    "text": "The short - run Phillips curve is given by\n\\begin{equation*}\n\\wh{\\pi}(t)=\\d \\E[t]{\\wh{\\pi}(t+1)} + \\k \\wh{n}(t),\n\\end{equation*}\nwhere\n\\begin{equation*}\n\\k \\equiv (1+\\eta) \\cdot \\frac{(1-\\x)(1-\\d\\x)}{\\x} \\cdot \\frac{\\a}{\\a+\\bp{1-\\a} \\e},\n\\end{equation*}\nand $\\x$ is the fraction of firms keeping their prices unchanged each period .\nThis Phillips curve is obtained from ( 21 ) in \\ct[Chapter~3]{G08} , by using logarithmic consumption utility , and by replacing the output gap by $\\a \\wh{n}(t)$ .\n\\footnote{The output gap is the logarithmic difference between the actual and the natural level of output. The natural levels of output and employment are reached when prices are flexible, so when the price markup is            . Since            is also the steady-state price markup, we infer from \\eqref{e:na} that the natural and steady - state levels of employment are equal .\nHence , \\eqref{e:y} implies that the natural level of output is $Y^n(t)= A(t) \\ol{N}^{\\a}$ .\nConsequently the output gap is $\\ln(Y(t))- \\ln(Y^n(t))= \\a [\\ln(N(t))-\\ln(\\ol{N})] = \\a\\wh{n}(t)$ . }"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_70": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_70",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_70",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_70",
+    "text": "We assume that the exogenous component $i_0(t)$ of the monetary - policy rule \\eqref{e:taylor} follows an AR ( 1 ) process such that\n\\begin{equation*}\n\\wh{i_0}(t)=\\m^i \\cdot \\wh{i_0}(t-1) - \\z^i(t),\n\\end{equation*}\nwhere the disturbance $\\z^i(t)$ follows a white - noise process with mean zero , and $\\m^i\\in(0,1)$ governs the persistence of shocks .\nWe set $\\m^i = 0.75$ , which corresponds to moderate persistence ( \\inp[p.~52]{G08} ; \\inp[p.~26]{G10} ) .\nWe simulate the response to an initial disturbance of $\\z^i(0) = 0.25\\%$ , which is an expansionary monetary shock .\nWithout any inflation response , this shock would reduce the annualized interest rate by 1 percentage point ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_64": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_64",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_64",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_64",
+    "text": "Second , in the United States , Sweden , India , and Mexico , the short - run cost passthrough is estimated between $0.2$ and $0.7$ , with an average value of ~ $0.4$ ( Section ~ \\ref{s:subproportional} ) .\nHence , we target a short - run cost passthrough of ~ $0.4$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_58": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_58",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_58",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_58",
+    "text": "The demand for good ~ $j$ from all households is\n\\begin{equation*}\nY^{d}\\of{t,P_{j}(t),C_{j}^{p}(t-1)} = Z(t) \\bs{\\frac{P_{j}(t)}{X(t)}}^{-\\e} F\\of{\\bp{\\frac{\\e}{\\e-1}}^{1-\\g}\\bs{\\frac{P_{j}(t)}{C_{j}^{p}(t-1)}}^{\\g}}^{\\e-1},\n\\end{equation*}\nwhere $Z(t) = \\int_0^1 Z_{k}(t)\\,dk$ describes the level of aggregate demand .\nThe price of good ~ $j$ appears twice in the demand curve : as part of the relative price $P_j/X$ ; and as part of the fairness factor $F$ .\nThis second element leads to unconventional pricing ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_60": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_60",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_60",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_60",
+    "text": "\\paragraph{Fairness Function}\nWe set the shape of the fairness function $F$ to \\eqref{e:f} .\nThis simple functional form has two advantages .\nFirst , it introduces only one new parameter , $\\t>0$ , which governs the concern for fairness .\nSecond , it produces a fairness factor equal to one at the zero - inflation steady state .\nIndeed , in such steady state , the perceived price markup is $\\ol{M^p}=\\ol{P}/\\ol{C^p}=\\e/(\\e-1)$ , as shown by \\eqref{e:cpj} , and so the fairness factor is $\\ol{F}=1$ .\nThus , with no trend inflation , customers acclimate and are neither happy nor unhappy about markups ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_74": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_74",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_74",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_74",
+    "text": "In fact the response of output to a monetary shock is broadly the same in the model as in US data .\nFirst , the shape of the response is similar , as output is estimated to respond to monetary shocks in a hump - shaped fashion \\cp[Figures~1--4]{R15} .\nSecond , the amplitude of the response is comparable .\nAfter a one - percentage - point decrease of the nominal interest rate , the literature estimates that output increases between $0.6\\%$ and $5\\%$ , with a median value of $1.6\\%$ \\cp[Table~1]{R15} ; and using a range of methods and samples , \\ct[Table~2]{R15} estimates that output increases between $0.2\\%$ and $2.2\\%$ , with a median value of $0.8\\%$ .\nIn our simulation , output rises by $0.7\\%$ when the exogenous component of monetary policy decreases by ~ 1 percentage point --- close to Ramey 's median estimate ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_48": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_48",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_48",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_48",
+    "text": "An amount $Y_{jk}(t)$ of good ~ $j$ bought by household ~ $k$ at a unit price $P_{j}(t)$ yields a fairness - adjusted consumption\n\\begin{equation*}\nZ_{jk}(t)= F_{j}(M^{p}_{j}(P_{j}(t))) \\cdot Y_{jk}(t).\n\\end{equation*}\nHousehold ~ $k$ 's fairness - adjusted consumption of the various goods aggregates into a consumption index\n\\begin{equation*}\nZ_{k}(t) = \\bs{\\int_{0}^{1} Z_{jk}(t)^{(\\e-1)/\\e}\\,dj}^{\\e/(\\e-1)},\n\\end{equation*}\nwhere $\\e>1$ is the elasticity of substitution between different goods .\nThe price of one unit of the consumption index at time ~ $t$ is given by the price index\n\\begin{equation*}\nX(t)=\\bc{\\int_0^1\\bs{\\frac{P_{j}(t)}{F_{j}(M^{p}_{j}(P_{j}(t)))}}^{1-\\e}\\,dj}^{1/(1-\\e)}.\n\\end{equation*}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_163": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_163",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_163",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_163",
+    "text": "To solve the firm 's problem , we set up the Lagrangian : \\begin{align*}  \\Lc& =\\E[0]\\sum_{t=0} ^ { \\infty}\\d^t \\bigg\\{ \\bs{P(t) - C(t)} Y ( t ) \\\\ & + \\Hc(t) \\bs{Y^{d} ( P ( t ) , C ^ { p } ( t - 1 ) ) - Y ( t ) } \\\\ &+ \\Kc(t) \\bs{\\bs{C^{p} ( t - 1 ) }^{            { \\e} P(t)}^{1-\\g} - C ^{ p } ( t ) }\\ bigg \\ } , \\end{align*} where $\\Hc(t)$ is the Lagrange multiplier on the demand constraint in period ~ $t$ , and $\\Kc(t)$ is the Lagrange multiplier on the perceived marginal cost 's law of motion in period ~ $t$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_162": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_162",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_162",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_162",
+    "text": "\\paragraph{Firm Problem}\nThis is a simplified version of the New Keynesian firm problem , which abstracts from hiring decisions .\nThe firm chooses price $P(t)$ and output $Y(t)$ to maximize the expected present - discounted value of profits\n\\begin{equation*}\n\\E[0] \\sum_{t=0}^{\\infty}\\d^t \\bs{P(t) - C(t)} Y(t),\n\\end{equation*}\nsubject to the demand\n\\begin{equation}\nY^{d}(P(t),C^{p}(t-1)) = P(t)^{-\\e} F\\of{\\bp{\\frac{\\e}{\\e-1}}^{1-\\g}\\bs{\\frac{P(t)}{C^{p}(t-1)}}^{\\g}}^{\\e-1}\n\\label{e:ydjc}\\end{equation}\nand to the law of motion \\eqref{e:cpj} for the perceived marginal cost $C^{p}(t)$ .\nThe nominal marginal cost $C(t)$ is exogenous and stochastic ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_49": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_49",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_49",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_49",
+    "text": "\\paragraph{Households} Household ~ $k$ derives utility from consuming goods and disutility from working .\nIts expected lifetime utility is\n\\begin{equation*}\n\\E[0] \\sum_{t=0}^{\\infty}\\d^{t} \\bs{\\ln(Z_{k}(t))-\\frac{N_{k}(t)^{1+\\eta}}{1+\\eta}},\n\\end{equation*}\nwhere $\\E[t]$ is the mathematical expectation conditional on time - $t$ information , $\\d\\in(0,1)$ is the discount factor , $N_{k}(t)$ is its labor supply , and $\\eta > 0$ is the inverse of the Frisch elasticity of labor supply ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_75": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_75",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_75",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_75",
+    "text": "Third , the textbook model cannot produce the hump - shaped response of output observed in US data and predicted by the fairness model , since it does not include any backward - looking element .\nThe fairness model , by contrast , includes a backward - looking element in the form of the perceived price markup $\\wh{m^p}(t)$ , which enters the Phillips curve \\eqref{e:phillips} and depends on the past via \\eqref{e:mphat} .\nIt is well understood that hump - shaped impulse responses can be obtained by inserting backward - looking elements --- for instance , by assuming that consumers form habits \\cp{F00,CEE05} .\nUnder that assumption , consumers ' behavior depends on their past consumption , which then enters the IS curve and generates hump - shaped responses ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_61": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_61",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_61",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_61",
+    "text": "\\begin{table} [ t ] \\caption{Parameter values in simulations}  \\footnotesize\\begin{tabular*} { \\textwidth}{@{\\extracolsep{\\fill} } lll }\\ toprule Value & Description & Source or target \\\\ \\\nmidrule            {c }\n{ A . Common parameters }\\\\\n$\\d=0.99$ & Quarterly discount factor & Annual rate of return\n$=4\\%$ \\\\\n$\\a = 1$ & Shape of production function & Labor share\n           \\\\\n$\\eta=1.1$\n& Inverse of Frisch elasticity of labor supply &\n           \\\\\n$\\p=1.5$ & Response of nominal interest rate to inflation & \\ct[p.~52]{G08} \\\\\n$\\m^i=0.75$\n& Persistence of monetary shock & \\ct[p.~52]{G08} , \\ct[p.~26]{G10} \\\\\n$\\m^a=0.9$ & Persistence of technology shock &\n           \\\\ \\\nmidrule \\multicolumn{3} {c }\n{ B . Parameters of the New Keynesian model with fairness }\\\\ $\\e=2.23$ & Elasticity of substitution across goods & Steady - state price markup            \\\\\n$\\t=9$ & Fairness concern & Instantaneous cost passthrough\n           \\\\ $\\g=0.8$\n& Degree of underinference & Two - year cost passthrough\n            \\\\ \\\nmidrule \\multicolumn{3} {c }\n{ C . Parameters of the textbook New Keynesian model }\\\\ $\\e=3$ & Elasticity of substitution across goods & Steady - state price markup            \\\\\n$\\x=0.67$ & Share of firms keeping price unchanged & Average price duration $=3$ quarters \\\\ \\bottomrule\\end{tabular*}            .}\n\\label{t:calibration}  \\end{table}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_77": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_77",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_77",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_77",
+    "text": "\\paragraph{Simulation Results}\nWe simulate the dynamical response of our calibrated model to an unexpected and transitory technology shock , once again around the zero - inflation steady state .\nWe assume that the logarithm of technology $A(t)$ in the production function \\eqref{e:yj} follows an AR ( 1 ) process such that\n\\begin{equation*}\n\\wh{a}(t)=\\m^a \\cdot \\wh{a}(t-1)+ \\z^a(t),\n\\end{equation*}\nwhere the disturbance $\\z^a(t)$ follows a white - noise process with mean zero , and $\\m^a\\in(0,1)$ governs the persistence of shocks .\nWe set $\\m^a = 0.9$ , which is typical \\cp[p.~55]{G08} .\nWe simulate the response to an initial disturbance of $\\z^a(0) = 1\\%$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_63": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_63",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_63",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_63",
+    "text": "First , using firm - level data , \\ct[p.~575]{DEG20} estimate price markups in the United States .\nThey find that the average markup across the US economy hovers between $1.2$ and $1.3$ in the 1955 -- 1980 period , rises from $1.2$ in 1980 to $1.5$ in 2000 , remains around $1.5$ until 2014 , before spiking to $1.6$ in 2016 .\nAs the markup averages $1.5$ between 2000 and 2016 , we adopt this value as a target .\n\\footnote{The aggregate markup computed by \\ct{DEG20} is commensurate to markups measured in specific industries and goods in the United States .\nIn the automobile industry , \\ct[p.~882]{BLP95} estimate that on average $(P-C)/P = 0.239$ , which translates into a markup of $M=P/C = 1/(1-0.239) = 1.3$ .\nIn the ready - to - eat cereal industry , \\ct[Table~8]{N01} finds that a median estimate of $(P-C)/P$ is $0.372$ , which translates into a markup of $M=P/C = 1/(1-0.372) = 1.6$ .\nIn the coffee industry , \\ct[Table~6]{NZ10} also estimate a markup of $1.6$ .\nFor most national - brand items retailed in supermarkets , \\ct[p.~166]{BBD03} discover that markups range between $1.4$ and $2.1$ .\nFinally , earlier work surveyed by \\ct[pp.~260--267]{RW95} finds similar markups : between $1.2$ and $1.7$ in the industrial - organization literature , and around $2$ in the marketing literature . }"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_88": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_88",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_88",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_88",
+    "text": "\\begin{figure} [ p ] \\includegraphics[scale=0.3,page=13]{\\pdf}  \\includegraphics[scale=0.3,page=14]{\\pdf}  \\caption{Long-run Phillips curves for various degrees of acclimation}  \\note{The top panel gives the relationship between steady-state inflation rate and steady-state price markup. The bottom panel gives the relationship between steady-state inflation rate and steady-state employment. In both panels, inflation is measured as an annual rate. In the bottom panel, employment is measured as a percentage deviation from employment in the zero-inflation steady state. These long-run Phillips curve are constructed using the expressions in Proposition~\\ref{p:longrun} under the calibration in Table ~ \\ref{t:calibration} , for various degrees of acclimation : $\\c=0$ ( no acclimation ) , $\\c = 0.3$ , $\\c = 0.7$ , and $\\c=1$ ( full acclimation ) . }\n\\label{f:longrun}  \\end{figure}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_160": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_160",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_160",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_160",
+    "text": "We first combine \\eqref{e:mphata} , \\eqref{e:is} , and \\eqref{e:phillipsa} into a linear dynamical system :\n\\begin{equation*}\n\\bs{\\begin{array}{ccc}\n\\g & \\g & 0\\\\\n0 & \\p & \\a \\\\\n0 & 0 & \\l_1 \\\\\n\\end{array}}\n\\bs{\\begin{array}{c}\n\\wh{m^p}(t-1)\\\\\n\\wh{\\pi}(t)\\\\\n\\wh{n}(t)\\\\\n\\end{array}}\n=\n\\bs{\\begin{array}{ccc}\n1 & 0 & 0\\\\\n0 & 1 & \\a \\\\\n1-\\d\\g & -\\d\\g & \\l_2\\\\\n\\end{array}}\n\\bs{\\begin{array}{c}\n\\wh{m^p}(t)\\\\\n\\E[t]{\\wh{\\pi}(t+1)}\\\\\n\\E[t]{\\wh{n}(t+1)}\\\\\n\\end{array}}-\n\\bs{\\begin{array}{c}\n0\\\\\n1\\\\\n0\\\\\n\\end{array}} \\o(t),\n\\end{equation*}\nwhere\n\\begin{equation*}\n\\o(t) = \\wh{i_0}(t)+\\wh{a}(t) - \\E[t]{\\wh{a}(t+1)}\n\\end{equation*}\nis an exogenous shock realized at time ~ $t$ .\nThe inverse of the matrix on the right - hand side is\n\\begin{equation*}\n\\bs{\\begin{array}{ccc}\n1 & 0 & 0\\\\\n0 & 1 & \\a \\\\\n1-\\d\\g & -\\d\\g & \\l_2\\\\\n\\end{array}}^{-1} = \\bs{\\begin{array}{ccc}\n1 & 0 & 0\\\\\n\\frac{(1-\\d\\g)\\a}{\\l_2 + \\a \\d \\g} & \\frac{\\l_2}{\\l_2 + \\a \\d \\g} & \\frac{-\\a}{\\l_2 + \\a \\d \\g}\\\\\n\\frac{\\d\\g-1}{\\l_2 + \\a \\d \\g} & \\frac{\\d \\g}{\\l_2 + \\a \\d \\g} & \\frac{1}{\\l_2 + \\a \\d \\g}\\\\\n\\end{array}}.\n\\end{equation*}\nPremultiplying the dynamical system by the inverse matrix , we obtain the Blanchard - Kahn form of the system :\n\\begin{equation*}\n\\bs{\\begin{array}{c}\n\\wh{m^p}(t)\\\\\n\\E[t]{\\wh{\\pi}(t+1)}\\\\\n\\E[t]{\\wh{n}(t+1)}\\\\\n\\end{array}}\n= \\bs{\\begin{array}{ccc}\n\\g & \\g & 0\\\\\n\\frac{ (1 - \\d \\g )\\a \\g}{\\l_2 + \\a \\d \\g} & \\frac{\\l_2 \\p + \\a \\g (1- \\d \\g)}{\\l_2 + \\a \\d \\g} & \\frac{(\\l_2-\\l_1) \\a}{\\l_2 + \\a \\d \\g}\\\\\n\\frac{-(1-\\d \\g)\\g }{\\l_2 + \\a \\d \\g} & \\frac{\\bs{\\d\\p+\\d\\g- 1} \\g}{\\l_2 + \\a \\d \\g} & \\frac{\\l_1 + \\a \\d \\g}{\\l_2 + \\a \\d \\g}\\\\\n\\end{array}}\n\\bs{\\begin{array}{c}\n\\wh{m^p}(t-1)\\\\\n\\wh{\\pi}(t)\\\\\n\\wh{n}(t)\\\\\n\\end{array}}\n+ \\bs{\\begin{array}{c}\n0\\\\\n\\frac{\\l_2}{\\l_2 + \\a \\d \\g}\\\\\n\\frac{\\d \\g}{\\l_2 + \\a \\d \\g}\\\\\n\\end{array}} \\o(t).\n\\end{equation*}\nThis dynamical system determines perceived price markup $\\wh{m^p}(t)$ , inflation $\\wh{\\pi}(t)$ , and employment $\\wh{n}(t)$ .\nAll the other variables directly follow ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_174": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_174",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_174",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_174",
+    "text": "The IS equation and short - run Phillips curve jointly determine employment $\\wh{n}(t)$ and inflation $\\wh{\\pi}(t)$ .\nThe other variables directly follow from $\\wh{n}(t)$ and $\\wh{\\pi}(t)$ .\nThe nominal interest rate $\\wh{i}(t)$ is given by ~ \\eqref{e:ihat} .\nOutput $\\wh{y}(t)$ is given by ~ \\eqref{e:yhat} .\nThe price markup $\\wh{m}(t)$ is given by ~ \\eqref{e:mhat} .\nSince households observe both prices and costs , perceived and actual price markups are equal : $\\wh{m^p}(t) = \\wh{m}(t)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_148": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_148",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_148",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_148",
+    "text": "Third , from the expression of steady - state employment $\\ol{N}$ in Proposition ~ \\ref{p:longrun} , we learn that\n\\begin{equation*}\n\\od{\\ln(\\ol{N})}{\\ol{\\pi}} = \\frac{-1}{1+\\eta}\\cdot\\odl{\\ol{M}}{\\ol{\\f}}\\cdot\\od{\\ln(\\ol{\\f})}{\\ol{\\pi}}.\n\\end{equation*}\nUsing \\eqref{e:dphi} and \\eqref{e:dm2} , we therefore find\n\\begin{equation*}\n\\od{\\ln(\\ol{N})}{\\ol{\\pi}} = \\frac{1-\\d}{1+\\eta}\\cdot\\frac{\\t}{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\cdot \\frac{1}{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}\\cdot \\frac{\\g^2}{(1-\\g)(1-\\d\\g)} \\cdot\\frac{\\bs{1+(1-\\c)\\t}\\e-1}{\\e-1}.\n\\end{equation*}\nInverting this equation , we obtain the slope of the long - run Phillips curve :\n\\begin{equation}\n\\od{\\ol{\\pi}}{\\ln(\\ol{N})} = \\frac{1+\\eta}{1-\\d}\\cdot \\frac{(1-\\g)(1-\\d\\g)}{\\g^2}\\cdot \\frac{\\e-1}{\\t} \\cdot \\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\bs{\\bp{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}}{\\bs{1+(1-\\c)\\t}\\e-1}.\n\\label{e:dpi}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_149": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_149",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_149",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_149",
+    "text": "We now derive comparative statics on the slope of the long - run Phillips curve .\nWe repeatedly use the assumptions that $\\d\\in(0,1)$ , $\\eta>0$ , $\\g\\in(0,1)$ , $\\t>0$ , $\\e>1$ , and $\\c\\in[0,1]$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_161": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_161",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_161",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_161",
+    "text": "Under the calibration in Table ~ \\ref{t:calibration} , the Blanchard - Kahn conditions are satisfied , so the equilibrium exists and is determinate .\nIndeed , under such calibration , the eigenvalues of the matrix in the Blanchard - Kahn system are $0.30$ , $1.02+0.03i$ , and $1.02-0.03i$ : one eigenvalue is within the unit circle , and two are outside the unit circle .\nFurther , the dynamical system has one predetermined variable at time ~ $t$ ( $\\wh{m^p}(t-1)$ ) and two nonpredetermined variables ( $\\wh{n}(t)$ and $\\wh{\\pi}(t)$ ) .\nAs the number of eigenvalues outside the unit circle matches the number of nonpredetermined variables , the solution to the dynamical system exists and is unique \\cp[Proposition~1]{BK80} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_89": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_89",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_89",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_89",
+    "text": "With full acclimation ( $\\c=1$ ) , the Phillips curve is almost vertical , so in the long run inflation barely affects price markup and employment .\nFor instance , increasing the inflation rate from 0\\% to 1\\% only raises employment by $0.06\\%$ .\nWith partial acclimation , the Phillips curve becomes flatter .\nWith an acclimation of $\\c=0.7$ , the same increase in inflation raises employment by $0.4\\%$ ; and with a lower acclimation of $\\c=0.3$ , it raises employment by $0.8\\%$ .\nFinally , with no acclimation ( $\\c=0$ ) , the Phillips curve is even flatter , and inflation has a larger effect on price markup and employment .\nThen , increasing inflation from 0\\% to 1\\% raises employment by $1.2\\%$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_62": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_62",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_62",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_62",
+    "text": "\\paragraph{Fairness-Related Parameters}\nWe then calibrate the three parameters central to our theory : the fairness parameter $\\t$ , the inference parameter $\\g$ , and the elasticity of substitution across goods $\\e$ .\nThese parameters jointly determine the average value of the price markup and its response to shocks --- which determines the cost passthrough .\nHence , for the calibration , we match evidence on price markups and cost passthroughs .\nWe target three empirical moments : average price markup , short - run cost passthrough , and long - run cost passthrough ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_76": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_76",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_76",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_76",
+    "text": "\\begin{figure} [ p ]            \\\nh fill            \\\\            \\\nh fill            \\\\\n           \\h fill            \\\\ \\caption{Effects of a positive technology shock}            .}\n\\label{f:technology}  \\end{figure}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_39": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_39",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_39",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_39",
+    "text": "\\begin{proposition}\n\\label{p:subproportional}\nWhen customers care about fairness and update subproportionally , the monopoly 's markup $M$ is implicitly defined by\n\\begin{equation}\nM=1+\\frac{1}{\\e-1}\\cdot \\frac{1}{1+\\g \\f(M^p(M \\cdot C))},\n\\label{e:m}\\end{equation}\nwhich implies that $M \\in (1,\\e/(\\e-1))$ .\nFurthermore , the cost passthrough is given by\n\\begin{equation*}\n\\b=1\\bigg/\\bc{1+\\frac{\\g^{2}\\f \\s}{\\bp{1+\\g \\f} \\bs{\\e+(\\e-1) \\g\\f}}},\n\\end{equation*}\nwhich implies that $\\b\\in(0,1)$ .\nHence , the markup is lower than without fairness concerns or with rational inference ; and unlike without fairness concerns or with rational inference , the cost passthrough is incomplete .\n\\end{proposition}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_11": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_11",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_11",
+    "text": "We begin by determining customers ' demand for the monopoly good .\nThe customer chooses purchases $Y$ to maximize utility\n\\begin{equation*}\n\\frac{\\e}{\\e-1} \\bp{F \\cdot Y}^{(\\e-1)/\\e} + W - P \\cdot Y.\n\\end{equation*}\nThe maximum of the customer 's utility function is given by the following first - order condition :\n\\begin{equation*}\nF^{(\\e-1)/\\e} \\cdot Y^{-1/\\e} = P.\n\\end{equation*}\nThis first - order condition yields the demand curve\n\\begin{equation}\nY^{d}(P)= P^{-\\e} \\cdot F(M^{p}(P))^{\\e-1}.\n\\label{e:yd}\\end{equation}\nThe price affects demand through two channels : the typical substitution effect , captured by $P^{-\\e}$ ; and the fairness channel , captured by $F(M^{p}(P))^{\\e-1}$ .\nThe fairness channel appears because the price influences the perceived markup and thus the fairness of the transaction ; this in turn affects the marginal utility of consumption and demand ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_106": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_106",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_106",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_106",
+    "text": "We apply the results of Proposition ~ \\ref{p:subproportional} to a specific fairness function :\n\\begin{equation}\nF(M^p) = 1- \\t \\cdot \\bp{M^p - \\frac{\\e}{\\e-1}}.\n\\label{e:fa}\\end{equation}\nWe also assume that customers are acclimated , so $M^p = \\e/(\\e-1)$ and $F=1$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_112": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_112",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_112",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_112",
+    "text": "Next , we divide numerator and denominator of $\\D$ in \\eqref{e:delta} by $\\t \\bp{\\e\\t+\\e-1}$ :\n\\begin{equation*}\n\\D(\\g,\\t,\\e) = \\frac{\\g^{2}}{(\\e-1)\\bp{\\g+1/\\t}\\frac{\\g\\e\\t+\\e-1}{\\e\\t+\\e-1}}.\n\\end{equation*}\nFirst , $\\g+1/\\t$ is decreasing in $\\t$ .\nSecond , as $\\e>1$ and $\\g\\leq 1$ , $(\\g\\e\\t+\\e-1)/(\\e\\t+\\e-1)$ is decreasing in $\\t$ .\nHence , $\\D$ is increasing in $\\t$ , and as $\\b = 1/(1+\\D)$ , $\\b$ is decreasing in $\\t$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_113": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_113",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_113",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_113",
+    "text": "Last , dividing numerator and denominator of $\\D$ in \\eqref{e:delta} by $\\g^2$ , we get\n\\begin{equation*}\n\\D(\\g,\\t,\\e) = \\frac{\\t \\bs{(1+\\t)\\e-1}}{(\\e-1)\\bs{\\t\\e+(\\e-1)/\\g} \\bp{\\t+1/\\g}}.\n\\end{equation*}\nThe denominator is decreasing in $\\g$ , so $\\D$ is increasing in $\\g$ .\nSince $\\b = 1/(1+\\D)$ , we conclude that $\\b$ is decreasing in $\\g$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_107": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_107",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_107",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_107",
+    "text": "\\paragraph{Preliminary Results}\nThe elasticity of the fairness function \\eqref{e:fa} is\n\\begin{equation*}\n\\f = - \\frac{M^p}{F}\\cdot \\od{F}{M^p} = \\frac{M^p}{F}\\cdot \\t.\n\\end{equation*}\nAccordingly , the superelasticity of the fairness function \\eqref{e:fa} satisfies\n\\begin{equation*}\n\\s = \\odl{\\f}{M^p} = 1 - \\odl{F}{M^p} = 1+\\f.\n\\end{equation*}\nWhen $M^p = \\e/(\\e-1)$ and $F=1$ , the elasticity and superelasticity simplify to \\begin{align}  \\f &= \\frac{\\e\\t } { \\e-1}\\label{e:phia} \\\\ \\s &= 1+\\frac{\\e\\t } { \\e-1}.\\label{e:sigmaa}  \\end{align}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_10": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_10",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_10",
+    "text": "Finally , the monopoly has constant marginal cost $C>0$ .\nIt chooses price $P$ and output $Y$ to maximize profits $(P - C) \\cdot Y$ subject to customers ' demand for its good ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_38": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_38",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_38",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_38",
+    "text": "Combining \\eqref{e:e} and \\eqref{e:cp} , we then find that the price elasticity of demand satisfies\n\\begin{equation}\nE=\\e+(\\e-1) \\cdot \\g \\cdot \\f(M^p).\n\\label{e:e2}\\end{equation}\nWe have seen that without fairness concerns ( $\\f=0$ ) , or with rational inference ( $\\g=0$ ) , the price elasticity of demand is constant , equal to $\\e$ .\nThat result changes here .\nSince $\\g>0$ , the price elasticity of demand is always greater than $\\e$ .\nMoreover , since $\\f(M^{p})$ is increasing in $M^{p}$ and $M^{p}(P)$ in $P$ , the price elasticity of demand is increasing in $P$ .\nThese properties have implications for the markup charged by the monopoly , $M=E/(1-E)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_12": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_12",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_12",
+    "text": "We turn to the monopoly 's pricing .\nThe monopoly chooses price $P$ to maximize profits $(P-C) \\cdot Y^{d}(P)$ .\nThe first - order condition is\n\\begin{equation*}\nY^d(P)+\\bp{P-C} \\od{Y^{d}}{P}=0.\n\\end{equation*}\nWe introduce the price elasticity of demand , normalized to be positive :\n\\begin{equation*}\nE = -\\odl{Y^{d}}{P} = - \\frac{P}{Y^d} \\cdot \\od{Y^{d}}{P}.\n\\end{equation*}\nThe first - order condition then yields the classical result that\n\\begin{equation*}\nP= \\frac{E}{E-1} \\cdot C;\n\\end{equation*}\nthat is , the monopoly optimally sets its price at a markup $M=E/(E-1)$ over marginal cost .\n\\footnote{In Appendix~A, we use the assumptions on the belief and fairness functions introduced in the next sections to verify that the first-order condition always gives the maximum of the monopoly's profit function.}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_139": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_139",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_139",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_139",
+    "text": "We describe the steady - state equilibrium by six variables : output $\\ol{Y}$ , employment $\\ol{N}$ , inflation $\\ol{\\pi}$ , nominal interest rate $\\ol{i}$ , price markup $\\ol{M}$ , and perceived price markup $\\ol{M^p}$ .\nThese six variables are governed by six equations ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_111": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_111",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_111",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_111",
+    "text": "First , we divide numerator and denominator of $\\D$ by $(\\e-1)$ :\n\\begin{equation*}\n\\D(\\g,\\t,\\e) = \\frac{\\g^{2}\\t\\bs{1+\\t\\e/(\\e-1)}}{\\bs{(1+\\g\\t)\\e-1} \\bp{1+\\g\\t}}.\n\\end{equation*}\nSince $\\e/(\\e-1)$ is decreasing in $\\e$ and $(1+\\g\\t)\\e-1$ is increasing in $\\e$ , $\\D$ is decreasing in $\\e$ .\nAs $\\b = 1/(1+\\D)$ , we conclude that $\\b$ is increasing in $\\e$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_105": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_105",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_105",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_105",
+    "text": "Finally , combining \\eqref{e:beta0} with \\eqref{e:dmdmp} yields the cost passthrough\n\\begin{equation}\n\\b=\\frac{1}{1+\\frac{\\g^{2}\\f \\s}{\\bp{1+\\g \\f} \\bs{\\e+(\\e-1) \\g\\f}}}.\n\\label{e:betaa}\\end{equation}\nSince $\\g>0$ ( Definition ~ \\ref{d:subproportional} ) , $\\f>0$ ( Lemma ~ \\ref{l:phi} ) , and $\\s>0$ ( also Lemma ~ \\ref{l:phi} ) , we infer that $\\b\\in(0,1)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_8": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_8",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_8",
+    "text": "A monopoly sells a good to a representative customer .\nThe monopoly cannot price - discriminate , so each unit of good sells at the same price $P$ .\nThe customer cares about fairness and appraises transactional fairness by assessing the markup charged by the monopoly .\nSince the customer does not observe the marginal cost of production , she needs to infer it from the price .\nWe assume that the marginal cost perceived at price $P$ is given by a belief function $C^{p}(P)$ .\nFor simplicity , we restrict $C^p(P)$ to be deterministic .\nHaving inferred the marginal cost , the customer deduces that the markup charged by the monopoly is\n\\begin{equation*}\nM^{p}(P)=\\frac{P}{C^{p}(P)}.\n\\end{equation*}\nThe perceived markup determines the fairness of the transaction through a fairness function $F(M^p)>0$ .\nBoth functions $C^{p}(P)$ and $F(M^p)$ are assumed to be twice differentiable ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_9": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_9",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_9",
+    "text": "A customer who buys the quantity $Y$ of the good at price $P$ experiences the fairness - adjusted consumption\n\\begin{equation*}\nZ= F(M^{p}(P)) \\cdot Y.\n\\end{equation*}\nThe customer also faces a budget constraint :\n\\begin{equation*}\nP \\cdot Y + B = W,\n\\end{equation*}\nwhere $W>0$ designates initial wealth , and $B$ designates remaining money balances .\nFairness - adjusted consumption and money balances enter a quasilinear utility function\n\\begin{equation*}\n\\frac{\\e}{\\e-1} \\cdot Z^{(\\e-1)/\\e} + B,\n\\end{equation*}\nwhere the parameter $\\e>1$ governs the concavity of the utility function .\nGiven fairness factor $F$ and price $P$ , the customer chooses purchases $Y$ and money balances $B$ to maximize utility subject to the budget constraint ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_104": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_104",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_104",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_104",
+    "text": "Our next step is to compute the elasticity of $M(M^p)$ with respect to $M^p$ from \\eqref{e:ma} :\n\\begin{equation*}\n-\\odl{M}{M^p} = -\\frac{1}{M}\\cdot \\od{M}{\\ln(M^p)} = \\frac{1}{M}\\cdot \\frac{1}{\\e-1}\\cdot \\frac{1}{1+\\g \\f}\\cdot \\frac{1}{1+\\g \\f} \\cdot \\g \\cdot \\od{\\f}{\\ln(M^p)}.\n\\end{equation*}\nUsing \\eqref{e:ma} , we find that\n\\begin{equation*}\n(\\e-1)(1+\\g \\f) M = \\e + (\\e-1)\\g \\f.\n\\end{equation*}\nMoreover , by definition , the superelasticity $\\s$ of the fairness function satisfies $\\f\\s = \\odx{\\f}{\\ln(M^p)}$ .\nCombining these three results , we obtain\n\\begin{equation}\n-\\odl{M}{M^p} = \\frac{\\g \\f \\s}{[\\e+(\\e-1)\\g \\f](1+\\g \\f)}.\n\\label{e:dmdmp}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_110": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_110",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_110",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_110",
+    "text": "Next we introduce the auxiliary function\n\\begin{equation}\n\\D(\\g,\\t,\\e) = \\frac{\\g^{2}\\t \\bs{(1+\\t)\\e-1}}{(\\e-1)\\bs{(1+\\g\\t)\\e-1} \\bp{1+\\g\\t}},\n\\label{e:delta}\\end{equation}\nwhere $\\g\\in (0,1]$ , $\\t>0$ , and $\\e>1$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_138": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_138",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_138",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_138",
+    "text": "We now apply the equilibrium conditions to a steady - state environment , in which all real variables are constant and all nominal variables grow at the inflation rate , $\\ol{\\pi}$ .\nWe use these steady - state conditions to prove Lemma ~ \\ref{l:longrun} , Proposition ~ \\ref{p:longrun} , and Corollary ~ \\ref{c:longrun} .\nWe also use these conditions to compute the long - run Phillips curves that are displayed in Figure \\ref{f:longrun} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_13": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_13",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_13",
+    "text": "To learn more about the monopoly 's markup , we compute the elasticity $E$ .\nUsing \\eqref{e:yd} , we find\n\\begin{equation}\nE= \\e + (\\e-1) \\cdot \\f \\cdot \\bs{1-\\odl{C^{p}}{P}},\n\\label{e:e}\\end{equation}\nwhere $\\f = -\\odlx{F}{M^p}$ is the elasticity of the fairness function with respect to the perceived markup , normalized to be positive .\nThe first term , $\\e$ , describes the standard substitution effect .\nThe second term , $(\\e-1) \\cdot\\f\\cdot \\bs{1-\\odlx{C^{p}}{P}}$ , represents the fairness channel and splits into two subterms .\nThe first subterm , $(\\e-1)\\cdot \\f $ , appears because a higher price mechanically raises the perceived markup and thus reduces fairness .\nThe second subterm , $- (\\e-1)\\cdot \\f\\cdot \\bs{\\odlx{C^{p}}{P}}$ , appears because a higher price conveys information about the marginal cost and thus influences perceived markup and fairness .\nWe now use \\eqref{e:e} to compute the markup in various situations ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_17": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_17",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_17",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_17",
+    "text": "\\begin{definition}\n\\label{d:fairness}\nCustomers who care about fairness have a fairness function $F(M^p)$ that is positive , strictly decreasing , and weakly concave on $[0,M^h]$ , where $F(M^h)=0$ and $M^h>\\e/(\\e-1)$ .\n\\end{definition}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_114": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_114",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_114",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_114",
+    "text": "\\paragraph{Household            's Problem}\nTo solve household ~ $k$ 's problem , we set up the Lagrangian :\n\\begin{align*}            & = \\E[0]\\sum_{t=0}\n^{ \\infty}\\d^{t}  \\bigg\\{\\ln{Z_{k} ( t ) }\n- \\frac{N_{k} ( t ) ^{1+            \\\\ & + \\Ac_{k} ( t ) \\bs{W_{k} ( t )\nN_{ k }( t ) + B_{ k } ( t - 1 )\n+ V_{ k }( t ) - Q ( t ) B_{ k}( t ) - \\int_{0}\n^{ 1 } P_{j } ( t )\nY_{jk}( t ) \\,dj }\\\\ &+ \\Bc_{k} ( t ) \\bs{N_{k}\n^{ d } ( t , W_{ k } ( t ) ) - N_{ k } ( t ) }\\bigg\\}.\n\\end{align*}\nIn the Lagrangian , $\\Ac_{k}(t)$ is the Lagrange multiplier on the budget constraint in period ~ $t$ ; $\\Bc_{k}(t)$ is the Lagrange multiplier on the labor - demand constraint in period ~ $t$ ; and $Z_{k}(t)$ is the fairness - adjusted consumption index :\n\\begin{equation}\nZ_{k}(t) = \\bs{\\int_{0}^{1} Z_{jk}(t)^{(\\e-1)/\\e}\\,dj}^{\\e/(\\e-1)}.\n\\label{e:zk}\\end{equation}\nIn the consumption index , $Z_{jk}(t)$ is the fairness - adjusted consumption of good ~ $j$ :\n\\begin{equation}\nZ_{jk}(t)= F_{j}(t) \\cdot Y_{jk}(t).\n\\label{e:zjk}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_100": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_100",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_100",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_100",
+    "text": "Last , the superelasticity of the fairness function is given by\n\\begin{equation*}\n\\s = M^p \\cdot \\frac{\\f'(M^p)}{\\f(M^p)}.\n\\end{equation*}\nSince $\\f(M^p)>0$ and $\\f'(M^p)>0$ , it is clear that $\\s>0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_128": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_128",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_128",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_128",
+    "text": "\\paragraph{First-Order Condition with Respect to Price}\nThe first - order condition of firm ~ $j$ 's problem with respect to $P_{j}(t)$ is $\\pdx{\\Lc_{j}}{P_{j}(t)}=0$ .\nIt yields\n\\begin{equation}\n0 = Y_{j}(t) +\\Hc_{j}(t)\\pd{Y_{j}^{d}}{P_{j}} +(1-\\g)\\Kc_{j}(t) \\frac{C^{p}_{j}(t)}{P_{j}(t)}.\n\\label{e:focpj}\\end{equation}\nWe divide this condition by $Y_{j}(t)$ and insert the price elasticity of the demand for good ~ $j$ , $E_{j}(M^{p}_{j}(t)) = - \\pdlx{Y_{j}^{d}}{P_j}$ , as well as the perceived price markup for good ~ $j$ , $M^{p}_{j}(t) = P_{j}(t)/C^{p}_{j}(t)$ .\nWe obtain\n\\begin{equation*}\n0 = 1-\\frac{\\Hc_{j}(t)E_{j}(M^{p}_{j}(t))}{P_{j}(t)}+(1-\\g)\\frac{\\Kc_{j}(t)}{Y_{j}(t) M^{p}_{j}(t)}.\n\\end{equation*}\nUsing the value of $\\Hc_{j}(t)$ given by \\eqref{e:hj} , we finally obtain\n\\begin{equation}\n(1-\\g)\\frac{\\Kc_j(t)}{Y_{j}(t)M^{p}_{j}(t)} = \\frac{M_{j}(t)-1}{M_{j}(t)} E_{j}(M^{p}_{j}(t))-1.\n\\label{e:ejmj}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_129": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_129",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_129",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_129",
+    "text": "\\paragraph{First-Order Condition with Respect to Perceived Marginal Cost}\nThe first - order condition of firm ~ $j$ 's problem with respect to $C^{p}_{j}(t)$ is $\\pdx{\\Lc_{j}}{C^p_{j}(t)}=0$ .\nIt gives\n\\begin{equation*}\n0 =\\E[t]{\\frac{\\G(t+1)}{\\G(t)} \\Hc_{j}(t+1) \\pd{Y_{j}^{d}}{C^{p}_{j}}} + \\g \\E[t]{ \\frac{\\G(t+1)}{\\G(t)} \\Kc_{j}(t+1)  \\frac{C^{p}_{j}(t+1)}{C^{p}_{j}(t)}} -\\Kc_{j}(t).\n\\end{equation*}\nAnd using the elasticity given by \\eqref{e:ydc} , we find\n\\begin{equation*}\n\\Kc_{j}(t)=\\E[t]{\\frac{\\G(t+1)}{\\G(t)}\\bc{\\Hc_{j}(t+1)\\frac{Y_{j}(t+1)}{C_{j}^{p}(t)} [E_{j}(M^{p}_{j}(t+1))-\\e]+ \\g \\Kc_{j}(t+1) \\frac{C^{p}_{j}(t+1)}{C_{j}^{p}(t)}}}.\n\\end{equation*}\nWe modify this equation in two steps :\nfirst , we multiply it by $C_j^p(t)/[Y_j(t)P_j(t)]$ ; second , we insert the perceived price markups $M_j^p(t) = P_j(t)/C_j^{p}(t)$ and $M_j^p(t+1) = P_j(t+1)/C_j^{p}(t+1)$ .\nWe get\n\\begin{equation*}\\medmuskip=2mu\n\\frac{\\Kc_{j}(t)M_j^p(t)}{Y_j(t)}=\\E[t]{\\frac{\\G(t+1)Y_j(t+1)P_j(t+1)}{\\G(t)Y_j(t)P_j(t)}\\bc{\\frac{\\Hc_{j}(t+1)}{P_j(t+1)}[E_{j}(M^{p}_{j}(t+1))-\\e]+ \\g\\frac{\\Kc_{j}(t+1) M^{p}_{j}(t+1)}{Y_{j}(t+1)}}}.\n\\end{equation*}\nLast , we multiply the equation by $(1-\\g)$ ; and we eliminate $\\Hc_j(t+1)$ using \\eqref{e:hj} and $\\Kc_j(t)$ and $\\Kc_j(t+1)$ using \\eqref{e:ejmj} .\nWe obtain firm ~ $j$ 's pricing equation , which links its markup to its perceived markup :\n\\begin{align} & \\frac{M_{j} ( t ) - 1 }\n{ M_{j } ( t ) }\nE_{j } ( M^{ p }_{j } ( t ) ) = \\label{e:emj} \\\\ &1+\n\\E[t]{\\frac{\\G(t+1)Y_j(t+1)P_j(t+1)}\n{ \\G(t)Y_j(t)P_j(t)}\\bc{\\frac{M_{j} ( t +1 ) - 1 } { M_{j } ( t+1 ) }\n[ E_{j } ( M^{p }_{j } ( t+1 ) ) - ( 1 -\\g ) \\e ] -\\g } } .\\ nonumber\n\\end{align}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_101": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_101",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_101",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_101",
+    "text": "\\paragraph{Markup}\nSince customers care about fairness and infer subproportionally , the price elasticity of demand is $E = \\e+(\\e-1) \\g  \\f(M^p(P))$ .\nMoreover , the monopoly 's optimal markup is\n\\begin{equation*}\nM = \\frac{E}{E-1} = 1 + \\frac{1}{E-1}.\n\\end{equation*}\nCombining these equations yields the markup\n\\begin{equation}\nM =1+\\frac{1}{\\e-1}\\cdot \\frac{1}{1+\\g \\f(M^p(M \\cdot C))}.\n\\label{e:ma}\\end{equation}\nIn \\eqref{e:ma} we have used the relationship between the price and markup : $P = M \\cdot C$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_115": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_115",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_115",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_115",
+    "text": "\\paragraph{First-Order Conditions with Respect to Consumption}\nWe first compute the first - order conditions with respect to $Y_{jk}(t)$ for all goods $j\\in[0,1]$ : $\\pdx{\\Lc_{k}}{Y_{jk}(t)}=0$ .\nFrom the definitions of $Z_{k}(t)$ and $Z_{jk}(t)$ given by \\eqref{e:zk} and \\eqref{e:zjk} , we find\n\\begin{equation*}\n\\pd{Z_{jk}(t)}{Y_{jk}(t)}=F_{j}(t)\\quad\\text{and}\\quad \\pd{Z_{k}(t)}{Z_{jk}(t)}=\\bs{\\frac{Z_{jk}(t)}{Z_{k}(t)}}^{-1/\\e} dj.\n\\end{equation*}\nHence the first - order conditions imply that for all $j\\in[0,1]$ ,\n\\begin{equation}\n\\bs{\\frac{Z_{jk}(t)}{Z_{k}(t)}}^{-1/\\e} \\frac{F_{j}(t)}{Z_{k}(t)}=\\Ac_{k}(t) P_{j}(t).\n\\label{e:focy}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_16": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_16",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_16",
+    "text": "\\begin{lemma}\n\\label{l:nofairness}\nWhen customers do not care about fairness , the monopoly sets the markup to $M=\\e/(\\e-1)$ , and the cost passthrough is $\\b=1$ .\n\\end{lemma}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_14": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_14",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_14",
+    "text": "\\begin{definition}\nCustomers who do not care about fairness have a fairness function $F(M^p)=1$ .\n\\end{definition}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_28": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_28",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_28",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_28",
+    "text": "The lemma shows that when customers care about fairness and rationally infer costs , there is a PBE in which fairness does not play a role .\nWith fairness concerns , the price affects demand not only by changing customers ' budget sets but also by changing the perceived markup .\nIn this equilibrium , however , after observing any price chosen by the monopoly , customers perceive the same markup $\\e/(\\e-1)$ .\nThe second channel through which price could affect demand closes , so the monopoly sets the standard markup $\\e/(\\e-1)$ .\nSince the markup does not depend on marginal cost , changes in marginal cost are fully passed through into prices : prices are flexible again ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_103": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_103",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_103",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_103",
+    "text": "\\paragraph{Passthrough}\nWe now compute the cost passthrough , $\\b= \\odlx{P}{C}$ .\nThe equilibrium price is $P= M(M^p(P)) \\cdot C$ , where the markup $M(M^p)$ is given by \\eqref{e:ma} .\nUsing this price equation , we obtain\n\\begin{equation*}\n\\b = \\odl{M}{M^p}\\cdot \\odl{M^p}{P}\\cdot\\odl{P}{C}+1.\n\\end{equation*}\nSince $\\odlx{M^p}{P}=\\g$ ( Lemma ~ \\ref{l:subproportional} ) and $\\odlx{P}{C}=\\b$ ( by definition ) , we get\n\\begin{equation}\n\\b = \\frac{1}{1-\\g \\odl{M}{M^p}}.\n\\label{e:beta0}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_117": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_117",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_117",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_117",
+    "text": "Last , combining \\eqref{e:focy} and \\eqref{e:ak} , we find that the optimal fairness - adjusted consumption of good ~ $j$ by household ~ $k$ satisfies\n\\begin{equation*}\nZ_{jk}(t) = Z_{k}(t) \\bs{\\frac{P_{j}(t)}{X(t)}}^{-\\e}F_{j}(t)^{\\e}.\n\\end{equation*}\nAs consumption and fairness - adjusted consumption of good ~ $j$ are related by $Y_{jk}(t)= Z_{jk}(t) / F_{j}(t)$ , the optimal consumption of good ~ $j$ by household ~ $k$ satisfies\n\\begin{equation}\nY_{jk}(t)= Z_{k}(t) \\bs{\\frac{P_{j}(t)}{X(t)}}^{-\\e} F_{j}(t)^{\\e-1}.\n\\label{e:yjk}\\end{equation}\nIntegrating \\eqref{e:yjk} over all households\n$k\\in[0,1]$ yields the output of good ~ $j$ :\n\\begin{equation*}\nY_{j}(t) = Z(t) \\bs{\\frac{P_{j}(t)}{X(t)}}^{-\\e} F_{j}(t)^{\\e-1}.\n\\end{equation*}\nWe note that the fairness factor $F_{j}(t)$ is a function of the perceived price markup , $F_{j}(t)=F_j(P_{j}(t)/C_{j}^{p}(t))$ , and that the perceived marginal cost $C_{j}^{p}(t)$ follows the law of motion \\eqref{e:cpj} .\nThese observations allow us to obtain the demand for good ~ $j$ :\n\\begin{equation*}\nY^{d}_{j}(t,P_{j}(t),C_{j}^{p}(t-1)) = Z(t) \\bs{\\frac{P_{j}(t)}{X(t)}}^{-\\e} F_j\\of{\\bp{\\frac{\\e}{\\e-1}}^{1-\\g}\\bs{\\frac{P_{j}(t)}{C_{j}^{p}(t-1)}}^{\\g}}^{\\e-1}.\n\\end{equation*}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_116": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_116",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_116",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_116",
+    "text": "Taking \\eqref{e:focy} to the power of $1-\\e$ and shuffling terms , we then obtain\n\\begin{equation*}\n\\frac{1}{Z_{k}(t)^{1-\\e}} \\cdot \\frac{1}{Z_{k}(t)^{(\\e-1)/\\e}}\\cdot Z_{jk}(t)^{(\\e-1)/\\e}= \\Ac_{k}(t)^{1-\\e} \\bs{\\frac{P_{j}(t)}{F_{j}(t)}}^{1-\\e}.\n\\end{equation*}\nWe integrate this equation over $j\\in[0,1]$ , use the definition of $Z_{k}(t)$ given by \\eqref{e:zk} , and introduce the price index\n\\begin{equation}\nX(t)=\\bc{\\int_0^1\\bs{\\frac{P_{j}(t)}{F_{j}(t)}}^{1-\\e}\\,dj}^{1/(1-\\e)}.\n\\label{e:x}\\end{equation}\nWe obtain the following :\n\\begin{equation*}\n\\frac{1}{Z_{k}(t)^{1-\\e}}\\cdot \\frac{Z_{k}(t)^{(\\e-1)/\\e}}{Z_{k}(t)^{(\\e-1)/\\e}}= \\Ac_{k}(t)^{1-\\e} X(t)^{1-\\e}.\n\\end{equation*}\nFrom this equation we infer\n\\begin{equation}\n\\Ac_{k}(t) = \\frac{1}{X(t) Z_{k}(t)}.\n\\label{e:ak}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_102": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_102",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_102",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_102",
+    "text": "Toward showing that \\eqref{e:ma} admits a unique solution , we introduce the price $P^b$ defined by \\eqref{e:pb} and the markup $M^b = P^b/C >1$ .\nSince $P = M \\cdot C$ , $P$ strictly increases from $0$ to $P^b$ when $M$ increases from $0$ to $M^b$ .\nNext , Lemma ~ \\ref{l:subproportional} shows that $M^p(P)$ strictly increases from 0 to $M^h$ when $P$ increases from $0$ to $P^b$ .\nLast , Lemma ~ \\ref{l:phi} indicates that $\\f(M^p)$ strictly increases from $0$ to $\\infty$ when $M^p$ increases from 0 to $M^h$ .\nAs $\\g>0$ , we conclude that when $M$ increases from $0$ to $M^b>1$ , the right - hand side of \\eqref{e:ma} strictly decreases from $\\e/(\\e-1)$ to $1$ .\nHence , \\eqref{e:ma} has a unique solution $M\\in\\bs{0,M^b}$ , implying that the markup exists and unique .\nGiven the range of values taken by the right - hand side of \\eqref{e:ma} , we also infer that $M \\in (1, \\e/(\\e-1))$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_29": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_29",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_29",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_29",
+    "text": "Of course , there may exist other equilibria beside the one described in Lemma ~ \\ref{l:rational} .\nA pooling PBE may exist in which all types of the firm charge the same price $P>C^h$ , and consumers believe that a firm who prices otherwise has zero marginal cost .\nHowever , this and other non-fully - separating PBEs fail standard signaling refinements .\n\\footnote{Only a separating PBE satisfies the D1 Criterion from \\ct{CK87} .\nIntuitively , consumers ought to interpret a price $P'>P$ as coming from type $C=C^h$ rather than type $C=0$ , which undermines the pooling equilibrium .\nIndeed , if consumers demand no less at $P'$ than in equilibrium , then all types of firm benefit from deviating ; if consumers demand less at $P'$ than in equilibrium , then the highest - cost firm strictly benefits whenever any other type of firm weakly benefits .\nOn these grounds , the D1 Criterion suggests that consumers should interpret $P'>P$ as coming from the highest marginal - cost firm . }\nBecause the linear PBE in Lemma ~ \\ref{l:rational} is so simple and robust , it is more plausible than any alternative , which suggests that fairness is unlikely to matter when customers rationally infer costs ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_15": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_15",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_15",
+    "text": "Without fairness concerns , the fairness function is constant , so its elasticity is $\\f=0$ .\nAccording to \\eqref{e:e} , the price elasticity of demand is constant : $E=\\e$ .\nThis implies that the optimal markup for the monopoly takes a standard value of $\\e/(\\e-1)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_18": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_18",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_18",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_18",
+    "text": "The assumption that the fairness function strictly decreases in the perceived markup captures the pattern that customers find higher markups less fair and resent unfair transactions .\nThe assumption that the fairness function is weakly concave means that an increase in perceived markup causes a utility loss of equal magnitude ( if $F$ is linear ) or of greater magnitude ( if $F$ is strictly concave ) than the utility gain caused by an equal - sized decrease in perceived markup .\nWe could not find evidence on this assumption , but it seems natural that people are at least as outraged over a price increase as they are happy about a price decrease of the same magnitude ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_30": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_30",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_30",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_30",
+    "text": "\\begin{definition}\n\\label{d:subproportional}\nCustomers who update subproportionally use the belief - updating rule\n\\begin{equation}\nC^{p}(P)=\\bp{C^{b}}^{\\g} \\bp{\\frac{\\e-1}{\\e} P}^{1-\\g},\n\\label{e:cp}\\end{equation}\nwhere $C^b > (\\e-1) \\cdot (M^h)^{-1/\\g} \\cdot C/\\e$ is a prior point belief about marginal cost , and $\\g \\in(0,1]$ governs the extent to which beliefs anchor on that prior belief .\n\\end{definition}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_24": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_24",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_24",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_24",
+    "text": "A pure - strategy perfect\nBayesian equilibrium ( PBE ) of this game comprises three elements : a pure strategy for the monopolist , which is a mapping $P: [0, C^h] \\to \\R_+$ that selects a price for every possible value of marginal cost ; a belief function for customers , which is a mapping $C^p: \\R_+ \\to [0, C^h]$ that determines a marginal cost for every possible price ; and a pure strategy for customers , which is a mapping $Y^d: \\R_+ \\to \\R_+$ that selects a quantity purchased for every possible price .\n\\footnote{Strictly speaking,            should allow the consumer to hold probabilistic beliefs about the firm's marginal cost given price, but we sidestep this subtlety because it does not affect our analysis.}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_127": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_127",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_127",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_127",
+    "text": "\\paragraph{First-Order Condition with Respect to Output}\nWe then finish solving firm ~ $j$ 's problem .\nThe first - order condition with respect to $Y_{j}(t)$ is $\\pdx{\\Lc_{j}}{Y_{j}(t)}=0$ , which gives\n\\begin{equation*}\nP_{j}(t)=\\Hc_{j}(t)+\\Jc_{j}(t).\n\\end{equation*}\nUsing the value of $\\Jc_{j}(t)$ given by \\eqref{e:jj} , we then obtain\n\\begin{equation}\n\\Hc_{j}(t)=P_{j}(t) \\bs{1-\\frac{W(t)/P_{j}(t)}{ \\a A_{j}(t) N_{j}(t)^{\\a-1}}}.\n\\label{e:hj1}\\end{equation}\nFirm ~ $j$ 's nominal marginal cost is the nominal wage divided by the marginal product of labor :\n\\begin{equation}\nC_{j}(t)= \\frac{W(t)}{\\a A_{j}(t) N_{j}(t)^{\\a-1}}.\n\\label{e:cj}\\end{equation}\nHence the first - order condition \\eqref{e:hj1} can be written\n\\begin{equation}\n\\Hc_{j}(t)=P_{j}(t) \\bs{1-\\frac{C_{j}(t)}{P_{j}(t)}}.\n\\label{e:hj2}\\end{equation}\nGiven that firm ~ $j$ 's markup is $M_j(t)=P_j(t)/C_j(t)$ , we rewrite this equation as\n\\begin{equation}\n\\frac{\\Hc_{j}(t)}{P_{j}(t)} = \\frac{M_{j}(t)-1}{M_{j}(t)}.\n\\label{e:hj}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_133": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_133",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_133",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_133",
+    "text": "The third equation is the usual consumption Euler equation , obtained by simplifying \\eqref{e:eulerx} .\nBy symmetry $X(t)=P(t)/F(t)$ and $Z_{k}(t)=F(t) Y(t)$ , so \\eqref{e:eulerx} gives\n\\begin{equation}\nQ(t)=\\d \\E[t]{\\frac{P(t) Y(t)}{P(t+1) Y(t+1)}}.\n\\label{e:euler}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_2": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_2",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_2",
+    "text": "\\paragraph{Price Decreases Allowed by Lower Costs}\nOur assumption equally implies that it is unfair for firms not to pass along cost decreases .\n\\ct[p.~734]{KKT86} find milder support for this reaction .\nThey describe the following situation : `` A small factory produces tables and sells all that it can make at \\ $200 each. Because of changes in the price of materials, the cost of making each table has recently decreased by \\$ 20 .\nThe factory does not change its price of tables . ''\nOnly 47\\% of respondents find this unfair , despite the elevated markup ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_3": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_3",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_3",
+    "text": "Subsequent studies , however , find that people do expect price reductions after cost reductions .\n\\ct{KDU91} survey 189 US business students , asking them to consider the following scenario :\n`` A department store has been buying an oriental floor rug for \\ $100. The standard pricing practice used by department stores is to price floor rugs at double their cost so the selling price of the rug is \\$ 200 .\nThis covers all the selling costs , overheads and includes profit .\nThe department store can sell all of the rugs that it can buy .\nSuppose because of exchange rate changes the cost of the rug rises from \\ $100 to \\$ 120 and the selling price is increased to \\ $220. As a result of another change in currency exchange rates, the cost of the rug falls by \\$ 20 back to \\ $100.'' Then two alternative scenarios were evaluated: ``The department store continues to sell the rug for \\$ 220'' compared to `` The department store reduces the price of the rug to \\ $200.'' The latter was judged significantly fairer: the fairness rating was $ +2.3 $ instead of $ - 0.4            -3 $ is extremely unfair and $ +3 $ extremely fair). Similarly, in survey of US respondents, \\ct[Table~6]{K01} finds that if a factory that sells a table at \\$ 150 locates a supplier charging \\ $20 less for materials, the new fair price is \\$ 138 , well below \\ $ 150 ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_132": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_132",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_132",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_132",
+    "text": "The first equation is the monetary - policy rule , given by \\eqref{e:taylor} .\nThis equation links the nominal interest rate , $i(t)$ , to the inflation rate , $\\pi(t)$ .\nBy definition , however , the nominal interest rate is determined by the bond price and the inflation rate by the price level :\n\\begin{equation}\ni(t) = \\ln{\\frac{1}{Q(t)}}, \\qquad \\pi(t) = \\ln{\\frac{P(t)}{P(t-1)}}.\n\\label{e:definition}\\end{equation}\nHence the monetary - policy rule links bond price to price level ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_126": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_126",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_126",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_126",
+    "text": "\\paragraph{First-Order Conditions with Respect to Labor and Wage}\nWe now finish solving household ~ $k$ 's problem using labor demand ~ \\eqref{e:nk} .\nThe first - order conditions with respect to $N_{k}(t)$ and $W_{k}(t)$ are $\\pdx{\\Lc_{k}}{N_{k}(t)}=0$ and $\\pdx{\\Lc_{k}}{W_{k}(t)}=0$ ; they yield \\begin{align} N_{ k } ( t ) ^ { \\eta}&=\\Ac_{k} ( t ) W_{ k } ( t ) - \\Bc_{k} ( t ) \\label{e:focnk} \\\\ \\Ac_{k} ( t ) N_{ k } ( t ) & = - \\Bc_{k} ( t ) \\od{N_{k} ^{ d } } { W_{ k } } .\n\\label{e:focwk}  \\end{align}\nSince the elasticity of $N_{k}^{d}$ with respect to $W_{k}$ is $-\\n$ , we infer from \\eqref{e:focwk} that\n\\begin{equation}\n\\Ac_{k}(t) W_{k}(t) = \\Bc_{k}(t) \\n.\n\\label{e:akwk}\\end{equation}\nPlugging this result into \\eqref{e:focnk} , we obtain\n\\begin{equation*}\n\\Bc_{k}(t) = \\frac{N_{k}(t)^{\\eta}}{\\n-1}.\n\\end{equation*}\nCombining this result with \\eqref{e:akwk} then yields\n\\begin{equation*}\nW_{k}(t) = \\frac{\\n}{\\n-1} \\cdot \\frac{N_{k}(t)^{\\eta}}{\\Ac_{k}(t)}.\n\\end{equation*}\nFinally , by merging this equation with \\eqref{e:ak} , we find that household ~ $k$ sets its wage rate at\n\\begin{equation}\n\\frac{W_{k}(t)}{X(t)}=\\frac{\\n}{\\n-1} N_{k}(t)^{\\eta} Z_{k}(t).\n\\label{e:wkx}\\end{equation}\nThis equation shows that households set their real wage at a markup of $\\n/(\\n-1)>1$ over the marginal rate of substitution between leisure and consumption ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_25": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_25",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_25",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_25",
+    "text": "We look for a PBE that is fully separating : the monopoly chooses different prices for different marginal costs , which allows a rational customer who knows the monopoly 's equilibrium strategy and observes the price to deduce marginal cost .\nWe claim the existence of a PBE in which the monopolist uses the strategy $P(C)= \\e \\cdot C/(\\e-1)$ ; customers believe $C^p(P) = (\\e-1) P/\\e$ if $P\\in \\Pc \\equiv \\bs{0,\\e C^h/(\\e-1)}$ , and $C^p(P) = 0$ otherwise ; and customers demand $Y^{d}(P)= P^{-\\e} \\cdot F(P/C^p(P))^{\\e-1}$ .\nIn such a PBE , customers correctly infer marginal costs from prices on the equilibrium path ( $P\\in \\Pc$ ) and infer the worst from prices off the equilibrium path ( $P\\notin \\Pc$ ) , namely that the firm has zero marginal cost and infinitely high markup ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_31": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_31",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_31",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_31",
+    "text": "First , customers underinfer marginal costs from price by clinging to their prior belief $C^b$ .\nThe parameter $\\g \\in (0,1]$ measures the degree of underinference .\nWhen $\\g=1$ , customers do not update at all about marginal cost based on price ; they naively maintain their prior belief $C^{b}$ , irrespective of the price they observe .\nWhen $\\g\\in(0,1)$ , customers do infer something from the price , but not enough ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_19": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_19",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_19",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_19",
+    "text": "\\begin{lemma}\n\\label{l:phi}\nWhen customers care about fairness , the elasticity of the fairness function\n\\begin{equation*}\n\\f(M^p) = -\\odl{F}{M^p}\n\\end{equation*}\nis strictly positive and strictly increasing on $(0,M^h)$ , with $\\lim_{M^p\\to 0} \\f(M^p) = 0$ and $\\lim_{M^p\\to M^h} \\f(M^p) = +\\infty$ .\nAs an implication , the superelasticity of the fairness function\n\\begin{equation*}\n\\s = \\odl{\\f}{M^p}\n\\end{equation*}\nis strictly positive on $(0,M^h)$ .\n\\end{lemma}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_27": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_27",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_27",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_27",
+    "text": "\\begin{lemma}  \\label{l:rational}\nWhen customers care about fairness and rationally infer costs , there is a PBE in which the monopoly uses the markup $M=\\e/(\\e-1)$ , and customers learn marginal cost from price .\nIn this PBE , the cost passthrough is $\\b=1$ .\nHence , in this PBE , the markup and cost passthrough are the same as without fairness concerns .\n\\end{lemma}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_33": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_33",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_33",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_33",
+    "text": "Last , we impose a constraint on the parameter $C^b$ such that the perceived markup falls below $M^h$ when the firm prices at marginal cost ; this is necessary for equilibrium existence ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_118": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_118",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_118",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_118",
+    "text": "For future reference , the elasticities of the function $Y^{d}_{j}(t,P_{j}(t),C_{j}^{p}(t-1))$ are            -            _{j }}\n{ P_{j }}&= \\e+(\\e-1) \\g \\f_{j} ( M ^{p}_{j} ( t ) )\n\\equiv E_{j} ( M ^{p}_{j} ( t ) )\n\\label{e:ydp} \\\\            _{j }}\n{ C_{j}^{ p }}&= (            ( M ^{p}_{j} ( t ) ) = E_{j} ( M ^{p}_{j} ( t ) ) - \\e,\\label{e:ydc}\n\\end{align} where $\\f_{j} = -\\odlx{F_{j}}{M^{p}_{j}}$ is the elasticity of the fairness function .\nThe function $E_{j}$ gives the price elasticity of the demand for good ~ $j$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_130": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_130",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_130",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_130",
+    "text": "We present the equilibrium of the model .\nBecause all households and firms face the same conditions , they all behave the same in equilibrium , so we drop the subscripts ~ $j$ and ~ $k$ on all variables ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_124": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_124",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_124",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_124",
+    "text": "Last , we combine \\eqref{e:wk} and \\eqref{e:jj} to determine the quantity of labor that firm ~ $j$ hires from household ~ $k$ :\n\\begin{equation}\nN_{jk}(t)=N_{j}(t) \\bs{\\frac{W_{k}(t)}{W(t)}}^{-\\n}.\n\\label{e:njk}\\end{equation}\nIntegrating \\eqref{e:njk} over all firms ~ $j\\in[0,1]$ yields the demand for labor service ~ $k$ :\n\\begin{equation}\nN_{k}^{d}(t,W_{k}(t)) = N(t) \\bs{\\frac{W_{k}(t)}{W(t)}}^{-\\n},\n\\label{e:nk}\\end{equation}\nwhere $N(t) = \\int_0^1 N_{j}(t)\\,dj$ is aggregate employment ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_1": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_1",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_1",
+    "text": "\\paragraph{Price Increases Due to Higher Demand}\nOur assumption implies that people find price increases unjustified by cost increases to be unfair .\nIn a survey of Canadian residents , \\ct[p.~729]{KKT86} document this pattern .\nThey describe the following situation : `` A hardware store has been selling snow shovels for \\ $15. The morning after a large snowstorm, the store raises the price to \\$ 20 . ''\nAmong 107 respondents , only 18\\% regard this pricing as acceptable , whereas 82\\% regard it as unfair ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_0": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_0",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_0",
+    "text": "Absent fairness concerns , the monopolist would set a constant markup that produces flexible prices , which move proportionally to marginal costs .\nIf customers cared about fairness and rationally inverted the price to uncover the hidden marginal cost , the same pricing rule would be an equilibrium .\nIndeed , when price increases by $x \\%$ , customers correctly infer that marginal cost has increased by $x \\%$ , and therefore that the markup has not changed .\nSince the price change does not change the perceived markup , the price elasticity of demand does not change , and neither does the markup ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_125": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_125",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_125",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_125",
+    "text": "Moreover , \\eqref{e:w} and \\eqref{e:njk} imply that\n\\begin{equation*}\n\\int_0^1 W_{k} N_{jk}\\,dk = W^{\\n} N_{j} \\int_0^1 W_{k}^{1-\\n} \\,dk = W N_{j}.\n\\end{equation*}\nThis means that when firms optimally allocate their wage bill across labor services , the cost of one unit of labor index is $W$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_131": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_131",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_131",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_131",
+    "text": "The equilibrium can be described by seven variables : output $Y(t)$ , employment $N(t)$ , the price level $P(t)$ , the wage $W(t)$ , the bond price $Q(t)$ , the price markup $M(t)$ , and the perceived price markup $M^p(t)$ .\nSeven equations determine these seven variables ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_119": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_119",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_119",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_119",
+    "text": "Moreover , using \\eqref{e:yjk} and the definition of the price index $X$ given by \\eqref{e:x} , we find that\n\\begin{equation*}\n\\int_0^1 P_{j} Y_{jk}\\,dj = X^{\\e} Z_{k} \\int_0^1 \\bp{\\frac{P_{j}}{F_{j}}}^{1-\\e} \\,dj = X Z_{k}.\n\\end{equation*}\nThis means that when households optimally allocate their consumption expenditures across goods , the price of one unit of fairness - adjusted consumption index is $X$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_32": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_32",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_32",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_32",
+    "text": "Moreover , insofar as they infer something , they infer that marginal cost is proportional to price , given by $(\\e-1) P/\\e$ .\nSuch proportional inference represents a second error : underinference pertains to how much customers infer , whereas proportional inference describes what customers infer in as much as they do infer .\nThe updating rule has the property that in the limit as $\\g=0$ , customers infer rationally .\nIndeed , when $\\g=0$ , the monopoly optimally sets the markup $\\e/(\\e-1)$ , which makes $(\\e-1) P/\\e$ the marginal cost at price $P$ , and proportional inference agrees with rational inference .\nWhen $\\g \\in (0,1)$ , however , the monopoly does not find it optimal to mark up proportionally , and proportional inference becomes an error ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_26": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_26",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_26",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_26",
+    "text": "The argument proceeds in three steps .\nFirst , given their beliefs , customers ' demand is indeed optimal , as we have shown in \\eqref{e:yd} .\nSecond , given the monopolist 's strategy , customers ' beliefs are indeed correct for any equilibrium price .\nThird , given customers ' beliefs and demand , the monopolist 's strategy is optimal .\nIndeed , given customers ' beliefs for $P\\in \\Pc$ , we have $\\odlx{C^{p}}{P}=1$ .\nThen , according to \\eqref{e:e} ( which is implied by customers ' strategy ) , the price elasticity of demand for any price on $\\Pc$ is $E=\\e$ .\nHence , the monopolist optimally charges $P= \\e C/(\\e-1)$ .\nFinally , the monopoly has no incentive to charge some price not belonging to $\\Pc$ , which would lead customers to perceive an infinite markup , bringing the fairness factor , demand , and profits to zero ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_22": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_22",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_22",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_22",
+    "text": "\\begin{lemma}\n\\label{l:observable}\nWhen customers care about fairness and observe costs , the monopoly 's markup $M$ is implicitly defined by \\eqref{e:mo} .\nThis implies that $M \\in (1,\\e/(\\e-1))$ and the cost passthrough is $\\b=1$ .\nHence , the markup is lower than without fairness concerns , but the cost passthrough is identical .\n\\end{lemma}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_36": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_36",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_36",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_36",
+    "text": "\\begin{lemma}  \\label{l:subproportional}\nWhen customers update subproportionally , they perceive the monopoly 's markup to be\n\\begin{equation*}\nM^{p}(P)=\\bp{\\frac{\\e}{\\e-1}}^{1-\\g} \\bp{\\frac{P}{C^{b}}}^{\\g},\n\\end{equation*}\nwhich is a strictly increasing function of the observed price $P$ .\n\\end{lemma}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_135": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_135",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_135",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_135",
+    "text": "The fifth equation is the standard link between price markup and employment , which is obtained from the definition of the price markup .\nIn a symmetric economy the price markup is just the inverse of the real marginal cost : $M(t) = P(t)/C(t)$ .\nCombining the expression of the nominal marginal cost given by \\eqref{e:cj} with the value of the real wage given by \\eqref{e:wp} , we infer the real marginal cost :\n\\begin{equation*}\n\\frac{C(t)}{P(t)} = \\frac{\\n}{(\\n-1) \\a} N(t)^{1+\\eta}.\n\\end{equation*}\nSince the price markup is the inverse of the real marginal cost , we find\n\\begin{equation}\nN(t)=\\bs{\\frac{(\\n-1) \\a }{\\n} \\cdot \\frac{1}{M(t)}}^{1/(1+\\eta)}.\n\\label{e:na}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_121": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_121",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_121",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_121",
+    "text": "\\paragraph{Firm            's Problem}\nSince the wages set by households depend on firms ' labor demands , we turn to the firms ' problems before finishing the households ' problems .\nTo solve firm ~ $j$ 's problem , we set up the Lagrangian :\n\\begin{align*}            & = \\E[0]\\sum_{t=0} ^{ \\infty}\\G(t) \\bigg\\lbrace P_{j} ( t )\nY_{j} ( t ) - \\int_{0}\n^{1 } W_{k}( t ) N_{jk}( t ) \\, dk \\\\ & + \\Hc_{j} ( t )            _{j} ( t , P_{j} ( t ) , C^{p}_{j}( t - 1 ) )\n- Y_{j}( t ) } +            ( t ) \\bs{A_{j} ( t ) N_{j} ( t ) ^{ \\a}-Y_{j} ( t ) }\\\\ &+ \\Kc_{j} ( t )            _{j}( t - 1 )\n^{            { \\e} P_{j} ( t ) }\n^{1-            _{j}( t ) }\\ bigg\\rbrace.\n\\end{align*}\nIn the Lagrangian , $\\Hc_{j}(t)$ is the Lagrange multiplier on the demand constraint in period ~ $t$ ; $\\Jc_{j}(t)$ is the Lagrange multiplier on the production constraint in period ~ $t$ ; $\\Kc_{j}(t)$ is the Lagrange multiplier on the law of motion of the perceived marginal cost in period ~ $t$ ; and $N_{j}(t)$ is the employment index :\n\\begin{equation}\nN_{j}(t)= \\bs{\\int_{0}^1 N_{jk}(t)^{(\\n-1)/\\n}\\,dk}^{\\n/(\\n-1)}.\n\\label{e:nj}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_109": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_109",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_109",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_109",
+    "text": "\\paragraph{Passthrough}\nCombining \\eqref{e:betaa} with \\eqref{e:phia} and \\eqref{e:sigmaa} , we find that the cost passthrough $\\b$ satisfies\n\\begin{align*} 1 / \\b = 1+\\frac{\\g^{2}  \\e\\t \\bs{(\\e-1)+\\e\\t} }\n{ ( \\e-1)\\bs{(\\e-1)+\\g \\e\\t}  \\bp{\\e+\\g\\e\\t} } = 1 + \\frac{\\g^{2}  \\t \\bs{(1+\\t)\\e-1} } { ( \\e-1)\\bs{(1+\\g\\t)\\e-1}  \\bp{1+\\g\\t} } .\n\\end{align*}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_4": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_4",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_4",
+    "text": "\\paragraph{Underinference from Prices}  \\ct{SDT97} report survey evidence that points at underinference in the context of pricing .\nThey presented 362 people in New Jersey with the following thought experiment :\n`` Changes in the economy often have an effect on people 's financial decisions .\nImagine that the US experienced unusually high inflation which affected all sectors of the economy .\nImagine that within a six - month period all benefits and salaries , as well as the prices of all goods and services , went up by approximately 25\\% .\nYou now earn and spend 25\\% more than before .\nSix months ago , you were planning to buy a leather armchair whose price during the 6 - month period went up from \\ $400 to \\$ 500 .\nWould you be more or less likely to buy the armchair now ? ''\nThe higher prices were distinctly aversive : while 55\\% of respondents were as likely to buy as before and 7\\% were more likely , 38\\% of respondents were less likely to buy ( p. ~ 355 ) .\nOur model makes this prediction .\nWhile consumers who update subproportionally recognize that higher prices signal higher marginal costs , they stop short of rational inference .\nConsequently , consumers perceive markups to be higher when prices are higher .\nThese consumers deem today 's transaction less fair , so they have a lower willingness to pay for the armchair ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_5": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_5",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_5",
+    "text": "\\paragraph{Surveys of Firms}\nFollowing \\ct{BCL98} , researchers have surveyed more than 12,000 firms across developed economies about their pricing practices ( Table ~ \\ref{t:survey} ) .\nThe typical study asks managers to evaluate the relevance of different pricing theories from the economics literature to explain their own pricing , in particular price rigidity .\nAmongst the theories that the managers deem most important , some version of fairness invariably appears , often called `` implicit contracts '' and described as follows : `` firms tacitly agree to stabilize prices , perhaps out of fairness to customers . ''\nIndeed , fairness appeals to firms more than any other theory , with a median rank of 1 and a mean rank of $1.9$ ( Table ~ \\ref{t:ranking} ) .\nThe second most popular explanation for price rigidity takes the form of nominal contracts --- prices do not change because they are fixed by contracts : it has a median rank of 3 and a mean rank of $2.6$ .\nTwo common macroeconomic theories of price rigidity --- menu costs and information delays --- do not resonate at all with firms , who rank them amongst the least popular theories , with mean and median ranks above ~ 9 ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_108": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_108",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_108",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_108",
+    "text": "\\paragraph{Markup}\nCombining \\eqref{e:ma} with \\eqref{e:phia} , we obtain the following markup :\n\\begin{equation*}\nM = 1+\\frac{1}{\\e-1}\\cdot \\frac{1}{1+\\g\\e\\t/(\\e-1)} = 1+\\frac{1}{(1+\\g\\t)\\e-1}.\n\\end{equation*}\nThis expression shows that $M$ is lower when $\\e$ , $\\g$ , or $\\t$ are higher ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_120": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_120",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_120",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_120",
+    "text": "\\paragraph{First-Order Condition with Respect to Bonds}\nThe first - order condition with respect to $B_{k}(t)$ is $\\pdx{\\Lc_{k}}{B_{k}(t)}=0$ , which gives\n\\begin{equation*}\nQ(t) \\Ac_{k}(t) = \\d \\E[t]{\\Ac_{k}(t+1)}.\n\\end{equation*}\nUsing \\eqref{e:ak} , we obtain household ~ $k$ 's consumption\nEuler equation :\n\\begin{equation}\nQ(t)=\\d \\E[t]{\\frac{X(t) Z_{k}(t)}{X(t+1) Z_{k}(t+1)}}.\n\\label{e:eulerx}\\end{equation}\nThis equation governs how the household smooths fairness - adjusted consumption over time ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_134": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_134",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_134",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_134",
+    "text": "The fourth equation is the usual expression for the real wage , obtained by simplifying \\eqref{e:wkx} .\nOnce again , by symmetry $X(t)=P(t)/F(t)$ and $Z_{k}(t)=F(t) Y(t)$ , so \\eqref{e:wkx} yields\n\\begin{equation*}\n\\frac{W(t)}{P(t)}=\\frac{\\n}{\\n-1} N(t)^{\\eta} Y(t).\n\\end{equation*}\nCombining this equation with \\eqref{e:y} , we express the real wage as a function of employment :\n\\begin{equation}\n\\frac{W(t)}{P(t)}=\\frac{\\n}{\\n-1} A(t) N(t)^{\\eta+\\a}.\n\\label{e:wp}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_37": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_37",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_37",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_37",
+    "text": "As the belief function $M^{p}(P)$ and fairness function $F(M^{p})$ are differentiable , customers enjoy an infinitesimal price reduction as much as they dislike an infinitesimal price increase .\nTherefore , the monopoly 's demand curve \\eqref{e:yd} has no kinks , unlike in pricing theories based on loss aversion \\cp{HK08} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_23": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_23",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_23",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_23",
+    "text": "Let $[0, C^h]$ be the set of all possible marginal costs for the monopoly .\nThe monopoly knows its marginal cost $C \\in [0, C^h]$ , but customers do not ; instead , customers have non-atomistic prior beliefs over $[0, C^h]$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_35": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_35",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_35",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_35",
+    "text": "\\paragraph{Analytical Results}\nPlugging the belief - updating rule \\eqref{e:cp} into $M^p= P/C^p$ gives the following :"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_21": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_21",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_21",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_21",
+    "text": "Since the marginal cost is assumed to be observable , customers correctly perceive marginal cost ( $C^p = C$ ) , so the perceived markup equals the true markup ( $M^{p}=M$ ) .\nFrom \\eqref{e:e} , we see that the price elasticity of demand is $E=\\e+(\\e-1) \\cdot \\f(M)>\\e$ ; therefore , the markup charged by the monopoly satisfies\n\\begin{equation}\nM=1+\\frac{1}{\\e-1}\\cdot \\frac{1}{1+\\f(M)}.\n\\label{e:mo}\\end{equation}\nSince $\\f(M)$ is strictly increasing from $0$ to $+\\infty$ when $M$ increases from $0$ to $M^h$ ( Lemma ~ \\ref{l:phi} ) , the right - hand side of the equation is strictly decreasing from $\\e/(\\e-1)$ to 1 when $M$ increases from $0$ to $M^h > \\e/(\\e-1)>1$ .\nWe infer that the fixed - point equation \\eqref{e:mo} admits a unique solution , located between 1 and $\\e/(\\e-1$ ) .\nTherefore , the markup $M$ is well - defined and $M\\in (1,\\e/(\\e-1))$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_122": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_122",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_122",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_122",
+    "text": "\\paragraph{First-Order Conditions with Respect to Employment}\nWe compute the first - order conditions with respect to $N_{jk}(t)$ for all labor services $k\\in[0,1]$ : $\\pdx{\\Lc_{j}}{N_{jk}(t)}=0$ .\nFrom the definition of $N_{j}(t)$ given by \\eqref{e:nj} , we know that\n\\begin{equation*}\n\\pd{N_{j}(t)}{N_{jk}(t)}=\\bs{\\frac{N_{jk}(t)}{N_{j}(t)}}^{-1/\\n} dk.\n\\end{equation*}\nHence the first - order conditions imply that for all $k\\in[0,1]$ ,\n\\begin{equation}\nW_{k}(t)= \\a \\Jc_{j}(t) A_{j}(t) N_{j}(t)^{\\a-1}\\bs{\\frac{N_{jk}(t)}{N_{j}(t)}}^{-1/\\n}.\n\\label{e:wk}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_136": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_136",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_136",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_136",
+    "text": "The sixth equation is a pricing equation , which is obtained by simplifying \\eqref{e:emj} .\nIn equilibrium the stochastic discount factor is given by\n\\begin{equation*}\n\\G(t)= \\d^{t}\\cdot \\frac{X(0)Z(0)}{X(t) Z(t)}.\n\\end{equation*}\nSince by symmetry $Z(t)=F(t) Y(t)$ and $X(t)=P(t)/F(t)$ , we have\n\\begin{equation*}\n\\frac{\\G(t+1)}{\\G(t)}=\\d \\cdot\\frac{X(t)}{X(t+1)}\\cdot \\frac{Z(t)}{Z(t+1)}=\\d \\cdot\\frac{P(t)}{P(t+1)}\\cdot \\frac{Y(t)}{Y(t+1)}.\n\\end{equation*}\nHence , \\eqref{e:emj} simplifies to\n\\begin{equation}\n\\frac{M(t)-1}{M(t)} E(M^p(t)) = 1-\\d\\g + \\d\\E[t]{\\frac{M(t+1)-1}{M(t+1)}\\bs{E(M^p(t+1))-(1-\\g) \\e}}.\n\\label{e:ema}\\end{equation}\nThis pricing equation shows the dynamic relationship between actual and perceived price markups .\nUnlike the other equilibrium conditions --- which are the same as in the textbook model --- the pricing equation is unique to the model with fairness ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_7": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_7",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_7",
+    "text": "\\paragraph{Survey of French Bakers}\nTo better understand how firms incorporate fairness into their pricing decisions , we interviewed 31 bakers in France in 2007 .\nThe French bread market makes a good case study because the market is large ; bakers set their prices freely ; and French people care enormously about bread .\n\\footnote{In 2005, bakeries employed 148,000 workers, for a yearly turnover of            billion euros (\\url{https://perma.cc/V679-UFE8} ) .\nSince 1978 , French bakers have been free to set their own prices , except during the inflationary period 1979 -- 1987 when price ceilings and growth caps were imposed .\nFor centuries , bread prices caused major social upheaval in France .\n\\ct[p.~35]{M99} explains that before the French Revolution , `` affordable bread prices underlay any hopes for urban tranquility . ''\nDuring the Flour War of 1775 , mobs chanted `` if the price of bread does not go down , we will exterminate the king and the blood of the Bourbons ' ' ; following these riots , `` under intense pressure from irate and nervous demonstrators , the young governor of Versailles had ceded and fixed the price ` in the King 's name ' at two sous per pound , the mythohistoric just price inscribed in the memory of the century ''\n\\cp[p.~12]{K96} . }\nWe sampled bakeries in Aix - en - Provence , Grenoble , Paimpol , and Paris .\nThe interviews reveal that bakers are guided by norms of fairness when they adjust prices to preserve customer loyalty .\nIn particular , cost - based pricing is widely used .\nBakers only raise the price of bread in response to increases in the cost of flour , utilities , or wages .\nThey refuse to increase prices in response to increased demand --- during weekends , during the summer tourist season , or during the holiday absences of local competitors .\nBakers explained that pricing otherwise would be unfair , and hence would anger and drive away customers ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_6": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_6",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_6",
+    "text": "\\begin{sidewaystable} [ p ] \\caption{Ranking of pricing theories in firm surveys}  \\footnotesize\\begin{tabular*} { \\textwidth}{@{\\extracolsep{\\fill} } lcccccccccccccccc }\\ toprule & \\multicolumn{14} { c } { Country of survey } & \\multicolumn{2} { c } { Overall rank } \\\\\n\\cmidrule{2-15}  \\cmidrule{16-17}\nTheory & US & GB & SE & JP & CA & AT & BE & FR & LU & NL & PT & ES & NO & IS & Median & Mean \\\\ \\\nmidrule\nImplicit contracts & 4 & 5 & 1 & 1 & 2 & 1 & 1 & 4 & 1 & 2 & 1 & 1 & 2 & 1 & 1 & $1.9$ \\\\\nNominal contracts & 5 & 1 & 3 & 3 & 3 & 2 & 2 & 3 & 3 & 1 & 5 & 3 & 1 & 2 & 3 & $2.6$ \\\\\nCoordination failure & 1 & 3 & 4 & 1 & 5 & 5 & 5 & 2 & 9 & 4 & 2 & 2 & 3 & 4 & $3.5$ & $3.6$ \\\\\nPricing points & 8 & 4 & 7 & 4 & - - & 10 & 13 & 8 & 10 & 7 & 11 & 6 & 4 & 5 & 7 & $7.5$ \\\\\nMenu costs & 6 & 11 & 11 & 7 & 10 & 7 & 15 & 10 & 13 & 8 & 10 & 7 & 6 & 6 & 9 & $9.1$ \\\\\nInformation delays & 11 & -- & 13 & -- & 11 & 6 & 14 & -- & 15 & -- & 8 & 9 & 5 & - - & 11 & $10.2$ \\\\\n\\bottomrule\\end{tabular*}  \\note{Survey respondents rated the relevance of several pricing theories to explain price rigidity at their own firm. The table ranks common theories amongst the alternatives. \\ct[Table~5.1]{BCL98} describes the theories as follows ( with wording that varies slightly across surveys ) : `` implicit contracts '' stands for `` firms tacitly agree to stabilize prices , perhaps out of fairness to customers '' ; `` nominal contracts '' stands for `` prices are fixed by contracts '' ; `` coordination failure '' stands for two closely related theories , which are investigated in separate surveys : `` firms hold back on price changes , waiting for other firms to go first '' and `` the price is sticky because the company loses many customers when it is raised , but gains only a few new ones when the price is reduced '' ( which is labeled `` kinked demand curve '' ) ; `` pricing points '' stands for `` certain prices ( like\n\\$9.99) have special psychological significance''; ``menu costs'' stands for ``firms incur costs of changing prices''; ``information delays'' stands for two closely related theories, which are investigated in separate surveys: ``hierarchical delays slow down decisions'' and ``the information used to review prices is available infrequently.'' The rankings of the theories are reported in Table~5.2 in \\ct{BCL98} ; Table ~ 3 in \\ct{HWY00} ; Table ~ 4 in \\ct{AFH05} ; Chart ~ 14 in \\ct{NHT00} ; Table ~ 8 in \\ct{AKW06} ; Table ~ 5 in \\ct{KBS05} ; Table ~ 18 in \\ct{AD05} ; Table ~ 6.1 in \\ct{LR04} ; Table ~ 8 in \\ct{LM06} ; Table ~ 10 in \\ct{HS06} ; Table ~ 4 in \\ct{M06} ; Table ~ 5 in \\ct{AH05} ; Chart ~ 26 in \\ct{LNW08} ; and Table ~ 17 in \\ct{OPV11} . }\n\\label{t:ranking}  \\end{sidewaystable}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_137": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_137",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_137",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_137",
+    "text": "The seventh and final equation is the law of motion of the perceived price markup .\nIt derives from the law of motion of the perceived marginal cost , given by \\eqref{e:cpj} .\nSince $M^p(t)=P(t)/C^p(t)$ , \\eqref{e:cpj} implies\n\\begin{equation*}\nM^p(t) = \\bs{\\frac{P(t)}{(\\e-1)P(t)/\\e}}^{1-\\g} \\bs{\\frac{P(t)}{C^p(t-1)}}^{\\g} = \\bp{\\frac{\\e}{\\e-1}}^{1-\\g} \\bs{\\frac{P(t)}{P(t-1)}}^{\\g} \\bs{\\frac{P(t-1)}{C^p(t-1)}}^{\\g}.\n\\end{equation*}\nHence the perceived price markup satisfies\n\\begin{equation}\nM^p(t) = \\bp{\\frac{\\e}{\\e-1}}^{1-\\g} \\bs{\\frac{P(t)}{P(t-1)}}^{\\g}\\bs{M^p(t-1)}^{\\g}.\n\\label{e:mpt}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_123": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_123",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_123",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_123",
+    "text": "Toward deriving firm ~ $j$ 's labor demand , we introduce the wage index\n\\begin{equation}\nW(t) = \\bs{\\int_{0}^1 W_{k}(t)^{1-\\n}\\,dk}^{1/(1-\\n)}.\n\\label{e:w}\\end{equation}\nTaking \\eqref{e:wk} to the power of $1-\\n$ , we obtain\n\\begin{equation*}\nW_{k}(t)^{1-\\n} = \\bs{\\a \\Jc_{j}(t) A_{j}(t) N_{j}(t)^{\\a-1}}^{1-\\n} \\frac{1}{N_{j}(t)^{(\\n-1)/\\n}} N_{jk}(t)^{(\\n-1)/\\n}.\n\\end{equation*}\nIntegrating this condition over $k\\in[0,1]$ and using the definitions of $N_{j}$ and $W$ given by \\eqref{e:nj} and \\eqref{e:w} , we find\n\\begin{equation*}\nW(t)^{1-\\n} = \\bs{\\a \\Jc_{j}(t) A_{j}(t) N_{j}(t)^{\\a-1}}^{1-\\n} \\frac{N_{j}(t)^{(\\n-1)/\\n}}{N_{j}(t)^{(\\n-1)/\\n}}.\n\\end{equation*}\nFrom this equation we infer\n\\begin{equation}\nW(t) = \\a \\Jc_{j}(t) A_{j}(t) N_{j}(t)^{\\a-1}.\n\\label{e:jj}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_20": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_20",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_20",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_20",
+    "text": "The proof is simple algebra and relegated to Appendix ~ A .\nThe property that the superelasticity of the fairness function is positive plays a central role in the analysis .\nIt means that the fairness function is more elastic at higher perceived markups .\nThis property follows from Definition ~ \\ref{d:fairness} because a positive , decreasing , and weakly concave function always has positive superelasticity .\n\\footnote{The concavity of the fairness function is not a necessary condition for the results in the paper: the necessary condition is that the superelasticity of the fairness function is positive. This occurs with concave functions but also with other not-too-convex functions. For example, the logistic function            with            is not concave but it has a positive superelasticity:            . All the results would carry over with a logistic fairness function. We limit ourselves to concave fairness functions instead of allowing for any fairness function with a positive superelasticity because we find such restriction more natural and easier to interpret.}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_34": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_34",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_34",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_34",
+    "text": "Despite its apparent arbitrary nature , the assumption of subproportional inference has close ties to game - theoretic models of failure of contingent thinking .\nIt is related to the concept of cursed equilibrium , developed by \\ct{ER05} , and to the concept of analogy - based - expectation equilibrium , developed by \\ct{J05} and extended to Bayesian games by \\ct{JK08} .\nBoth concepts propose mechanisms that can be used to explain why people might fail to account for the information that equilibrium prices reveal about marginal costs .\n\\footnote{In fact, with            , the beliefs given by \\eqref{e:cp} resemble those in a fully cursed equilibrium and the coarsest analogy - based - expectation equilibrium , when recasting our model as a Bayesian game , as in Section ~ \\ref{s:rational} .\nIn these equilibrium concepts , an unsophisticated household infers nothing about marginal cost from any economic variable .\nConsequently , a consumer with average prior beliefs about marginal cost equal to $C^b$ would continue to perceive marginal costs with mean $C^b$ given any price . }\nSubproportional inference is also related to the cursed - expectation equilibrium developed by \\ct{ERV19} as an alternative to rational - expectations equilibrium in markets .\n\\footnote{In a cursed-expectation equilibrium of a model in which traders endowed with private information trade a risky asset, each trader forms an expectation about the value of the asset equal to a geometric average of her expectation conditional upon her private signal alone and her expectation conditional upon both her private signal and the market price. Traders' expectations therefore take the form of a weighted average of naive beliefs and correct beliefs. The two rules differ in that consumers in our model average naive beliefs with a particular form of incorrect beliefs (proportional inference); to include rational updating as a limit case, we calibrate the updating rule to match correct equilibrium beliefs for the case in which all consumers are rational. We adopt this approach for its tractability.}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_53": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_53",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_53",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_53",
+    "text": "\\paragraph{Firms}\nFirm ~ $j$ hires labor to produce output using the production function\n\\begin{equation}\nY_{j}(t)=A_{j}(t) N_{j}(t)^{\\a},\n\\label{e:yj}\\end{equation}\nwhere $Y_{j}(t)$ is output of good ~ $j$ , $A_{j}(t)>0$ is its technology level , $\\a\\in(0,1]$ is the extent of diminishing marginal returns to labor , and\n\\begin{equation*}\nN_{j}(t)= \\bs{\\int_{0}^1 N_{jk}(t)^{(\\n-1)/\\n}\\,dk}^{\\n/(\\n-1)}\n\\end{equation*}\nis an employment index .\nIn the index , $N_{jk}(t)$ is the quantity of labor service ~ $k$ hired by firm ~ $j$ , and $\\n>1$ is the elasticity of substitution between different labor services .\nThe technology level $A_{j}(t)$ is stochastic and unobservable to households --- making the firm 's marginal cost unobservable ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_47": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_47",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_47",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_47",
+    "text": "Having inferred the marginal cost , households deduce that the markup charged by firm ~ $j$ is $M^{p}_{j}(t)=P_{j}(t)/C^{p}_{j}(t)$ .\nThis perceived markup determines the fairness of the transaction with firm ~ $j$ , measured by $F_{j}(M^{p}_{j}(t))$ .\nThe fairness function $F_{j}$ , specific to good ~ $j$ , satisfies the conditions listed in Definition ~ \\ref{d:fairness} .\nThe elasticity of $F_{j}$ with respect to $M^{p}_{j}$ is $\\f_{j} = -\\odlx{F_{j}}{M^{p}_{j}}$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_90": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_90",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_90",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_90",
+    "text": "\\paragraph{Comparison with Macroevidence}\nThe property that higher steady - state inflation leads to higher steady - state employment is consistent with evidence that higher average inflation leads to lower average unemployment .\n\\ct[Table~1]{KW94} find in US data that a permanent increase in inflation by 1 percentage point reduces the unemployment rate between $0.2$ and $1.3$ percentage points , depending on the period and identification strategy .\n\\ct{KW97} confirm these findings , while highlighting the uncertainty surrounding the Phillips curve 's slope ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_84": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_84",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_84",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_84",
+    "text": "\\begin{proposition}\n\\label{p:longrun}\nIn the New Keynesian model with fairness , the steady - state price markup is a strictly decreasing function of steady - state inflation :\n\\begin{equation}\n\\ol{M}(\\ol{\\pi})=1+\\frac{1}{\\e-1}\\cdot\\frac{1}{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}(\\ol{\\pi})}.\n\\label{e:mss}\\end{equation}\nHence , steady - state employment is a strictly increasing function of steady - state inflation :\n\\begin{equation*}\n\\ol{N}=\\bs{\\frac{(\\n-1) \\a}{\\n}\\cdot\\frac{1}{\\ol{M}(\\ol{\\pi})}}^{1/(1+\\eta)}.\n\\end{equation*}\nThus , the long - run Phillip s curve is not vertical ( fixed $\\ol{N}$ ) but upward sloping .\n\\end{proposition}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_144": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_144",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_144",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_144",
+    "text": "\\paragraph{Proof of Lemma~\\ref{l:longrun} }\nThe expression for the steady - state perceived price markup $\\ol{M^p}$ comes from \\eqref{e:mpss} .\nThe expression for the steady - state fairness factor $\\ol{F} = F(\\ol{M^p})$ follows from combining \\eqref{e:facclim} with \\eqref{e:mf} .\nLast , the expression for the steady - state elasticity of the fairness function\n\\begin{equation*}\n\\ol{\\f} = \\f(\\ol{M^p}) = -F'(\\ol{M^p})\\cdot \\frac{\\ol{M^p}}{F(\\ol{M^p})}\n\\end{equation*}\ncomes from noting that with the fairness function \\eqref{e:facclim} , $F'(M^p) = -\\t$ .\nThe properties that $\\ol{M^p}$ and $\\ol{\\f}$ are strictly increasing in $\\ol{\\pi}$ , and that $\\ol{F}$ is weakly decreasing in $\\ol{\\pi}$ , follow from the assumptions that $\\e>1$ , $\\g\\in(0,1)$ , $\\t>0$ , and $1-\\c \\geq 0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_150": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_150",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_150",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_150",
+    "text": "First , $\\e$ influences the slope of the long - run Phillips curve through\n\\begin{equation*}\n(\\e-1) \\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}{\\bs{1+(1-\\c)\\t}\\e-1},\n\\end{equation*}\nwhich can be rewritten as\n\\begin{equation*}\n\\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}{(1-\\c)\\t\\frac{\\e}{\\e-1}+1}.\n\\end{equation*}\nSince $\\e/(\\e-1)$ is decreasing in $\\e$ and\n\\begin{equation*}\n\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1\n\\end{equation*}\nis increasing in $\\e$ , the slope of the long - run Phillips curve is increasing in $\\e$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_151": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_151",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_151",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_151",
+    "text": "Second , since $\\c$ appears only once in \\eqref{e:dpi} , it is clear that the slope of the long - run Phillips curve is increasing in $\\c$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_145": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_145",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_145",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_145",
+    "text": "\\paragraph{Proof of Proposition~\\ref{p:longrun} } The expressions for the steady - state price markup $\\ol{M}$ and steady - state employment $\\ol{N}$ come from \\eqref{e:mssa} and \\eqref{e:nssa} .\nSince $\\d<1$ , $\\g\\in(0,1)$ , and $\\ol{\\f}>0$ is strictly increasing in $\\ol{\\pi}$ ( Lemma ~ \\ref{l:longrun} ) , it follows that $\\ol{M}$ is strictly decreasing in $\\ol{\\pi}$ .\nAnd since $\\a>0$ , $\\n>1$ , $\\eta>0$ , and $\\ol{M}>0$ is strictly decreasing in $\\ol{\\pi}$ , it follows that $\\ol{N}$ is strictly increasing in $\\ol{\\pi}$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_85": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_85",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_85",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_85",
+    "text": "The proof appears in Appendix ~ B. 3 ; its main step is reworking \\eqref{e:em} in steady state to obtain $\\ol{M}$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_91": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_91",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_91",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_91",
+    "text": "Quantitatively , the findings by \\ct{KW94} also agree with our model 's predictions .\nAbstracting from possible changes in labor force participation , their findings imply that increasing inflation by 1 percentage point raises employment by $0.2\\%$ to $1.3\\%$ .\nThis magnitude matches the simulation results for a degree of acclimation between $\\c=0$ and $\\c=0.7$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_46": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_46",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_46",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_46",
+    "text": "\\paragraph{Fairness Concerns}\nHouseholds cannot observe firms ' marginal costs .\nWhen a household purchases good ~ $j$ at price $P_{j}(t)$ in period ~ $t$ , it infers that firm ~ $j$ 's marginal cost is $C^{p}_{j}(t)$ .\nThe model is dynamic so it provides a natural candidate for the anchor that households use when inferring costs : last period 's perception of marginal cost .\nHence , instead of being given by \\eqref{e:cp} as in the monopoly model , households ' perception of firm ~ $j$ 's marginal cost at time ~ $t$ is given by\n\\begin{equation}\nC^{p}_{j}(t)= \\bs{C^{p}_{j}(t-1)}^{\\g}\\bs{\\frac{\\e-1}{\\e} P_{j}(t)}^{1-\\g},\n\\label{e:cpj}\\end{equation}\nwhere $C^{p}_{j}(t-1)$ is last period 's perceived cost , and $\\g\\in(0,1)$ is the degree of underinference ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_52": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_52",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_52",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_52",
+    "text": "Finally , in each period ~ $t$ , household ~ $k$ chooses purchases $Y_{jk}(t)$ for each $j\\in[0,1]$ , labor supply $N_{k}(t)$ , bond holdings $B_{k}(t)$ , and wage rate $W_{k}(t)$ .\nThe household 's objective is to maximize its expected utility subject to the budget constraint , to the solvency constraint , and to firms ' demand for labor service ~ $k$ .\nThe household takes as given its initial endowment of bonds $B_{k}(-1)$ , all fairness factors $F_{j}(t)$ , all prices $P_{j}(t)$ and $Q(t)$ , and dividends $V_{k}(t)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_78": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_78",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_78",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_78",
+    "text": "Figure ~ \\ref{f:technology} displays the response to the positive technology shock .\nThe inflation rate is expressed as a deviation from its steady - state value , measured in percentage points and annualized ( by multiplying by four the variable $\\wh{\\pi}(t)$ ) ; all other variables are expressed as percentage deviations from their steady - state values ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_44": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_44",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_44",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_44",
+    "text": "\\begin{corollary}  \\label{c:subproportional}\nAssume that customers care about fairness according to the fairness function \\eqref{e:f} , infer subproportionally , and are acclimated .\nThen the monopoly 's markup is given by\n\\begin{equation*}\nM = 1+\\frac{1}{\\bp{1+\\g\\t} \\e-1}.\n\\end{equation*}\nThe markup decreases with the competitiveness of the market ( $\\e$ ) , concern for fairness ( $\\t$ ) , and degree of underinference ( $\\g$ ) .\nAnd the cost passthrough is given by\n\\begin{equation*}\n\\b = 1\\bigg/\\bc{1+\\frac{\\g^{2} \\t \\bs{\\bp{1+\\t} \\e-1}}{ \\bp{\\e-1}\\bp{1+\\g\\t}\\bs{\\bp{1+\\g\\t} \\e-1}}}.\n\\end{equation*}\nThe passthrough increases with the competitiveness of the market ( $\\e$ ) ; it decreases with the concern for fairness ( $\\t$ ) and degree of underinference ( $\\g$ ) .\n\\end{corollary}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_50": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_50",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_50",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_50",
+    "text": "To smooth consumption over time , households trade one - period bonds .\nIn period ~ $t$ , household ~ $k$ holds $B_{k}(t)$ bonds .\nBonds purchased in period ~ $t$ have a price $Q(t)$ , mature in period ~ $t+1$ , and pay one unit of money at maturity ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_87": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_87",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_87",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_87",
+    "text": "The impact of competitiveness , fairness concern , and degree of underinference on the slope of the long - run Phillips curve is reminiscent of the impact of these parameters on the cost passthrough in the monopoly model ( see Corollary ~ \\ref{c:subproportional} ) .\nThe impact of the degree of acclimation is easily understandable .\nWith more acclimation , perceived fairness ( $\\ol{F}$ ) depends less on inflation , because consumers adapt more to different inflation rates .\nAs a result , the elasticity of the fairness function ( $\\ol{\\f}$ ) depends less on inflation , and so the Phillips curve \\eqref{e:mss} is steeper ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_93": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_93",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_93",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_93",
+    "text": "\\paragraph{No Fairness Concerns}\nWithout fairness concerns , the price elasticity of demand is $E=\\e$ ( Section ~ \\ref{s:nofairness} ) .\nHence the derivative \\eqref{e:dvdp} becomes\n\\begin{equation*}\nV'(P) =Y^{d}(P) \\bs{1 - \\e\\frac{P-C}{P}}.\n\\end{equation*}\nThe function $P\\mapsto (P-C)/P$ is strictly increasing from 0 to 1 as $P$ increases from $C$ to $+\\infty$ , so the term in square brackets is strictly decreasing from 1 to $1-\\e<0$ as $P$ increases from $C$ to $+\\infty$ .\nHence , the term in square brackets has a unique root $P^*$ on $(C,+\\infty)$ , is positive for $P<P^*$ , and is negative for $P>P^*$ .\nSince $Y^d(P)>0$ , these properties transfer to the derivative of the profit function : $V'(P)>0$ for $P\\in(C,P^*)$ , $V'(P)=0$ at $P=P^*$ , and $V'(P)<0$ for $P\\in(P^*,+\\infty)$ .\nWe conclude that the profit function is unimodal , and its maximum $P^*$ is the unique solution to the first - order condition $V'(P)=0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_153": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_153",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_153",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_153",
+    "text": "Fourth , $\\g$ influences the slope of the long - run Phillips curve through\n\\begin{equation*}\n\\frac{(1-\\g)(1-\\d\\g)}{\\g^2} \\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\bs{\\e-1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t\\e},\n\\end{equation*}\nwhich can be rewritten as\n\\begin{equation*}\n\\bs{\\frac{1-\\d\\g}{\\g}+(1-\\d)\\t}\\bs{\\frac{(\\e-1)(1-\\g)}{\\g}+\\frac{1-\\g}{1-\\d\\g}(1-\\d)\\t\\e}.\n\\end{equation*}\nFirst , $(1-\\d\\g)/\\g$ and $(1-\\g)/\\g$ are decreasing in $\\g$ .\nSecond , since $\\d<1$ , $(1-\\g)/(1-\\d\\g)$ is decreasing in $\\g$ .\nThus , the slope of the long - run Phillips curve is decreasing in $\\g$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_147": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_147",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_147",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_147",
+    "text": "Second , the expression of the steady - state price markup $\\ol{M}$ in Proposition ~ \\ref{p:longrun} yields\n\\begin{equation}\n\\odl{\\ol{M}}{\\ol{\\f}} = \\frac{\\ol{\\f}}{\\ol{M}}\\cdot \\od{\\ol{M}}{\\ol{\\f}} = \\frac{\\ol{\\f}}{\\ol{M}}\\cdot \\frac{1}{\\e-1}\\cdot \\frac{-1}{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}}^2}\\cdot \\frac{(1-\\d)\\g}{1-\\d\\g},\n\\label{e:dm}\\end{equation}\nand\n\\begin{equation}\n(\\e-1) \\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}} \\ol{M} = 1 + (\\e-1) \\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}} = \\e + (\\e-1) \\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}.\n\\label{e:mssa2}\\end{equation}\nCombining \\eqref{e:dm} and \\eqref{e:mssa2} , we obtain\n\\begin{equation*}\n-\\odl{\\ol{M}}{\\ol{\\f}} = \\frac{(1-\\d)\\g}{1-\\d\\g} \\cdot \\ol{\\f} \\cdot \\frac{1}{\\e + (\\e-1) \\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}}\\cdot \\frac{1}{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}}.\n\\end{equation*}\nHence , using \\eqref{e:longrun} , we find that around the zero - inflation steady state ,\n\\begin{equation}\n-\\odl{\\ol{M}}{\\ol{\\f}} = \\frac{(1-\\d)\\g}{1-\\d\\g} \\cdot \\frac{\\t}{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\cdot \\frac{1}{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}.\n\\label{e:dm2}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_146": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_146",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_146",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_146",
+    "text": "\\paragraph{Proof of Corollary~\\ref{c:longrun} }\nFirst , the expressions for the steady - state perceived price markup , $\\ol{M^p}$ , steady - state fairness factor , $\\ol{F}$ , and steady - state elasticity of the fairness function , $\\ol{\\f}$ , in Lemma ~ \\ref{l:longrun} indicate that around the zero - inflation steady state ,\n\\begin{equation}\n\\ol{M^p} = \\frac{\\e}{\\e-1},\\qquad \\ol{F}=1,\\qquad \\ol{\\f}=\\frac{\\t\\e}{\\e-1}.\n\\label{e:longrun}\\end{equation}\nThese expressions also show that \\begin{align*}\n\\od{\\ln(\\ol{M^p} )\n}{ \\ol{\\pi} } & =            { 1 - \\ g } \\\\ \\od{\\ln(\\ol{F} ) }{ \\ol{\\pi} } & = - \\t \\cdot (1-\\c) \\cdot \\frac{\\ol{M^p} }{            }            ) }{            }\\\\ \\od{\\ln(\\ol{\\f} ) }{ \\ol{\\pi} } & = \\od{\\ln(\\ol{M^p} ) }{ \\ol{\\pi} } - \\od{\\ln(\\ol{F} ) }{ \\ol{\\pi} }.\n\\end{align*}\nHence , around the zero - inflation steady state , we have\n\\begin{equation*}\n\\od{\\ln(\\ol{F})}{\\ol{\\pi}} = - (1-\\c) \\cdot \\frac{\\t\\e}{\\e-1} \\cdot \\frac{\\g}{1-\\g}\n\\end{equation*}\nand\n\\begin{equation}\n\\od{\\ln(\\ol{\\f})}{\\ol{\\pi}} = \\frac{\\g}{1-\\g} \\bs{1 + (1-\\c) \\cdot \\frac{\\t\\e}{\\e-1}}.\n\\label{e:dphi}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_152": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_152",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_152",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_152",
+    "text": "Third , $\\t$ influences the slope of the long - run Phillips curve through\n\\begin{equation*}\n\\frac{1}{\\t} \\cdot \\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\bs{\\bp{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}}{\\bs{1+(1-\\c)\\t}\\e-1},\n\\end{equation*}\nwhich can be rewritten as\n\\begin{equation*}\n\\X(\\t) = \\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\bs{\\frac{(1-\\d)\\g}{1-\\d\\g}\\t+\\frac{\\e-1}{\\e}}}{\\t\\bs{(1-\\c)\\t +\\frac{\\e-1}{\\e}}}.\n\\end{equation*}\nThe function $\\X(\\t)$ is a quadratic - quadratic rational function , whose behavior can be determined from its asymptotes and zeros .\nThe function has two vertical asymptotes , at\n\\begin{equation*}\n\\t = -\\frac{\\e-1}{(1-\\c)\\e}<0 \\quad \\text{and}\\quad \\t=0,\n\\end{equation*}\nand a horizontal asymptote , at\n\\begin{equation}\n\\X = \\bs{\\frac{(1-\\d)\\g}{1-\\d\\g}}^2 \\cdot \\frac{1}{1-\\c}>0.\n\\label{e:Xi}\\end{equation}\nMoreover , both zeros of $\\X(\\t)$ are negative , at\n\\begin{equation*}\n\\t = -\\frac{1-\\d\\g}{(1-\\d)\\g}<0 \\quad \\text{and}\\quad \\t= -\\frac{\\e-1}{\\e}\\cdot\\frac{1-\\d\\g}{(1-\\d)\\g}<0.\n\\end{equation*}\nHence , the function $\\X(\\t)$ cannot cross the $x$ - axis when $\\t>0$ .\nThis means that it must approach its positive horizontal asymptote from above , decreasing from $+\\infty$ when $\\t\\to 0^+$ toward the horizontal asymptote \\eqref{e:Xi} when $\\t\\to +\\infty$ .\nThus , $\\X(\\t)$ is decreasing in $\\t>0$ , and so is the slope of the long - run Phillips curve ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_92": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_92",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_92",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_92",
+    "text": "The monopoly chooses a price $P>C$ to maximize profits\n\\begin{equation*}\nV(P) = (P-C) \\cdot Y^{d}(P).\n\\end{equation*}\nThe profit function is differentiable .\nIts derivative is\n\\begin{equation*}\nV'(P) = Y^{d}+\\bp{P-C} \\od{Y^{d}}{P} =Y^{d}- \\bp{P-C} \\frac{Y^d}{P} E(P),\n\\end{equation*}\nwhere\n\\begin{equation*}\nE(P) \\equiv -\\odl{Y^{d}}{P} = -\\frac{P}{Y^d}\\cdot\\od{Y^{d}}{P}\n\\end{equation*}\nis the price elasticity of demand .\nHence the derivative of the profit function satisfies\n\\begin{equation}\nV'(P) =Y^{d}(P) \\bs{1 - \\frac{P-C}{P} E(P)}.\n\\label{e:dvdp}\\end{equation}\nWe now study the properties of the derivative \\eqref{e:dvdp} in the various cases considered in Section ~ \\ref{s:monopoly} ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_86": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_86",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_86",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_86",
+    "text": "\\begin{corollary}\n\\label{c:longrun}\nIn the New Keynesian model with fairness , around the zero - inflation steady state , the slope of the long - run Phillips curve is\n\\begin{equation*}\n\\od{\\ol{\\pi}}{\\ln(\\ol{N})} = \\frac{1+\\eta}{1-\\d}\\cdot \\frac{(1-\\g)(1-\\d\\g)}{\\g^2}\\cdot \\frac{\\e-1}{\\t} \\cdot \\frac{\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\bs{\\bp{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\t}\\e-1}}{\\bs{1+(1-\\c)\\t}\\e-1}.\n\\end{equation*}\nThe slope increases with the competitiveness of the goods market ( $\\e$ ) and degree of acclimation ( $\\c$ ) ; it decreases with the concern for fairness ( $\\t$ ) and degree of underinference ( $\\g$ ) .\n\\end{corollary}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_51": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_51",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_51",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_51",
+    "text": "Household ~ $k$ 's consumption - savings decisions in each period ~ $t$ must obey the constraint\n\\begin{equation*}\n\\int_{0}^{1} P_{j}(t) Y_{jk}(t)\\,dj + Q(t) B_{k}(t) = W_{k}(t) N_{k}(t)+ B_{k}(t-1)+V_{k}(t),\n\\end{equation*}\nwhere $W_{k}(t)$ is the wage rate for labor service ~ $k$ , and $V_{k}(t)$ are dividends from firm ownership .\nIn addition , household ~ $k$ satisfies a solvency constraint that prevents Ponzi schemes ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_45": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_45",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_45",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_45",
+    "text": "A continuum of firms indexed by ~ $j\\in[0,1]$ and a continuum of households indexed by $k\\in [0,1]$ make up the economy .\nFirms use labor services to produce goods .\nHouseholds supply labor services , consume goods , and save using riskless nominal bonds .\nSince goods are imperfect substitutes for one another , and labor services are also imperfect substitutes , firms exercise some monopoly power on the goods market , and households exercise some monopoly power on the labor market ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_79": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_79",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_79",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_79",
+    "text": "The increase in technology reduces marginal costs , pulling down inflation .\nObserving lower prices , customers underinfer the underlying decrease in marginal costs and thus perceive lower price markups and fairer transactions .\nThe improvement in perceived fairness decreases the price elasticity of the demand for goods .\nFirms best respond by raising their markups .\nThe price markup increases by $1.3\\%$ at the peak , which depresses employment by $0.7\\%$ .\nDespite the drop in employment , output initially increases by $0.5\\%$ due to improved technology ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_41": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_41",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_41",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_41",
+    "text": "\\paragraph{Comparison with Microevidence}\nThe result that prices do not fully respond to marginal - cost shocks accords well with evidence on real firm behavior .\nFirst , using matched data on product prices and producers ' unit labor cost in Sweden , \\ct{CS12} find a passthrough of idiosyncratic marginal - cost changes into prices of only $0.3$ .\nSecond , using production data for Indian manufacturing firms , \\ct[Table~7]{DGK16} find that following trade liberalization in India , marginal costs fell significantly due to the import tariff reduction , yet prices failed to fall in step : they estimate passthroughs between $0.3$ and $0.4$ .\nThird , using production and cost data for Mexican manufacturing firms , \\ct[Table~7]{CCW17} also find a modest passthrough of idiosyncratic marginal - cost changes into prices : between $0.2$ and $0.4$ .\nLast , combining production data for US manufacturing firms with data on energy prices and consumption , \\ct[Tables~5 and 6]{GSW19} find a moderate passthrough of marginal - cost changes caused by energy - price variations into prices : between $0.5$ and $0.7$ .\nTaking the midpoint estimates from the four studies , we find an average passthrough of $0.3+0.35+0.3+0.6=0.4$ .\nSuch cost passthrough is well below ~ 1 ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_55": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_55",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_55",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_55",
+    "text": "\\paragraph{Monetary Policy}\nThe nominal interest rate is determined by a simple monetary - policy rule :\n\\begin{equation}\ni(t)=i_{0}(t)+\\p \\pi(t),\n\\label{e:taylor}\\end{equation}\nwhere $i_{0}(t)$ is a stochastic exogenous component , $\\pi(t)$ is the inflation rate , and $\\p>1$ governs the response of the interest rate to inflation ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_69": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_69",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_69",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_69",
+    "text": "We also need to calibrate a parameter specific to the textbook model : $\\x$ , which governs price rigidity .\nTo generate price rigidity , the New Keynesian literature uses either the staggered pricing of \\ct{C83} or the price - adjustment cost of \\ct{R82} .\nBoth pricing assumptions lead to the same linearized Phillips curve around the zero - inflation steady state , and therefore to the same simulations \\cp{R95} .\nBut the \\name{C83} interpretation of $\\x$ is easier to map to the data , so we use it for calibration .\nThe parameter $\\x$ indicates the share of firms that cannot update their price each period ; it can be calibrated from microevidence on the frequency of price adjustments .\nIf a share $\\x$ of firms keep their price fixed each period , the average duration of a price spell is $1/(1-\\x)$ \\cp[p.~43]{G08} .\nIn the microdata underlying the US Consumer Price Index , the mean duration of price spells is about 3 quarters \\cp[Table~1]{NS13} .\nHence , we set $1/(1-\\x)=3$ , which implies $\\x=0.67$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_82": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_82",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_82",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_82",
+    "text": "The proof involves manipulating the inference mechanism ~ \\eqref{e:cpj} to obtain $\\ol{M^p}$ , and using \\eqref{e:facclim} and \\eqref{e:mf} to obtain $\\ol{F}$ and $\\ol{\\f}$ .\nIt appears in Appendix ~ B. 3 ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_96": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_96",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_96",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_96",
+    "text": "\\paragraph{Fairness Concerns and Subproportional Inference of Costs}\nWith fairness concerns and subproportional inference of costs , the price elasticity of demand is $E=\\e+(\\e-1)\\g\\f(M^p(P))$ ( Section ~ \\ref{s:subproportional} ) .\nThe profit function is now defined for $P\\in (C, P^b)$ , where the upper bound is defined by\n\\begin{equation}\nP^b = \\frac{\\e}{\\e-1} (M^h)^{1/\\g} C^b.\n\\label{e:pb}\\end{equation}\nThe price $P^b$ is such that at $P^b$ , the perceived markup reaches the upper bound of the domain of the fairness function : $M^p(P^b)=M^h$ .\nWe know that $P^b > C$ because $C^b > (\\e-1) \\cdot (M^h)^{-1/\\g} \\cdot C/\\e$ ( Definition ~ \\ref{d:subproportional} ) .\nThe derivative \\eqref{e:dvdp} becomes\n\\begin{equation*}\nV'(P) =Y^{d}(P) \\bs{1 - \\frac{P-C}{P} \\cdot \\bc{\\e+(\\e-1)\\g\\f(M^p(P))}}.\n\\end{equation*}\nAgain , the function $P\\mapsto (P-C)/P$ is strictly increasing from 0 to 1 as $P$ increases from $C$ to $+\\infty$ .\nThe perceived markup $M^p(P)$ is strictly increasing from $M^p(C)>0$ to $M^h$ as $P$ increases from $C$ to $P^b$ ( Lemma ~ \\ref{l:subproportional} ) .\nHence , the elasticity of the fairness function $\\f(M^p(P))$ is strictly increasing from $\\f(M^p(C))>0$ to $+\\infty$ as $P$ increases from $C$ to $P^b$ ( Lemma ~ \\ref{l:phi} ) .\nSince $\\g>0$ , we infer that the term in square brackets is strictly decreasing from 1 to $-\\infty$ as $P$ increases from $C$ to $P^b$ .\nThus the term in square brackets has a unique root $P^*$ on $(C,P^b)$ , is positive for $P<P^*$ , and is negative for $P>P^*$ .\nFollowing the same argument as in the previous cases , we conclude that the profit function is unimodal , and its maximum $P^*$ is the unique solution to the first - order condition $V'(P)=0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_156": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_156",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_156",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_156",
+    "text": "As a first step toward computing the Phillip s curve , we compute the elasticity of the price elasticity of demand $E(M^p) = \\e+(\\e-1)\\g\\f(M^p)$ .\nGiven that the elasticity of $\\f(M^p)$ is $\\s$ ( Lemma ~ \\ref{l:phi} ) , the elasticity of $E(M^p)$ at the steady state is\n\\begin{equation}\n\\odl{E}{M^p} = \\frac{(\\e-1)\\g\\ol{\\f}}{\\e+(\\e-1) \\g \\ol{\\f}}\\cdot \\ol{\\s} \\equiv \\O_{0}.\n\\label{e:omega0}\\end{equation}\nSecond , we introduce the auxiliary function\n\\begin{equation*}\n\\L_1(M) = \\frac{M-1}{M}.\n\\end{equation*}\nThe elasticity of $\\L_1(M)$ at the steady state is\n\\begin{equation*}\n\\odl{\\L_1}{M} =\\frac{\\ol{M}}{\\ol{M}-1}-1 = \\frac{1}{\\ol{M}-1}\\equiv \\O_{1}.\n\\end{equation*}\nUsing the value of $\\ol{M}$ in \\eqref{e:mssa} , we find that $\\O_1$ satisfies\n\\begin{equation}\n\\O_1 = (\\e-1)\\bs{1+\\frac{(1-\\d)\\g}{1-\\d\\g}\\ol{\\f}}.\n\\label{e:omega1}\\end{equation}\nThe left - hand side of \\eqref{e:ema} can be written $LHS = \\L_1(M(t)) \\cdot E(M^p(t))$ .\nAccordingly , around the steady state the log - linear approximation of $LHS$ is\n\\begin{equation}\n\\ln(LHS)-\\ln(\\ol{LHS}) = \\O_{1} \\wh{m}(t) + \\O_{0} \\wh{m^p}(t).\n\\label{e:lhs}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_142": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_142",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_142",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_142",
+    "text": "Third , in steady state the law of motion of the perceived price markup \\eqref{e:mpt} implies that\n\\begin{equation*}\n(\\ol{M^p})^{1-\\g}= \\bp{\\frac{\\e}{\\e-1}}^{1-\\g} \\bs{\\frac{P(t)}{P(t-1)}}^{\\g} .\n\\end{equation*}\nTaking this expression to the power of $1/(1-\\g)$ , and noting that in steady state $P(t)/P(t-1)=\\exp(\\ol{\\pi})$ , we find that the steady - state perceived price markup is\n\\begin{equation}\n\\ol{M^{p}} = \\frac{\\e}{\\e-1} \\exp{\\frac{\\g}{1-\\g} \\ol{\\pi}}.\n\\label{e:mpss}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_143": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_143",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_143",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_143",
+    "text": "Fourth , in steady state the pricing equation \\eqref{e:ema} implies that\n\\begin{equation}\n0 = 1-\\d\\g - \\frac{\\ol{M}-1}{\\ol{M}} E(\\ol{M^p}) + \\d \\frac{\\ol{M}-1}{\\ol{M}} \\bs{E(\\ol{M^p})-(1-\\g) \\e}.\n\\label{e:emss1}\\end{equation}\nShuffling this expression , we obtain the following :\n\\begin{align} 0 &= ( 1 - \\d\\g) \\ol{M} - (            - 1 ) E ( \\ol{M^p} ) +            -1 ) \\bs{E(\\ol{M^p} ) - ( 1 -\\g ) \\e }\\ nonumber \\\\ 0 &= \\bs{1-\\d\\g - (1-\\d)E(\\ol{M^p} ) - \\d(1-\\g)\\e} \\ol{M} + ( 1 - \\d)E(\\ol{M^p} ) +\\d ( 1 -\\g ) \\e\\ nonumber \\\\            &= \\frac{(1-\\d)E(\\ol{M^p} ) + \\d (1-\\g)\\e}{(1-\\d)E(\\ol{M^p} ) +\\d ( 1 -\\g ) \\e - ( 1 -\\d\\g ) }\\ nonumber \\\\            &= 1 + \\frac{(1-\\d\\g)} { ( 1 - \\d)E(\\ol{M^p} ) + ( \\d-\\d\\g)\\e - (1-\\d\\g)}.\\label{e:emss2}  \\end{align}\nIn addition , \\eqref{e:ydp} shows that in steady state the price elasticity of demand is $E(\\ol{M^p})=\\e+(\\e-1) \\g \\f(\\ol{M^p})$ .\nUsing this expression , we rewrite the denominator of the fraction in \\eqref{e:emss2} as\n\\begin{equation*}\n(1-\\d) \\e + (1-\\d)(\\e-1)\\g\\f(\\ol{M^p}) +(\\d-\\d\\g)\\e - (1-\\d\\g) = (\\e-1) \\bs{(1-\\d\\g) + (1-\\d) \\g \\f(\\ol{M^p})}.\n\\end{equation*}\nPlugging this result back into \\eqref{e:emss2} , we obtain the steady - state price markup :\n\\begin{equation}\n\\ol{M} = 1+ \\frac{1}{\\e-1}\\cdot \\frac{1}{1 + \\frac{(1-\\d)\\g}{1-\\d\\g} \\f(\\ol{M^p})}.\n\\label{e:mssa}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_157": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_157",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_157",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_157",
+    "text": "Next , we introduce another auxiliary function :\n\\begin{equation*}\n\\L_2(M^p) =E(M^p) - (1-\\g)\\e = \\g \\bs{\\e +(\\e-1)\\f(M^p)}.\n\\end{equation*}\nThe elasticity of $\\L_2(M^p)$ at the steady state is\n\\begin{equation}\n\\odl{\\L_2}{M^p} = \\frac{(\\e-1) \\ol{\\f}}{\\e+(\\e-1) \\ol{\\f}}\\cdot \\ol{\\s} \\equiv \\O_{2}.\n\\label{e:omega2}\\end{equation}\nWe also introduce the auxiliary function\n\\begin{equation*}\n\\L_3(x) = 1- \\d\\g + \\d x,\n\\end{equation*}\nwhose elasticity is\n\\begin{equation*}\n\\odl{\\L_3}{x} = \\frac{\\d x}{\\L_3} \\equiv \\O_{3}.\n\\end{equation*}\nThe right - hand side of \\eqref{e:ema} ( abstracting from the expectation operator ) can be written\n\\begin{equation*}\nRHS = \\L_3(\\L_1(M(t+1))\\cdot \\L_2(M^p(t+1)).\n\\end{equation*}\nHence , around the steady state the log - linear approximation of $RHS$ is\n\\begin{equation}\n\\ln(RHS)-\\ln(\\ol{RHS}) = \\O_{3} \\cdot \\bs{\\O_{1} \\wh{m}(t+1) + \\O_{2} \\wh{m^p}(t+1)},\n\\label{e:rhs}\\end{equation}\nwhere the elasticity $\\O_3$ is evaluated at $\\ol{x}=\\ol{\\L_1}\\cdot \\ol{\\L_2}$ and $\\ol{\\L_3}= \\ol{RHS} = \\ol{LHS} =\\ol{E} \\cdot\\ol{\\L_1}$ .\nThus in \\eqref{e:rhs} we have\n\\begin{equation}\n\\O_{3} = \\frac{\\d \\ol{\\L_1}\\cdot \\ol{\\L_2}}{\\ol{E}\\cdot \\ol{\\L_1}} = \\d\\g \\frac{\\e +(\\e-1)\\ol{\\f}}{\\e+(\\e-1) \\g \\ol{\\f}}.\n\\label{e:omega3}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_97": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_97",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_97",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_97",
+    "text": "By definition , the elasticity of the fairness function is given by\n\\begin{equation*}\n\\f(M^p) = - M^p \\cdot \\frac{F'(M^p)}{F(M^p)}.\n\\end{equation*}\nThe properties of the fairness function $F$ listed in Definition ~ \\ref{d:fairness} indicate that $F(M^p)>0$ and $F'(M^p)<0$ , so $\\f(M^p)>0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_83": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_83",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_83",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_83",
+    "text": "The lemma shows that in steady state households perceive higher price markups when inflation is higher .\nHouseholds understand that in steady state nominal marginal costs grow at the inflation rate , but because of subproportional inference , they misjudge the level of those costs and thus of price markups .\nSince perceived price markups are higher when inflation is higher , the fairness factor is lower --- except when consumers are fully acclimated ( $\\c=1$ ) , in which case the fairness factor is always one .\nLast , the elasticity of the fairness function is higher when inflation is higher ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_68": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_68",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_68",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_68",
+    "text": "\\paragraph{Parameters of the Textbook New Keynesian Model}\nWe also calibrate a textbook New Keynesian model ( described in Appendix ~ C ) , which we will use as a benchmark in simulations .\nFor the parameters common to the two models , we use the same values --- except for $\\e$ .\nIn the textbook model , the steady - state price markup is $\\e/(\\e-1)$ , so we set $\\e=3$ to obtain a markup of ~ $1.5$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_54": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_54",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_54",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_54",
+    "text": "Each period ~ $t$ , firm ~ $j$ chooses output $Y_{j}(t)$ , price $P_{j}(t)$ , and employment levels $N_{jk}(t)$ for all $k\\in[0,1]$ .\nThe firm 's objective is to maximize the expected present - discounted value of profits\n\\begin{equation*}\n\\E[0]\\sum_{t=0}^{\\infty}\\G(t) \\bs{P_{j}(t) Y_{j}(t)-\\int_{0}^{1}W_{k}(t) N_{jk}(t)\\,dk},\n\\end{equation*}\nwhere $\\G(t)$ is the stochastic discount factor for period - $t$ nominal payoffs , subject to the production constraint ~ \\eqref{e:yj} , to demand for good ~ $j$ , and to the law of motion of the perceived marginal cost \\eqref{e:cpj} .\nThe firm takes as given the initial belief about its marginal cost $C^p_{j}(-1)$ , all wage rates $W_{k}(t)$ , and discount factors $\\G(t)$ .\nIts profits accrue to households as dividends ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_40": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_40",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_40",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_40",
+    "text": "The proof is relegated to Appendix ~ A , but the intuition is simple .\nFirst , when customers care about fairness but underinfer marginal costs , they become more price - sensitive .\nIndeed , an increase in the price increases the opportunity cost of consumption --- as in the case without fairness --- and also increases the perceived markup , which reduces the marginal utility of consumption and therefore demand .\nThis heightened price - sensitivity raises the price elasticity of demand above $\\e$ and pushes the markup below $\\e/(\\e-1)$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_56": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_56",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_56",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_56",
+    "text": "\\paragraph{Symmetry}\nWe assume a symmetric economy .\nAll households receive the same bond endowment $B(-1)$ and same dividends $V(t)$ .\nAll firms share a common technology $A(t)$ , face the same fairness function $F$ , and are believed to have the same initial cost $C^p(-1)$ .\nHence , all households behave identically , as do all firms ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_42": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_42",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_42",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_42",
+    "text": "\\paragraph{Additional Analytical Results}\nTo obtain further results , we introduce a simple fairness function that satisfies all the requirements from Definition ~ \\ref{d:fairness} :\n\\begin{equation}\nF(M^p) = 1- \\t \\cdot \\bp{M^p - \\frac{\\e}{\\e-1}},\n\\label{e:f}\\end{equation}\nwhere $\\t>0$ governs the intensity of fairness concerns .\nA higher $\\t$ means that a consumer grows more upset when consuming an overpriced item and more content when consuming an underpriced item .\nThe fairness function reaches $1$ when the perceived markup equals $\\e/(\\e-1)$ ; then fairness - adjusted consumption coincides with actual consumption .\nWhen the perceived markup exceeds $\\e/(\\e-1)$ , the fairness function falls below one ; and when the perceived markup lies below $\\e/(\\e-1)$ , the fairness function surpasses one ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_95": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_95",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_95",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_95",
+    "text": "\\paragraph{Fairness Concerns and Rational Inference of Costs}\nWith fairness concerns and rational inference of marginal costs , the price elasticity of demand is again $E=\\e$ ( Section ~ \\ref{s:rational} ) .\nHence , as in the case of no fairness concerns , the profit function is unimodal and its maximum is the unique solution to the first - order condition $V'(P)=0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_81": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_81",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_81",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_81",
+    "text": "\\paragraph{Acclimation}\n\\ct[p.~730]{KKT86} hypothesize that `` any stable state of affairs tends to become accepted eventually '' .\nWe adapt their idea by assuming that people partially acclimate to the steady - state inflation rate , generalizing the fairness function \\eqref{e:f} to\n\\begin{equation}\nF(M^p) = 1 - \\t \\cdot(M^p - M^f),\n\\label{e:facclim}\\end{equation}\nwhere $M^f$ is the fair markup resulting from acclimation .\nWe assume that the fair markup is the weighted average of the standard markup $\\e/(\\e-1)$ and the steady - state perceived markup $\\ol{M^p}$ :\n\\begin{equation}\nM^f = \\c \\cdot \\ol{M^p} + (1-\\c) \\cdot \\frac{\\e}{\\e-1}.\n\\label{e:mf}\\end{equation}\nThe parameter $\\c \\in [0,1]$ measures acclimation : when $\\c=0$ , there is no acclimation ; when $\\c=1$ , there is full acclimation , so people do not mind whatever is happening in steady state ; when $\\c\\in(0,1)$ , people may be permanently satisfied or dissatisfied in steady state , but less than when $\\c=0$ .\n\\footnote{This specification does not change anything at the zero-inflation steady state. With zero inflation,            , so            for any            . Therefore, the fairness function~\\eqref{e:facclim} simplifies to the function ~ \\eqref{e:f} for any ~ $\\c$ . }"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_141": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_141",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_141",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_141",
+    "text": "Second , in steady state the monetary - policy rule \\eqref{e:taylor} implies that $\\ol{r} = \\ol{i_{0}} + (\\p-1) \\ol{\\pi}$ .\nSince $\\ol{r} = \\r$ , the steady - state inflation rate is\n\\begin{equation*}\n\\ol{\\pi}=\\frac{\\r-\\ol{i_{0}}}{\\p-1}.\n\\end{equation*}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_155": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_155",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_155",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_155",
+    "text": "\\paragraph{IS Equation}\nThe fifth equation is the IS equation , which is based on the consumption Euler equation ~ \\eqref{e:euler} .\nWe start by computing a log - linear approximation of \\eqref{e:euler} , as in \\ct[pp.~35--36]{G08} :\n\\begin{equation*}\n\\ln(Y(t))=\\E[t]{\\ln(Y(t+1))} + \\E[t]{\\pi(t+1)} + \\r - i(t),\n\\end{equation*}\nwhere $\\r = -\\ln(\\d)$ is the discount rate .\nSubtracting the steady - state values of both sides yields\n\\begin{equation*}\n\\wh{y}(t)=\\E[t]{\\wh{y}(t+1)}+\\E[t]{\\wh{\\pi}(t+1)} - \\wh{i}(t).\n\\end{equation*}\nLast , we introduce the values of $\\wh{y}(t)$ and $\\wh{y}(t+1)$ given by \\eqref{e:yhat} , and the value of $\\wh{i}(t)$ given by ~ \\eqref{e:ihat} .\nWe obtain the IS equation :\n\\begin{equation}\n\\a \\wh{n}(t)+\\p \\wh{\\pi}(t)=\\a \\E[t]{\\wh{n}(t+1)}+\\E[t]{\\wh{\\pi}(t+1)} - \\wh{i_0}(t) - \\wh{a}(t)+ \\E[t]{\\wh{a}(t+1)}.\n\\label{e:is}\\end{equation}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_169": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_169",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_169",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_169",
+    "text": "\\paragraph{Simulations}\nWe start from a steady - state situation .\nTo be consistent with the simulations of Figures ~ \\ref{f:monetary} and ~ \\ref{f:technology} , we assume that steady - state inflation is zero , so the marginal cost $C$ is constant in steady state .\nThen we impose an unexpected permanent 1 \\ % increase in $C$ .\nWe compute the firm 's response to this shock by solving the nonlinear dynamical system of four equations that describes firm 's pricing .\nWe obtain the dynamics of the cost passthrough by calculating the percentage change in price over time :\n\\begin{equation*}\n\\b(t) = \\frac{P(t)-\\ol{P}}{\\ol{P}} \\times 100.\n\\end{equation*}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_168": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_168",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_168",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_168",
+    "text": "\\begin{figure} [ t ] \\includegraphics[scale=0.3,page=15]{\\pdf}  \\caption{Simulated dynamics of cost passthrough}  \\note{The cost passthrough represents the percentage increase in price due to a 1\\% increase in marginal cost. The empirical estimates of the cost passthrough (            and            ) are obtained in Section~\\ref{s:calibration} .\nThe simulations are obtained from the pricing model in Appendix ~ \\ref{a:calibration} under the calibration in Table ~ \\ref{t:calibration} .}\n\\label{f:calibration}  \\end{figure}"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_154": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_154",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_154",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_154",
+    "text": "We describe the log - linearized equilibrium through six variables .\nThe first four are the log - deviations from steady state of output , employment , price markup , and perceived price markup : $\\wh{y}(t)$ , $\\wh{n}(t)$ , $\\wh{m}(t)$ , and $\\wh{m^p}(t)$ .\nThe final two are the deviations from steady state of the nominal interest rate and inflation rate : $\\wh{i}(t)$ and $\\wh{\\pi}(t)$ .\nThese six variables are governed by six linear equations ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_140": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_140",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_140",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_140",
+    "text": "\\paragraph{Steady-State Equilibrium Conditions}\nFirst , in steady state the consumption Euler equation \\eqref{e:euler} gives\n\\begin{equation*}\n\\ol{Q}=\\d \\cdot \\frac{P(t)}{P(t+1)}.\n\\end{equation*}\nTaking the logarithm of this equation and using \\eqref{e:definition} , we obtain\n\\begin{equation*}\n\\ol{i} = \\r + \\ol{\\pi},\n\\end{equation*}\nwhere $\\r \\equiv -\\ln(\\d)$ is the discount rate .\nEquivalently , the steady - state real interest rate $\\ol{r} \\equiv \\ol{i}- \\ol{\\pi}$ equals the discount rate $\\r$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_80": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_80",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_80",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_80",
+    "text": "We study the long - run effects of monetary policy by comparing the steady - state equilibria induced by different values of the exogenous component $\\ol{i_0}$ in the monetary - policy rule \\eqref{e:taylor} .\nIn steady state the real interest rate equals the discount rate $\\r \\equiv -\\ln(\\d)$ ; therefore , by choosing $\\ol{i_0}$ , monetary policy perfectly controls steady - state inflation :\n\\begin{equation*}\n\\ol{\\pi} = \\frac{\\r-\\ol{i_{0}}}{\\p-1}.\n\\end{equation*}\nTo obtain zero inflation , it suffices to set $\\ol{i_0}=\\r$ ; to obtain higher inflation , it suffices to reduce $\\ol{i_0}$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_94": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_94",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_94",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_94",
+    "text": "\\paragraph{Fairness Concerns and Observable Costs}\nWith fairness concerns and observable costs , the price elasticity of demand is $E=\\e+(\\e-1)\\f(P/C)$ ( Section ~ \\ref{s:observable} ) .\nThe profit function is now defined for $P\\in (C, M^h \\cdot C)$ .\nThe derivative \\eqref{e:dvdp} becomes\n\\begin{equation*}\nV'(P) =Y^{d}(P) \\bs{1 - \\frac{P-C}{P} \\cdot \\bc{\\e+(\\e-1)\\f(P/C)}}.\n\\end{equation*}\nAgain , the function $P\\mapsto (P-C)/P$ is strictly increasing from 0 to 1 as $P$ increases from $C$ to $+\\infty$ .\nThe elasticity of the fairness function $\\f(P/C)$ is strictly increasing from $\\f(1)>0$ to $+\\infty$ as $P$ increases from $C$ to $M^h \\cdot C$ ( Lemma ~ \\ref{l:phi} ) .\nHence the term in square brackets is strictly decreasing from 1 to $-\\infty$ as $P$ increases from $C$ to $M^h \\cdot C$ .\nThis implies that the term in square brackets has a unique root $P^*$ on $(C,M^h \\cdot C)$ , is positive for $P<P^*$ , and is negative for $P>P^*$ .\nFollowing the same argument as in the previous case , we conclude that the profit function is unimodal , and its maximum $P^*$ is the unique solution to the first - order condition $V'(P)=0$ ."
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_43": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_43",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_43",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_43",
+    "text": "Furthermore , to compare different industries or economies , we focus on a situation in which customers have acclimated to prices by coming to judge firms ' markups as acceptable :\n$C^b$ adjusts so $M^p = \\e/(\\e-1)$ and $F=1$ .\nAcclimation is likely to occur eventually within any industry or economy , once customers have faced the same prices for a long time .\n\\footnote{As noted by \\ct[p.~730]{KKT86} ,\n`` Psychological studies of adaption suggest that any stable state of affairs tends to become accepted eventually , at least in the sense that alternatives to it no longer come to mind .\nTerms of exchange that are initially seen as unfair may in time acquire the status of a reference transaction\n\\ldots. [People] adapt their views of fairness to the norms of actual behavior.'' The belief-updating rule~\\eqref{e:cpj} introduced in the New Keynesian model has the property that for any initial belief , people eventually become acclimated . }"
+  },
+  "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_57": {
+    "id": "1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_57",
+    "phase": "test",
+    "topic": "econ.th",
+    "document": "1904.05656v4.Pricing_under_Fairness_Concerns",
+    "paragraph": "paragraph_57",
+    "prefix": "selected/test/econ.th-ann4/1904.05656v4.Pricing_under_Fairness_Concerns/paragraph_57",
+    "text": "\\paragraph{Notation}\nSince the equilibrium is symmetric , we drop subscripts ~ $j$ and ~ $k$ to denote the equilibrium values taken by the variables .\nWe also denote the steady - state value of any variable $H(t)$ by $\\ol{H}$ .\nAnd for any variable $H(t)$ except the inflation and interest rates , we denote the logarithmic deviation from steady state by $\\wh{h}(t)\\equiv \\ln(H(t))-\\ln(\\ol{H})$ .\nFor the inflation and interest rates , we denote the deviation from steady state by $\\wh{\\pi}(t)\\equiv \\pi(t)-\\ol{\\pi}$ , $\\wh{i_0}(t) \\equiv i_0(t)-\\ol{i_0}$ , and $\\wh{i}(t) \\equiv i(t) - \\ol{i}$ ."
+  }
+}

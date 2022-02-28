@@ -1,0 +1,155 @@
+{
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11",
+    "text": "The radiation near $\\theta \\approx 20^{\\circ}$ arises after the reflection of the electrons .\nWhen the laser field is tightly focused , the emission time in this case again is of the order of the duration of the electron beam $\\Delta t\\approx L_R/c+L_b/c(1+\\beta)\\sim L_b/2c$ , with the Rayleigh length $L_R=\\pi w_0^2/\\lambda_0$ \\cite{Suppl_material} .\nHowever , due to reflection , the front of the radiation field and the rear part of the electron beam are counterpropagating , which yields a very short radiation pulse : $\\Delta t_d\\sim \\pi T_0(w_0/\\lambda_0)^2(1-\\beta\\cos\\theta)+L_b (1-\\cos\\theta)/c(1+\\beta)\\sim L_b (1-\\cos\\theta)/2c $ \\cite{Suppl_material} ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10",
+    "text": "\\includegraphics[width=8cm]{fig4.eps}            . } \\label{plane-wave}  \\end{figure}"
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12",
+    "text": "Moreover , there is another reason which further decreases the emission time .\nDuring the forward radiation all electrons loose energy which facilitates the reflection when the condition $\\gamma\\sim \\xi/2$ is approached .\nHowever , only the front fraction of the bunch can encounter the strongest laser field at the peak of the laser pulse within the focal region and loose enough energy to fulfil the reflection condition .\nThe rear electrons experience a weaker laser field , because of the laser defocusing effect and can not achieve the reflection .\nThen , the effective length $\\tilde{L}_b $ of the reflected electron bunch is shorter than the total bunch length , for the given parameters $\\tilde{L}_b\\approx 10\\lambda_0$ \\cite{Suppl_material} .\nFor the given parameters our estimate provides $\\Delta t_d\\approx 0.24T_0$ and $\\Delta t\\approx 4T_0$ , which is in agreement with Fig. ~ \\ref{spectrum} ( a ) and ( b ) ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8",
+    "text": "Let us explain the duration of the gamma radiation at different emission angles .\nThe ultrarelativistic electrons in the bunch , which counterpropagate with the laser field , radiate initially in the direction opposite to the laser propagation [ see $\\eta<35$ in Fig. ~ \\ref{single} ( d ) ] .\nSignificant photon emission appears when the $\\chi$ - parameter achieves a rather large peak value of $\\chi\\approx 0.6$ , as shown in Fig. ~ \\ref{single} ( a ) .\nDue to the radiation loss the electron energy decreases ( Fig. ~ \\ref{single} ( c ) ) .\nOn the other hand , at this moment the laser field is still large ( Fig. ~ \\ref{single} ( b ) ) , yielding the electron reflection at $\\eta\\approx 36$ [ see the large change of $\\theta$ at $\\eta\\approx 36$ in Fig. ~ \\ref{single} ( d ) ] .\nAfter the reflection the electron emits briefly closer to the laser propagation direction because it leaves the focal region with an essential decrease of the parameter $\\chi$ .\nThe emission angle $\\theta\\sim \\xi/\\gamma\\approx 20^{\\circ}$ , is determined by the values of $\\xi$ and $\\gamma$ after the reflection .\nThis is the tilting angle of the electron trajectory with respect to the laser propagation direction after the reflection ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9",
+    "text": "The radiation at $\\theta\\approx 180^{\\circ}$ arises before the electrons reach the reflection point .\nWhile the duration of the radiation wave packet of a single electron is extremely short $\\Delta t_d^{(1)}\\sim \\tau_0/4\\gamma^2$ , each consecutive electron in the bunch contributes into the total radiation field with corresponding time delay .\nTherefore , the total duration of the emission is of the order of the electron 's bunch duration $L_b/c$ .\nAn accurate estimation of the radiation pulse duration yields $\\Delta t_d\\sim \\tau_0/ 4\\gamma^2+2L_b/c(1+\\beta)$ , and the radiation time of the electron beam $\\Delta t=(\\tau_0+L_b/c)/(1+\\beta)$ \\cite{Suppl_material} .\nFurthermore , $\\Delta t_d/\\Delta t\\approx 1.4$ which corresponds to Fig. ~ \\ref{spectrum} ( a ) and ( b ) .\nThe length of the emitted gamma radiation pulse is deduced by calculating the distance between the front of the gamma - pulse ( which arises when the laser pulse reaches the front part of the electron beam ) and the end of the gamma - pulse ( which is determined by the moment when the laser pulse reaches the end of the electron beam ) \\cite{Suppl_material} ( see also Fig. ~ \\ref{schematic} ( b ) and ( c ) ) ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13",
+    "text": "The focusing of the laser beam is absolutely essential .\nIn a plane - wave laser pulse , as shown in Fig. ~ \\ref{plane-wave} , the emission time of the radiation before the reflection can be seen from the area $\\theta>90^{\\circ}$ in Fig. ~ \\ref{plane-wave} ( a ) , and that after the reflection from $\\theta<90^{\\circ}$ .\nIn the latter case , the electron moves along the propagation direction of the laser pulse and experiences the field of the rest of the laser pulse .\nThen , the emission of photons takes the long time $\\Delta t\\sim \\tau_0/(1-\\beta)\\gg L_b/c$ \\cite{Suppl_material} .\nIn the frame of the detector , the duration of the radiation pulse is shortened with respect to the emission time by a factor $1-\\beta \\cos\\theta$ to become $\\Delta t_d\\sim \\tau_0(1-\\beta\\cos\\theta)/(1-\\beta)$ \\cite{Suppl_material} [ see the time range for $\\theta <90^\\circ$ in Fig. ~ \\ref{plane-wave} ( b ) compared to Fig. ~ \\ref{plane-wave} ( a ) ] .\nHowever , the shortest duration of the radiation pulse at $\\theta\\approx 20^{\\circ}$ is still much larger than the laser period , in contrast to the case of the focused field [ in the focused field $\\tau_0/(1-\\beta)$ is replaced by $L_R/c$ in the emission time ] ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16",
+    "text": "Finally , we estimate the total number of photons in the gamma - ray burst of $830$ as duration for the parameters in Fig. ~ \\ref{spectrum} to be $N_{ph}\\sim 10^2$ within the emission solid angle $\\Delta\\Omega=1$ mrad $^2$ .\nIn spite of a small number of total photons , the photon flux ( F ) and the brilliance ( B ) are rather large due to the short duration of the pulse : $F\\sim 10^{14}$ photons s $^{-1}$ $0.1 \\%$ BW , and $B\\sim 3\\times 10^{20}$ photons s $^{-1}$ mrad $^{-2}$ mm $^{-2}$ $0.1 \\%$ BW , respectively , e.g. , the brilliance is 2 orders of magnitude larger than in the recent experiment \\cite{Powers_2014} ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14",
+    "text": "Several gamma - ray bursts are observable near $\\theta \\approx 20^{\\circ}$ in the 4 - cycle laser pulse ( Fig. ~ \\ref{spectrum} ( a ) ) .\nMoreover , a single gamma - ray burst arises in a 2 - cycle laser pulse , and a gamma - ray comb is formed by employing longer laser pulses \\cite{Suppl_material} .\nThis is because the electron can be reflected at any wave crest due to the stochastic character of the gamma - photon emission , while there is only one single burst when stochastic effects are neglected \\cite{Suppl_material} .\nThis feature of the angle - resolved radiation intensity can serve as an indicator of stochastic effects in photon emission ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15",
+    "text": "The described effect of the short gamma ray generation near the reflection condition is rather robust .\nWhile here one example of the effect at $\\xi =600$ and $\\gamma_0\\approx 400$ has been provided , our simulations show that the same mechanism for ultrashort gamma - ray bursts works as well when varying the laser field and the electron energy within a large range : $\\delta \\xi/\\xi\\sim 1/2$ and $\\delta \\gamma/\\gamma_0 \\sim 1/2$ \\cite{Suppl_material} ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2",
+    "text": "Let us determine the parameters of the applied regime .\nFirst of all , we consider the nonlinear regime of Compton scattering when the invariant laser field parameter is large , $\\xi\\gg 1$ , where $\\xi\\equiv |e|E_0/(m\\omega_0)$ , $E_0$ and $\\omega_0$ are the laser field and frequency , respectively , and $e$ and $m$ are the electron charge and mass , respectively ( Planck units $\\hbar=c=1$ are used throughout ) .\nSecond , the reflection of the counterpropagating electron in a laser pulse requires a relativistic Lorentz factor $\\gamma\\approx\\xi/2$ .\nIn fact , the electron , initially at rest , in the laser field drifts along the laser propagation direction with the Lorentz factor of the drift $\\gamma_{ drift}=\\xi/2$ \\cite{Salamin_1996} .\nSimilarly , the electron deviation angle with respect to the laser propagation direction can be estimated as $\\theta\\sim \\xi/\\gamma$ , and the reflection condition corresponds to $\\theta\\sim 1$ .\nThird , the interaction has to be in the radiation - dominated regime ( RDR ) , when the radiation losses during a laser period are comparable with the electron 's initial energy , and the radiation reaction has a decisive impact on the electron dynamics .\nThis regime is characterized by the parameter $R \\equiv\\alpha \\xi \\chi \\gtrsim 1$ \\cite{RMP_2012} , which is the ratio of the radiated energy during a laser period to the electron energy .\nHere , $\\alpha$ is the fine structure constant , and $\\chi\\equiv \\gamma(\\omega_0/m)\\xi (1-\\beta \\cos\\theta)$ the quantum strong field parameter , which determines the recoil of the electron during the photon emission with $\\chi \\approx \\omega/m\\gamma$ \\cite{RMP_2012} .\n$\\beta$ is the relativistic beta factor of the electron , $\\theta$ the polar angle between the electron velocity and the laser propagation direction , and $\\omega$ the emitted photon energy .\nThe RDR is mostly accessible in the quantum regime of interaction when $\\chi\\gtrsim 1$ \\cite{Baurichter_1997_new} .\nHowever , the RDR regime is only achievable with extremely intense lasers $\\xi\\gg 1$ .\nThus , combining the quantum RDR conditions $R=\\alpha \\xi\\chi \\gtrsim 1$ and $\\chi\\approx 10^{-6}\\gamma\\xi\\sim 1$ , with the reflection condition $\\gamma\\sim\\xi/2$ , one requires $\\gamma \\sim \\xi \\sim 10^3$ .\nElectron beams of GeV energies ( $\\gamma \\sim 10^3$ ) can be produced by the laser - plasma acceleration technique \\cite{Esarey_2009} and the laser intensities of $10^{23}$ - $10^{24}$ W / cm $^2$ ( $\\xi \\sim 10^3$ ) are anticipated with next generation facilities ( see , e.g. , \\cite{ELI,HiPER} ) ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3",
+    "text": "Our analysis in this Letter is based on Monte - Carlo simulations employing QED theory for the electron radiation and classical equations of motion for the propagation of electrons between photon emissions \\cite{Suppl_material, Elkina_2011,Ridgers_2014,Green_2015} .\nIn superstrong laser fields $\\xi\\gg 1$ , the coherence length of the photon emission is much smaller than the laser wavelength and the typical size of the electron trajectory \\cite{Ritus_1985} ( see also \\cite{Khokonov_2010} ) .\nAs a result , the photon emission probability is determined by the local electron trajectory .\nIn this case the photon emission probability in the laser field can be approximated by that of constant cross fields with the corresponding local value of the parameter $\\chi$ ( this is the well - known synchrotron approximation ) \\cite{Baier_b_1994} , cf. \\cite{Khokonov_2002a} .\nWe employ a linearly polarized focused short laser pulse , which is an approximate solution of Maxwell 's equations with first order corrections with respect to the small parameters $(k_0w_0)^{-1}$ and $(\\omega_0 \\tau_0)^{-1}$ \\cite{Jian-Xing_2014} , where $k_0$ , $w_0$ and $\\tau_0$ are the wave vector , the waist radius and the pulse duration of the laser beam , respectively ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1",
+    "text": "\\begin{figure} [ b ] \\includegraphics[width=8cm]{fig1.eps}            . } \\label{schematic}  \\end{figure}"
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0",
+    "text": "In linear Thomson / Compton scattering the duration of the emitted gamma - radiation pulse is determined by the shortest of either the laser or electron beam duration .\nIn an all - optical setup the electron bunch length is of the order of the laser pulse length and the created gamma - rays are of duration of several tens of femtoseconds .\nAre shorter pulses of gamma - rays necessary ?\nGenerally , short laser pulses are required for the time - resolved monitoring and control of fast - evolving processes with the pump - probe technique .\nThe state - of - the - art time - resolution has achieved the attosecond scale by using extreme ultraviolet radiation , which allows to track the dynamics of an electronic wave packet in an atom \\cite{Krausz_2009} .\nThe required frequencies of the short pulses depend on the characteristic energies of the processes under investigation .\nThe molecular dynamics and chemical reactions can be controlled with a few electronvolt excitations driven by an infrared laser field , and the inner - shell electron dynamics by photons with a few 100 eV up to several keV energies .\nThe next challenge is to time - resolve the intra-nuclear dynamics \\cite{Ledingham_2003,Palffy_2015} .\nIt is known \\cite{Povh_book} that typical energies of nuclear single - particle transitions are of the order of 1 - 10 MeV with typical decay lifetimes of the levels around $10^{-9}-10^{-15}$ s .\nThe energies of the collective nuclear excitations range from several dozens of keV up to 30 MeV .\nThe disintegration time of compound nuclei during nuclear reactions ranges from $10^{-19}-10^{-16}$ s .\nThis sets the scale for the required photon energy and pulse duration .\nThere is a wealth of nuclear phenomena for which the investigation of the time resolved dynamics requires short photon pulses , such as , resonance fluorescence ( 1 fs timescale ) , resonance internal conversion ( 1 as timescale ) and compound nuclei evolution ( zeptosecond timescale ) ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4",
+    "text": "\\includegraphics[width=8cm]{fig2.eps} \\ caption { ( Color online )\nThe angle - resolved radiation intensity for photon energies above 1 MeV in a 4 - cycle laser pulse with carrier - envelope phase $\\phi_{CEP}=0$ and azimuthal angle of emission with respect to the laser propagation direction $\\phi=180^\\circ$ ( the spectra are similar at $\\phi\\approx 0$ ) :\n( a ) Color coded is Log $_{10}$ [ d $^2\\varepsilon_R/$ d $\\Omega$ d $(t_d/T_0)$ ]\nrad $^{-2}$ in the detector time $t_d$ , with the radiation energy $\\varepsilon_R$ in units of the electron rest energy $m$ , the laser period $T_0$ , and the emission solid angle $\\Omega$ ; ( b ) Color coded is Log $_{10}$ [ d $^2\\varepsilon_R/$ d $\\Omega$ d $(t/T_0)$ ]\nrad $^{-2}$ with the electron emission time $t$ ; ( c ) The differential gamma - ray radiation via d $^2\\varepsilon_R/$ d $\\Omega$ d $(t_d/T_0)$ at $\\theta = 20^{\\circ} $ and $\\Delta \\theta = 0.002$ rad .\n( d ) The spectral distribution d $^2 \\varepsilon_R/$ d $\\Omega$ d $\\omega$ of the main pulse in ( c ) .\nThe laser and the electron beam parameters are given in the text . }\n\\label{spectrum}  \\end{figure}"
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5",
+    "text": "The simulation results for the gamma - radiation properties above the photon energy of 1 MeV are shown in Fig. ~ \\ref{spectrum} .\nThe applied parameters are the following : the peak intensity of the 4 - cycle laser pulse is $I\\approx 4.9\\times 10^{23}$ W / cm $^2$ ( $\\xi=600$ ) , the laser wavelength $\\lambda_0 = 1$ $\\mu$ m , and the laser beam waist size $w_0$ = 1 $\\mu$ m .\nThe initial kinetic energy of the electrons is $200$ MeV ( $\\gamma_0=392$ , $\\chi_{max}\\approx0.8$ ) .\nAs the electron reflection condition should hold in the laser field , larger initial electron energies $\\gamma_0>\\xi/2$ are required because of radiation losses .\nWe employ an electron bunch of length $L_b=10\\lambda_0$ , and of transverse size $w_b=w_0$ , with the number of electrons $N_e=3\\times 10^{8}$ .\nThe energy as well as angular spread of the bunch are $\\Delta \\gamma/\\gamma_0=\\Delta \\theta=10^{-3}$ .\n\\begin{figure}"
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7",
+    "text": "The time - dependent angular resolved radiation intensity is shown in Fig. ~ \\ref{spectrum} ( a ) .\nThe radiation sweeps from the polar angle $\\theta=180^{\\circ}$ down to $\\theta\\approx 20^{\\circ}$ .\nThe duration of the emission decreases with decreasing $\\theta$ .\nAt $\\theta\\approx 180^{\\circ}$ it is mostly determined by the length of the electron bunch , while at small angles it is smaller than the laser period $T_0$ .\nThe duration of the gamma - radiation at $\\theta = 20^{\\circ}$ with an aperture angle $\\Delta \\theta =0.002$ is illustrated in Fig. ~ \\ref{spectrum} ( c ) .\nThe duration of the main gamma - pulse is about \\textbf{            } as .\nThis is the main result of this paper : ultrashort gamma ray bursts of attosecond duration can be generated closer to the laser propagation direction , while using much longer laser and electron beams ( 13 fs and 33 fs , respectively , in the given example ) .\nThe spectral distribution of the gamma ray burst is shown in Fig. ~ \\ref{spectrum} ( d ) , with the central frequency being $\\omega \\approx 67 m=34.2$ MeV .\nNarrower gamma - ray pulses can be detected at smaller polar angles where , however , the mean frequency is smaller ."
+  },
+  "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6": {
+    "id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6",
+    "phase": "test",
+    "topic": "physics.atom_ph",
+    "document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6",
+    "text": "\\includegraphics[width=8cm]{fig3.eps}  \\caption{(Color online) Dynamics of a single exemplary electron with respect to the phase            . Parameters are the same as in Fig.~\\ref{spectrum} .\nThe blue dots present the points where gamma photons are emitted . }\n\\label{single}  \\end{figure}"
+  }
+}

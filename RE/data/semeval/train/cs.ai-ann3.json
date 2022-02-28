@@ -1,0 +1,5151 @@
+{
+  "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_2": {
+    "id": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_2",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/train/cs.ai-ann3/1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_2",
+    "text": "\\begin{figure} [ H ] \\centering \\captionof{table}\n{ Training Parameters Used }\n\\begin{tabular}\n{ | p { 12 em } | p { 5.5 cm } | } \\hline\nParameters & Value \\\\ \\hline\nLearning Rate & $5*10^{-4}$ \\\\ \\hline\nDiscount Factor & 0.99 \\\\ \\hline\nScreen resolution & 64 x 64 \\\\ \\hline\nMinimap resolution & 64 x 64 \\\\ \\hline\nNo. of asynchronous agents & 4 , 8 , or 16 based on machine capacity \\\\ \\hline\nFrequency of agent 's action & 1 per 8 steps of sc2bot \\\\ \\hline\nExploration strategy & Epsilon greedy \\\\ \\hline\n\\end{tabular}  \\label{params}\n\\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_1": {
+    "id": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_1",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/train/cs.ai-ann3/1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_1",
+    "text": "\\begin{algorithm}  \\caption{Asynchronous advantage actor-critic - pseudocode for each actor-learner thread.}  \\label{alg:a3c}  \\begin{algorithmic}  \\State \\textit{// Assume global shared parameter vectors            and            and global shared counter            }            \\\nState Initialize thread step counter            \\\nRepeat \\\nState Reset gradients : $ d\\theta \\leftarrow 0$ and            \\\nState Synchronize thread - specific parameters $\\theta'=\\theta$ and            \\\nState            \\\nState Get state            \\\nRepeat \\\nState Perform $a_t$ according to policy            \\\nState Receive reward $r_t$ and new state            \\\nState            \\ State $T \\leftarrow T + 1$ \\Until{terminal            \\textbf{or} $ t-t_{start}==t_{max} $ } \\State            for terminal            for terminal            \\textit{ // Bootstrap from last state} $ \\\\\n\\end{cases}\n$            \\\nState            \\\nState Accumulate gradients wrt $\\theta'$ :            \\\nState Accumulate gradients wrt $\\theta'_v$ :            \\ EndFor \\\nState Perform asynchronous update of $\\theta$ using $d \\theta $ and of $\\theta_v$ using $d \\theta_v$ \\Until{            }  \\end{algorithmic}  \\label{algo}  \\end{algorithm}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 354,
+        "end": 363,
+        "text": "gradients"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 368,
+        "end": 375,
+        "text": "d\\theta"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 455,
+        "end": 462,
+        "text": "\\theta'"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 425,
+        "end": 453,
+        "text": "thread - specific parameters"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 952,
+        "end": 959,
+        "text": "\\theta'"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 1081,
+        "end": 1087,
+        "text": "\\theta"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1096,
+        "end": 1104,
+        "text": "d \\theta"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T2",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_0": {
+    "id": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1807.08217v1.Asynchronous_Advantage_Actor_Critic_Agent_for_Starcraft_II/paragraph_0",
+    "text": "           \\\\\nThe agent plays against an in - built bot and to win a game , it must : 1 . Accumulate resources , 2 . Construct production buildings , 3 . Amass an army , and 4 . Eliminate all of the opponent \u00e2\u0080\u0099s buildings .\nThe built - in AI is rule - based and comes with 10 difficulty levels .\nThere are two different reward structures : ternary ( 1 ( win ) , 0 ( tie ) , - 1 ( loss ) ) received at the end of a game and a Blizzard score .\nThe Blizzard score increases with more mined resources , decreases when losing units / buildings , and is not affected by other actions ( training units , building buildings , and researching ) .\nThe Blizzard score is far less sparse than the ternary reward signal and can act as continual feedback for the agent .\n\\\\\\\\            \\\\\nThe main observations come as sets of feature layers which depict specific information such as unit types , hit points , visibility , etc which are rendered at N * M pixels ( where N and M are configurable ) .\nThere are two sets of feature layers : the minimap is a coarse representation of the state of the entire world , and the screen is a detailed view of a subsection of the world corresponding to the player \u00e2\u0080\u0099s on - screen view .\nThere are 13 screens and 7 minimaps .\nIn addition , there are various non-spatial observations such as the amount of gas and minerals collected , the set of actions currently available , information about selected units , build queues , and units in a transport vehicle , etc .\n\\\\\\\\            \\\\\nIn StarCraft , not all actions are available in every game state .\nFor example , the move command is only available if a unit is selected .\nThe number arguments required to call each action are also different .\nHere , an action $a$ is represented as a composition of a function identifier a 0 and a sequence of arguments which that function identifier requires : $a_1, a_2, . . . , a_L$ .\nTo represent the full action space , there are 524 action - function identifiers with 13 possible types of arguments .\nThe response rate of the agent can also be configured ( default at one action every 8 game frames / 180 actions per minute ( APM ) .\nNotably , human players take between 30 and 500 APM .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 1733,
+        "end": 1739,
+        "text": "action"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 1741,
+        "end": 1742,
+        "text": "a"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 937,
+        "end": 938,
+        "text": "N"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 941,
+        "end": 942,
+        "text": "M"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 943,
+        "end": 949,
+        "text": "pixels"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 958,
+        "end": 959,
+        "text": "N"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 964,
+        "end": 965,
+        "text": "M"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1876,
+        "end": 1897,
+        "text": "a_1, a_2, . . . , a_L"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 1811,
+        "end": 1832,
+        "text": "sequence of arguments"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 1801,
+        "end": 1804,
+        "text": "a 0"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 1781,
+        "end": 1800,
+        "text": "function identifier"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T10"
+      }
+    }
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_11": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_11",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_11",
+    "text": "\\ midrule \\multirow{4} {* } { Rand }\n& 0 & 22.82 $\\pm$ 0.52 & 22.82 $\\pm$ 0.30 & 22.82 $\\pm$ 0.30 & $24.43$ $\\pm$ 0.14 & $\\mathbf{24.64}$ $\\pm$ 0.13 \\\\ & 1 & 22.96 $\\pm$ 0.51 & 23.28 $\\pm$ 0.30 & 24.01 $\\pm$ 0.30 & 25.37 $\\pm$ 0.14 & $\\mathbf{28.16}$ $\\pm$ 0.14 \\\\ & 2 & 22.93 $\\pm$ 0.52 & 23.55 $\\pm$ 0.29 & 24.85 $\\pm$ 0.29 & 26.19 $\\pm$ 0.14 & $\\mathbf{29.32}$ $\\pm$ 0.15 \\\\ & 3 & 23.44 $\\pm$ 0.51 & 23.85 $\\pm$ 0.29 & 25.27 $\\pm$ 0.29 & 26.69 $\\pm$ 0.14 & $\\mathbf{29.62}$ $\\pm$ 0.14 \\\\ \\ midrule \\multirow{4} {* } { Max }\n& 0 & 23.13 $\\pm$ 0.31 & 22.97 $\\pm$ 0.30 & 22.97 $\\pm$ 0.30 & 24.43 $\\pm$ 0.14 & - \\\\ & 1 & 18.21 $\\pm$ 0.27 & 23.82 $\\pm$ 0.30 & 19.22 $\\pm$ 0.29 & 25.58 $\\pm$ 0.14 & - \\\\ & 2 & 20.95 $\\pm$ 0.29 & 24.54 $\\pm$ 0.29 & 23.68 $\\pm$\n0.29 & 26.94 $\\pm$\n0.14 & - \\\\ & 3 & 22.14 $\\pm$\n0.29 & 25.04 $\\pm$\n0.29 & 24.94 $\\pm$\n0.28 & 27.76 $\\pm$\n0.14 & - \\\\ \\bottom rule \\end{tabular} \\\\\n[ 0.9 em ] \\caption{\\label{table:PSNR}  \\textbf{PSNR Comparisons} ; we compare performances of our model with scores of the other four interactive colorization baselines . }\n\\end{center}  \\end{table}",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_10": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_10",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_10",
+    "text": "\\subsubsection{Effects of Question Order}  \\label{sec:order_of_hints}\nWe allow the model to ask several questions per image .\nHowever , the number of questions varies randomly from 0 to $T$ times during training .\nThus the model does not know in advance how many chances will be given .\nIt drives the model to take greedy actions to maximally benefit from every question opportunity .\nTo evaluate how much the model benefits from each question , we train an auxiliary colorization network following the main network architecture proposed in ~ \\citet{zhang2017real} as a baseline , trained with no hints at all .\nWe use the baseline to measure the average loss per every pixel of an image , and whether our model actually asks those regions ambiguous to colorize .\nTo this end , using 10,000 ImageNet validation images , we forward - propagate each image using the baseline model to computing the pixel - wise $L_1$ error map $E\\in\\mathbb{R}^{W\\times H}$ in the color prediction result .\nUsing the same input image , we generate three questions from the trained asking network of our model and obtain the three question maps            's for $i=1, 2, 3$ .\nAfterwards , we compute the global average error per pixel as $\\sum_{i=0}^{H}\\sum_{j=0}^{W}E_{ij}$ , which we call a baseline , as well as its weighted version using $Q_i$ as the weights , i.e. , $\\sum_{i=0}^{H}\\sum_{j=0}^{W}\\left(E\\odot Q_{i}\\right)_{ij}$ for $i=1, 2, 3$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_12": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_12",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_12",
+    "text": "\\subsubsection{Performance Comparisons of Hint-based Colorization}\nIn this experiment , we analyze the gain per answer given to the question asked by our model , in the context of interactive colorization .\nTo this end , we compare the performance gain in terms of the peak signal - to - noise ratio ( PSNR ) between our proposed method and other hint - based colorization models ~ \\cite{barron2016fast,endo2016deepprop,levin2004colorization,zhang2017real} .\nSpecifically , in our model , we calculate the performance gain per every answer given to the model - generated question .\nIn other baseline models , we follow \\citet{zhang2017real} and adopt two methods to compute performance , which are hints ( or groundtruth colors ) at random positions ( Rand ) and at the positions that has the highest errors in $E$ ( Max ) .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_8": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_8",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_8",
+    "text": "\\label{sec: making better questions}\nDuring our colorization experiments , we find a few techniques useful for improving the quality of questions generated by asking networks , as follows .\n\\paragraph{Smoothing loss}\nIn our objective function defined as Eq. ~ \\ref{eq:total_loss} , if the model happens to optimize only $L_{reg}$ and not $L_{seg}$ while it learns to utilize questions , the generated questions tend to be discontinuous , leaving the questions difficult for humans to interpret .\nTo mitigate this problem , we may apply $L_{seg}$ , which encourages the model to have nearby pixels to hold similar values in the question .\n\\paragraph{Injecting random noise to answer            }  \\label{sec:noisy_answer}\nThe generated questions often exhibit low contrast between those pixels mainly contained in them and those not .\nIn other words , the model essentially seeks for the color answer across multiple different objects , reducing the training efficiency .\nTo address the problem , we inject a small amount of random noise to $a_t$ .\nSuch random noise makes small color difference indiscriminable , thus enforcing the model to learn to identify colors and objects as clearly as possible .\nWe observe that it learns to suppress the regions that it does not highlight and focuses its question solely on a relatively small region , which mostly corresponds to a single object .\nA significant performance gain from the noise - injecting technique is reported in Section ~ \\ref{sec: class precision} .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_9": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_9",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_9",
+    "text": "\\label{sec:training_settings}\nWe use a U - net ~ \\cite{ronneberger2015u} as the network architecture of our model .\nIn addition to the main output channels that contain the predicted color values of an uncolored input image , our output contains an additional channel that acts as a question heatmap generated by a sigmoid layer at the end , rendering the values ranging from 0 to 1 .\nWe use $T=4$ for natural images and $T=6$ for cartoon images .\nWe use the Adam optimizer ~ \\cite{DBLP:journals/corr/KingmaB14} to optimize the neural networks .\nWhen we colorize real - world images , we use the CIELAB color space and try to predict the a * b * channel value given the grayscale L channel .\nWhen we colorize comic images given an outline sketch of images , we predict the RGB channel values .\nWe use the 2011 ImageNet training dataset ~ \\cite{russakovsky2015imagenet} to train the real - world image colorization models .\nFor the cartoon images , a set of images collected from the NAVER WEBTOON platform is used ; they are used with the authorization of the artists , which was obtained with the support of NAVER WEBTOON Corp .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_13": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_13",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_13",
+    "text": "We record the precision performance of 75.4 \\% without the noise injection technique (Section~\\ref{sec:noisy_answer} ) .\nAs discussed in Section ~ \\ref{sec:noisy_answer} , adding random noise to the answer $a_t$ provides improved results both qualitatively and quantitatively .\nThe questions shown in Fig. ~ \\ref{fig:order_hint} ( b ) display high contrast between pixels , and it clearly shows which region the model is asking .\nIn addition , we record a precision rate of 86.7\\ % with the random noise , which suggests that our model asks about the region corresponding mostly to a single object .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_2": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_2",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_2",
+    "text": "Fig. ~ \\ref{fig:asking_paradigm} shows a generic overview of asking networks .\nThe agent takes as input $x$ and generates a question $q_t$ for every timestep $t$ .\nBased on the question and a pre-defined answer - generating function $h(\\cdot)$ , the agent obtains an answer to its question .\nAt the next timestep , using all available information the agent predicts the next question and output .\nThe same pattern iterates until the agent receives the error signal at the terminal step $T$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 105,
+        "end": 106,
+        "text": "x"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 134,
+        "end": 137,
+        "text": "q_t"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 159,
+        "end": 160,
+        "text": "t"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 98,
+        "end": 103,
+        "text": "input"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 124,
+        "end": 132,
+        "text": "question"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 149,
+        "end": 157,
+        "text": "timestep"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 234,
+        "end": 242,
+        "text": "h(\\cdot)"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 213,
+        "end": 232,
+        "text": "generating function"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 487,
+        "end": 488,
+        "text": "T"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 472,
+        "end": 485,
+        "text": "terminal step"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_3": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_3",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_3",
+    "text": "\\begin{figure} [ t ] \\ centering \\includegraphics[width=\\textwidth]{images/main_model}  \\caption{Architecture for deep colorization by asking networks. Inputs at step            ,            ,            ,            and            are passed to the asking networks, yielding            and            . We compute            based on a pre-specified rule            . All the intermediate outputs are used in the next prediction stage at timestep            .}  \\label{fig:asking network}  \\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_1": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_1",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_1",
+    "text": "Given a feature space $\\mathcal{X}=\\{x_1, x_2, \\cdots, x_n\\}$ and a target space $\\mathcal{Y}=\\{y_1, y_2, \\cdots, y_n\\}$ , a conventional approach for supervised learning consists of a predictive function $f(\\cdot)$ , which models $P(y|x)$ for $y\\in\\mathcal{Y}$ and $x\\in\\mathcal{X}$ .\nWe now establish our asking paradigm by setting an additional question space $\\mathcal{Q}=\\{q_1, q_2, \\cdots, q_t\\}$ and an answer space $\\mathcal{A}=\\{a_1, a_2, \\cdots, a_t\\}$ .\nTwo new functions $g(\\cdot)$ and $h(\\cdot)$ map $\\mathcal{X}$ to $\\mathcal{Q}$ and $\\mathcal{Q}$ to $\\mathcal{A}$ , respectively .\nThe high - level goal is to learn $P(\\mathcal{Q}|\\mathcal{X})$ , so as to optimize $P(\\mathcal{Y}|\\mathcal{X},\\mathcal{Q},\\mathcal{A})$ .\nAs we assume sequential learning and training of the model , we have the three functions in our framework as follows :\n\\begin{align}\n\\label{eq:asking paradigm}\n           _t &= f ( x , a_{t - 1 } ,            _{ t - 1 } , q_1 , q_2 , \\cdots, q_{t-1} )\n\\\\ a_t &= h ( q_{t } , y ) \\\\ q_t &= g ( x ,            _{ t - 1 } , q_{ t - 1 } )\n\\end{align}\nwhere $t\\in{1,2,\\cdots,T}$ denotes the timestep for each data instance , $\\hat{y}$ is the predicted target , and $h(\\cdot)$ is a pre-specified function to provide a hint from the target .\nUnder this framework we attempt to allow the learning agent model both $f$ and $g$ .\nMore concretely , we make a model that is provided ( $T-1$ ) opportunities to ask $q_1, \\cdots, q_{T-1}$ .\nAnswers to the corresponding questions are calculated in the form of the function $a_t = h(q_t, y)$ , which is an information - reducing function that provides some limited information about $y$ that corresponds to $q_t$ .\nThe calculated $a_t$ is relayed back to the model .\nThe model then produces intermediate predictions $\\hat{y}_{1}, \\cdots, \\hat{y}_{T-1}$ before producing the final output $\\hat{y}_{T}$ .\nLoss is then applied based on a differentiable similarity metric between $\\hat{y}_{T}$ and $y$ .\nThis process encourages models to extract meaningful questions about the final answer .\nWe call this class of networks that model both $f$ and $g$ \\textit{asking networks} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 24,
+        "end": 34,
+        "text": "mathcal{X}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 37,
+        "end": 40,
+        "text": "x_1"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 42,
+        "end": 45,
+        "text": "x_2"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 48,
+        "end": 53,
+        "text": "cdots"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 55,
+        "end": 59,
+        "text": "x_n\\"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 8,
+        "end": 21,
+        "text": "feature space"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 83,
+        "end": 93,
+        "text": "mathcal{Y}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 101,
+        "end": 104,
+        "text": "y_2"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 112,
+        "text": "cdots"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 114,
+        "end": 118,
+        "text": "y_n\\"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 96,
+        "end": 99,
+        "text": "y_1"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 68,
+        "end": 80,
+        "text": "target space"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 206,
+        "end": 214,
+        "text": "f(\\cdot)"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 185,
+        "end": 204,
+        "text": "predictive function"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 232,
+        "end": 238,
+        "text": "P(y|x)"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 245,
+        "end": 260,
+        "text": "y\\in\\mathcal{Y}"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 267,
+        "end": 282,
+        "text": "x\\in\\mathcal{X}"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 224,
+        "end": 230,
+        "text": "models"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 365,
+        "end": 399,
+        "text": "mathcal{Q}=\\{q_1, q_2, \\cdots, q_t"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "PRIMARY",
+        "start": 348,
+        "end": 362,
+        "text": "question space"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 425,
+        "end": 460,
+        "text": "mathcal{A}=\\{a_1, a_2, \\cdots, a_t\\"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "PRIMARY",
+        "start": 410,
+        "end": 422,
+        "text": "answer space"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "SYMBOL",
+        "start": 531,
+        "end": 542,
+        "text": "\\mathcal{Q}"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "SYMBOL",
+        "start": 549,
+        "end": 560,
+        "text": "\\mathcal{Q}"
+      },
+      "T25": {
+        "eid": "T25",
+        "label": "SYMBOL",
+        "start": 566,
+        "end": 577,
+        "text": "\\mathcal{A}"
+      },
+      "T26": {
+        "eid": "T26",
+        "label": "SYMBOL",
+        "start": 514,
+        "end": 525,
+        "text": "\\mathcal{X}"
+      },
+      "T27": {
+        "eid": "T27",
+        "label": "SYMBOL",
+        "start": 484,
+        "end": 492,
+        "text": "g(\\cdot)"
+      },
+      "T28": {
+        "eid": "T28",
+        "label": "SYMBOL",
+        "start": 499,
+        "end": 507,
+        "text": "h(\\cdot)"
+      },
+      "T29": {
+        "eid": "T29",
+        "label": "PRIMARY",
+        "start": 465,
+        "end": 482,
+        "text": "Two new functions"
+      },
+      "T30": {
+        "eid": "T30",
+        "label": "SYMBOL",
+        "start": 634,
+        "end": 645,
+        "text": "mathcal{Q}|"
+      },
+      "T31": {
+        "eid": "T31",
+        "label": "SYMBOL",
+        "start": 646,
+        "end": 656,
+        "text": "mathcal{X}"
+      },
+      "T32": {
+        "eid": "T32",
+        "label": "SYMBOL",
+        "start": 682,
+        "end": 694,
+        "text": "\\mathcal{Y}|"
+      },
+      "T33": {
+        "eid": "T33",
+        "label": "SYMBOL",
+        "start": 695,
+        "end": 705,
+        "text": "mathcal{X}"
+      },
+      "T34": {
+        "eid": "T34",
+        "label": "SYMBOL",
+        "start": 707,
+        "end": 717,
+        "text": "mathcal{Q}"
+      },
+      "T35": {
+        "eid": "T35",
+        "label": "SYMBOL",
+        "start": 719,
+        "end": 730,
+        "text": "mathcal{A})"
+      },
+      "T36": {
+        "eid": "T36",
+        "label": "SYMBOL",
+        "start": 1088,
+        "end": 1106,
+        "text": "t\\in{1,2,\\cdots,T}"
+      },
+      "T37": {
+        "eid": "T37",
+        "label": "PRIMARY",
+        "start": 1120,
+        "end": 1128,
+        "text": "timestep"
+      },
+      "T38": {
+        "eid": "T38",
+        "label": "SYMBOL",
+        "start": 1156,
+        "end": 1162,
+        "text": "hat{y}"
+      },
+      "T39": {
+        "eid": "T39",
+        "label": "PRIMARY",
+        "start": 1171,
+        "end": 1187,
+        "text": "predicted target"
+      },
+      "T40": {
+        "eid": "T40",
+        "label": "SYMBOL",
+        "start": 1195,
+        "end": 1203,
+        "text": "h(\\cdot)"
+      },
+      "T41": {
+        "eid": "T41",
+        "label": "PRIMARY",
+        "start": 1210,
+        "end": 1232,
+        "text": "pre-specified function"
+      },
+      "T42": {
+        "eid": "T42",
+        "label": "SYMBOL",
+        "start": 1341,
+        "end": 1342,
+        "text": "f"
+      },
+      "T43": {
+        "eid": "T43",
+        "label": "SYMBOL",
+        "start": 1349,
+        "end": 1350,
+        "text": "g"
+      },
+      "T44": {
+        "eid": "T44",
+        "label": "PRIMARY",
+        "start": 1323,
+        "end": 1334,
+        "text": "agent model"
+      },
+      "T45": {
+        "eid": "T45",
+        "label": "SYMBOL",
+        "start": 1408,
+        "end": 1411,
+        "text": "T-1"
+      },
+      "T46": {
+        "eid": "T46",
+        "label": "SYMBOL",
+        "start": 1437,
+        "end": 1441,
+        "text": "q_1,"
+      },
+      "T47": {
+        "eid": "T47",
+        "label": "SYMBOL",
+        "start": 1450,
+        "end": 1457,
+        "text": "q_{T-1}"
+      },
+      "T48": {
+        "eid": "T48",
+        "label": "PRIMARY",
+        "start": 1382,
+        "end": 1387,
+        "text": "model"
+      },
+      "T49": {
+        "eid": "T49",
+        "label": "PRIMARY",
+        "start": 1415,
+        "end": 1428,
+        "text": "opportunities"
+      },
+      "T50": {
+        "eid": "T50",
+        "label": "SYMBOL",
+        "start": 1544,
+        "end": 1559,
+        "text": "a_t = h(q_t, y)"
+      },
+      "T51": {
+        "eid": "T51",
+        "label": "PRIMARY",
+        "start": 1534,
+        "end": 1542,
+        "text": "function"
+      },
+      "T52": {
+        "eid": "T52",
+        "label": "SYMBOL",
+        "start": 1653,
+        "end": 1654,
+        "text": "y"
+      },
+      "T53": {
+        "eid": "T53",
+        "label": "SYMBOL",
+        "start": 1677,
+        "end": 1680,
+        "text": "q_t"
+      },
+      "T54": {
+        "eid": "T54",
+        "label": "SYMBOL",
+        "start": 1700,
+        "end": 1703,
+        "text": "a_t"
+      },
+      "T55": {
+        "eid": "T55",
+        "label": "SYMBOL",
+        "start": 1787,
+        "end": 1797,
+        "text": "hat{y}_{1}"
+      },
+      "T56": {
+        "eid": "T56",
+        "label": "SYMBOL",
+        "start": 1808,
+        "end": 1820,
+        "text": "hat{y}_{T-1}"
+      },
+      "T57": {
+        "eid": "T57",
+        "label": "SYMBOL",
+        "start": 1858,
+        "end": 1869,
+        "text": "hat{y}_{T}$"
+      },
+      "T58": {
+        "eid": "T58",
+        "label": "PRIMARY",
+        "start": 1761,
+        "end": 1784,
+        "text": "ntermediate predictions"
+      },
+      "T59": {
+        "eid": "T59",
+        "label": "PRIMARY",
+        "start": 1843,
+        "end": 1855,
+        "text": "final output"
+      },
+      "T60": {
+        "eid": "T60",
+        "label": "SYMBOL",
+        "start": 1946,
+        "end": 1957,
+        "text": "\\hat{y}_{T}"
+      },
+      "T61": {
+        "eid": "T61",
+        "label": "SYMBOL",
+        "start": 1964,
+        "end": 1965,
+        "text": "y"
+      },
+      "T62": {
+        "eid": "T62",
+        "label": "SYMBOL",
+        "start": 2105,
+        "end": 2106,
+        "text": "f"
+      },
+      "T63": {
+        "eid": "T63",
+        "label": "SYMBOL",
+        "start": 2113,
+        "end": 2114,
+        "text": "g"
+      },
+      "T64": {
+        "eid": "T64",
+        "label": "PRIMARY",
+        "start": 2070,
+        "end": 2087,
+        "text": "class of networks"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T8"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T7"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T13"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T15",
+        "arg1": "T16"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T15",
+        "arg1": "T17"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T15"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Direct",
+        "arg0": "T20",
+        "arg1": "T19"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Direct",
+        "arg0": "T22",
+        "arg1": "T21"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Corefer-Symbol",
+        "arg0": "T19",
+        "arg1": "T23"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Corefer-Symbol",
+        "arg0": "T21",
+        "arg1": "T25"
+      },
+      "R19": {
+        "rid": "R19",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T26"
+      },
+      "R20": {
+        "rid": "R20",
+        "label": "Direct",
+        "arg0": "T29",
+        "arg1": "T27"
+      },
+      "R21": {
+        "rid": "R21",
+        "label": "Direct",
+        "arg0": "T29",
+        "arg1": "T28"
+      },
+      "R22": {
+        "rid": "R22",
+        "label": "Corefer-Symbol",
+        "arg0": "T26",
+        "arg1": "T31"
+      },
+      "R23": {
+        "rid": "R23",
+        "label": "Corefer-Symbol",
+        "arg0": "T23",
+        "arg1": "T30"
+      },
+      "R24": {
+        "rid": "R24",
+        "label": "Corefer-Symbol",
+        "arg0": "T31",
+        "arg1": "T33"
+      },
+      "R25": {
+        "rid": "R25",
+        "label": "Corefer-Symbol",
+        "arg0": "T30",
+        "arg1": "T34"
+      },
+      "R26": {
+        "rid": "R26",
+        "label": "Corefer-Symbol",
+        "arg0": "T25",
+        "arg1": "T35"
+      },
+      "R27": {
+        "rid": "R27",
+        "label": "Corefer-Symbol",
+        "arg0": "T16",
+        "arg1": "T33"
+      },
+      "R28": {
+        "rid": "R28",
+        "label": "Direct",
+        "arg0": "T37",
+        "arg1": "T36"
+      },
+      "R29": {
+        "rid": "R29",
+        "label": "Direct",
+        "arg0": "T39",
+        "arg1": "T38"
+      },
+      "R30": {
+        "rid": "R30",
+        "label": "Direct",
+        "arg0": "T41",
+        "arg1": "T40"
+      },
+      "R31": {
+        "rid": "R31",
+        "label": "Corefer-Symbol",
+        "arg0": "T28",
+        "arg1": "T40"
+      },
+      "R32": {
+        "rid": "R32",
+        "label": "Direct",
+        "arg0": "T44",
+        "arg1": "T42"
+      },
+      "R33": {
+        "rid": "R33",
+        "label": "Direct",
+        "arg0": "T44",
+        "arg1": "T43"
+      },
+      "R34": {
+        "rid": "R34",
+        "label": "Direct",
+        "arg0": "T48",
+        "arg1": "T45"
+      },
+      "R35": {
+        "rid": "R35",
+        "label": "Direct",
+        "arg0": "T49",
+        "arg1": "T46"
+      },
+      "R36": {
+        "rid": "R36",
+        "label": "Direct",
+        "arg0": "T49",
+        "arg1": "T47"
+      },
+      "R37": {
+        "rid": "R37",
+        "label": "Direct",
+        "arg0": "T51",
+        "arg1": "T50"
+      },
+      "R38": {
+        "rid": "R38",
+        "label": "Corefer-Symbol",
+        "arg0": "T50",
+        "arg1": "T52"
+      },
+      "R39": {
+        "rid": "R39",
+        "label": "Corefer-Symbol",
+        "arg0": "T50",
+        "arg1": "T53"
+      },
+      "R40": {
+        "rid": "R40",
+        "label": "Corefer-Symbol",
+        "arg0": "T50",
+        "arg1": "T54"
+      },
+      "R41": {
+        "rid": "R41",
+        "label": "Direct",
+        "arg0": "T58",
+        "arg1": "T55"
+      },
+      "R42": {
+        "rid": "R42",
+        "label": "Direct",
+        "arg0": "T58",
+        "arg1": "T56"
+      },
+      "R43": {
+        "rid": "R43",
+        "label": "Direct",
+        "arg0": "T59",
+        "arg1": "T57"
+      },
+      "R44": {
+        "rid": "R44",
+        "label": "Corefer-Symbol",
+        "arg0": "T57",
+        "arg1": "T60"
+      },
+      "R45": {
+        "rid": "R45",
+        "label": "Corefer-Symbol",
+        "arg0": "T52",
+        "arg1": "T61"
+      },
+      "R46": {
+        "rid": "R46",
+        "label": "Direct",
+        "arg0": "T64",
+        "arg1": "T62"
+      },
+      "R47": {
+        "rid": "R47",
+        "label": "Direct",
+        "arg0": "T64",
+        "arg1": "T63"
+      }
+    }
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_0": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_0",
+    "text": "\\blfootnote{\\noindent            This work was done as part of remote internship at NAVER WEBTOON Corp.}\nQuestions play a crucial role in communication and learning .\nNot only do the questions of a curious child help her learn facts about the world , but also such questions help to understand what she learnt and what she did not .\nIn this paper , we attempt to explore the merit of having questions from the perspective of observers , rather than learners .\nFor instance , if the learning agent asks , `` what is in the box ? '' , and the answer is `` a cat '' , we focus our attention on the new information that the agent did not know what is present in the box .",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_4": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_4",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_4",
+    "text": "Relaxing the sub-region in a way that each pixel can be partially contained in it , the question $q_t$ has the form of an image - sized heatmap where the range of each pixel value is in $[0, 1]$ .\nHere , the value of 1 indicates the corresponding pixel is completely contained in the sub-region of interest while 0 indicates it is not contained at all .\nAccordingly , the answer - providing function $h$ is straightforwardly computed as\n\\begin{equation} \\label{eq:hint_calc}\n\\frac{\\sum_{i=0}^{H}\\sum_{j=0}^{W}\\left(q_{t}\\odot C\\left(y\\right)\\right)_{ij}}{\\sum_{i=0}^{H}\\sum_{j=0}^{W}\\left(q_{t}\\right)_{ij}}\n\\end{equation}\nwhere $C(\\cdot)$ is the characteristic function that calculates the desired local characteristic , say , groundtruth pixel values , of the target image $y$ , and $H$ and $W$ are the height and width of the image , respectively .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 98,
+        "end": 101,
+        "text": "q_t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 88,
+        "end": 96,
+        "text": "question"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 187,
+        "end": 193,
+        "text": "[0, 1]"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 168,
+        "end": 179,
+        "text": "pixel value"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 630,
+        "end": 638,
+        "text": "C(\\cdot)"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 647,
+        "end": 670,
+        "text": "characteristic function"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 776,
+        "end": 777,
+        "text": "y"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 786,
+        "end": 787,
+        "text": "H"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 794,
+        "end": 795,
+        "text": "W"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 762,
+        "end": 774,
+        "text": "target image"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 805,
+        "end": 811,
+        "text": "height"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 816,
+        "end": 821,
+        "text": "width"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_5": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_5",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_5",
+    "text": "As explained in Section ~ \\ref{sec:asking paradigm} , we allow the model to ask questions multiple times in a sequential manner to gradually improve its prediction result of the target $y$ using the provided answers $a_t$ s .\nSpecifically , at time $t$ , we obtain the predicted target image $\\hat{y}_{t+1}$ and $q_{t+1}$ at each timestep , i.e. ,\n\\begin{equation}\n\\hat{y}_{t+1}, q_{t+1} = f(x, q_t, c_t, \\hat{y}_t) \\label{eq:model_func}.\n\\end{equation}\nWe transform $a_t$ into the image size by multiplying $q_t$ , resulting in a new image $c_t$ as \\begin{align} c_t &= q_t \\odot a_t \\label{eq:answ_calc} \\\\            _{ t +1 } , q_{ t+1 } & = f ( x , q_t , c_t ,            _t ) .\n\\label{eq:model_func}  \\end{align}\nThen all images $x, q_t, c_t, \\hat{y}_t$ are concatenated to form an input to the network in the next timestep .\nWhen generating $\\hat{y}_1$ and $q_1$ , as there is no $\\hat{y}_0, q_0,$ or $a_0$ , we simply set these inputs with zeros .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 217,
+        "end": 220,
+        "text": "a_t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 186,
+        "end": 187,
+        "text": "y"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 178,
+        "end": 183,
+        "text": "targe"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 208,
+        "end": 215,
+        "text": "answers"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 250,
+        "end": 251,
+        "text": "t"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 244,
+        "end": 248,
+        "text": "time"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 294,
+        "end": 306,
+        "text": "hat{y}_{t+1}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 313,
+        "end": 320,
+        "text": "q_{t+1}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 366,
+        "end": 415,
+        "text": "hat{y}_{t+1}, q_{t+1} = f(x, q_t, c_t, \\hat{y}_t)"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 269,
+        "end": 291,
+        "text": "predicted target image"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 330,
+        "end": 338,
+        "text": "timestep"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 468,
+        "end": 471,
+        "text": "a_t"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 509,
+        "end": 512,
+        "text": "q_t"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 542,
+        "end": 545,
+        "text": "c_t"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 531,
+        "end": 540,
+        "text": "new image"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 736,
+        "end": 758,
+        "text": "x, q_t, c_t, \\hat{y}_t"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 482,
+        "end": 492,
+        "text": "image size"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 850,
+        "end": 858,
+        "text": "hat{y}_1"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 865,
+        "end": 868,
+        "text": "q_1"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 888,
+        "end": 897,
+        "text": "\\hat{y}_0"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 899,
+        "end": 903,
+        "text": "q_0,"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 909,
+        "end": 912,
+        "text": "a_0"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T1"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T12"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T14"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T13"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T16"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T13",
+        "arg1": "T21"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T16",
+        "arg1": "T18"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T16",
+        "arg1": "T19"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T19",
+        "arg1": "T21"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T22"
+      }
+    }
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_7": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_7",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_7",
+    "text": "The model is given a random integer number of question opportunities $n_{hint} \\sim $ Unif $(0, T)$ during training .\nAfter the model uses a given number of its question opportunities , we apply L2 loss to the final predicted target domain image according to Eq. ~ \\ref{eq:reg_loss} .\nWe also apply a small ` smoothing loss ' according to Eq. ~ \\ref{eq:smooth_loss} to make questions more understandable to humans ; without this smoothing loss , questions tend to be discontinuous .\nWe optimize the model by back - propagating the total loss defined as \\begin{align}\nL_{total} &= L_{ reg} + \\lambda_{seg}\nL_{seg} \\label{eq:total_loss}\n           \\\\ L_{reg} &= \\frac{1}\n{HW} \\sum_{i=0}\n^{H } \\sum_{j=0}\n^{W } (            - y ) ^2            \\\\ L_{seg} &=            {HW} \\sum_{t=0}\n^{T } \\sum_{i=1}\n^{H } \\sum_{j=1} ^{W } \\{|q_t[i][j] - q_t[i-1][j]| + |q_t[i][j] - q_t[i][j-1]|\\} \\label{eq:smooth_loss}  \\end{align}",
+    "entity": {},
+    "relation": {}
+  },
+  "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_6": {
+    "id": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_6",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1811.05106v1.Interpreting_Models_by_Allowing_to_Ask",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/train/cs.ai-ann3/1811.05106v1.Interpreting_Models_by_Allowing_to_Ask/paragraph_6",
+    "text": "When applying Eq. ~ \\ref{eq:asking paradigm} in practice , we do not directly provide all previous hints to the model .\nInstead , we expect the model to embed and transmit its previous hints through $\\hat{y}$ .\nThis ensures that the answers provided to the questions of the network are immediately applied .\nFig. ~ \\ref{fig:asking network} displays visual illustration of the proposed colorization asking networks .",
+    "entity": {},
+    "relation": {}
+  },
+  "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_1": {
+    "id": "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_1",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/train/cs.ai-ann3/1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_1",
+    "text": "Alternative constraint programming models and search strategies for this problem were explored first by Smith \\cite{smith2000modelling} .\nSmith presented two models : the first corresponds to what we call the \\emph{Positional} approach in this paper ( \\Cref{section-positional-model} ) , and the second model is the dual of the first one .\nWhen viewed as a permutation problem , the dual viewpoint for a permutation may be constructed by interchanging the variables and the values .\nThis approach has been studied further and generalised by \\cite{walsh2001permutation,smith2001dual,hnich2003channel,hnich2004dual,smith9comparing} .\nSmith 's second model corresponds to the \\emph{Direct} approach in this paper ( \\Cref{section-direct-model} ) with one exception .\nIn our direct approach , a value $m$ is repeated $k$ times , whereas in \\cite{smith2000modelling} the second occurrence of a value $m$ is represented with $m+n$ , the third with $m+2n$ , and so on .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 797,
+        "end": 798,
+        "text": "m"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 790,
+        "end": 795,
+        "text": "value"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 813,
+        "end": 814,
+        "text": "k"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 816,
+        "end": 821,
+        "text": "times"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 895,
+        "end": 896,
+        "text": "m"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 919,
+        "end": 922,
+        "text": "m+n"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 942,
+        "end": 946,
+        "text": "m+2n"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 865,
+        "end": 893,
+        "text": "second occurrence of a value"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 930,
+        "end": 935,
+        "text": "third"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_0": {
+    "id": "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1808.09847v1.Modelling_Langford_s_Problem_A_Viewpoint_for_Search/paragraph_0",
+    "text": "Arrange $k$ sets of numbers 1 to $n$ in a sequence , so that each appearance of the number $m$ is $m$ numbers on from the last .\nFor example , the L ( 3 , 9 ) problem is to arrange 3 sets of the numbers 1 to 9 so that the first two 1's and the second two 1's appear one number apart , the first two 2's and the second two 2's appear two numbers apart , etc .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 9,
+        "end": 10,
+        "text": "k"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 12,
+        "end": 16,
+        "text": "sets"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 34,
+        "end": 35,
+        "text": "n"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 20,
+        "end": 27,
+        "text": "numbers"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 92,
+        "end": 93,
+        "text": "m"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 99,
+        "end": 100,
+        "text": "m"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 84,
+        "end": 90,
+        "text": "number"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T7"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1807.10104v1.Term_Set_Expansion_based_on_Multi_Context_Term_Embeddings_an_End_to_end_Workflow/paragraph_0": {
+    "id": "1807.10104v1.Term_Set_Expansion_based_on_Multi_Context_Term_Embeddings_an_End_to_end_Workflow/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.10104v1.Term_Set_Expansion_based_on_Multi_Context_Term_Embeddings_an_End_to_end_Workflow",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1807.10104v1.Term_Set_Expansion_based_on_Multi_Context_Term_Embeddings_an_End_to_end_Workflow/paragraph_0",
+    "text": "Our basic algorithm version follows the standard unsupervised set expansion scheme .\nTerms are represented by their linear bag - of - words window context embeddings using the word2vec toolkit .\n\\footnote{\\url{http://code.google.com/archive/p/word2vec} }\nAt expansion time , given a seed of terms , the most similar terms are returned where similarity is estimated by the cosine similarity between the centroid of the seed terms and each candidate term .\nWhile word2vec typically uses a linear bag - of - words window context around the focus word , the literature describes other possible context types ( Table ~ \\ref{table:context:example} ) .\nWe found that indeed in different domains , better similarities are found using different context types .\nThe different contexts thus complement each other by capturing different types of semantic relations .\nTypically , explicit list contexts work well for the automated recruitment system use case , while unary patterns contexts work well for the issues and defects resolution use case ( Section ~ \\ref{sec:usecases} ) .\nTo make the system more robust , we extended the basic algorithm to combine multi-context embeddings .\nTerms are represented with arbitrary context embeddings trained using the generic word2vecf toolkit .\n\\footnote{\\url{http://bitbucket.org/yoavgo/word2vecf} }\nTaking the similarity scores between the seed terms and the candidate terms according to each of the different contexts as features , a Multilayer Perceptron ( MLP ) binary classifier predicts whether a candidate term should be part of the expanded set , where training and development term lists are used for the MLP training .\nThe MLP classifier is implemented on top of Neon , \\footnote{\\url{http://github.com/NervanaSystems/neon} } the Intel Nervana Deep Learning Framework .\nThe performance of the algorithm was first evaluated by MAP@ $n$ ( Mean Average Precision at $n$ ) .\nMAP @ 10 , MAP @ 20 and MAP @ 50 on an English Wikipedia dataset ~            .} are respectively 0.83 , 0.74 and 0.63 .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 1867,
+        "end": 1870,
+        "text": "MAP"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 1878,
+        "end": 1900,
+        "text": "Mean Average Precision"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 1912,
+        "end": 1915,
+        "text": "MAP"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 1923,
+        "end": 1926,
+        "text": "MAP"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 1936,
+        "end": 1939,
+        "text": "MAP"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1467,
+        "end": 1488,
+        "text": "Multilayer Perceptron"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1491,
+        "end": 1494,
+        "text": "MLP"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1645,
+        "end": 1648,
+        "text": "MLP"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 1664,
+        "end": 1667,
+        "text": "MLP"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_2": {
+    "id": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_2",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/train/cs.ai-ann3/1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_2",
+    "text": "\\begin{algorithm} [ h ! ] \\ caption { Computing the full set of option - trajectories that are consistent with the observed state - action trajectory , and their corresponding probability . \\\\\nWe successively step through the states in the observed trajectory .\nAt each state we search to find all states that we can reach by triggering options in the current state .\nWe form the list of all option - trajectories that can reach those states by concatenating the options that reach them with the list of options - trajectories that reach the current state .\n\\\\\nWe sucessively update two sets :\n$\\mathcal{T}_{oi}$ is the set of possible option sequences that account for the first $i$ actions , and $\\mathcal{P}_{oi}$ are the corresponding probabilities that each sequence of options would produce the observed sequence of actions . }\n           \\\nREQUIRE \\begin{itemize}  \\addtolength{\\itemsep} { -.6\\baselineskip } \\item{A computed optimal value function            under a set of options            with rationality parameter            }  \\item{ A function            as defined in section \\ref{sec:our_model} }\n\\item{An observed state-action trajectory            of length            , with sub-trajectories between the \\(i\\) and \\(i+k\\) states            }  \\end{itemize} \\\nENSURE\nA set of all trajectories of options that are consistent with the observed action - trajectory , along with the corresponding probabilities that taking that trajectory of options would result in the observed action - trajectory .\n\\\\            \\\nSTATE $\\mathcal{T}_{oi} \\gets \\emptyset$ , $\\mathcal{P}_{oi} \\gets \\emptyset$ \\\\ \\ ENDFOR \\FOR{            }  \\FOR{            }  \\FOR{Each            with             }            _{ oi } \\) with            _{ o ( i+k ) }            _{ oi } \\) by \\(P^{oc}\n( s_i, s_ { i+k } ,            _{ a , i: i+k } )            _{ o ( i+k ) }\\ ) . \\ENDFOR \\ENDFOR \\ENDFOR \\STATE \\textbf{return} $\\mathcal{T}_{on}, \\mathcal{P}_{on}$ \\end{algorithmic}  \\label{alg1}  \\end{algorithm}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 596,
+        "end": 611,
+        "text": "mathcal{T}_{oi}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 620,
+        "end": 651,
+        "text": "set of possible option sequence"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 681,
+        "end": 682,
+        "text": "i"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 684,
+        "end": 691,
+        "text": "actions"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 700,
+        "end": 715,
+        "text": "mathcal{P}_{oi}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 739,
+        "end": 752,
+        "text": "probabilities"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_3": {
+    "id": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_3",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/train/cs.ai-ann3/1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_3",
+    "text": "\\begin{algorithm}  \\caption{MCMC sampling in the latent space of \\(\\Theta, \\Omega\\).}  \\begin{algorithmic}  \\REQUIRE{\\begin{itemize}  \\item{A set of possible reward functions \\(\\Theta\\)}  \\item{A set of possible options \\(\\Omega\\)}            _{ a,i } \\ ) }            }            _a , \\ beta ) \\)} \\STATE {            }  \\STATE {            }  \\STATE {            }  \\STATE {            } \\ STATE Samples \\ ( \\ gets \\ ) Empty list \\ REPEAT\n\\STATE {Pick \\(\\theta_1\\) and \\(\\omega_1\\) randomly amongst the neighbours of \\(\\theta\\), \\(\\omega\\)}  \\STATE {            ), where the value iteration is initialised with            }            _a | \\ beta , \\ omega_1 , \\ theta_1 ) \\ times P (\\ omega_1 | \\ Omega )\\)}            } Append \\ ( (\\ theta , \\ omega ) \\ ) to Samples\n\\UNTIL{Desired number of samples obtained}  \\STATE \\textbf{return} Samples \\end{algorithmic}  \\end{algorithm}",
+    "entity": {},
+    "relation": {}
+  },
+  "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_1": {
+    "id": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_1",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/train/cs.ai-ann3/1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_1",
+    "text": "Our inference problem is given by\n\\begin{equation*} P(\\theta | \\mathcal{T}_a,\\beta, \\omega) =\n\\frac{P(\\mathcal{T}_a|\\beta, \\omega, \\theta)P( \\theta)}{\nP(\\mathcal{T}_a| \\beta, \\omega)}.\n\\end{equation*}\nEach observed state - \\emph{action} trajectory            _a \\) could have been produced by several state - \\emph{option} trajectories            _{ o, i }\\) , indexed by \\ ( i\\ ) .\nFor example , in the taxi - driver case , we don't know if the driver navigating to \\texttt{B\\(_1\\)} is due to the driver executing a series of atomic options ( \\texttt{North} , \\texttt{West} , \\(\\ldots \\ ) ) , or by executing the single compound option \\texttt{Go to B\\(_1\\)} .\nSo we express            _a|            _{oi}            _a| \\beta, \\omega ) = \\sum_i P (            _a|            _{ o, i } ) P (            _{ o,i }| \\beta,            _a|            _{ o,i } ) \\) might be less than 1 if the option follows a stochastic policy , e.g. \\ an option which itself has a Boltzmann - policy . }\nThen :\n\\begin{equation*}\n\\label{eq:1} P(\\theta | \\mathcal{T}_a, \\beta, \\omega) = \\frac{\\sum_i\nP(\\mathcal{T}_a|\\mathcal{T}_{o,i})P(\\mathcal{T}_{o,i}| \\beta, \\omega, \\theta)P(\n\\theta)}{ \\sum_i P(\\mathcal{T}_a|\\mathcal{T}_{o,i})P(\\mathcal{T}_{o,i}| \\beta,\n\\omega)}.\n\\end{equation*}\nOnce we have a trajectory in terms of options , the likelihood of taking that trajectory is straightforward to compute given our model of the stochastic human policy :\n\\begin{equation*}\n\\label{eq:2} P(\\mathcal{T}_{o,i} | \\beta, \\omega, \\theta) = \\prod_{k}\\frac{\\exp(\\beta\nQ^\\odot( s_{ik}, o_{ik}))}{\\sum_{o^\\prime \\in \\omega} \\exp(\\beta Q^\\odot(s_{ik}, o^\\prime))},\n\\end{equation*}\nwhere $o_{ik}$ denotes the option chosen in the $k^\\mathrm{th}$ step of the $i^\\mathrm{th}$ state - option trajectory , and $s_{ik}$ denotes the corresponding state .\nTo get the probability of the trajectory we multiply the probability of taking the individual option ( given by our Boltzmann - rational model ) across all options in the trajectory .\nThe likelihood for multiple observed trajectories follows straightforwardly .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 55,
+        "end": 60,
+        "text": "theta"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 63,
+        "end": 76,
+        "text": "\\mathcal{T}_a"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 83,
+        "text": "beta,"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 85,
+        "end": 90,
+        "text": "omega"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 103,
+        "end": 116,
+        "text": "mathcal{T}_a|"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 117,
+        "end": 122,
+        "text": "beta,"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 124,
+        "end": 129,
+        "text": "omega"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 132,
+        "end": 138,
+        "text": "theta)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 142,
+        "end": 148,
+        "text": "theta)"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 154,
+        "end": 166,
+        "text": "mathcal{T}_a"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 169,
+        "end": 173,
+        "text": "beta"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 176,
+        "end": 181,
+        "text": "omega"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 4,
+        "end": 21,
+        "text": "inference problem"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 224,
+        "end": 261,
+        "text": "emph{action} trajectory 9999999991 _a"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 206,
+        "end": 220,
+        "text": "observed state"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 310,
+        "end": 356,
+        "text": "emph{option} trajectories 9999999989 _{ o, i }"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 293,
+        "end": 306,
+        "text": "several state"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 468,
+        "end": 482,
+        "text": "texttt{B\\(_1\\)"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "PRIMARY",
+        "start": 446,
+        "end": 463,
+        "text": "driver navigating"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 545,
+        "end": 558,
+        "text": "texttt{North}"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 562,
+        "end": 574,
+        "text": "texttt{West}"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 579,
+        "end": 587,
+        "text": "\\ldots \\"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "PRIMARY",
+        "start": 517,
+        "end": 541,
+        "text": "series of atomic options"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "SYMBOL",
+        "start": 651,
+        "end": 657,
+        "text": "B\\(_1\\"
+      },
+      "T25": {
+        "eid": "T25",
+        "label": "PRIMARY",
+        "start": 621,
+        "end": 636,
+        "text": "compound option"
+      },
+      "T26": {
+        "eid": "T26",
+        "label": "SYMBOL",
+        "start": 724,
+        "end": 728,
+        "text": "beta"
+      },
+      "T27": {
+        "eid": "T27",
+        "label": "SYMBOL",
+        "start": 731,
+        "end": 736,
+        "text": "omega"
+      },
+      "T28": {
+        "eid": "T28",
+        "label": "SYMBOL",
+        "start": 816,
+        "end": 820,
+        "text": "beta"
+      },
+      "T29": {
+        "eid": "T29",
+        "label": "SYMBOL",
+        "start": 1027,
+        "end": 1032,
+        "text": "theta"
+      },
+      "T30": {
+        "eid": "T30",
+        "label": "SYMBOL",
+        "start": 1035,
+        "end": 1048,
+        "text": "\\mathcal{T}_a"
+      },
+      "T31": {
+        "eid": "T31",
+        "label": "SYMBOL",
+        "start": 1051,
+        "end": 1055,
+        "text": "beta"
+      },
+      "T32": {
+        "eid": "T32",
+        "label": "SYMBOL",
+        "start": 376,
+        "end": 377,
+        "text": "i"
+      },
+      "T33": {
+        "eid": "T33",
+        "label": "PRIMARY",
+        "start": 361,
+        "end": 368,
+        "text": "indexed"
+      },
+      "T34": {
+        "eid": "T34",
+        "label": "SYMBOL",
+        "start": 1058,
+        "end": 1063,
+        "text": "omega"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T8"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T2",
+        "arg1": "T5"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T10"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T11"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T12"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T7"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T1"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T2"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T3"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T4"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T14"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T16"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Direct",
+        "arg0": "T19",
+        "arg1": "T18"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Direct",
+        "arg0": "T23",
+        "arg1": "T20"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Direct",
+        "arg0": "T23",
+        "arg1": "T21"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Direct",
+        "arg0": "T23",
+        "arg1": "T22"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Direct",
+        "arg0": "T25",
+        "arg1": "T24"
+      },
+      "R19": {
+        "rid": "R19",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T26"
+      },
+      "R20": {
+        "rid": "R20",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T27"
+      },
+      "R21": {
+        "rid": "R21",
+        "label": "Corefer-Symbol",
+        "arg0": "T26",
+        "arg1": "T28"
+      },
+      "R22": {
+        "rid": "R22",
+        "label": "Direct",
+        "arg0": "T33",
+        "arg1": "T32"
+      },
+      "R23": {
+        "rid": "R23",
+        "label": "Corefer-Symbol",
+        "arg0": "T26",
+        "arg1": "T31"
+      },
+      "R24": {
+        "rid": "R24",
+        "label": "Corefer-Symbol",
+        "arg0": "T27",
+        "arg1": "T34"
+      }
+    }
+  },
+  "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_0": {
+    "id": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1807.05037v1.Exploring_Hierarchy_Aware_Inverse_Reinforcement_Learning/paragraph_0",
+    "text": "We describe the behaviour of an agent in an MDP by a stochastic policy \\( \\pi \\ ) .\nWe write the optimal policy as \\(\\pi ^*\\ ) , with corresponding Q - function \\( Q ^*\\ ) .\nHuman planning is commonly modelled as being Boltzmann - rational : that is , satisfying $\\pi (s,a) \\propto \\exp(\\beta Q^*(s,a)) $ for a fixed parameter $\\beta$ .\nBoltzmann - policies can also be self - consistent , so that the value - function is computed taking into account the Boltzmann - rational policy .\nThis gives a policy $\\pi(s,a) \\propto \\exp(\\beta Q^\\odot(s,a)) $ , where \\(Q^\\odot\\) is the\\footnote{In general there is no unique consistent Boltzmann-policy \\citep{Asadi2016} .\nIn practice we have not noticed any problems arising from this non-uniqueness . } Q - value under this same Boltzmann - rational policy .\nThe parameter $\\beta$ can be increased or decreased to model more or less rational humans , respectively .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 75,
+        "end": 77,
+        "text": "pi"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 53,
+        "end": 70,
+        "text": "stochastic policy"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 118,
+        "end": 123,
+        "text": "pi ^*"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 97,
+        "end": 111,
+        "text": "optimal policy"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 164,
+        "end": 168,
+        "text": "Q ^*"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 148,
+        "end": 160,
+        "text": "Q - function"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 265,
+        "end": 273,
+        "text": "pi (s,a)"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 283,
+        "end": 301,
+        "text": "exp(\\beta Q^*(s,a)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 219,
+        "end": 239,
+        "text": "Boltzmann - rational"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 275,
+        "end": 281,
+        "text": "propto"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 329,
+        "end": 333,
+        "text": "beta"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 311,
+        "end": 326,
+        "text": "fixed parameter"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 507,
+        "end": 514,
+        "text": "pi(s,a)"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 516,
+        "end": 522,
+        "text": "propto"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 524,
+        "end": 546,
+        "text": "exp(\\beta Q^\\odot(s,a)"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 559,
+        "end": 569,
+        "text": "(Q^\\odot\\)"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 498,
+        "end": 504,
+        "text": "policy"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 746,
+        "end": 755,
+        "text": "Q - value"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 818,
+        "end": 823,
+        "text": "beta$"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "PRIMARY",
+        "start": 806,
+        "end": 815,
+        "text": "parameter"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T13"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T14"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T15"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T16"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T20",
+        "arg1": "T19"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T19"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_11": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_11",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_11",
+    "text": "At time $t$ , the memory contains characters $c_1^t, c_2^t, \\cdots, c_l^t$ , we first use a Bi-RNN to encode the state of memory .\n\\begin{align} ( o_1 ^ t , o_2 ^ t , \\cdots, o_l^t) &= \\mathrm{Bi\\textrm{-} RNN } ( e_{ c_1 ^ t } , e_{ c_2 ^ t } , \\cdots, e_{c_l^t} ) , \\end{align} where $e_{c_k^t}$ is the embedding of character $c_k^t$ for $1\\leq k \\leq l$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 9,
+        "end": 10,
+        "text": "t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 3,
+        "end": 7,
+        "text": "time"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 46,
+        "end": 51,
+        "text": "c_1^t"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 53,
+        "end": 58,
+        "text": "c_2^t"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 68,
+        "end": 73,
+        "text": "c_l^t"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 34,
+        "end": 44,
+        "text": "characters"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 287,
+        "end": 296,
+        "text": "e_{c_k^t}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 305,
+        "end": 314,
+        "text": "embedding"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 329,
+        "end": 334,
+        "text": "c_k^t"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 318,
+        "end": 327,
+        "text": "character"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 341,
+        "end": 355,
+        "text": "1\\leq k \\leq l"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T6",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T11"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_10": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_10",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_10",
+    "text": "First , each ISM is equipped with a memory $\\xi$ to hold temporary information .\nMemory is composed of character slots with length $l$ .\nWhen module $\\mathcal{M}_i$ receives an expression $c_{1:l}$ , $\\mathcal{M}_i$ first stores $c_{1:l}$ into memory .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 44,
+        "end": 47,
+        "text": "\\xi"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 36,
+        "end": 42,
+        "text": "memory"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 132,
+        "end": 133,
+        "text": "l"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 124,
+        "end": 129,
+        "text": "lengt"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 151,
+        "end": 163,
+        "text": "mathcal{M}_i"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 142,
+        "end": 148,
+        "text": "module"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 190,
+        "end": 196,
+        "text": "_{1:l}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 201,
+        "end": 214,
+        "text": "\\mathcal{M}_i"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 177,
+        "end": 187,
+        "text": "expression"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 230,
+        "end": 237,
+        "text": "c_{1:l}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 194,
+        "end": 195,
+        "text": "l"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 235,
+        "end": 236,
+        "text": "l"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Count",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T11"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T12"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_12": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_12",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_12",
+    "text": "The state $s^t$ of the environment is modeled by a forward RNN , \\begin{align} h ^ t = \\mathrm{RNNCell} [ o_1 ^t \\oplus o_l^t, h^{t-1} ] , \\ qquad s ^t = \\mathrm{FNN} ( h ^ t ) , \\label{eq:memory1}  \\end{align} where $\\mathrm{FNN}(\\cdot)$ is one - layer forward neural network .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 11,
+        "end": 14,
+        "text": "s^t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 4,
+        "end": 9,
+        "text": "state"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 218,
+        "end": 236,
+        "text": "\\mathrm{FNN}(\\cdot"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 242,
+        "end": 276,
+        "text": "one - layer forward neural network"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_8": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_8",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_8",
+    "text": "\\begin{figure} [ t ] \\ centering \\includegraphics[width=0.8\\linewidth,height=17em]{figs/memory_interactions.png}  \\caption{Detailed structure of Interactive Skill Modules (ISM). In each time stamp, a bi-RNN encodes memory and output            . The first and last outputs are concatenated as memory representations and are fed into the central RNN. The outputs of central RNN are used to select modules, generate read pointers and write pointers. The read pointers are used to read the sub-expression from memory. The selected module deal with the sub-expression and returns an answer. Then the answer is written to memory at positions indicated by write pointers. The dashed orange lines represent processes that are related to the policy of ISM.}  \\label{fig:memory}  \\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_9": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_9",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_9",
+    "text": "It is hard to train skill modules from scratch , so we use curriculum learning , which will be described in Section \\ref{sec:curri} , to train skill modules in the order of increasing difficulty .\nSuppose that we already have $i-1$ well - trained skill modules $\\Omega_\\mathcal{M}=\\{\\mathcal{M}_1,\\mathcal{M}_2,\\cdots,\\mathcal{M}_{i-1}\\}$ , the $i$ - th ISM $\\mathcal{M}_i$ is described as follows .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 346,
+        "end": 347,
+        "text": "i"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 354,
+        "end": 357,
+        "text": "ISM"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 359,
+        "end": 372,
+        "text": "\\mathcal{M}_i"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 247,
+        "end": 259,
+        "text": "skill module"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 227,
+        "end": 230,
+        "text": "i-1"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 232,
+        "end": 260,
+        "text": "well - trained skill modules"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 262,
+        "end": 280,
+        "text": "\\Omega_\\mathcal{M}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 281,
+        "end": 296,
+        "text": "\\{\\mathcal{M}_1"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 297,
+        "end": 310,
+        "text": "\\mathcal{M}_2"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 318,
+        "end": 336,
+        "text": "\\mathcal{M}_{i-1}\\"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_13": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_13",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_13",
+    "text": "Given the state $s^t$ , the agent chooses three actions according the three following sub-policies ,\n\\begin{align}\n           ^ t &= \\mathrm{ModuleSelect} ( [            _1 ,            _2 ,            _{ i -1 } ] , s ^ t ) , \\\\ R ^t &= \\mathrm{ReadPointer} ( [ c_1 , c_2 , \\cdots , c_l ] , s ^ t ) , \\\\ W ^t &= \\mathrm{WritePointer} ( [ c_1 , c_2 , \\ cdots , c_l ] , s ^ t ) , \\label{eq:memory2}  \\end{align} where $\\mathcal{M}^t, R^t, W^t$ denote the chosen module , the read pointers and write pointers at time $t$ .\n$\\mathrm{ModuleSelect}$ , $\\mathrm{Read}$ , and $\\mathrm{Write}$ are pointer functions described in Pointer Networks \\cite{Vinyals2015PointerN} .\nPractically , there are two pairs of read pointers and one pair of write pointers specifying start and end positions of reading and writing .\nAdditionally , Positional Embedding \\cite{Vaswani2017AttentionIA} is combined with character embedding to provide the model with relative positional information .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 17,
+        "end": 20,
+        "text": "s^t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 10,
+        "end": 15,
+        "text": "state"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 515,
+        "end": 516,
+        "text": "t"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 509,
+        "end": 513,
+        "text": "time"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 417,
+        "end": 431,
+        "text": "\\mathcal{M}^t,"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 432,
+        "end": 436,
+        "text": "R^t,"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 437,
+        "end": 440,
+        "text": "W^t"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 460,
+        "end": 466,
+        "text": "module"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 521,
+        "end": 542,
+        "text": "\\mathrm{ModuleSelect}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 547,
+        "end": 560,
+        "text": "\\mathrm{Read}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 569,
+        "end": 583,
+        "text": "\\mathrm{Write}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 589,
+        "end": 606,
+        "text": "pointer functions"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T5"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Description",
+        "arg0": "T8",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_17": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_17",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_17",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_17",
+    "text": "The CTCS framework is illustrated in Figure \\ref{fig:ctcs} .\nGiven a set of $N$ tasks $\\{t_1, t_2, \\cdots, t_{N}\\}$ that are ordered by increasing difficulty .\nEach task contains $M$ data samples : $t_i = \\{x_1^{(i)}, x_2^{(i)}, \\cdots, x_{M}^{(i)}\\}$ ) .\nThe curriculum teacher gives tasks in the order of $1, 2, \\cdots, N$ , switching to the next task only when the student performs perfectly in the current task .\nIn learning every task , the curriculum teacher uses difficulty sampling strategy to sample from $M$ data samples .\n\\begin{figure} [ t ] \\ centering \\includegraphics[width=0.75\\linewidth]{figs/overview.png}  \\caption{Curriculum Teacher and Continual-learning Student (CTCS) framework.}  \\label{fig:ctcs}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 77,
+        "end": 78,
+        "text": "N"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 80,
+        "end": 85,
+        "text": "tasks"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 180,
+        "end": 181,
+        "text": "M"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 89,
+        "end": 92,
+        "text": "t_1"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 94,
+        "end": 97,
+        "text": "t_2"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 99,
+        "end": 105,
+        "text": "\\cdots"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 112,
+        "text": "t_{N}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 183,
+        "end": 195,
+        "text": "data samples"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 199,
+        "end": 202,
+        "text": "t_i"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 206,
+        "end": 216,
+        "text": "{x_1^{(i)}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 218,
+        "end": 228,
+        "text": "x_2^{(i)},"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 229,
+        "end": 235,
+        "text": "\\cdots"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 237,
+        "end": 250,
+        "text": "x_{M}^{(i)}\\}"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 308,
+        "end": 309,
+        "text": "1"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 311,
+        "end": 312,
+        "text": "2"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 314,
+        "end": 321,
+        "text": "\\cdots,"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 322,
+        "end": 323,
+        "text": "N"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 298,
+        "end": 303,
+        "text": "order"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "PRIMARY",
+        "start": 165,
+        "end": 169,
+        "text": "task"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T5"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T10"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T11"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T12"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T13"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T14"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T15"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T16"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T17"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T19"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_16": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_16",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_16",
+    "text": "Among reinforcement learning methods , Proximal Policy Optimization ( PPO ) \\cite{schulman2017proximal} is an online policy gradient approach that achieves state - of - the - art on many benchmark tasks .\nTherefore , we implement PPO to train ISMs .\nWe sample from policies $\\pi_{\\theta}$ where $\\theta$ denotes model parameters .\nWith every state $s$ and sampled action $a=\\{\\mathcal{M}, R, W\\}$ , we compute gradients to maximize the following objective function :\n\\begin{align} O ( \\theta) & = O_{PPO} ( \\theta, \\hat{A} ) + \\alpha * H(\\pi_{\\theta} ( a | s ) ) , \\end{align} where $\\hat{A}$ is the advantage function representing the discounted reward , $H(\\cdot)$ is entropy regularizer to discourage premature convergence to suboptimal policies \\cite{mnih2016asynchronous} , and $\\alpha$ is the coefficient to balance the Exploration - Exploitation , which will be mentioned in CTCS framework ( see Section \\ref{sec:curri} ) .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 275,
+        "end": 287,
+        "text": "\\pi_{\\theta}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 265,
+        "end": 273,
+        "text": "policies"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 296,
+        "end": 302,
+        "text": "\\theta"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 312,
+        "end": 328,
+        "text": "model parameters"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 349,
+        "end": 350,
+        "text": "s"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 342,
+        "end": 347,
+        "text": "state"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 372,
+        "end": 395,
+        "text": "a=\\{\\mathcal{M}, R, W\\}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 356,
+        "end": 370,
+        "text": "sampled action"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 584,
+        "end": 591,
+        "text": "\\hat{A}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 600,
+        "end": 618,
+        "text": "advantage function"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 657,
+        "end": 665,
+        "text": "H(\\cdot)"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 670,
+        "end": 689,
+        "text": "entropy regularizer"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 784,
+        "end": 790,
+        "text": "\\alpha"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 799,
+        "end": 810,
+        "text": "coefficient"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_14": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_14",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_14",
+    "text": "Then the read pointer $R^t$ reads a sub-expression $\\hat{e}_{1:p}^t$ from the memory and sends $\\hat{e}_{1:p}^t$ to the selected module $\\mathcal{M}^t$ .\n\\begin{align}\n           _{ 1:p } ^ t &= \\mathrm{Read} ( [ c_1 , c_2 , \\ cdots , c_l ] , R ^ t ) , \\\\            _{ 1:q } ^ t &= \\hat{M} ^t (            _{ 1:p } ^ t ) , \\label{eq:memory}\n\\end{align} where $\\hat{c}_{1:q}^t$ is output of module $\\mathcal{M}^t$ , which is further written into memory .\n\\begin{align} ( c_1 ^{ t +1 } , c_2 ^{ t +1 } , \\cdots, c_l^{t+1} ) &= \\mathrm{Write} (            _{ 1:q } ^ t , W ^ t ) .\n\\end{align}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 23,
+        "end": 26,
+        "text": "R^t"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 9,
+        "end": 21,
+        "text": "read pointer"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 52,
+        "end": 67,
+        "text": "\\hat{e}_{1:p}^t"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 36,
+        "end": 50,
+        "text": "sub-expression"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 96,
+        "end": 111,
+        "text": "\\hat{e}_{1:p}^t"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 137,
+        "end": 150,
+        "text": "\\mathcal{M}^t"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 129,
+        "end": 135,
+        "text": "module"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 361,
+        "end": 376,
+        "text": "\\hat{c}_{1:q}^t"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 381,
+        "end": 387,
+        "text": "output"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 399,
+        "end": 412,
+        "text": "\\mathcal{M}^t"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 391,
+        "end": 397,
+        "text": "module"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T10"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T7",
+        "arg1": "T11"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_15": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_15",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_15",
+    "text": "When the ISM generates the whole actions trajectory $\\tau = (\\mathcal{M}^1, R^1, W^1,\\mathcal{M}^2, R^2, W^2,$ $ \\cdots, \\mathcal{M}^T, R^T, W^T)$ , where $T$ number of the select skill modules , it can output an answer .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 53,
+        "end": 57,
+        "text": "\\tau"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 156,
+        "end": 157,
+        "text": "T"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 180,
+        "end": 193,
+        "text": "skill modules"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 60,
+        "end": 74,
+        "text": "(\\mathcal{M}^1"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 76,
+        "end": 79,
+        "text": "R^1"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 81,
+        "end": 84,
+        "text": "W^1"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 85,
+        "end": 98,
+        "text": "\\mathcal{M}^2"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 100,
+        "end": 103,
+        "text": "R^2"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 105,
+        "end": 109,
+        "text": "W^2,"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 121,
+        "end": 134,
+        "text": "\\mathcal{M}^T"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 136,
+        "end": 140,
+        "text": "R^T,"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 141,
+        "end": 145,
+        "text": "W^T)"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 33,
+        "end": 51,
+        "text": "actions trajectory"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T1"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T6"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T7"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T8"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T10"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T11"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T12"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T2"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T2"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_18": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_18",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_18",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_18",
+    "text": "To formalize , a difficulty score $d_j^{(i)}$ is the total number of incorrect attempts of sample $j$ .\nThen the probability of each sample $p_{j}^{(i)}$ is determined by a parameterized $Softmax$ function :\n\\begin{equation}\np_{j}^{(i)} = {\\frac {\\exp(d_{j}^{(i)}/\\tau)}{\\sum _{k=1}^{M}\\exp(d_{k}^{(i)}/ \\tau )}}.\n\\label{eq:normalize}\n\\end{equation}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 35,
+        "end": 44,
+        "text": "d_j^{(i)}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 17,
+        "end": 33,
+        "text": "difficulty score"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 99,
+        "end": 100,
+        "text": "j"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 91,
+        "end": 97,
+        "text": "sample"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 141,
+        "end": 152,
+        "text": "p_{j}^{(i)}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 113,
+        "end": 139,
+        "text": "probability of each sample"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 188,
+        "end": 195,
+        "text": "Softmax"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 197,
+        "end": 205,
+        "text": "function"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T5"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_2": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_2",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_2",
+    "text": "\\paragraph{Task Definition}\nWe first formalize the task of arithmetic expression calculation ( AEC ) as follows .\nGiven a character sequence , consisting of decimal digits $[0-9]$ and arithmetic operators of $\\{+, -, \\times, \\div, (, )\\}$ , the goal is to output a sequence of digit characters representing the result , for example : \\begin{center} \\ centering \\includegraphics[width=0.78\\linewidth]{figs/introduction.png}  \\end{center}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 211,
+        "end": 212,
+        "text": "+"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 217,
+        "end": 223,
+        "text": "\\times"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 225,
+        "end": 229,
+        "text": "\\div"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 231,
+        "end": 236,
+        "text": "(, )\\"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 214,
+        "end": 215,
+        "text": "-"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 195,
+        "end": 204,
+        "text": "operators"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_3": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_3",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_3",
+    "text": "\\paragraph{Hierarchical Reinforcement Learning (HRL)}\nIn HRL , the policy $\\pi$ of an agent can be decomposed into several sub-policies from the set $\\Pi=\\{\\pi_1,\\pi_2,\\cdots,\\pi_K\\}$ .\nAt time $t$ , the policy $\\pi: \\mathcal{S}\\rightarrow \\Pi$ is a mapping from state $s^t\\in \\mathcal{S}$ to a probability distribution over sub-policies .\nAssuming the $k$ - th sub-policy is chosen , the action $a_t$ is determined by $\\pi_k(a|s^t)$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 75,
+        "end": 78,
+        "text": "\\pi"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 150,
+        "end": 153,
+        "text": "\\Pi"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 156,
+        "end": 161,
+        "text": "\\pi_1"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 162,
+        "end": 168,
+        "text": "\\pi_2,"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 175,
+        "end": 181,
+        "text": "\\pi_K\\"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 195,
+        "end": 196,
+        "text": "t"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 67,
+        "end": 73,
+        "text": "policy"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 145,
+        "end": 148,
+        "text": "set"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 189,
+        "end": 193,
+        "text": "time"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 212,
+        "end": 215,
+        "text": "\\pi"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 240,
+        "end": 243,
+        "text": "\\Pi"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 270,
+        "end": 274,
+        "text": "s^t\\"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 263,
+        "end": 268,
+        "text": "state"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 354,
+        "end": 355,
+        "text": "k"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 362,
+        "end": 372,
+        "text": "sub-policy"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 397,
+        "end": 400,
+        "text": "a_t"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 389,
+        "end": 395,
+        "text": "action"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 420,
+        "end": 424,
+        "text": "\\pi_"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 424,
+        "end": 425,
+        "text": "k"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 426,
+        "end": 427,
+        "text": "a"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 428,
+        "end": 432,
+        "text": "s^t)"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "SYMBOL",
+        "start": 277,
+        "end": 288,
+        "text": "\\mathcal{S}"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "PRIMARY",
+        "start": 204,
+        "end": 210,
+        "text": "policy"
+      },
+      "T25": {
+        "eid": "T25",
+        "label": "PRIMARY",
+        "start": 295,
+        "end": 319,
+        "text": "probability distribution"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 217,
+        "end": 229,
+        "text": "\\mathcal{S}\\"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T5"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T6"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T10"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T11"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T12"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T14"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T16"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T18"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T14",
+        "arg1": "T19"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Corefer-Symbol",
+        "arg0": "T16",
+        "arg1": "T20"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T21"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Corefer-Description",
+        "arg0": "T7",
+        "arg1": "T24"
+      },
+      "R19": {
+        "rid": "R19",
+        "label": "Direct",
+        "arg0": "T25",
+        "arg1": "T23"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Corefer-Symbol",
+        "arg0": "T22",
+        "arg1": "T23"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_19": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_19",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_19",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_19",
+    "text": "\\textbf{Parameter Adjustment} encourages or discourages the exploration of the student .\nIn reinforcement learning , adding entropy controlled by a coefficient $\\alpha$ to loss is a commonly used technique \\cite{mnih2016asynchronous} to discourage premature convergence to suboptimal policies .\nHowever , to what extent should we encourage the student to explore is a long - standing issue of Exploration - Exploitation Dilemma \\cite{kaelbling1996reinforcement} .\nIntuitively , exploration should be encouraged when the student has difficulty doing some samples .\nTherefore , we employ the teacher to help the student change exploration strategy in keeping with its performance .\nTo be specific , the entropy coefficient $\\alpha$ is :\n\\begin{equation}\n\\alpha = \\min(\\beta , \\gamma * \\max_{j}{d_j^{(i)}})\n,\\label{eq:entropy}\n\\end{equation}\nwhere $d_j^{(i)}$ is the difficulty score described in difficulty sampling , $\\beta = 0.5$ and $\\gamma = 0.01$ .\nAs shown in Section \\ref{sec:discussion} , difficulty sampling and parameter adjustment methods are critical in achieving the perfect performance .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 161,
+        "end": 167,
+        "text": "\\alpha"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 148,
+        "end": 159,
+        "text": "coefficient"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 722,
+        "end": 728,
+        "text": "\\alpha"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 701,
+        "end": 720,
+        "text": "entropy coefficient"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 846,
+        "end": 855,
+        "text": "d_j^{(i)}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 864,
+        "end": 880,
+        "text": "difficulty score"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 894,
+        "end": 913,
+        "text": "difficulty sampling"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 917,
+        "end": 928,
+        "text": "\\beta = 0.5"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 936,
+        "end": 948,
+        "text": "gamma = 0.01"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T2",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_1": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_1",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_1",
+    "text": "The main contributions of the paper are :\n\\begin{itemize} \\ item\nWe propose a pure neural model to solve the ( decimal ) expression calculation problem , involving the $\\{+, -, \\times, \\div, (, )\\}$ operations .\nBoth the input and output of our model is character sequence .\nTo the best of our knowledge , this study is the first work to solve this challenging problem .\n\\ item\nWe regard arithmetic learning as a Multi -level Hierarchical Reinforcement Learning ( MHRL ) problem , and factorize a complex arithmetic operation into several simpler operations .\nThe main component is the interactive skill module .\nA high - level interactive skill module can invoke the low - level skill modules by sending and receiving messages .\n\\ item We introduce Curriculum Teacher and Continual - learning Student ( CTCS ) , an automatic teacher - student framework that enables the model to be easier learned for the complex tasks .\n\\end{itemize}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 199,
+        "end": 209,
+        "text": "operations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 171,
+        "end": 172,
+        "text": "+"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 174,
+        "end": 175,
+        "text": "-"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 177,
+        "end": 183,
+        "text": "\\times"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 185,
+        "end": 189,
+        "text": "\\div"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 192,
+        "end": 193,
+        "text": ","
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T6"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T5"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_0": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_0",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_0",
+    "text": "Developing pure neural models to automatically solve arithmetic expression calculation ( AEC ) is an interest and challenging task .\nRecent research includes Neural GPUs ~ \\citep{kaiser2015neural,freivalds2017improving} , Grid LSTM \\citep{Kalchbrenner2015GridLS} , Neural Turing Machines \\citep{graves2014neural} , and Neural Random - Access Machines ~ \\citep{Kurach2016NeuralRM} .\nMost of these models just can deal with the addition calculation .\nAlthough Neural GPU has an ability to learn multi-digit binary multiplication , it does not work well in decimal multiplication \\citep{kaiser2015neural} .\nThe difficulty of multi-digit decimal multiplication lies in the fact that multiplication involves a complicated structure of arithmetic operations , which is hard for neural networks to learn .\nConsidering how electronic circuit or human beings do multiplication , multi-digit multiplication can be decomposed into several subgoals , as shown in Figure \\ref{fig:example} .\nHigh - level arithmetic tasks like multiplication iteratively use low - level operations like the addition to complete high - level tasks .\n\\begin{figure} [ H ] \\ centering\n\\includegraphics[width=0.56\\linewidth]{figs/sample.png}  \\caption{An example of reusability and hierarchy in multiplication.            denotes multi-digit addition, while             means single-digit multiplication.}  \\label{fig:example}  \\end{figure}\nThe incapability of current models in solving arithmetic expression is because they fail to use two key properties of arithmetic operation : \\textbf{reusability} and \\textbf{hierarchy} .\nThe arithmetic operation can be decomposed into a series of sub-operations , which form a hierarchical structure .\nMost of the sub-operations are reusable .\nWhen dealing with a complex arithmetic operation , we do not need to train a model from scratch .\nFor the example in Figure \\ref{fig:example} , the multi-digit multiplication involves several reusable sub-operations , such as $S\\times S$ and $M + M$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_4": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_4",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_4",
+    "text": "\\begin{figure} [ h ] \\ centering \\subfloat[Basic Skill Module (BSM)]{\\label{fig:basic}  \\includegraphics[width=0.325\\textwidth]{figs/basic_module.png} } \\subfloat[Interactive Skill Module (ISM)]{\\label{fig:sampleISM}  \\includegraphics[width=0.5\\textwidth]{figs/multiplication.png} } \\caption{Demonstration of skill modules. (a) the basic skill module (BSM) is a neural network with Bi-RNN, which takes the character sequence as input and outputs the character sequence of the result. (b) The interactive skill module (ISM) interacts with other skill models to do the calculation. This illustrated module            can perform multi-digit            single-digit calculation, using two BSMs            (single-digit addition),            (single-digit multiplication) and another ISM            for multi-digit addition.}  \\label{fig:sample}  \\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_5": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_5",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_5",
+    "text": "The basic skill modules perform fundamental arithmetic operations like single - digit 's addition or multiplication .\nThe structure of basic skill modules is illustrated in Figure \\ref{fig:basic} .\nGiven a sequence $c_1, c_2, \\cdots, c_l$ containing decimal and arithmetic characters of length $l$ .\nWe firstly map the sequence with character embeddings to $e_{c_1}, e_{c_2}, \\cdots, e_{c_l}$ .\nThen the inputs are fed into a bi-directional RNN ( Bi-RNN ) .\nOutputs are generated by choosing characters with the max probability after $\\mathrm{softmax}$ functions .\nBasic skill modules are trained in a supervised approach .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 216,
+        "end": 219,
+        "text": "c_1"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 221,
+        "end": 224,
+        "text": "c_2"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 234,
+        "end": 237,
+        "text": "c_l"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 226,
+        "end": 232,
+        "text": "\\cdots"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 250,
+        "end": 283,
+        "text": "decimal and arithmetic characters"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 295,
+        "end": 296,
+        "text": "l"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 287,
+        "end": 293,
+        "text": "length"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 358,
+        "end": 366,
+        "text": "e_{c_1},"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 367,
+        "end": 374,
+        "text": "e_{c_2}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 384,
+        "end": 391,
+        "text": "e_{c_l}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 333,
+        "end": 353,
+        "text": "character embeddings"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 535,
+        "end": 551,
+        "text": "\\mathrm{softmax}"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 512,
+        "end": 527,
+        "text": "max probability"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Count",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T8"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T12"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_21": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_21",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_21",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_21",
+    "text": "\\paragraph{Hyperparameters}\nThe gradient - based optimization is performed using the Adam update rule \\cite{kingma2014adam} .\nEvery RNN in our model is GRU \\cite{chung2014empirical} with hidden size 100 .\n$\\tau$ used in Equation \\ref{eq:normalize} is 10 .\nThe consecutively sample number $N_c$ described in difficulty sampling is 64 .\nIn PPO , the reward discount parameter is 0.99 , and the clipping parameter $\\epsilon$ is 0.2 .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 412,
+        "end": 420,
+        "text": "\\epsilon"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 392,
+        "end": 410,
+        "text": "clipping parameter"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 289,
+        "end": 292,
+        "text": "N_c"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 274,
+        "end": 287,
+        "text": "sample number"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 206,
+        "end": 210,
+        "text": "\\tau"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 220,
+        "end": 246,
+        "text": "Equation \\ref{eq:normalize"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_7": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_7",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_7",
+    "text": "The interactive skill modules perform the arithmetic operations by invoking other skill modules .\nAn example of interactive skill modules is shown in Figure \\ref{fig:sampleISM} .\nThe policy of ISM is to select other skill modules to complete the partial arithmetic calculation .\nDifferent from the standard HRL , each skill module performs a local arithmetic operation , and need not observe the global environment state .\nTherefore , when a skill module $\\mathcal{M}_i$ chooses another skill module $\\mathcal{M}_j$ as sub-policy , module $\\mathcal{M}_i$ just sends character sequences to module $\\mathcal{M}_j$ and receives character sequences as answers .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 456,
+        "end": 469,
+        "text": "\\mathcal{M}_i"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 442,
+        "end": 454,
+        "text": "skill module"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 501,
+        "end": 514,
+        "text": "\\mathcal{M}_j"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 519,
+        "end": 529,
+        "text": "sub-policy"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 540,
+        "end": 553,
+        "text": "\\mathcal{M}_i"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 597,
+        "end": 610,
+        "text": "\\mathcal{M}_j"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_6": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_6",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_6",
+    "text": "Each BSM provides a deterministic policy $a_{1:l}=\\pi(c_{1:l})$ , where $a_{1:l}$ is the calculated result in form of a digit character sequence .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 42,
+        "end": 62,
+        "text": "a_{1:l}=\\pi(c_{1:l})"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 20,
+        "end": 40,
+        "text": "deterministic policy"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 73,
+        "end": 80,
+        "text": "a_{1:l}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_20": {
+    "id": "1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_20",
+    "phase": "train",
+    "topic": "cs.ai",
+    "document": "1809.08590v1.Neural_Arithmetic_Expression_Calculator",
+    "paragraph": "paragraph_20",
+    "prefix": "selected/train/cs.ai-ann3/1809.08590v1.Neural_Arithmetic_Expression_Calculator/paragraph_20",
+    "text": "The arithmetic expression data is generated through a random process .\nAn expression of length 10 contains approximately 3 arithmetic operators of $\\{+, -, \\times, \\div, (, )\\}$ in average .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 150,
+        "end": 151,
+        "text": "+"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 153,
+        "end": 154,
+        "text": "-"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 156,
+        "end": 162,
+        "text": "\\times"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 164,
+        "end": 169,
+        "text": "\\div,"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 170,
+        "end": 174,
+        "text": "(, )"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 123,
+        "end": 143,
+        "text": "arithmetic operators"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  }
+}

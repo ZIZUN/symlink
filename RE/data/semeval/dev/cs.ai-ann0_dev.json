@@ -1,0 +1,4554 @@
+{
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_39": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_39",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_39",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_39",
+    "text": "\\ bigskip \\noindent\nIn this paper , a mapping relation is referred as a possible configuration of a dynamic system : $M_{\\alpha}(x \\mid \\alpha \\in \\Lambda)$ , therefore if we treat the hypothesis $f(x,\\Theta)$ as a dynamic system , then any configuration of $f$ : $f_{\\theta}(x \\mid \\theta \\in \\Theta)$ is within the discussion of this paper .\nAnd from the viewpoint of a certain configuration $f_{\\theta}(x \\mid \\theta \\in \\Theta)$ , there is no difference among various machine learning concepts such as on - line , off - line , supervised , non-supervised , semi-supervised and so no .\nSo law \\textit{\\rom{1} } , \\textit{\\rom{2} } and the following corollaries are eligible to be applied on the hypothesis $f(x,\\Theta)$ without regarding how a desirable result shall be obtained .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 98,
+        "end": 114,
+        "text": "a dynamic system"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 118,
+        "end": 155,
+        "text": "M_{\\alpha}(x \\mid \\alpha \\in \\Lambda)"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 185,
+        "end": 195,
+        "text": "hypothesis"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 197,
+        "end": 208,
+        "text": "f(x,\\Theta)"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 241,
+        "end": 261,
+        "text": "configuration of $f$"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 265,
+        "end": 301,
+        "text": "f_{\\theta}(x \\mid \\theta \\in \\Theta)"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 370,
+        "end": 393,
+        "text": "a certain configuration"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 395,
+        "end": 431,
+        "text": "f_{\\theta}(x \\mid \\theta \\in \\Theta)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 694,
+        "end": 708,
+        "text": "the hypothesis"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 710,
+        "end": 721,
+        "text": "f(x,\\Theta)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_11": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_11",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_11",
+    "text": "           \\textbf { \\\ntextit { Without mapping relation there will be no acquisition of any information . } }\n\\end{tightcenter}\nThis axiom comes from interpreting the statement at the beginning of section two :\n           \\ textit { There is no observation independent reality . }\n           \\bigskip \\ noindent\nIn other words , this axiom indicates that mapping relation is necessary for defining concepts .\nAnd if a mapping relation $M_L: D \\rightarrow O$ is said to be a learning model which is able to learn from its domain D , it must follow these two laws .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 417,
+        "end": 435,
+        "text": "a mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 437,
+        "end": 440,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 522,
+        "end": 528,
+        "text": "domain"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 529,
+        "end": 530,
+        "text": "D"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 442,
+        "end": 443,
+        "text": "D"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_10": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_10",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_10",
+    "text": "\\ noindent\nIf the precise value of $i$ and $P_i$ cannot be obtained , we still need a certain number to represent the information of a certain within bounds\nIf there is no information about $i$ and $P_i$ at all , there is still a piece of notation which represent the definition of entropy ; and if there was nothing in figure \\ref{entropy} then there will be no information at all .\nTherefore it is reasonable to say that one piece of information must be carried by at least one certain state and one certain state can be used to represent at least one piece of information .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 199,
+        "end": 202,
+        "text": "P_i"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 44,
+        "end": 47,
+        "text": "P_i"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_38": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_38",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_38",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_38",
+    "text": "\\begin{itemize} \\item\nAn generator $(G)$ of vector $x \\in R^n$ , $x$ is a variable which represents possible outcome of independent observations and presumably $x$ follows an unknown distribution\n$F(X)$ .\n\\item\nA supervisor $S$ that takes $x$ as input and returns an output value $y$ .\nThe mechanism of the supervisor $F(y \\mid x)$ is also unknown .\n\\item\nA learning machine that manipulates a family of functions $Loss(y,\\hat{y} =f(x,\\Theta))$ .\n           \\noindent\nAll solutions of machine learning problems directly depend on people 's hypothesis of $f(x, \\Theta)$ \\footnote{            is the parameter space of function f.} .\nBased on current observation and by implementing some training algorithm , the goal of training process is to find a desirable $\\theta$ so that when facing new observation results the difference between $\\hat{y}$ and $y$ can be minimised .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 22,
+        "end": 34,
+        "text": "An generator"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 36,
+        "end": 39,
+        "text": "(G)"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 44,
+        "end": 50,
+        "text": "vector"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 52,
+        "end": 53,
+        "text": "x"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 66,
+        "end": 67,
+        "text": "x"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 72,
+        "end": 82,
+        "text": "a variable"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 161,
+        "end": 162,
+        "text": "x"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 172,
+        "end": 195,
+        "text": "an unknown distribution"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 197,
+        "end": 201,
+        "text": "F(X)"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 211,
+        "end": 223,
+        "text": "A supervisor"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 225,
+        "end": 226,
+        "text": "S"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 240,
+        "end": 241,
+        "text": "x"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 246,
+        "end": 251,
+        "text": "input"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 264,
+        "end": 279,
+        "text": "an output value"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 281,
+        "end": 282,
+        "text": "y"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "PRIMARY",
+        "start": 286,
+        "end": 317,
+        "text": "The mechanism of the supervisor"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 319,
+        "end": 330,
+        "text": "F(y \\mid x)"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 321,
+        "end": 322,
+        "text": "y"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 328,
+        "end": 329,
+        "text": "x"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "PRIMARY",
+        "start": 392,
+        "end": 413,
+        "text": "a family of functions"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 415,
+        "end": 443,
+        "text": "Loss(y,\\hat{y} =f(x,\\Theta))"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "PRIMARY",
+        "start": 617,
+        "end": 625,
+        "text": "function"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "SYMBOL",
+        "start": 626,
+        "end": 627,
+        "text": "f"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "SYMBOL",
+        "start": 555,
+        "end": 556,
+        "text": "f"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T5"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T5"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T12"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T15"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T16",
+        "arg1": "T17"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T18",
+        "arg1": "T15"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Corefer-Symbol",
+        "arg0": "T19",
+        "arg1": "T12"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Direct",
+        "arg0": "T20",
+        "arg1": "T21"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Direct",
+        "arg0": "T22",
+        "arg1": "T23"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Corefer-Symbol",
+        "arg0": "T24",
+        "arg1": "T23"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_12": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_12",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_12",
+    "text": "           \\ text bf { \\ textit { $\\forall X_S \\subset D, Y_S = M_L(X_S), \\exists X_N \\subset D \\setminus X_S : Y_N = M_L(X_N), Y_N \\cap Y_S = \\emptyset$ } }\n\\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 43,
+        "end": 46,
+        "text": "X_S"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 68,
+        "end": 71,
+        "text": "X_S"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 58,
+        "end": 61,
+        "text": "Y_S"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 82,
+        "end": 85,
+        "text": "X_N"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 94,
+        "end": 95,
+        "text": "D"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 55,
+        "end": 56,
+        "text": "D"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 106,
+        "end": 109,
+        "text": "X_S"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 112,
+        "end": 115,
+        "text": "Y_N"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 122,
+        "end": 125,
+        "text": "X_N"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 128,
+        "end": 131,
+        "text": "Y_N"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 137,
+        "end": 140,
+        "text": "Y_S"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 118,
+        "end": 121,
+        "text": "M_L"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 64,
+        "end": 67,
+        "text": "M_L"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Corefer-Symbol",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T3"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_8": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_8",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_8",
+    "text": "\\begin{tightcenter} \\ text bf { \\ textit { For two given mapping relations : $M_l:S_1\\rightarrow S_2$ and $M_h:S_3 \\rightarrow S_4$ , if $S_1 \\cup S_2 \\subset S_3$ then $ \\forall s \\in S_2$ is homologous global information with respect to $M_h$ . } }\n\\end{tightcenter}  \\begin{figure} [ H ] \\ centering \\includegraphics[width=50mm,scale = 0.5]{def5.png}  \\caption{Homologous Global Information}  \\label{def5}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 57,
+        "end": 74,
+        "text": "mapping relations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 100,
+        "text": "M_l:S_1\\rightarrow S_2"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 130,
+        "text": "M_h:S_3 \\rightarrow S_4"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 193,
+        "end": 244,
+        "text": "homologous global information with respect to $M_h$"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 179,
+        "end": 188,
+        "text": "s \\in S_2"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 82,
+        "text": "M_l:"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 110,
+        "text": "M_h"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 240,
+        "end": 243,
+        "text": "M_h"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_9": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_9",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_9",
+    "text": "\\begin{tightcenter} \\ text bf { \\ textit { For two given mapping relations : $M_l:S_1\\rightarrow S_2$ and $M_h:S_3 \\rightarrow S_4$ , if $S_2 \\subset S_3$ then $ \\forall s \\in S_4$ is first order global information with respect to $M_l$ . } }\n\\end{tightcenter}  \\begin{figure} [ H ] \\ centering \\includegraphics[width=50mm,scale = 0.5]{def6.png}  \\caption{First Order Global Information}\n\\label{def6}  \\end{figure}\nApparently , all elements in $S_4$ is beyond the field of vision of mapping relation $M_l$ , actually if $M_h$ is one to one mapping relation between $S_2 = S_3$ and $S_4$ , it is also true that all elements in $S_2$ is beyond the field of vision of mapping relation $M_l$ .\nTherefore for a given mapping relation $M:D \\rightarrow O$ , all elements in its range is first order global information with respect to $M$ itself .\nAnd together with definition \\textit{\\rom{2} } we know that these three concepts are equivalent : a global information , a global representation , a first order global information .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 57,
+        "end": 74,
+        "text": "mapping relations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 100,
+        "text": "M_l:S_1\\rightarrow S_2"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 130,
+        "text": "M_h:S_3 \\rightarrow S_4"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 170,
+        "end": 179,
+        "text": "s \\in S_4"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 184,
+        "end": 236,
+        "text": "first order global information with respect to $M_l$"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 81,
+        "text": "M_l"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 232,
+        "end": 235,
+        "text": "M_l"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 483,
+        "end": 499,
+        "text": "mapping relation"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 501,
+        "end": 504,
+        "text": "M_l"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 110,
+        "text": "M_h"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 521,
+        "end": 524,
+        "text": "M_h"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 665,
+        "end": 681,
+        "text": "mapping relation"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 683,
+        "end": 686,
+        "text": "M_l"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 704,
+        "end": 728,
+        "text": "a given mapping relation"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 730,
+        "end": 747,
+        "text": "M:D \\rightarrow O"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 730,
+        "end": 731,
+        "text": "M"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 828,
+        "end": 829,
+        "text": "M"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 767,
+        "end": 776,
+        "text": "its range"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 746,
+        "end": 747,
+        "text": "O"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T6"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T13",
+        "arg1": "T9"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T15"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T16"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T17",
+        "arg1": "T16"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T19"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_13": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_13",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_13",
+    "text": "\\begin{flushleft}\nFor any subset $X_S$ of the domain $D$ , and the corresponding subset of the range is $Y_S$ , there exist a set $X_N$ which is a subset of the complement set of $X_S$ , so that we have a subset $Y_N$ which is disjoint with $Y_S$ .\n\\end{flushleft}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 34,
+        "end": 37,
+        "text": "X_S"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 54,
+        "end": 55,
+        "text": "D"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 105,
+        "end": 108,
+        "text": "Y_S"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 131,
+        "end": 134,
+        "text": "X_N"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 26,
+        "end": 32,
+        "text": "subset"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 46,
+        "end": 52,
+        "text": "domain"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 126,
+        "end": 129,
+        "text": "set"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 205,
+        "end": 211,
+        "text": "subset"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 213,
+        "end": 216,
+        "text": "Y_N"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 145,
+        "end": 184,
+        "text": "a subset of the complement set of $X_S$"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 63,
+        "end": 100,
+        "text": "the corresponding subset of the range"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 242,
+        "end": 245,
+        "text": "Y_S"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 180,
+        "end": 183,
+        "text": "X_S"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T4"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T10",
+        "arg1": "T7"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T13",
+        "arg1": "T1"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_17": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_17",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_17",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_17",
+    "text": "           \\ text bf { \\textit{The training process\\footnote{The notation            represents the parameter space of mapping relation            .} of $M_L(\\alpha \\subset \\Lambda): D \\rightarrow O$ should not depend on any of $M_L$ 's first order global information $M_H$ which follows law \\textit{\\rom{1} } and law \\textit{\\rom{2} } as well . } }\n           \\ noindent\nThe intuitive explanation of law \\textit{\\rom{2} } is : a learning model should be able to define the existence of new concept all by itself .\nThis explanation ends all similar arguments like `` Should a NLP system linked with a dictionary be label as ' Intelligence ' ? \" .\nFurthermore , together with law one , origins of information ( mapping relations ) being used for a composite mapping relation can be classified into two categories , learning model and non-learning model ( memory system ) , so that further analysis could be possible .\nActually whenever the construction process of a mapping relation is inferred by some given knowledge about the desirable learning results , it will almost always limit the learning ability .\nTopics related to law two are core problems which need further study .\n\\footnote{ In this paper, this law is the only discussion which involves dynamicity of a mapping relation or usually being mentioned as ``Learning Process\".}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 269,
+        "end": 272,
+        "text": "M_H"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 228,
+        "end": 267,
+        "text": "$M_L$ 's first order global information"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_16": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_16",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_16",
+    "text": "\\ noindent\nIn the scenario in figure \\ref{law1_2} , for guaranteeing the certainty property of information , elements of $Y_S$ and $Y_N$ will subject to the same constraint \\footnote{Trying to avoid using same constraint by labelling elements as described in above four scenarios will violate law \\textit{\\rom{2} } , and at this stage this violation seems inevitable .\nFormal mathematical discussion about this issue is part of the future works . } , therefore the possible existences of many concepts still devolve into the same state as in the previous three scenarios .",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_14": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_14",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_14",
+    "text": "\\ bigskip \\noindent\nThis law would be best understood by assuming that there is a mapping relation $M_{non}$ which does not obey law one .\nThen there will be four \\footnote{Scenario two and three are equivalent.} possible scenarios as follows :",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 80,
+        "end": 98,
+        "text": "a mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 100,
+        "end": 107,
+        "text": "M_{non}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_28": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_28",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_28",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_28",
+    "text": "Proof : \\begin{adjustwidth} { 2 cm } {}\nDenote            .\\\\\nBecause $M_L$ follows law one then :\\\\            \\\\ so that $Y_S=M_L(X_S), Y_N = M_L(X_N)$ and $Y_N \\cap Y_S = \\phi$ \\\\ Then according to the definition of ( H ) :\\\\            .\\\\\nTherefore we know $\\forall X_S \\subset D, \\exists X_N \\subset D \\setminus X_S$ :\\\\\n$F_L(X_S) \\neq F_L(X_N)$ \\end{adjustwidth}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_29": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_29",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_29",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_29",
+    "text": "\\ bigskip \\noindent Corollary two indicates it is possible to represent different concepts of information type $M_L$ by using different real number .",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_15": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_15",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_15",
+    "text": "\\ noindent\nIn the three scenarios in figure \\ref{law1_1} , $X_S$ and $X_N$ contain different local information , however the mapping relation $M_{non}$ will map them to the same set of global representations , therefore as a detector $M_{non}$ fails to detect different concepts in the domain .\nIn other words , mapping relations which do not obey law one are basically information black holes which could allow the possible information of the existence of many concepts to devolve into the same state \\cite[p.43]{anderson2015cosmic} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 121,
+        "end": 141,
+        "text": "the mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 143,
+        "end": 150,
+        "text": "M_{non}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 235,
+        "end": 242,
+        "text": "M_{non}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_18": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_18",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_18",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_18",
+    "text": "\\begin{tightcenter} \\ text bf { \\textit{Given mapping relation            , if            follows law one, then there exist a family of functions            which can be used to harvest information being contained in the range of            .} } \\end{tightcenter}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_30": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_30",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_30",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_30",
+    "text": "           \\\ntext bf { \\ textit { The composition of mapping relations $M_L$ and any of its harvesting function $H$ is equivalent to a common constraint $V_C$ and a mapping relation \" L \" which also satisfies law \\textit{\\rom{1} } . } } \\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 53,
+        "end": 70,
+        "text": "mapping relations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 72,
+        "end": 75,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 88,
+        "end": 111,
+        "text": "its harvesting function"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 113,
+        "end": 114,
+        "text": "H"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 133,
+        "end": 152,
+        "text": "a common constraint"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 154,
+        "end": 157,
+        "text": "V_C"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_24": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_24",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_24",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_24",
+    "text": "\\begin{figure} [ H ] \\ centering \\includegraphics[width=130mm]{lemma1_2.png}  \\caption{Constraint families defined by powerset of            }  \\label{lemma1_2}  \\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_2": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_2",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_2",
+    "text": "\\begin{enumerate} \\item Observation $\\Rightarrow$ a set of appearances \\ item Reality $\\Rightarrow$ being defined by a set of appearances\n\\end{enumerate}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_3": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_3",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_3",
+    "text": "           \\\ntextbf { \\\ntextit { For a given mapping relation $M:D\\rightarrow O$ , one subset of the domain and each element of the corresponding subset of the range are local representation and global representations which define the same concept respectively . } }\n\\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 37,
+        "end": 61,
+        "text": "a given mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 63,
+        "end": 64,
+        "text": "M"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 97,
+        "end": 107,
+        "text": "the domain"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 65,
+        "end": 66,
+        "text": "D"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 156,
+        "end": 165,
+        "text": "the range"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 78,
+        "end": 79,
+        "text": "O"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_25": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_25",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_25",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_25",
+    "text": "\\ bigskip \\noindent \\textit{Proof of Corollary One} \\\\            { 2 cm } {}\nKnown that mapping relation $M_L: D \\rightarrow O (O \\subset R^n, D \\subset R^m)$ satisfies law \\textit{\\rom{1} } , so that for possible learning result $Y_1$ there exists an equality constraint $\\Phi^{r1}_{Y_1}$ , and for a new learning result $Y_2$ , there exists infinity many equality constraints\n$\\Phi^{r2 \\neq r1}_{Y_2}$ , so for a new learning result $Y_i$ , there always exist an equality constraint $ \\Phi^{ri}_{Y_i}$ which is defined by $Y_i$ and a real number $r_i$ ( $r_i \\neq r_1$ , $r_i \\neq r_2$ ) .\nThen the constraint that all possible learning results follow can be expressed as : \\begin{figure} [ H ] \\\ncentering \\includegraphics[width=90mm]{corollary1.png}  \\caption{Information Harvesting Function            }  \\label{corollary1}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 89,
+        "end": 105,
+        "text": "mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 107,
+        "end": 110,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 206,
+        "end": 230,
+        "text": "possible learning result"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 232,
+        "end": 235,
+        "text": "Y_1"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 250,
+        "end": 272,
+        "text": "an equality constraint"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 274,
+        "end": 289,
+        "text": "\\Phi^{r1}_{Y_1}"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 285,
+        "end": 288,
+        "text": "Y_1"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 301,
+        "end": 322,
+        "text": "a new learning result"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 324,
+        "end": 327,
+        "text": "Y_2"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 344,
+        "end": 378,
+        "text": "infinity many equality constraints"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 380,
+        "end": 403,
+        "text": "\\Phi^{r2 \\neq r1}_{Y_2}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 414,
+        "end": 435,
+        "text": "a new learning result"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 437,
+        "end": 440,
+        "text": "Y_i"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 463,
+        "end": 485,
+        "text": "an equality constraint"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 488,
+        "end": 503,
+        "text": "\\Phi^{ri}_{Y_i}"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 526,
+        "end": 529,
+        "text": "Y_i"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 499,
+        "end": 502,
+        "text": "Y_i"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 535,
+        "end": 548,
+        "text": "a real number"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 550,
+        "end": 553,
+        "text": "r_i"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 558,
+        "end": 561,
+        "text": "r_i"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 575,
+        "end": 578,
+        "text": "r_i"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 399,
+        "end": 402,
+        "text": "Y_2"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T15"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T16",
+        "arg1": "T17"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T19"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T20",
+        "arg1": "T19"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T21",
+        "arg1": "T20"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T22",
+        "arg1": "T9"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T17",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_31": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_31",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_31",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_31",
+    "text": "Proof : \\begin{adjustwidth} { 2 cm } {}\nReal numbers can be represent by parallel hyperplanes defined by a vector set $V_C$ .\nAnd because of corollary \\textit{\\rom{2} } we know : \\\\ $\\forall X_S \\subset D, \\exists X_N \\subset D \\setminus X_S$ : $F_L(X_S) \\neq F_L(X_N)$ ( corollary two ) \\\\ Therefore $L(X_S) \\cap L(X_N) = \\phi$ ( satisfies law \\textit{\\rom{1} } )\n\\end{adjustwidth}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 105,
+        "end": 117,
+        "text": "a vector set"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 119,
+        "end": 122,
+        "text": "V_C"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_19": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_19",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_19",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_19",
+    "text": "\\subsubsection{Lemma One}  \\begin{tightcenter} \\ text bf { \\ text it { Given $ D \\subset R^n$ : $ \\forall X_j \\subset D$ and $\\forall r \\in R$ , $\\exists \\Phi(x \\mid x \\in X_j) = r$ . } }\n\\end{tightcenter}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_27": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_27",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_27",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_27",
+    "text": "           \\ text bf\n{ The composition of mapping relations $M_L$ which follows law \\textit{\\rom{1} } and its corresponding harvesting function $H$ still follows law \\textit{\\rom{1} } . }\n\\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 42,
+        "end": 58,
+        "text": "mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 61,
+        "end": 64,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 106,
+        "end": 143,
+        "text": "its corresponding harvesting function"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 145,
+        "end": 146,
+        "text": "H"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_33": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_33",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_33",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_33",
+    "text": "\\begin{enumerate}  \\item Firstly, the definition of a dynamic system shall be generalised \\footnote{Not restricted in the dynamicity of time} as follows : \\\\ \\\ntext it { A state space $D$ ( domain $D \\subset R^m$ ) , a set of parameters $\\Lambda$ , and a rule $M$ that specifies how each state will be mapped to another state space $O$ ( range $O \\subset R^n$ ) with the changing of parameters .\nThe rule $M$ is a mapping relation whose domain is $D \\times \\Lambda$ and whose codomain is $D$ .\nTherefore , $M: D \\times \\Lambda \\rightarrow O (D \\subset R^m, O \\subset R^n)$ .\nMapping relation $M$ takes two input $M (x,\\alpha)$ , where $x \\in D \\subset R^m$ is the outcome of each observation and $\\alpha \\in \\Lambda$ is a possible configuration of this mapping relation . } \\\\\nThe mapping relation discussed in this paper is referred as a certain configuration of a dynamic system $M_{\\alpha}(x \\mid \\alpha \\in \\Lambda)$ , the dynamicity related topic is off - discussion in this paper \\footnote{The only discussion that related to the dynamic property is law two.} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 170,
+        "end": 183,
+        "text": "A state space"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 185,
+        "end": 186,
+        "text": "D"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 190,
+        "end": 196,
+        "text": "domain"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 198,
+        "end": 199,
+        "text": "D"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 217,
+        "end": 236,
+        "text": "a set of parameters"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 238,
+        "end": 245,
+        "text": "\\Lambda"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 253,
+        "end": 259,
+        "text": "a rule"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 261,
+        "end": 262,
+        "text": "M"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 312,
+        "end": 331,
+        "text": "another state space"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 333,
+        "end": 334,
+        "text": "O"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 338,
+        "end": 343,
+        "text": "range"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 345,
+        "end": 346,
+        "text": "O"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 396,
+        "end": 404,
+        "text": "The rule"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 406,
+        "end": 407,
+        "text": "M"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 412,
+        "end": 430,
+        "text": "a mapping relation"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "PRIMARY",
+        "start": 437,
+        "end": 443,
+        "text": "domain"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 448,
+        "end": 464,
+        "text": "D \\times \\Lambda"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "PRIMARY",
+        "start": 476,
+        "end": 484,
+        "text": "codomain"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 489,
+        "end": 490,
+        "text": "D"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 507,
+        "end": 508,
+        "text": "M"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 510,
+        "end": 526,
+        "text": "D \\times \\Lambda"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 539,
+        "end": 540,
+        "text": "O"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "SYMBOL",
+        "start": 557,
+        "end": 558,
+        "text": "O"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "PRIMARY",
+        "start": 575,
+        "end": 591,
+        "text": "Mapping relation"
+      },
+      "T25": {
+        "eid": "T25",
+        "label": "SYMBOL",
+        "start": 593,
+        "end": 594,
+        "text": "M"
+      },
+      "T26": {
+        "eid": "T26",
+        "label": "SYMBOL",
+        "start": 613,
+        "end": 614,
+        "text": "M"
+      },
+      "T27": {
+        "eid": "T27",
+        "label": "PRIMARY",
+        "start": 606,
+        "end": 611,
+        "text": "input"
+      },
+      "T28": {
+        "eid": "T28",
+        "label": "SYMBOL",
+        "start": 616,
+        "end": 617,
+        "text": "x"
+      },
+      "T29": {
+        "eid": "T29",
+        "label": "SYMBOL",
+        "start": 618,
+        "end": 624,
+        "text": "\\alpha"
+      },
+      "T30": {
+        "eid": "T30",
+        "label": "SYMBOL",
+        "start": 636,
+        "end": 637,
+        "text": "x"
+      },
+      "T31": {
+        "eid": "T31",
+        "label": "PRIMARY",
+        "start": 660,
+        "end": 691,
+        "text": "the outcome of each observation"
+      },
+      "T32": {
+        "eid": "T32",
+        "label": "SYMBOL",
+        "start": 697,
+        "end": 703,
+        "text": "\\alpha"
+      },
+      "T33": {
+        "eid": "T33",
+        "label": "PRIMARY",
+        "start": 720,
+        "end": 769,
+        "text": "a possible configuration of this mapping relation"
+      },
+      "T34": {
+        "eid": "T34",
+        "label": "SYMBOL",
+        "start": 457,
+        "end": 464,
+        "text": "\\Lambda"
+      },
+      "T35": {
+        "eid": "T35",
+        "label": "SYMBOL",
+        "start": 519,
+        "end": 526,
+        "text": "\\Lambda"
+      },
+      "T36": {
+        "eid": "T36",
+        "label": "SYMBOL",
+        "start": 708,
+        "end": 715,
+        "text": "\\Lambda"
+      },
+      "T37": {
+        "eid": "T37",
+        "label": "PRIMARY",
+        "start": 864,
+        "end": 880,
+        "text": "a dynamic system"
+      },
+      "T38": {
+        "eid": "T38",
+        "label": "SYMBOL",
+        "start": 882,
+        "end": 919,
+        "text": "M_{\\alpha}(x \\mid \\alpha \\in \\Lambda)"
+      },
+      "T39": {
+        "eid": "T39",
+        "label": "SYMBOL",
+        "start": 893,
+        "end": 894,
+        "text": "x"
+      },
+      "T40": {
+        "eid": "T40",
+        "label": "SYMBOL",
+        "start": 900,
+        "end": 906,
+        "text": "\\alpha"
+      },
+      "T41": {
+        "eid": "T41",
+        "label": "SYMBOL",
+        "start": 911,
+        "end": 918,
+        "text": "\\Lambda"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T4"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T12"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T12"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Description",
+        "arg0": "T11",
+        "arg1": "T9"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T10"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T14"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T14"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Corefer-Description",
+        "arg0": "T15",
+        "arg1": "T13"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T8"
+      },
+      "R19": {
+        "rid": "R19",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T14"
+      },
+      "R20": {
+        "rid": "R20",
+        "label": "Corefer-Description",
+        "arg0": "T13",
+        "arg1": "T7"
+      },
+      "R21": {
+        "rid": "R21",
+        "label": "Corefer-Symbol",
+        "arg0": "T14",
+        "arg1": "T8"
+      },
+      "R22": {
+        "rid": "R22",
+        "label": "Corefer-Description",
+        "arg0": "T15",
+        "arg1": "T13"
+      },
+      "R23": {
+        "rid": "R23",
+        "label": "Direct",
+        "arg0": "T16",
+        "arg1": "T17"
+      },
+      "R24": {
+        "rid": "R24",
+        "label": "Direct",
+        "arg0": "T18",
+        "arg1": "T19"
+      },
+      "R25": {
+        "rid": "R25",
+        "label": "Corefer-Symbol",
+        "arg0": "T19",
+        "arg1": "T4"
+      },
+      "R26": {
+        "rid": "R26",
+        "label": "Corefer-Symbol",
+        "arg0": "T20",
+        "arg1": "T14"
+      },
+      "R27": {
+        "rid": "R27",
+        "label": "Corefer-Symbol",
+        "arg0": "T21",
+        "arg1": "T17"
+      },
+      "R28": {
+        "rid": "R28",
+        "label": "Corefer-Symbol",
+        "arg0": "T22",
+        "arg1": "T12"
+      },
+      "R29": {
+        "rid": "R29",
+        "label": "Corefer-Symbol",
+        "arg0": "T23",
+        "arg1": "T22"
+      },
+      "R30": {
+        "rid": "R30",
+        "label": "Direct",
+        "arg0": "T24",
+        "arg1": "T25"
+      },
+      "R31": {
+        "rid": "R31",
+        "label": "Corefer-Symbol",
+        "arg0": "T26",
+        "arg1": "T25"
+      },
+      "R32": {
+        "rid": "R32",
+        "label": "Direct",
+        "arg0": "T27",
+        "arg1": "T28"
+      },
+      "R33": {
+        "rid": "R33",
+        "label": "Direct",
+        "arg0": "T27",
+        "arg1": "T29"
+      },
+      "R34": {
+        "rid": "R34",
+        "label": "Corefer-Symbol",
+        "arg0": "T30",
+        "arg1": "T28"
+      },
+      "R35": {
+        "rid": "R35",
+        "label": "Direct",
+        "arg0": "T31",
+        "arg1": "T30"
+      },
+      "R36": {
+        "rid": "R36",
+        "label": "Direct",
+        "arg0": "T31",
+        "arg1": "T28"
+      },
+      "R37": {
+        "rid": "R37",
+        "label": "Corefer-Description",
+        "arg0": "T31",
+        "arg1": "T27"
+      },
+      "R38": {
+        "rid": "R38",
+        "label": "Direct",
+        "arg0": "T27",
+        "arg1": "T30"
+      },
+      "R39": {
+        "rid": "R39",
+        "label": "Direct",
+        "arg0": "T33",
+        "arg1": "T32"
+      },
+      "R40": {
+        "rid": "R40",
+        "label": "Corefer-Symbol",
+        "arg0": "T32",
+        "arg1": "T29"
+      },
+      "R41": {
+        "rid": "R41",
+        "label": "Direct",
+        "arg0": "T33",
+        "arg1": "T29"
+      },
+      "R42": {
+        "rid": "R42",
+        "label": "Corefer-Description",
+        "arg0": "T33",
+        "arg1": "T27"
+      },
+      "R43": {
+        "rid": "R43",
+        "label": "Direct",
+        "arg0": "T27",
+        "arg1": "T32"
+      },
+      "R44": {
+        "rid": "R44",
+        "label": "Corefer-Symbol",
+        "arg0": "T34",
+        "arg1": "T6"
+      },
+      "R45": {
+        "rid": "R45",
+        "label": "Corefer-Symbol",
+        "arg0": "T35",
+        "arg1": "T34"
+      },
+      "R46": {
+        "rid": "R46",
+        "label": "Corefer-Symbol",
+        "arg0": "T36",
+        "arg1": "T35"
+      },
+      "R47": {
+        "rid": "R47",
+        "label": "Direct",
+        "arg0": "T37",
+        "arg1": "T38"
+      },
+      "R48": {
+        "rid": "R48",
+        "label": "Corefer-Symbol",
+        "arg0": "T39",
+        "arg1": "T30"
+      },
+      "R49": {
+        "rid": "R49",
+        "label": "Corefer-Symbol",
+        "arg0": "T40",
+        "arg1": "T32"
+      },
+      "R50": {
+        "rid": "R50",
+        "label": "Corefer-Symbol",
+        "arg0": "T41",
+        "arg1": "T36"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_1": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_1",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_1",
+    "text": "           \\textbf { \\\ntextit { For a given mapping relation $M:D\\rightarrow O$ , an element of the range ( $o \\in O$ ) and each element in its corresponding domain ( $\\{e \\mid e \\in D, M(e)=o \\}$ ) are global and local information respectively . } }\n\\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 44,
+        "end": 60,
+        "text": "mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 62,
+        "end": 63,
+        "text": "M"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 85,
+        "end": 105,
+        "text": "element of the range"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 109,
+        "end": 110,
+        "text": "o"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 96,
+        "end": 105,
+        "text": "the range"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 115,
+        "end": 116,
+        "text": "O"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 77,
+        "end": 78,
+        "text": "O"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 144,
+        "end": 164,
+        "text": "corresponding domain"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 168,
+        "end": 195,
+        "text": "\\{e \\mid e \\in D, M(e)=o \\}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 186,
+        "end": 187,
+        "text": "M"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 170,
+        "end": 171,
+        "text": "e"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 129,
+        "end": 164,
+        "text": "element in its corresponding domain"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 188,
+        "end": 189,
+        "text": "e"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 177,
+        "end": 178,
+        "text": "e"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 191,
+        "end": 192,
+        "text": "o"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "PRIMARY",
+        "start": 158,
+        "end": 164,
+        "text": "domain"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 183,
+        "end": 184,
+        "text": "D"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 64,
+        "end": 65,
+        "text": "D"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T2"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T13",
+        "arg1": "T11"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T14",
+        "arg1": "T11"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T15",
+        "arg1": "T4"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T16",
+        "arg1": "T17"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T18",
+        "arg1": "T17"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_0": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_0",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_0",
+    "text": "Based on the viewpoint that has been missed by previous researchers , this paper focuses on discussing the behaviour of a model , or more specifically the behaviour of individual configurations $\\theta \\in \\Theta$ of a given dynamic system $M(x,\\Theta)$ ( $\\Theta$ is the parameter set and $\\theta$ is any of its element , the detailed discussion of dynamic systems is in the explanatory part of section three ) .\nThe `` Learning Ability \" discussed in this paper is a behaviour of a mapping relation , so when being used in the term `` Learning Model \" and `` Machine Learning \" ( Learning Theory ) , the word `` Learning \" carries different meanings respectively .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 168,
+        "end": 193,
+        "text": "individual configurations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 195,
+        "end": 201,
+        "text": "\\theta"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 206,
+        "end": 212,
+        "text": "\\Theta"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 256,
+        "end": 264,
+        "text": "$\\Theta$"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 268,
+        "end": 285,
+        "text": "the parameter set"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 291,
+        "end": 297,
+        "text": "\\theta"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 225,
+        "end": 239,
+        "text": "dynamic system"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 241,
+        "end": 252,
+        "text": "M(x,\\Theta)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 245,
+        "end": 251,
+        "text": "\\Theta"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 309,
+        "end": 320,
+        "text": "its element"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T4"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_32": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_32",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_32",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_32",
+    "text": "\\ bigskip \\noindent\nThis corollary carries double meaning :\n           \\item\nLinear separability is the common constraint for all mapping relations that satisfy law one could convert to .\n\\item Without the harvesting function, the learning result of mapping relation            cannot be recognised, so the mapping relation            (as shown in figure \\ref{corollary3} ) is supposed to be the mapping relation which could provide useful information eventually .\nHowever , in spite of the existence of infinitely many possible $H$ , it is almost impossible to locate a suitable harvesting function without violating law two .\nCorollary three shows that $V_C$ is independent of any first order global information of $F_L$ ( prior knowledge about the undetected concepts ) \\footnote{It is a common sense that intelligent creatures are able to learn concepts from completely unfamiliar environment.} , therefore it has been so far the only known family of implementable harvesting functions \\footnote{            is a set of vectors.} and it cooperate only with mapping relation `` L \" .\nThis corollary also explains researchers intuitive preference for linear separability .\n\\end{enumerate}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 580,
+        "end": 599,
+        "text": "harvesting function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 530,
+        "end": 531,
+        "text": "H"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_26": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_26",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_26",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_26",
+    "text": "\\ noindent\nBecause $Y_1$ , $Y_2$ to $Y_i$ are disjoint sets ( law \\textit{\\rom{1} } ) and the corresponding formula $\\Phi^{ri}_{Y_I}(y)$ equals a unique real number , therefore $H(y)$ is by definition a function .\nAnd there could be infinite many possible $H(y)$ .\nThus $H$ is the harvesting function which can harvest information from a mapping relation which follows law \\textit{\\rom{1} } .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 20,
+        "end": 23,
+        "text": "Y_1"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 28,
+        "end": 31,
+        "text": "Y_2"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 37,
+        "end": 40,
+        "text": "Y_i"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 46,
+        "end": 59,
+        "text": "disjoint sets"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 90,
+        "end": 115,
+        "text": "the corresponding formula"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 117,
+        "end": 135,
+        "text": "\\Phi^{ri}_{Y_I}(y)"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 178,
+        "end": 182,
+        "text": "H(y)"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 201,
+        "end": 211,
+        "text": "a function"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 257,
+        "end": 261,
+        "text": "H(y)"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 271,
+        "end": 272,
+        "text": "H"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 277,
+        "end": 300,
+        "text": "the harvesting function"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T7"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T10"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_22": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_22",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_22",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_22",
+    "text": "\\ bigskip \\ noindent Lemma one shows that for a given subset $X_j$ of a n - dimensional real number space , there exists a family of equality constraints : $\\Phi_{Xj}(t,r \\mid X_j)$ , so that $\\forall x \\in X_j$ and $ \\forall r \\in R$ we have $\\Phi^r_{Xj}(x \\mid r, X_j) = r$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 121,
+        "end": 153,
+        "text": "a family of equality constraints"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 157,
+        "end": 180,
+        "text": "\\Phi_{Xj}(t,r \\mid X_j)"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 46,
+        "end": 60,
+        "text": "a given subset"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 62,
+        "end": 65,
+        "text": "X_j"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 207,
+        "end": 210,
+        "text": "X_j"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 176,
+        "end": 179,
+        "text": "X_j"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 266,
+        "end": 269,
+        "text": "X_j"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_36": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_36",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_36",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_36",
+    "text": "\\ item\nLaw one together with corollary three indicate that harvest function $V_C$ could utilise global representations for all possible concepts without the existence of $L$ .\nThis implication seems irrational at first glance , however by assuming the well accepted learning model : human , is learning model as described in corollary three $ V_C \\circ L$ , the correctness of this implication is undeniable .\nThis implication equivalent to :",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 59,
+        "end": 75,
+        "text": "harvest function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 77,
+        "end": 80,
+        "text": "V_C"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 343,
+        "end": 346,
+        "text": "V_C"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_4": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_4",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_4",
+    "text": "           \\ item\nThese four expressions are equivalent :\n\\\\\nA concept\n$\\equiv$\nA set of appearances\n$\\equiv$\nA set of local information ( definition one )\n$\\equiv$\nA local representation ( definition two )",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_5": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_5",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_5",
+    "text": "\\ item\nThese three expressions are equivalent :\nA concept\n$\\equiv$\nA piece of global information $\\equiv$\nA global representation\n\\end{enumerate}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_37": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_37",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_37",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_37",
+    "text": "Most people do not realise this fact in their daily life , but this is the foundation of creative activities such as painting or sculpture \\footnote{Dynamic property of a system is off-discussion here.} .\nIt is not hard to image that a painter would still be able to create masterpiece once he lose his sight and for normal people who do not master this painting skill the experience of dreaming strange - looking creatures is not unusual .\nIn this case , when $V_C$ and $L$ were being constructed , all dimensions of the domain contain same type of information and the appearances of a concept is fairly straightforward provided .\nWhat if the domain consists of different types of information ?\nWe know that people who merely remember the answer of certain examination or all past examinations will not be acknowledged as having learned the concept of the corresponding subject , on the other hand people who learned concepts of a certain subject cannot only give answers to every possible related questions , but also can see facts that cannot be seen by people who merely remember those answers .\nThis is an example of non-learning model ( memory system ) and learning model that are related to high - level concept .\nIn this case a high - level concept will be defined based on different type of information and apparently how different types of information being clustered will largely affect whether higher level concept can be effectively learned or not , and this belongs to the discussion of intelligence which beyond the scope of this paper \\footnote{From the viewpoint of a blind person, the description of the painting of ``The Last Supper\" is full of articulation problem, equivalently in the teaching-learning process, for student who has no corresponding basic knowledge, the introduction of some concept would be also full of articulation problem. For most people, intelligence is about how different type of information can be related so that higher level concepts could be learned.} .",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_23": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_23",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_23",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_23",
+    "text": "\\ bigskip \\noindent\nThe constraint family $\\Phi_{Xj}(t,r \\mid X_j)$ can also be expressed as a column that includes infinitely many constraints :\n\\begin{figure} [ H ] \\ centering \\includegraphics[width=60mm,scale = 0.5]{lemma1_1.png}  \\caption{A family of constraints defined by            }  \\label{lemma1_1}  \\end{figure} \\ bigskip \\noindent\nFurther more , constraint family $\\Phi(t,r,X_k)$ is defined by the power set of the domain $D$ ( $\\forall X_k \\in \\mathcal{P}(D)$ ) , each member of this family is $\\Phi^r_{X_k}(x) = r$ and the constraint family $\\Phi(t,r,X_k)$ can also be expressed wit a matrix as shown in figure \\ref{lemma1_2} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 20,
+        "end": 41,
+        "text": "The constraint family"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 43,
+        "end": 66,
+        "text": "\\Phi_{Xj}(t,r \\mid X_j)"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 359,
+        "end": 376,
+        "text": "constraint family"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 378,
+        "end": 391,
+        "text": "\\Phi(t,r,X_k)"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 428,
+        "end": 434,
+        "text": "domain"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 436,
+        "end": 437,
+        "text": "D"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 407,
+        "end": 438,
+        "text": "the power set of the domain $D$"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 458,
+        "end": 472,
+        "text": "\\mathcal{P}(D)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 483,
+        "end": 504,
+        "text": "member of this family"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 509,
+        "end": 528,
+        "text": "\\Phi^r_{X_k}(x) = r"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 557,
+        "end": 570,
+        "text": "\\Phi(t,r,X_k)"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 538,
+        "end": 555,
+        "text": "constraint family"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 493,
+        "end": 504,
+        "text": "this family"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 470,
+        "end": 471,
+        "text": "D"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T12",
+        "arg1": "T3"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T4"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Description",
+        "arg0": "T13",
+        "arg1": "T3"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T4"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T14",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_35": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_35",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_35",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_35",
+    "text": "\\ noindent\nAs shown in figure \\ref{strategy1} ( picture 1 ) , the function $F^*$ is defined on domain $D1$ , and does not satisfy law one appearantly .\nBut by shrinking the range of the only dimension of its domain , as shown in \\ref{strategy1} ( picture 2 ) , now $F*$ behaves like it satisfies law one almost perfectly .\nThis strategy is usually being known as normalisation process in the field of machine learning , by doing so , application usually will be fed with pre-prepared data and can behave like it is able to define new concepts based on the appearances of the domain .\nHowever this pre-prepared process usually involves extensive knowledge or operation about the input and finial output of the application .\nTherefore , a learning model is expected to define concepts directly from the observation of high dimensional space with big range ( ideally infinite ) of each dimension .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 62,
+        "end": 74,
+        "text": "the function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 76,
+        "end": 79,
+        "text": "F^*"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 95,
+        "end": 101,
+        "text": "domain"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 103,
+        "end": 105,
+        "text": "D1"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 266,
+        "end": 268,
+        "text": "F*"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_21": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_21",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_21",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_21",
+    "text": "\\ big skip \\noindent \\textit{Proof:}  \\begin{adjustwidth}\n{ 2 cm } {}\nFor a given subset $X_j \\subset D$ , there exists an equation \\footnote{Solution of this equation could not be an element of            , this equation ``            \" is just an example which proofs the existence of equality constraint            .} :\n\\begin{equation}\nG(t) = (t-x_1) \\bullet (t-x_2) \\bullet ...\\bullet(t-x_i)\n\\end{equation}\nso that for any $x \\in X_j$ , we have            . \\\\\nAnd for a given real number $r$ , there exists :\n\\begin{equation}\n\\Phi(t) = G(t) + r\n\\end{equation}\nso that for any $x \\in X_j$ , we have            .\n\\end{adjustwidth}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 82,
+        "end": 88,
+        "text": "subset"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 90,
+        "end": 93,
+        "text": "X_j"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 120,
+        "end": 131,
+        "text": "an equation"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 340,
+        "end": 396,
+        "text": "G(t) = (t-x_1) \\bullet (t-x_2) \\bullet ...\\bullet(t-x_i)"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 435,
+        "end": 438,
+        "text": "X_j"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 474,
+        "end": 493,
+        "text": "a given real number"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 495,
+        "end": 496,
+        "text": "r"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 549,
+        "end": 550,
+        "text": "r"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 589,
+        "end": 592,
+        "text": "X_j"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_7": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_7",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_7",
+    "text": "           \\ text bf { \\\ntextit { For a given mapping relation $M:D\\rightarrow O$ , it defines the type of global information as $M$ . } }\n           \\ bigskip",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 38,
+        "end": 62,
+        "text": "a given mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 64,
+        "end": 80,
+        "text": "M:D\\rightarrow O"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 95,
+        "end": 125,
+        "text": "the type of global information"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 130,
+        "end": 131,
+        "text": "M"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_6": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_6",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_6",
+    "text": "           \\ text bf { \\textit{ \\begin{flushleft}\nFor a given mapping relation $M:D\\rightarrow O$ and subset $X \\subset O$ , we have $Y = \\{y \\mid y=M(x), x\\in X\\}$ , so that :\n\\\\ \\end{flushleft}            \\ item $\\forall y \\in Y $ subject to a constraint $c_\\alpha$ which is defined as a pair $<Y,R_i>$ , $ R_i$ is the i - ary relation ; \\ item $\\forall x \\in X $ subject to a constraint $c_\\beta$ which is defined as a pair $<X,R_j>$ , $ R_j$ is the j - ary relation ; \\ item if $R_i$ and $R_j$ are different , then each element of Y is a invariant representation of X .\n\\end{enumerate} } }\n\\end{tightcenter}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 54,
+        "end": 78,
+        "text": "a given mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 80,
+        "end": 96,
+        "text": "M:D\\rightarrow O"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 102,
+        "end": 108,
+        "text": "subset"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 110,
+        "end": 111,
+        "text": "X"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 244,
+        "end": 256,
+        "text": "a constraint"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 258,
+        "end": 266,
+        "text": "c_\\alpha"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 309,
+        "end": 312,
+        "text": "R_i"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 317,
+        "end": 337,
+        "text": "the i - ary relation"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 299,
+        "end": 302,
+        "text": "R_i"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 297,
+        "end": 298,
+        "text": "Y"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 134,
+        "end": 135,
+        "text": "Y"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 377,
+        "end": 389,
+        "text": "a constraint"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 391,
+        "end": 398,
+        "text": "c_\\beta"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 288,
+        "end": 294,
+        "text": "a pair"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 296,
+        "end": 303,
+        "text": "<Y,R_i>"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "PRIMARY",
+        "start": 420,
+        "end": 426,
+        "text": "a pair"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 428,
+        "end": 435,
+        "text": "<X,R_j>"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 441,
+        "end": 444,
+        "text": "R_j"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "PRIMARY",
+        "start": 449,
+        "end": 469,
+        "text": "the j - ary relation"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 483,
+        "end": 486,
+        "text": "R_i"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 493,
+        "end": 496,
+        "text": "R_j"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 431,
+        "end": 434,
+        "text": "R_j"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "SYMBOL",
+        "start": 429,
+        "end": 430,
+        "text": "X"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T15"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T16",
+        "arg1": "T17"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T19",
+        "arg1": "T18"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T20",
+        "arg1": "T7"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T21",
+        "arg1": "T18"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T22",
+        "arg1": "T18"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T23",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_20": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_20",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_20",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_20",
+    "text": "\\ noindent\nFor any subset $X_j$ of a n - dimensional real number domain $D$ and any given real number $r$ , there exist an equality constraint $\\Phi (x)$ , so that $\\Phi(x \\mid x \\in X_j) = r$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 37,
+        "end": 71,
+        "text": "n - dimensional real number domain"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 73,
+        "end": 74,
+        "text": "D"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 90,
+        "end": 101,
+        "text": "real number"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 103,
+        "end": 104,
+        "text": "r"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 19,
+        "end": 25,
+        "text": "subset"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 27,
+        "end": 30,
+        "text": "X_j"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 123,
+        "end": 142,
+        "text": "equality constraint"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 144,
+        "end": 152,
+        "text": "\\Phi (x)"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 183,
+        "end": 186,
+        "text": "X_j"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 190,
+        "end": 191,
+        "text": "r"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T6"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_34": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_34",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_34",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_34",
+    "text": "\\item For mapping relation            ,            ,            and the range of each dimension are assumed to be very large number, to infinity ideally \\footnote{The scenario shown in figure \\ref{strategy1} illustrates the reason why the range of each dimension are ideally to be infinity . } .\nThe reason of this assumption is straightforward . \\\\\nIt is apparently that a domain $D \\subset R^3$ is less likely to contain less information than only 2 of its dimension are recorded and it is also less likely to contain less information than only the integer part of all dimensions are recorded .\nAnd the direct consequence of having a domain which contains only a small amount of information is that there will be not enough information to define possibly different concepts .\nAn intuitive example of this scenario would be when a person with a high degree of myopia accidentally loses his glasses .\nSince the domain is supposed to be big enough to carry large amounts of information , it is reasonable to assume that the dimensionality of the range is high enough to contain enough parallel hyperplanes , and the range of each dimensionality seems not very important at this stage , but it is directly related to the further analysis of mapping relation $L$ .\nIt is worth mentioning that shrinking the range of each dimensionality is clearly a strategy that enable a non-learning model which does not satisfy law one behaves like it is able to learn the domain .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 372,
+        "end": 380,
+        "text": "a domain"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 382,
+        "end": 383,
+        "text": "D"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 1239,
+        "end": 1255,
+        "text": "mapping relation"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 1257,
+        "end": 1258,
+        "text": "L"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_46": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_46",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_46",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_46",
+    "text": "\\ bigskip\n\\noindent\nBecause the discussion of this paper is confined in certain configurations $\\theta$ of a dynamic system $f(x,\\Theta)$ , so there are two major future works :\nWhat is the family of $L(x, \\Theta)$ ; how to get a certain configuration of common learning model $L(\\theta \\in \\Theta)$ and how these parameters change dynamically .\nFurther research on these two issues will address following questions :\n\\begin{itemize}  \\item Under what circumstances is hierarchy structure\\footnote{Currently, there is no explanation about the necessity of having layer structure for both biological and artificial neural networks.} of a learning model necessary ?\n\\item\nIn a typical machine learning problem , the learning result is a $\\theta \\in \\Theta$ , however , for a learning model , compared with obtaining desirable $\\theta$ , a more valuable question is `` how a learning model encoding the unknown constraint of local representations of all concepts in the domain ? \" .\n\\item\nHow could possible existence of concepts depend on the information being contained in the domain quantitatively ?\n\\item\nThe dependency relation between learning model and non-learning model ( memory system ) .\n\\end{itemize}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 80,
+        "end": 94,
+        "text": "configurations"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 96,
+        "end": 102,
+        "text": "\\theta"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 107,
+        "end": 123,
+        "text": "a dynamic system"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 125,
+        "end": 136,
+        "text": "f(x,\\Theta)"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 710,
+        "end": 729,
+        "text": "the learning result"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 736,
+        "end": 742,
+        "text": "\\theta"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 825,
+        "end": 831,
+        "text": "\\theta"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 262,
+        "end": 276,
+        "text": "learning model"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 278,
+        "end": 298,
+        "text": "L(\\theta \\in \\Theta)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_44": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_44",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_44",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_44",
+    "text": "\\ bigskip \\noindent\nFirstly , by giving definitions of local and global information ( representations ) , the intuitive understanding about the relation between observation and the reality can be explained in the framework of mapping relation .\nBased on this formalised expression of information , law \\textit{\\rom{1} } indicates that for a mapping relation to be a learning model it at least should not be a information black - hole .\nLaw \\textit{\\rom{2} } confines possible information being used in constructing the mapping relation so that from a mapping relations point of view it will not be able to utilise information which goes beyond its field of vision ( first order global information ) .\nCorollary \\textit{\\rom{1} } proves the existence of a set of equivalent constraints which can harvest global information from a learning model and all possible sets of equivalent constraints are functions .\nCorollary \\textit{\\rom{2} } proves a learning model $M_L$ , together with any of its possible harvest function $H$ still satisfies law \\textit{\\rom{1} } and different concepts of any type of information $M_L$ can be represented by different real numbers although there are infinite many possible choices and it could be impossible to find any of them .\nCorollary \\textit{\\rom{3} } proves it is possible to have a harvest function $V_C$ which is independent from any possible first order global information and all learning model $M_L$ has a corresponding family of mapping relation $L$ that are also learning models .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 943,
+        "end": 959,
+        "text": "a learning model"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 961,
+        "end": 964,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 1112,
+        "end": 1115,
+        "text": "M_L"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 1319,
+        "end": 1337,
+        "text": "a harvest function"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 1339,
+        "end": 1342,
+        "text": "V_C"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1422,
+        "end": 1436,
+        "text": "learning model"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1438,
+        "end": 1441,
+        "text": "M_L"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 1473,
+        "end": 1489,
+        "text": "mapping relation"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 1491,
+        "end": 1492,
+        "text": "L"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_45": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_45",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_45",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_45",
+    "text": "\\ bigskip \\noindent\nFocusing on achieving functional similarities has been the basic guideline of top - down approaches since always and various machine learning techniques has been developed under this guideline .\nHowever , without a fundamental interpretation about what a given ability is , there could be dramatic differences between constructing a near - this - ability - performance system and constructing a having - this - ability - performance system .\nIt is just like researchers might eventually build a sky - facing Columbiad space gun which could shot three people to the Moon or even the Mars , but this should not bring researchers any confidence to claim that the space gun is the promising technique for interstellar travel .\nThis paper gives two laws which are necessary conditions for any mapping relations to be acknowledged to have learning ability ( to be a learning model ) and illustrate these following facts :\n           \\item\n`` Learning \" is the ability of identifying the existence of new concept .\n\\item\nA mapping relation $M_L$ will be acknowledged as a learning model of information $M_L$ only when it is able to possess this `` learning \" ability with no help from other learning models .\n           } and \\textit{\\rom{1} } .\n\\item\nThere exists a common learning model that utilises the power of hyperplanes .\n\\end{itemize}\nBy inspecting from the viewpoint of mapping relations and treating them equally ( human , animal , apparatus ) , these key ideas of this paper can be appreciated more clearly .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 1034,
+        "end": 1052,
+        "text": "A mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 1054,
+        "end": 1057,
+        "text": "M_L"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 1083,
+        "end": 1114,
+        "text": "a learning model of information"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 1116,
+        "end": 1119,
+        "text": "M_L"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_41": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_41",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_41",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_41",
+    "text": "\\begin{figure} [ H ] \\ centering\n\\includegraphics[width=100mm]{f_hypo2.png}  \\caption{Probability Model: A Cup \\& A Dog}  \\label{hypo2}  \\end{figure}            \\\ntext it { $F_{hypo}: R^n \\rightarrow R \\times I$ ( $I$ is the indicator set ) }\n           \\ noindent\nHowever the introduction of this \u00e2\u0080\u009c Indicator Set\u00e2\u0080\u009d breaks law \\textit{\\rom{2} } directly .\nThe size of this indicator set is the first order global information that represents the information of the amount of objects which $F_{hypo}$ can effectively identify , this information is given by us ( the creator of this model ) and without this information the model cannot reach its best performance after the training process , and the worst case is that the training process will not converge forever \\cite{vapnik2000nature} .\nThis example indicates that people should careful construct our hypothesis for getting a learning model , once too much information about the dataset was adopted , the corresponding training process is nothing but a high performance database ( non-learning model ) constructing program .",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_40": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_40",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_40",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_40",
+    "text": "\\ bigskip \\noindent\nThe necessary conditions for $f(x,\\Theta)$ to be a learning model are law \\textit{\\rom{1} } and law \\textit{\\rom{2} } , therefore our hypothesis about observation is the most critical part which affects whether $f(x,\\Theta)$ could be a learning model or not .\nWhen applying a probabilistic model to solving the object recognition problem , the hypothesis is based on our belief that there are unknown statistical laws which represent different concepts .\nAssume mapping relation $F_{hypo}$ is able to mimic the unknown statistical law of the appearance of a cup perfectly , then the mapping relation we get is as follows :\n\\begin{figure} [ H ] \\ centering\n\\includegraphics[width=80mm]{f_hypo1.png}  \\caption{Probability Model: A Cup}  \\label{hypo1}\n           \\noindent\nAt this stage , $F_{hypo}(Cup \\mid observation ; \\theta \\in \\Theta)$ is able to give the probability of being a cup of each observation .\nWhat if we want $F_{hypo}$ to give probabilities of being a dog and a cup of each observation respectively ?\nBeing different from our hypothesis in regression problem , there is no real number naturally related to different objects .\nTherefore we usually choose another way of constructing our hypothesis of observation as shown in figure \\ref{hypo2} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 482,
+        "end": 498,
+        "text": "mapping relation"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 500,
+        "end": 508,
+        "text": "F_{hypo}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 807,
+        "end": 815,
+        "text": "F_{hypo}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 900,
+        "end": 905,
+        "text": "a cup"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 816,
+        "end": 819,
+        "text": "Cup"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 945,
+        "end": 953,
+        "text": "F_{hypo}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_42": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_42",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_42",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_42",
+    "text": "\\item Although hypothesis            being used for classification problems may not satisfy law \\textit{\\rom{2} } and \\textit{\\rom{1} } , the corresponding loss function $Loss(y,f(x,\\Theta))$ \\cite{vapnik2000nature} are almost always learning models : $Loss:X \\subset D \\times \\theta \\rightarrow R$ .\nThe term `` Learning \" in machine learning problem means learning a desirable $\\theta \\in \\Theta$ .\nThe term `` Learning \" in this paper means the ability of a mapping relation .\nFurthermore , in the field of classical machine learning , by manipulating $Loss(\\Theta \\mid X,Y)$ based on a set of observation $X,Y$ , our goal is to minimise the loss $r \\in R$ during the training process .\nHopefully after training , the loss $Loss(y,f(D \\setminus X \\mid \\theta))$ will still be very small .\nIt is obvious that knowledge about $D$ ( first order global information ) is the key factor , because it is necessary for our hypothesis to have equivalent performance on current observation $X$ and possible future observation $D \\setminus X$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 138,
+        "end": 169,
+        "text": "the corresponding loss function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 171,
+        "end": 190,
+        "text": "Loss(y,f(x,\\Theta))"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 588,
+        "end": 608,
+        "text": "a set of observation"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 610,
+        "end": 611,
+        "text": "X"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 612,
+        "end": 613,
+        "text": "Y"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 641,
+        "end": 649,
+        "text": "the loss"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 651,
+        "end": 652,
+        "text": "r"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 717,
+        "end": 725,
+        "text": "the loss"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 727,
+        "end": 763,
+        "text": "Loss(y,f(D \\setminus X \\mid \\theta))"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 963,
+        "end": 982,
+        "text": "current observation"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 984,
+        "end": 985,
+        "text": "X"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 991,
+        "end": 1018,
+        "text": "possible future observation"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 1020,
+        "end": 1033,
+        "text": "D \\setminus X"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 234,
+        "end": 249,
+        "text": "learning models"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 253,
+        "end": 297,
+        "text": "Loss:X \\subset D \\times \\theta \\rightarrow R"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T15"
+      }
+    }
+  },
+  "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_43": {
+    "id": "1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_43",
+    "phase": "dev",
+    "topic": "cs.ai",
+    "document": "1509.08891v1.The_Computational_Principles_of_Learning_Ability",
+    "paragraph": "paragraph_43",
+    "prefix": "selected/dev/cs.ai-ann0/1509.08891v1.The_Computational_Principles_of_Learning_Ability/paragraph_43",
+    "text": "\\item\nSince the existence of concepts are defined based on different appearances , the notion \" right \" or \" wrong \" is redundant in this situation .\nMore precisely , for a learning model $M_L:D \\rightarrow O$ talking about whether the mapping relation $ x \\rightarrow y (x \\in X \\subset D; y \\in Y = M(x))$ is correct or not is meaningless , in other words , any criterion which can be used to test this mapping relation only provides first order global information with respect to $M_L$ .\nFor example ,\nWhen explaining the object recognition problem using the theoretical framework proposed in this paper , two seemingly counter-intuitive deductions are dataset separation and dataset merge problems .\n\\begin{itemize} \\item\nDataset separation problem : When dataset generated by one object is separated , there could be two different sets of invariant representations .\n\\item\nDataset merge problem : When two datasets of different objects are merged together , there could be a new set of invariant representations .\n\\end{itemize}\n\\begin{figure} [ H ] \\ centering\n\\includegraphics[width=120mm]{overfitting.png}\n\\caption{Dataset seperate and merge problems}\n\\label{overfitting}\n\\end{figure}\nAbove description is the common intuitive understanding of these two problems , but there are two mistakes about this understanding :\n\\begin{itemize} \\item\nThe information generators is defined by the mapping relation , so these two problems are equivalent .\n\\item\nSince there is no observation independent concept , solely talking about the existence of certain concept is meaningless and this example shown in figure \\ref{overfitting} is often known as over-fitting problem in the field of machine learning .\nHowever , from the viewpoint of a learning model there is no notion of `` right \" or `` wrong \" , therefore it is not a problem , it is a phenomenon which can be used to verify the validity of future implementation based on this theoretical framework .\n\\end{itemize}  \\end{enumerate}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 171,
+        "end": 187,
+        "text": "a learning model"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 189,
+        "end": 208,
+        "text": "M_L:D \\rightarrow O"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 232,
+        "end": 252,
+        "text": "the mapping relation"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 255,
+        "end": 270,
+        "text": "x \\rightarrow y"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 484,
+        "end": 487,
+        "text": "M_L"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 189,
+        "end": 192,
+        "text": "M_L"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T6"
+      }
+    }
+  }
+}

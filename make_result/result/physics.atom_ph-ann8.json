@@ -1,0 +1,4247 @@
+{
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_11",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_11",
+		"text": "The radiation near $\\theta \\approx 20^{\\circ}$ arises after the reflection of the electrons . When the laser field is tightly focused , the emission time in this case again is of the order of the duration of the electron beam $\\Delta t\\approx L_R/c+L_b/c(1+\\beta)\\sim L_b/2c$ , with the Rayleigh length $L_R=\\pi w_0^2/\\lambda_0$ \\cite{Suppl_material} . However , due to reflection , the front of the radiation field and the rear part of the electron beam are counterpropagating , which yields a very short radiation pulse : $\\Delta t_d\\sim \\pi T_0(w_0/\\lambda_0)^2(1-\\beta\\cos\\theta)+L_b (1-\\cos\\theta)/c(1+\\beta)\\sim L_b (1-\\cos\\theta)/2c $ \\cite{Suppl_material} .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 20,
+				"end": 26,
+				"text": "\\theta"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 27,
+				"end": 45,
+				"text": "\\approx 20^{\\circ}"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 227,
+				"end": 235,
+				"text": "\\Delta t"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 235,
+				"end": 246,
+				"text": "\\approx L_R"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 257,
+				"end": 262,
+				"text": "\\beta"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 263,
+				"end": 267,
+				"text": "\\sim"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 263,
+				"end": 271,
+				"text": "\\sim L_b"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 268,
+				"end": 274,
+				"text": "L_b/2c"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 304,
+				"end": 307,
+				"text": "L_R"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 308,
+				"end": 327,
+				"text": "\\pi w_0^2/\\lambda_0"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 318,
+				"end": 327,
+				"text": "\\lambda_0"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 525,
+				"end": 535,
+				"text": "\\Delta t_d"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 544,
+				"end": 547,
+				"text": "T_0"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 548,
+				"end": 561,
+				"text": "w_0/\\lambda_0"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 567,
+				"end": 572,
+				"text": "\\beta"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 572,
+				"end": 582,
+				"text": "\\cos\\theta"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 584,
+				"end": 587,
+				"text": "L_b"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 591,
+				"end": 601,
+				"text": "\\cos\\theta"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 603,
+				"end": 604,
+				"text": "c"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 607,
+				"end": 612,
+				"text": "\\beta"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 613,
+				"end": 617,
+				"text": "\\sim"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "SYMBOL",
+				"start": 618,
+				"end": 621,
+				"text": "L_b"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "SYMBOL",
+				"start": 629,
+				"end": 635,
+				"text": "\\theta"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "SYMBOL",
+				"start": 638,
+				"end": 639,
+				"text": "c"
+			},
+			"T25": {
+				"eid": "T25",
+				"label": "PRIMARY",
+				"start": 196,
+				"end": 225,
+				"text": "duration of the electron beam"
+			},
+			"T26": {
+				"eid": "T26",
+				"label": "PRIMARY",
+				"start": 287,
+				"end": 302,
+				"text": "Rayleigh length"
+			}
+		},
+		"relation": {
+			"R2": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T3",
+				"rid": "R2"
+			},
+			"R3": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T4",
+				"rid": "R3"
+			},
+			"R7": {
+				"label": "Direct",
+				"arg0": "T26",
+				"arg1": "T9",
+				"rid": "R7"
+			},
+			"R8": {
+				"label": "Direct",
+				"arg0": "T26",
+				"arg1": "T10",
+				"rid": "R8"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T23",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T15",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T15",
+				"arg1": "T20",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T21",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T16",
+				"arg1": "T18",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T17",
+				"arg1": "T22",
+				"rid": "R505"
+			},
+			"R506": {
+				"label": "Corefer-Symbol",
+				"arg0": "T19",
+				"arg1": "T24",
+				"rid": "R506"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_10",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_10",
+		"text": "\\includegraphics[width=8cm]{fig4.eps} [unused10] . } \\label{plane-wave}  \\end{figure}",
+		"entity": {},
+		"relation": {}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_12",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_12",
+		"text": "Moreover , there is another reason which further decreases the emission time . During the forward radiation all electrons loose energy which facilitates the reflection when the condition $\\gamma\\sim \\xi/2$ is approached . However , only the front fraction of the bunch can encounter the strongest laser field at the peak of the laser pulse within the focal region and loose enough energy to fulfil the reflection condition . The rear electrons experience a weaker laser field , because of the laser defocusing effect and can not achieve the reflection . Then , the effective length $\\tilde{L}_b $ of the reflected electron bunch is shorter than the total bunch length , for the given parameters $\\tilde{L}_b\\approx 10\\lambda_0$ \\cite{Suppl_material} . For the given parameters our estimate provides $\\Delta t_d\\approx 0.24T_0$ and $\\Delta t\\approx 4T_0$ , which is in agreement with Fig. ~ \\ref{spectrum} ( a ) and ( b ) .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 188,
+				"end": 194,
+				"text": "\\gamma"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 194,
+				"end": 198,
+				"text": "\\sim"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 199,
+				"end": 204,
+				"text": "\\xi/2"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 583,
+				"end": 594,
+				"text": "\\tilde{L}_b"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 696,
+				"end": 707,
+				"text": "\\tilde{L}_b"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 707,
+				"end": 714,
+				"text": "\\approx"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 717,
+				"end": 726,
+				"text": "\\lambda_0"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 800,
+				"end": 810,
+				"text": "\\Delta t_d"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 810,
+				"end": 817,
+				"text": "\\approx"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 818,
+				"end": 825,
+				"text": "0.24T_0"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 832,
+				"end": 840,
+				"text": "\\Delta t"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 840,
+				"end": 852,
+				"text": "\\approx 4T_0"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "PRIMARY",
+				"start": 565,
+				"end": 581,
+				"text": "effective length"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "PRIMARY",
+				"start": 684,
+				"end": 694,
+				"text": "parameters"
+			}
+		},
+		"relation": {
+			"R2": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T4",
+				"rid": "R2"
+			},
+			"R3": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T5",
+				"rid": "R3"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T6",
+				"rid": "R4"
+			},
+			"R5": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T7",
+				"rid": "R5"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T4",
+				"arg1": "T5",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T8",
+				"arg1": "T11",
+				"rid": "R501"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_8",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_8",
+		"text": "Let us explain the duration of the gamma radiation at different emission angles . The ultrarelativistic electrons in the bunch , which counterpropagate with the laser field , radiate initially in the direction opposite to the laser propagation [ see $\\eta<35$ in Fig. ~ \\ref{single} ( d ) ] . Significant photon emission appears when the $\\chi$ - parameter achieves a rather large peak value of $\\chi\\approx 0.6$ , as shown in Fig. ~ \\ref{single} ( a ) . Due to the radiation loss the electron energy decreases ( Fig. ~ \\ref{single} ( c ) ) . On the other hand , at this moment the laser field is still large ( Fig. ~ \\ref{single} ( b ) ) , yielding the electron reflection at $\\eta\\approx 36$ [ see the large change of $\\theta$ at $\\eta\\approx 36$ in Fig. ~ \\ref{single} ( d ) ] . After the reflection the electron emits briefly closer to the laser propagation direction because it leaves the focal region with an essential decrease of the parameter $\\chi$ . The emission angle $\\theta\\sim \\xi/\\gamma\\approx 20^{\\circ}$ , is determined by the values of $\\xi$ and $\\gamma$ after the reflection . This is the tilting angle of the electron trajectory with respect to the laser propagation direction after the reflection .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 251,
+				"end": 255,
+				"text": "\\eta"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 339,
+				"end": 343,
+				"text": "\\chi"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 396,
+				"end": 400,
+				"text": "\\chi"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 400,
+				"end": 407,
+				"text": "\\approx"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 400,
+				"end": 411,
+				"text": "\\approx 0.6"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 400,
+				"end": 747,
+				"text": "\\approx 0.6$ , as shown in Fig. ~ \\ref{single} ( a ) . Due to the radiation loss the electron energy decreases ( Fig. ~ \\ref{single} ( c ) ) . On the other hand , at this moment the laser field is still large ( Fig. ~ \\ref{single} ( b ) ) , yielding the electron reflection at $\\eta\\approx 36$ [ see the large change of $\\theta$ at $\\eta\\approx 36"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 678,
+				"end": 682,
+				"text": "\\eta"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 682,
+				"end": 689,
+				"text": "\\approx"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 690,
+				"end": 692,
+				"text": "36"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 721,
+				"end": 727,
+				"text": "\\theta"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 733,
+				"end": 737,
+				"text": "\\eta"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 737,
+				"end": 744,
+				"text": "\\approx"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 737,
+				"end": 747,
+				"text": "\\approx 36"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 952,
+				"end": 956,
+				"text": "\\chi"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 980,
+				"end": 986,
+				"text": "\\theta"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 986,
+				"end": 990,
+				"text": "\\sim"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 991,
+				"end": 994,
+				"text": "\\xi"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 995,
+				"end": 1001,
+				"text": "\\gamma"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 1001,
+				"end": 1019,
+				"text": "\\approx 20^{\\circ}"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 1055,
+				"end": 1058,
+				"text": "\\xi"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 1065,
+				"end": 1071,
+				"text": "\\gamma"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "PRIMARY",
+				"start": 347,
+				"end": 356,
+				"text": "parameter"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "PRIMARY",
+				"start": 941,
+				"end": 950,
+				"text": "parameter"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "PRIMARY",
+				"start": 964,
+				"end": 978,
+				"text": "emission angle"
+			}
+		},
+		"relation": {
+			"R5": {
+				"label": "Direct",
+				"arg0": "T22",
+				"arg1": "T2",
+				"rid": "R5"
+			},
+			"R9": {
+				"label": "Direct",
+				"arg0": "T23",
+				"arg1": "T14",
+				"rid": "R9"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T15",
+				"rid": "R10"
+			},
+			"R11": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T16",
+				"rid": "R11"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T17",
+				"rid": "R13"
+			},
+			"R15": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T18",
+				"rid": "R15"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T19",
+				"rid": "R16"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T7",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T7",
+				"arg1": "T11",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T2",
+				"arg1": "T3",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T3",
+				"arg1": "T14",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T10",
+				"arg1": "T15",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T17",
+				"arg1": "T20",
+				"rid": "R505"
+			},
+			"R506": {
+				"label": "Corefer-Symbol",
+				"arg0": "T18",
+				"arg1": "T21",
+				"rid": "R506"
+			},
+			"R507": {
+				"label": "Corefer-Description",
+				"arg0": "T22",
+				"arg1": "T23",
+				"rid": "R507"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_9",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_9",
+		"text": "The radiation at $\\theta\\approx 180^{\\circ}$ arises before the electrons reach the reflection point . While the duration of the radiation wave packet of a single electron is extremely short $\\Delta t_d^{(1)}\\sim \\tau_0/4\\gamma^2$ , each consecutive electron in the bunch contributes into the total radiation field with corresponding time delay . Therefore , the total duration of the emission is of the order of the electron 's bunch duration $L_b/c$ . An accurate estimation of the radiation pulse duration yields $\\Delta t_d\\sim \\tau_0/ 4\\gamma^2+2L_b/c(1+\\beta)$ , and the radiation time of the electron beam $\\Delta t=(\\tau_0+L_b/c)/(1+\\beta)$ \\cite{Suppl_material} . Furthermore , $\\Delta t_d/\\Delta t\\approx 1.4$ which corresponds to Fig. ~ \\ref{spectrum} ( a ) and ( b ) . The length of the emitted gamma radiation pulse is deduced by calculating the distance between the front of the gamma - pulse ( which arises when the laser pulse reaches the front part of the electron beam ) and the end of the gamma - pulse ( which is determined by the moment when the laser pulse reaches the end of the electron beam ) \\cite{Suppl_material} ( see also Fig. ~ \\ref{schematic} ( b ) and ( c ) ) .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 18,
+				"end": 24,
+				"text": "\\theta"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 24,
+				"end": 31,
+				"text": "\\approx"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 24,
+				"end": 43,
+				"text": "\\approx 180^{\\circ}"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 191,
+				"end": 207,
+				"text": "\\Delta t_d^{(1)}"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 207,
+				"end": 228,
+				"text": "\\sim \\tau_0/4\\gamma^2"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 212,
+				"end": 218,
+				"text": "\\tau_0"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 212,
+				"end": 228,
+				"text": "\\tau_0/4\\gamma^2"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 220,
+				"end": 228,
+				"text": "\\gamma^2"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 444,
+				"end": 449,
+				"text": "L_b/c"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 516,
+				"end": 526,
+				"text": "\\Delta t_d"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 531,
+				"end": 537,
+				"text": "\\tau_0"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 540,
+				"end": 555,
+				"text": "\\gamma^2+2L_b/c"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 550,
+				"end": 555,
+				"text": "L_b/c"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 613,
+				"end": 621,
+				"text": "\\Delta t"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 623,
+				"end": 629,
+				"text": "\\tau_0"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 630,
+				"end": 635,
+				"text": "L_b/c"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 640,
+				"end": 645,
+				"text": "\\beta"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 687,
+				"end": 697,
+				"text": "\\Delta t_d"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 698,
+				"end": 706,
+				"text": "\\Delta t"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 706,
+				"end": 717,
+				"text": "\\approx 1.4"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "PRIMARY",
+				"start": 416,
+				"end": 442,
+				"text": "electron 's bunch duration"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "PRIMARY",
+				"start": 576,
+				"end": 611,
+				"text": "radiation time of the electron beam"
+			}
+		},
+		"relation": {
+			"R5": {
+				"label": "Direct",
+				"arg0": "T21",
+				"arg1": "T9",
+				"rid": "R5"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T22",
+				"arg1": "T14",
+				"rid": "R10"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T11",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T11",
+				"arg1": "T15",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T9",
+				"arg1": "T13",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T13",
+				"arg1": "T16",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T10",
+				"arg1": "T18",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T14",
+				"arg1": "T19",
+				"rid": "R505"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_13",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_13",
+		"text": "The focusing of the laser beam is absolutely essential . In a plane - wave laser pulse , as shown in Fig. ~ \\ref{plane-wave} , the emission time of the radiation before the reflection can be seen from the area $\\theta>90^{\\circ}$ in Fig. ~ \\ref{plane-wave} ( a ) , and that after the reflection from $\\theta<90^{\\circ}$ . In the latter case , the electron moves along the propagation direction of the laser pulse and experiences the field of the rest of the laser pulse . Then , the emission of photons takes the long time $\\Delta t\\sim \\tau_0/(1-\\beta)\\gg L_b/c$ \\cite{Suppl_material} . In the frame of the detector , the duration of the radiation pulse is shortened with respect to the emission time by a factor $1-\\beta \\cos\\theta$ to become $\\Delta t_d\\sim \\tau_0(1-\\beta\\cos\\theta)/(1-\\beta)$ \\cite{Suppl_material} [ see the time range for $\\theta <90^\\circ$ in Fig. ~ \\ref{plane-wave} ( b ) compared to Fig. ~ \\ref{plane-wave} ( a ) ] . However , the shortest duration of the radiation pulse at $\\theta\\approx 20^{\\circ}$ is still much larger than the laser period , in contrast to the case of the focused field [ in the focused field $\\tau_0/(1-\\beta)$ is replaced by $L_R/c$ in the emission time ] .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 211,
+				"end": 228,
+				"text": "\\theta>90^{\\circ}"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 301,
+				"end": 318,
+				"text": "\\theta<90^{\\circ}"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 524,
+				"end": 532,
+				"text": "\\Delta t"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 532,
+				"end": 536,
+				"text": "\\sim"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 532,
+				"end": 553,
+				"text": "\\sim \\tau_0/(1-\\beta)"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 537,
+				"end": 543,
+				"text": "\\tau_0"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 547,
+				"end": 552,
+				"text": "\\beta"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 553,
+				"end": 562,
+				"text": "\\gg L_b/c"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 715,
+				"end": 733,
+				"text": "1-\\beta \\cos\\theta"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 717,
+				"end": 722,
+				"text": "\\beta"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 723,
+				"end": 733,
+				"text": "\\cos\\theta"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 746,
+				"end": 756,
+				"text": "\\Delta t_d"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 756,
+				"end": 760,
+				"text": "\\sim"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 761,
+				"end": 767,
+				"text": "\\tau_0"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 770,
+				"end": 775,
+				"text": "\\beta"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 779,
+				"end": 785,
+				"text": "\\theta"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 790,
+				"end": 795,
+				"text": "\\beta"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 846,
+				"end": 862,
+				"text": "\\theta <90^\\circ"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 1002,
+				"end": 1008,
+				"text": "\\theta"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 1008,
+				"end": 1026,
+				"text": "\\approx 20^{\\circ}"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 1142,
+				"end": 1158,
+				"text": "\\tau_0/(1-\\beta)"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "SYMBOL",
+				"start": 1152,
+				"end": 1157,
+				"text": "\\beta"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "SYMBOL",
+				"start": 1176,
+				"end": 1181,
+				"text": "L_R/c"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "PRIMARY",
+				"start": 205,
+				"end": 209,
+				"text": "area"
+			},
+			"T25": {
+				"eid": "T25",
+				"label": "PRIMARY",
+				"start": 688,
+				"end": 701,
+				"text": "emission time"
+			},
+			"T26": {
+				"eid": "T26",
+				"label": "PRIMARY",
+				"start": 830,
+				"end": 840,
+				"text": "time range"
+			},
+			"T27": {
+				"eid": "T27",
+				"label": "PRIMARY",
+				"start": 1127,
+				"end": 1140,
+				"text": "focused field"
+			}
+		},
+		"relation": {
+			"R3": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T1",
+				"rid": "R3"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T9",
+				"rid": "R10"
+			},
+			"R14": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T10",
+				"rid": "R14"
+			},
+			"R15": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T11",
+				"rid": "R15"
+			},
+			"R20": {
+				"label": "Direct",
+				"arg0": "T26",
+				"arg1": "T18",
+				"rid": "R20"
+			},
+			"R21": {
+				"label": "Direct",
+				"arg0": "T27",
+				"arg1": "T21",
+				"rid": "R21"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T2",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T2",
+				"arg1": "T18",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T4",
+				"arg1": "T13",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T14",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T7",
+				"arg1": "T10",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T10",
+				"arg1": "T15",
+				"rid": "R505"
+			},
+			"R506": {
+				"label": "Corefer-Symbol",
+				"arg0": "T15",
+				"arg1": "T17",
+				"rid": "R506"
+			},
+			"R507": {
+				"label": "Corefer-Symbol",
+				"arg0": "T17",
+				"arg1": "T22",
+				"rid": "R507"
+			},
+			"R508": {
+				"label": "Corefer-Symbol",
+				"arg0": "T16",
+				"arg1": "T19",
+				"rid": "R508"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_16",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_16",
+		"text": "Finally , we estimate the total number of photons in the gamma - ray burst of $830$ as duration for the parameters in Fig. ~ \\ref{spectrum} to be $N_{ph}\\sim 10^2$ within the emission solid angle $\\Delta\\Omega=1$ mrad $^2$ . In spite of a small number of total photons , the photon flux ( F ) and the brilliance ( B ) are rather large due to the short duration of the pulse : $F\\sim 10^{14}$ photons s $^{-1}$ $0.1 \\%$ BW , and $B\\sim 3\\times 10^{20}$ photons s $^{-1}$ mrad $^{-2}$ mm $^{-2}$ $0.1 \\%$ BW , respectively , e.g. , the brilliance is 2 orders of magnitude larger than in the recent experiment \\cite{Powers_2014} .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 79,
+				"end": 82,
+				"text": "830"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 147,
+				"end": 162,
+				"text": "N_{ph}\\sim 10^2"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 153,
+				"end": 162,
+				"text": "\\sim 10^2"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 197,
+				"end": 221,
+				"text": "\\Delta\\Omega=1$ mrad $^2"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 289,
+				"end": 290,
+				"text": "F"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 314,
+				"end": 315,
+				"text": "B"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 377,
+				"end": 378,
+				"text": "F"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 378,
+				"end": 390,
+				"text": "\\sim 10^{14}"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 429,
+				"end": 430,
+				"text": "B"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 430,
+				"end": 450,
+				"text": "\\sim 3\\times 10^{20}"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "PRIMARY",
+				"start": 87,
+				"end": 95,
+				"text": "duration"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "PRIMARY",
+				"start": 175,
+				"end": 195,
+				"text": "emission solid angle"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "PRIMARY",
+				"start": 275,
+				"end": 286,
+				"text": "photon flux"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "PRIMARY",
+				"start": 301,
+				"end": 311,
+				"text": "brilliance"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "PRIMARY",
+				"start": 392,
+				"end": 399,
+				"text": "photons"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "PRIMARY",
+				"start": 452,
+				"end": 459,
+				"text": "photons"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T1",
+				"rid": "R1"
+			},
+			"R2": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T4",
+				"rid": "R2"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T5",
+				"rid": "R4"
+			},
+			"R6": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T6",
+				"rid": "R6"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T7",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T9",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Description",
+				"arg0": "T15",
+				"arg1": "T16",
+				"rid": "R502"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_14",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_14",
+		"text": "Several gamma - ray bursts are observable near $\\theta \\approx 20^{\\circ}$ in the 4 - cycle laser pulse ( Fig. ~ \\ref{spectrum} ( a ) ) . Moreover , a single gamma - ray burst arises in a 2 - cycle laser pulse , and a gamma - ray comb is formed by employing longer laser pulses \\cite{Suppl_material} . This is because the electron can be reflected at any wave crest due to the stochastic character of the gamma - photon emission , while there is only one single burst when stochastic effects are neglected \\cite{Suppl_material} . This feature of the angle - resolved radiation intensity can serve as an indicator of stochastic effects in photon emission .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 48,
+				"end": 54,
+				"text": "\\theta"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 55,
+				"end": 73,
+				"text": "\\approx 20^{\\circ}"
+			}
+		},
+		"relation": {}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_15",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_15",
+		"text": "The described effect of the short gamma ray generation near the reflection condition is rather robust . While here one example of the effect at $\\xi =600$ and $\\gamma_0\\approx 400$ has been provided , our simulations show that the same mechanism for ultrashort gamma - ray bursts works as well when varying the laser field and the electron energy within a large range : $\\delta \\xi/\\xi\\sim 1/2$ and $\\delta \\gamma/\\gamma_0 \\sim 1/2$ \\cite{Suppl_material} .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 145,
+				"end": 148,
+				"text": "\\xi"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 160,
+				"end": 168,
+				"text": "\\gamma_0"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 168,
+				"end": 179,
+				"text": "\\approx 400"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 371,
+				"end": 377,
+				"text": "\\delta"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 371,
+				"end": 381,
+				"text": "\\delta \\xi"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 378,
+				"end": 381,
+				"text": "\\xi"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 382,
+				"end": 385,
+				"text": "\\xi"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 385,
+				"end": 393,
+				"text": "\\sim 1/2"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 400,
+				"end": 422,
+				"text": "\\delta \\gamma/\\gamma_0"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 423,
+				"end": 431,
+				"text": "\\sim 1/2"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "PRIMARY",
+				"start": 331,
+				"end": 346,
+				"text": "electron energy"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "PRIMARY",
+				"start": 331,
+				"end": 367,
+				"text": "electron energy within a large range"
+			}
+		},
+		"relation": {
+			"R3": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T4",
+				"rid": "R3"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T4",
+				"rid": "R4"
+			},
+			"R5": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T5",
+				"rid": "R5"
+			},
+			"R6": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T5",
+				"rid": "R6"
+			},
+			"R8": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T6",
+				"rid": "R8"
+			},
+			"R9": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T6",
+				"rid": "R9"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T7",
+				"rid": "R10"
+			},
+			"R11": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T7",
+				"rid": "R11"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T8",
+				"rid": "R13"
+			},
+			"R14": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T8",
+				"rid": "R14"
+			},
+			"R15": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T9",
+				"rid": "R15"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T9",
+				"rid": "R16"
+			},
+			"R17": {
+				"label": "Direct",
+				"arg0": "T11",
+				"arg1": "T10",
+				"rid": "R17"
+			},
+			"R18": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T10",
+				"rid": "R18"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T6",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T7",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T8",
+				"arg1": "T10",
+				"rid": "R502"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_2",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_2",
+		"text": "Let us determine the parameters of the applied regime . First of all , we consider the nonlinear regime of Compton scattering when the invariant laser field parameter is large , $\\xi\\gg 1$ , where $\\xi\\equiv |e|E_0/(m\\omega_0)$ , $E_0$ and $\\omega_0$ are the laser field and frequency , respectively , and $e$ and $m$ are the electron charge and mass , respectively ( Planck units $\\hbar=c=1$ are used throughout ) . Second , the reflection of the counterpropagating electron in a laser pulse requires a relativistic Lorentz factor $\\gamma\\approx\\xi/2$ . In fact , the electron , initially at rest , in the laser field drifts along the laser propagation direction with the Lorentz factor of the drift $\\gamma_{ drift}=\\xi/2$ \\cite{Salamin_1996} . Similarly , the electron deviation angle with respect to the laser propagation direction can be estimated as $\\theta\\sim \\xi/\\gamma$ , and the reflection condition corresponds to $\\theta\\sim 1$ . Third , the interaction has to be in the radiation - dominated regime ( RDR ) , when the radiation losses during a laser period are comparable with the electron 's initial energy , and the radiation reaction has a decisive impact on the electron dynamics . This regime is characterized by the parameter $R \\equiv\\alpha \\xi \\chi \\gtrsim 1$ \\cite{RMP_2012} , which is the ratio of the radiated energy during a laser period to the electron energy . Here , $\\alpha$ is the fine structure constant , and $\\chi\\equiv \\gamma(\\omega_0/m)\\xi (1-\\beta \\cos\\theta)$ the quantum strong field parameter , which determines the recoil of the electron during the photon emission with $\\chi \\approx \\omega/m\\gamma$ \\cite{RMP_2012} . $\\beta$ is the relativistic beta factor of the electron , $\\theta$ the polar angle between the electron velocity and the laser propagation direction , and $\\omega$ the emitted photon energy . The RDR is mostly accessible in the quantum regime of interaction when $\\chi\\gtrsim 1$ \\cite{Baurichter_1997_new} . However , the RDR regime is only achievable with extremely intense lasers $\\xi\\gg 1$ . Thus , combining the quantum RDR conditions $R=\\alpha \\xi\\chi \\gtrsim 1$ and $\\chi\\approx 10^{-6}\\gamma\\xi\\sim 1$ , with the reflection condition $\\gamma\\sim\\xi/2$ , one requires $\\gamma \\sim \\xi \\sim 10^3$ . Electron beams of GeV energies ( $\\gamma \\sim 10^3$ ) can be produced by the laser - plasma acceleration technique \\cite{Esarey_2009} and the laser intensities of $10^{23}$ - $10^{24}$ W / cm $^2$ ( $\\xi \\sim 10^3$ ) are anticipated with next generation facilities ( see , e.g. , \\cite{ELI,HiPER} ) .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 179,
+				"end": 182,
+				"text": "\\xi"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 198,
+				"end": 201,
+				"text": "\\xi"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 201,
+				"end": 226,
+				"text": "\\equiv |e|E_0/(m\\omega_0)"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 209,
+				"end": 210,
+				"text": "e"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 211,
+				"end": 214,
+				"text": "E_0"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 216,
+				"end": 217,
+				"text": "m"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 217,
+				"end": 225,
+				"text": "\\omega_0"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 231,
+				"end": 234,
+				"text": "E_0"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 241,
+				"end": 249,
+				"text": "\\omega_0"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 307,
+				"end": 308,
+				"text": "e"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 315,
+				"end": 316,
+				"text": "m"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 382,
+				"end": 391,
+				"text": "\\hbar=c=1"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 533,
+				"end": 539,
+				"text": "\\gamma"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 539,
+				"end": 551,
+				"text": "\\approx\\xi/2"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 702,
+				"end": 717,
+				"text": "\\gamma_{ drift}"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 718,
+				"end": 723,
+				"text": "\\xi/2"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 857,
+				"end": 863,
+				"text": "\\theta"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 863,
+				"end": 867,
+				"text": "\\sim"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 863,
+				"end": 871,
+				"text": "\\sim \\xi"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 868,
+				"end": 871,
+				"text": "\\xi"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 872,
+				"end": 878,
+				"text": "\\gamma"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "SYMBOL",
+				"start": 927,
+				"end": 933,
+				"text": "\\theta"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "SYMBOL",
+				"start": 933,
+				"end": 937,
+				"text": "\\sim"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "SYMBOL",
+				"start": 1015,
+				"end": 1018,
+				"text": "RDR"
+			},
+			"T25": {
+				"eid": "T25",
+				"label": "SYMBOL",
+				"start": 1247,
+				"end": 1248,
+				"text": "R"
+			},
+			"T26": {
+				"eid": "T26",
+				"label": "SYMBOL",
+				"start": 1247,
+				"end": 1280,
+				"text": "R \\equiv\\alpha \\xi \\chi \\gtrsim 1"
+			},
+			"T27": {
+				"eid": "T27",
+				"label": "SYMBOL",
+				"start": 1255,
+				"end": 1261,
+				"text": "\\alpha"
+			},
+			"T28": {
+				"eid": "T28",
+				"label": "SYMBOL",
+				"start": 1262,
+				"end": 1265,
+				"text": "\\xi"
+			},
+			"T29": {
+				"eid": "T29",
+				"label": "SYMBOL",
+				"start": 1266,
+				"end": 1270,
+				"text": "\\chi"
+			},
+			"T30": {
+				"eid": "T30",
+				"label": "SYMBOL",
+				"start": 1271,
+				"end": 1278,
+				"text": "\\gtrsim"
+			},
+			"T31": {
+				"eid": "T31",
+				"label": "SYMBOL",
+				"start": 1397,
+				"end": 1403,
+				"text": "\\alpha"
+			},
+			"T32": {
+				"eid": "T32",
+				"label": "SYMBOL",
+				"start": 1443,
+				"end": 1447,
+				"text": "\\chi"
+			},
+			"T33": {
+				"eid": "T33",
+				"label": "SYMBOL",
+				"start": 1454,
+				"end": 1460,
+				"text": "\\gamma"
+			},
+			"T34": {
+				"eid": "T34",
+				"label": "SYMBOL",
+				"start": 1461,
+				"end": 1469,
+				"text": "\\omega_0"
+			},
+			"T35": {
+				"eid": "T35",
+				"label": "SYMBOL",
+				"start": 1472,
+				"end": 1475,
+				"text": "\\xi"
+			},
+			"T36": {
+				"eid": "T36",
+				"label": "SYMBOL",
+				"start": 1479,
+				"end": 1484,
+				"text": "\\beta"
+			},
+			"T37": {
+				"eid": "T37",
+				"label": "SYMBOL",
+				"start": 1485,
+				"end": 1495,
+				"text": "\\cos\\theta"
+			},
+			"T38": {
+				"eid": "T38",
+				"label": "SYMBOL",
+				"start": 1612,
+				"end": 1616,
+				"text": "\\chi"
+			},
+			"T39": {
+				"eid": "T39",
+				"label": "SYMBOL",
+				"start": 1617,
+				"end": 1624,
+				"text": "\\approx"
+			},
+			"T40": {
+				"eid": "T40",
+				"label": "SYMBOL",
+				"start": 1625,
+				"end": 1631,
+				"text": "\\omega"
+			},
+			"T41": {
+				"eid": "T41",
+				"label": "SYMBOL",
+				"start": 1633,
+				"end": 1639,
+				"text": "\\gamma"
+			},
+			"T42": {
+				"eid": "T42",
+				"label": "SYMBOL",
+				"start": 1660,
+				"end": 1665,
+				"text": "\\beta"
+			},
+			"T43": {
+				"eid": "T43",
+				"label": "SYMBOL",
+				"start": 1718,
+				"end": 1724,
+				"text": "\\theta"
+			},
+			"T44": {
+				"eid": "T44",
+				"label": "SYMBOL",
+				"start": 1815,
+				"end": 1821,
+				"text": "\\omega"
+			},
+			"T45": {
+				"eid": "T45",
+				"label": "SYMBOL",
+				"start": 1855,
+				"end": 1858,
+				"text": "RDR"
+			},
+			"T46": {
+				"eid": "T46",
+				"label": "PRIMARY",
+				"start": 135,
+				"end": 166,
+				"text": "invariant laser field parameter"
+			},
+			"T47": {
+				"eid": "T47",
+				"label": "PRIMARY",
+				"start": 259,
+				"end": 270,
+				"text": "laser field"
+			},
+			"T48": {
+				"eid": "T48",
+				"label": "PRIMARY",
+				"start": 275,
+				"end": 284,
+				"text": "frequency"
+			},
+			"T49": {
+				"eid": "T49",
+				"label": "PRIMARY",
+				"start": 326,
+				"end": 341,
+				"text": "electron charge"
+			},
+			"T50": {
+				"eid": "T50",
+				"label": "PRIMARY",
+				"start": 346,
+				"end": 350,
+				"text": "mass"
+			},
+			"T51": {
+				"eid": "T51",
+				"label": "PRIMARY",
+				"start": 368,
+				"end": 380,
+				"text": "Planck units"
+			},
+			"T52": {
+				"eid": "T52",
+				"label": "PRIMARY",
+				"start": 504,
+				"end": 531,
+				"text": "relativistic Lorentz factor"
+			},
+			"T53": {
+				"eid": "T53",
+				"label": "PRIMARY",
+				"start": 673,
+				"end": 687,
+				"text": "Lorentz factor"
+			},
+			"T54": {
+				"eid": "T54",
+				"label": "PRIMARY",
+				"start": 763,
+				"end": 835,
+				"text": "electron deviation angle with respect to the laser propagation direction"
+			},
+			"T55": {
+				"eid": "T55",
+				"label": "PRIMARY",
+				"start": 984,
+				"end": 1012,
+				"text": "radiation - dominated regime"
+			},
+			"T56": {
+				"eid": "T56",
+				"label": "PRIMARY",
+				"start": 1236,
+				"end": 1245,
+				"text": "parameter"
+			},
+			"T57": {
+				"eid": "T57",
+				"label": "PRIMARY",
+				"start": 1313,
+				"end": 1386,
+				"text": "ratio of the radiated energy during a laser period to the electron energy"
+			},
+			"T58": {
+				"eid": "T58",
+				"label": "PRIMARY",
+				"start": 1412,
+				"end": 1435,
+				"text": "fine structure constant"
+			},
+			"T59": {
+				"eid": "T59",
+				"label": "PRIMARY",
+				"start": 1502,
+				"end": 1532,
+				"text": "quantum strong field parameter"
+			},
+			"T60": {
+				"eid": "T60",
+				"label": "PRIMARY",
+				"start": 1674,
+				"end": 1714,
+				"text": "relativistic beta factor of the electron"
+			},
+			"T61": {
+				"eid": "T61",
+				"label": "PRIMARY",
+				"start": 1730,
+				"end": 1807,
+				"text": "polar angle between the electron velocity and the laser propagation direction"
+			},
+			"T62": {
+				"eid": "T62",
+				"label": "PRIMARY",
+				"start": 1827,
+				"end": 1848,
+				"text": "emitted photon energy"
+			},
+			"T63": {
+				"eid": "T63",
+				"label": "SYMBOL",
+				"start": 1477,
+				"end": 1496,
+				"text": "1-\\beta \\cos\\theta)"
+			},
+			"T64": {
+				"eid": "T64",
+				"label": "SYMBOL",
+				"start": 1923,
+				"end": 1927,
+				"text": "\\chi"
+			},
+			"T65": {
+				"eid": "T65",
+				"label": "SYMBOL",
+				"start": 1927,
+				"end": 1934,
+				"text": "\\gtrsim"
+			},
+			"T66": {
+				"eid": "T66",
+				"label": "SYMBOL",
+				"start": 2042,
+				"end": 2050,
+				"text": "\\xi\\gg 1"
+			},
+			"T67": {
+				"eid": "T67",
+				"label": "SYMBOL",
+				"start": 2099,
+				"end": 2100,
+				"text": "R"
+			},
+			"T68": {
+				"eid": "T68",
+				"label": "SYMBOL",
+				"start": 2101,
+				"end": 2107,
+				"text": "\\alpha"
+			},
+			"T69": {
+				"eid": "T69",
+				"label": "SYMBOL",
+				"start": 2108,
+				"end": 2111,
+				"text": "\\xi"
+			},
+			"T70": {
+				"eid": "T70",
+				"label": "SYMBOL",
+				"start": 2111,
+				"end": 2115,
+				"text": "\\chi"
+			},
+			"T71": {
+				"eid": "T71",
+				"label": "SYMBOL",
+				"start": 2116,
+				"end": 2123,
+				"text": "\\gtrsim"
+			},
+			"T72": {
+				"eid": "T72",
+				"label": "SYMBOL",
+				"start": 2132,
+				"end": 2136,
+				"text": "\\chi"
+			},
+			"T73": {
+				"eid": "T73",
+				"label": "SYMBOL",
+				"start": 2136,
+				"end": 2143,
+				"text": "\\approx"
+			},
+			"T74": {
+				"eid": "T74",
+				"label": "SYMBOL",
+				"start": 2144,
+				"end": 2166,
+				"text": "10^{-6}\\gamma\\xi\\sim 1"
+			},
+			"T75": {
+				"eid": "T75",
+				"label": "SYMBOL",
+				"start": 2151,
+				"end": 2157,
+				"text": "\\gamma"
+			},
+			"T76": {
+				"eid": "T76",
+				"label": "SYMBOL",
+				"start": 2157,
+				"end": 2160,
+				"text": "\\xi"
+			},
+			"T77": {
+				"eid": "T77",
+				"label": "SYMBOL",
+				"start": 2201,
+				"end": 2207,
+				"text": "\\gamma"
+			},
+			"T78": {
+				"eid": "T78",
+				"label": "SYMBOL",
+				"start": 2207,
+				"end": 2216,
+				"text": "\\sim\\xi/2"
+			},
+			"T79": {
+				"eid": "T79",
+				"label": "SYMBOL",
+				"start": 2234,
+				"end": 2240,
+				"text": "\\gamma"
+			},
+			"T80": {
+				"eid": "T80",
+				"label": "SYMBOL",
+				"start": 2241,
+				"end": 2245,
+				"text": "\\sim"
+			},
+			"T81": {
+				"eid": "T81",
+				"label": "SYMBOL",
+				"start": 2246,
+				"end": 2249,
+				"text": "\\xi"
+			},
+			"T82": {
+				"eid": "T82",
+				"label": "SYMBOL",
+				"start": 2250,
+				"end": 2259,
+				"text": "\\sim 10^3"
+			},
+			"T83": {
+				"eid": "T83",
+				"label": "SYMBOL",
+				"start": 2297,
+				"end": 2303,
+				"text": "\\gamma"
+			},
+			"T84": {
+				"eid": "T84",
+				"label": "SYMBOL",
+				"start": 2304,
+				"end": 2313,
+				"text": "\\sim 10^3"
+			},
+			"T85": {
+				"eid": "T85",
+				"label": "SYMBOL",
+				"start": 2427,
+				"end": 2458,
+				"text": "10^{23}$ - $10^{24}$ W / cm $^2"
+			},
+			"T86": {
+				"eid": "T86",
+				"label": "SYMBOL",
+				"start": 2427,
+				"end": 2459,
+				"text": "10^{23}$ - $10^{24}$ W / cm $^2$"
+			},
+			"T87": {
+				"eid": "T87",
+				"label": "SYMBOL",
+				"start": 2463,
+				"end": 2466,
+				"text": "\\xi"
+			},
+			"T88": {
+				"eid": "T88",
+				"label": "PRIMARY",
+				"start": 2026,
+				"end": 2040,
+				"text": "intense lasers"
+			},
+			"T89": {
+				"eid": "T89",
+				"label": "PRIMARY",
+				"start": 2075,
+				"end": 2097,
+				"text": "quantum RDR conditions"
+			},
+			"T90": {
+				"eid": "T90",
+				"label": "PRIMARY",
+				"start": 2179,
+				"end": 2199,
+				"text": "reflection condition"
+			},
+			"T91": {
+				"eid": "T91",
+				"label": "PRIMARY",
+				"start": 2405,
+				"end": 2422,
+				"text": "laser intensities"
+			}
+		},
+		"relation": {
+			"R3": {
+				"label": "Direct",
+				"arg0": "T46",
+				"arg1": "T1",
+				"rid": "R3"
+			},
+			"R5": {
+				"label": "Direct",
+				"arg0": "T47",
+				"arg1": "T3",
+				"rid": "R5"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T47",
+				"arg1": "T8",
+				"rid": "R10"
+			},
+			"R11": {
+				"label": "Direct",
+				"arg0": "T48",
+				"arg1": "T8",
+				"rid": "R11"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T47",
+				"arg1": "T9",
+				"rid": "R13"
+			},
+			"R14": {
+				"label": "Direct",
+				"arg0": "T48",
+				"arg1": "T9",
+				"rid": "R14"
+			},
+			"R15": {
+				"label": "Direct",
+				"arg0": "T49",
+				"arg1": "T10",
+				"rid": "R15"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T50",
+				"arg1": "T10",
+				"rid": "R16"
+			},
+			"R17": {
+				"label": "Direct",
+				"arg0": "T49",
+				"arg1": "T11",
+				"rid": "R17"
+			},
+			"R18": {
+				"label": "Direct",
+				"arg0": "T50",
+				"arg1": "T11",
+				"rid": "R18"
+			},
+			"R19": {
+				"label": "Direct",
+				"arg0": "T51",
+				"arg1": "T12",
+				"rid": "R19"
+			},
+			"R21": {
+				"label": "Direct",
+				"arg0": "T52",
+				"arg1": "T13",
+				"rid": "R21"
+			},
+			"R23": {
+				"label": "Direct",
+				"arg0": "T52",
+				"arg1": "T14",
+				"rid": "R23"
+			},
+			"R24": {
+				"label": "Direct",
+				"arg0": "T53",
+				"arg1": "T15",
+				"rid": "R24"
+			},
+			"R25": {
+				"label": "Direct",
+				"arg0": "T53",
+				"arg1": "T16",
+				"rid": "R25"
+			},
+			"R27": {
+				"label": "Direct",
+				"arg0": "T54",
+				"arg1": "T17",
+				"rid": "R27"
+			},
+			"R28": {
+				"label": "Direct",
+				"arg0": "T54",
+				"arg1": "T18",
+				"rid": "R28"
+			},
+			"R29": {
+				"label": "Direct",
+				"arg0": "T54",
+				"arg1": "T19",
+				"rid": "R29"
+			},
+			"R31": {
+				"label": "Direct",
+				"arg0": "T54",
+				"arg1": "T20",
+				"rid": "R31"
+			},
+			"R32": {
+				"label": "Direct",
+				"arg0": "T54",
+				"arg1": "T21",
+				"rid": "R32"
+			},
+			"R35": {
+				"label": "Direct",
+				"arg0": "T55",
+				"arg1": "T24",
+				"rid": "R35"
+			},
+			"R36": {
+				"label": "Direct",
+				"arg0": "T56",
+				"arg1": "T25",
+				"rid": "R36"
+			},
+			"R37": {
+				"label": "Direct",
+				"arg0": "T57",
+				"arg1": "T25",
+				"rid": "R37"
+			},
+			"R39": {
+				"label": "Direct",
+				"arg0": "T56",
+				"arg1": "T26",
+				"rid": "R39"
+			},
+			"R40": {
+				"label": "Direct",
+				"arg0": "T57",
+				"arg1": "T26",
+				"rid": "R40"
+			},
+			"R46": {
+				"label": "Direct",
+				"arg0": "T58",
+				"arg1": "T31",
+				"rid": "R46"
+			},
+			"R49": {
+				"label": "Direct",
+				"arg0": "T59",
+				"arg1": "T32",
+				"rid": "R49"
+			},
+			"R58": {
+				"label": "Direct",
+				"arg0": "T60",
+				"arg1": "T42",
+				"rid": "R58"
+			},
+			"R59": {
+				"label": "Direct",
+				"arg0": "T61",
+				"arg1": "T43",
+				"rid": "R59"
+			},
+			"R60": {
+				"label": "Direct",
+				"arg0": "T62",
+				"arg1": "T44",
+				"rid": "R60"
+			},
+			"R62": {
+				"label": "Direct",
+				"arg0": "T59",
+				"arg1": "T63",
+				"rid": "R62"
+			},
+			"R66": {
+				"label": "Direct",
+				"arg0": "T88",
+				"arg1": "T66",
+				"rid": "R66"
+			},
+			"R67": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T67",
+				"rid": "R67"
+			},
+			"R68": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T68",
+				"rid": "R68"
+			},
+			"R71": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T69",
+				"rid": "R71"
+			},
+			"R73": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T70",
+				"rid": "R73"
+			},
+			"R74": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T71",
+				"rid": "R74"
+			},
+			"R75": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T72",
+				"rid": "R75"
+			},
+			"R76": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T73",
+				"rid": "R76"
+			},
+			"R77": {
+				"label": "Direct",
+				"arg0": "T89",
+				"arg1": "T74",
+				"rid": "R77"
+			},
+			"R85": {
+				"label": "Direct",
+				"arg0": "T90",
+				"arg1": "T77",
+				"rid": "R85"
+			},
+			"R86": {
+				"label": "Direct",
+				"arg0": "T90",
+				"arg1": "T78",
+				"rid": "R86"
+			},
+			"R89": {
+				"label": "Direct",
+				"arg0": "T91",
+				"arg1": "T85",
+				"rid": "R89"
+			},
+			"R90": {
+				"label": "Direct",
+				"arg0": "T91",
+				"arg1": "T86",
+				"rid": "R90"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T2",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T2",
+				"arg1": "T20",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T20",
+				"arg1": "T28",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T28",
+				"arg1": "T35",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T4",
+				"arg1": "T10",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T8",
+				"rid": "R505"
+			},
+			"R506": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T11",
+				"rid": "R506"
+			},
+			"R507": {
+				"label": "Corefer-Symbol",
+				"arg0": "T7",
+				"arg1": "T9",
+				"rid": "R507"
+			},
+			"R508": {
+				"label": "Corefer-Symbol",
+				"arg0": "T9",
+				"arg1": "T34",
+				"rid": "R508"
+			},
+			"R509": {
+				"label": "Corefer-Symbol",
+				"arg0": "T13",
+				"arg1": "T21",
+				"rid": "R509"
+			},
+			"R5010": {
+				"label": "Corefer-Symbol",
+				"arg0": "T14",
+				"arg1": "T16",
+				"rid": "R5010"
+			},
+			"R5011": {
+				"label": "Corefer-Symbol",
+				"arg0": "T17",
+				"arg1": "T22",
+				"rid": "R5011"
+			},
+			"R5012": {
+				"label": "Corefer-Symbol",
+				"arg0": "T22",
+				"arg1": "T43",
+				"rid": "R5012"
+			},
+			"R5013": {
+				"label": "Corefer-Symbol",
+				"arg0": "T24",
+				"arg1": "T45",
+				"rid": "R5013"
+			},
+			"R5014": {
+				"label": "Corefer-Symbol",
+				"arg0": "T25",
+				"arg1": "T67",
+				"rid": "R5014"
+			},
+			"R5015": {
+				"label": "Corefer-Symbol",
+				"arg0": "T27",
+				"arg1": "T31",
+				"rid": "R5015"
+			},
+			"R5016": {
+				"label": "Corefer-Symbol",
+				"arg0": "T31",
+				"arg1": "T68",
+				"rid": "R5016"
+			},
+			"R5017": {
+				"label": "Corefer-Symbol",
+				"arg0": "T29",
+				"arg1": "T32",
+				"rid": "R5017"
+			},
+			"R5018": {
+				"label": "Corefer-Symbol",
+				"arg0": "T32",
+				"arg1": "T38",
+				"rid": "R5018"
+			},
+			"R5019": {
+				"label": "Corefer-Symbol",
+				"arg0": "T38",
+				"arg1": "T64",
+				"rid": "R5019"
+			},
+			"R5020": {
+				"label": "Corefer-Symbol",
+				"arg0": "T64",
+				"arg1": "T70",
+				"rid": "R5020"
+			},
+			"R5021": {
+				"label": "Corefer-Symbol",
+				"arg0": "T70",
+				"arg1": "T72",
+				"rid": "R5021"
+			},
+			"R5022": {
+				"label": "Corefer-Symbol",
+				"arg0": "T30",
+				"arg1": "T65",
+				"rid": "R5022"
+			},
+			"R5023": {
+				"label": "Corefer-Symbol",
+				"arg0": "T65",
+				"arg1": "T71",
+				"rid": "R5023"
+			},
+			"R5024": {
+				"label": "Corefer-Symbol",
+				"arg0": "T33",
+				"arg1": "T41",
+				"rid": "R5024"
+			},
+			"R5025": {
+				"label": "Corefer-Symbol",
+				"arg0": "T41",
+				"arg1": "T77",
+				"rid": "R5025"
+			},
+			"R5026": {
+				"label": "Corefer-Symbol",
+				"arg0": "T77",
+				"arg1": "T75",
+				"rid": "R5026"
+			},
+			"R5027": {
+				"label": "Corefer-Symbol",
+				"arg0": "T75",
+				"arg1": "T79",
+				"rid": "R5027"
+			},
+			"R5028": {
+				"label": "Corefer-Symbol",
+				"arg0": "T79",
+				"arg1": "T83",
+				"rid": "R5028"
+			},
+			"R5029": {
+				"label": "Corefer-Symbol",
+				"arg0": "T36",
+				"arg1": "T42",
+				"rid": "R5029"
+			},
+			"R5030": {
+				"label": "Corefer-Symbol",
+				"arg0": "T40",
+				"arg1": "T44",
+				"rid": "R5030"
+			},
+			"R5031": {
+				"label": "Corefer-Symbol",
+				"arg0": "T69",
+				"arg1": "T76",
+				"rid": "R5031"
+			},
+			"R5032": {
+				"label": "Corefer-Symbol",
+				"arg0": "T76",
+				"arg1": "T87",
+				"rid": "R5032"
+			},
+			"R5033": {
+				"label": "Corefer-Symbol",
+				"arg0": "T87",
+				"arg1": "T81",
+				"rid": "R5033"
+			},
+			"R5034": {
+				"label": "Corefer-Description",
+				"arg0": "T52",
+				"arg1": "T53",
+				"rid": "R5034"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_3",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_3",
+		"text": "Our analysis in this Letter is based on Monte - Carlo simulations employing QED theory for the electron radiation and classical equations of motion for the propagation of electrons between photon emissions \\cite{Suppl_material, Elkina_2011,Ridgers_2014,Green_2015} . In superstrong laser fields $\\xi\\gg 1$ , the coherence length of the photon emission is much smaller than the laser wavelength and the typical size of the electron trajectory \\cite{Ritus_1985} ( see also \\cite{Khokonov_2010} ) . As a result , the photon emission probability is determined by the local electron trajectory . In this case the photon emission probability in the laser field can be approximated by that of constant cross fields with the corresponding local value of the parameter $\\chi$ ( this is the well - known synchrotron approximation ) \\cite{Baier_b_1994} , cf. \\cite{Khokonov_2002a} . We employ a linearly polarized focused short laser pulse , which is an approximate solution of Maxwell 's equations with first order corrections with respect to the small parameters $(k_0w_0)^{-1}$ and $(\\omega_0 \\tau_0)^{-1}$ \\cite{Jian-Xing_2014} , where $k_0$ , $w_0$ and $\\tau_0$ are the wave vector , the waist radius and the pulse duration of the laser beam , respectively .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 296,
+				"end": 304,
+				"text": "\\xi\\gg 1"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 761,
+				"end": 765,
+				"text": "\\chi"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 1055,
+				"end": 1068,
+				"text": "(k_0w_0)^{-1}"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 1056,
+				"end": 1059,
+				"text": "k_0"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 1059,
+				"end": 1062,
+				"text": "w_0"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 1075,
+				"end": 1097,
+				"text": "(\\omega_0 \\tau_0)^{-1}"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 1076,
+				"end": 1084,
+				"text": "\\omega_0"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 1085,
+				"end": 1091,
+				"text": "\\tau_0"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 1130,
+				"end": 1133,
+				"text": "k_0"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 1138,
+				"end": 1141,
+				"text": "w_0"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 1148,
+				"end": 1154,
+				"text": "\\tau_0"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "PRIMARY",
+				"start": 270,
+				"end": 294,
+				"text": "superstrong laser fields"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "PRIMARY",
+				"start": 1043,
+				"end": 1053,
+				"text": "parameters"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "PRIMARY",
+				"start": 1164,
+				"end": 1175,
+				"text": "wave vector"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "PRIMARY",
+				"start": 1182,
+				"end": 1194,
+				"text": "waist radius"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T12",
+				"arg1": "T1",
+				"rid": "R1"
+			},
+			"R2": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T3",
+				"rid": "R2"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T4",
+				"rid": "R4"
+			},
+			"R6": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T5",
+				"rid": "R6"
+			},
+			"R7": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T6",
+				"rid": "R7"
+			},
+			"R8": {
+				"label": "Direct",
+				"arg0": "T13",
+				"arg1": "T7",
+				"rid": "R8"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T9",
+				"rid": "R10"
+			},
+			"R11": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T10",
+				"rid": "R11"
+			},
+			"R12": {
+				"label": "Direct",
+				"arg0": "T15",
+				"arg1": "T10",
+				"rid": "R12"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T14",
+				"arg1": "T11",
+				"rid": "R13"
+			},
+			"R14": {
+				"label": "Direct",
+				"arg0": "T15",
+				"arg1": "T11",
+				"rid": "R14"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T4",
+				"arg1": "T9",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T10",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T8",
+				"arg1": "T11",
+				"rid": "R502"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_1",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_1",
+		"text": "\\begin{figure} [ b ] \\includegraphics[width=8cm]{fig1.eps} [unused10] . } \\label{schematic}  \\end{figure}",
+		"entity": {},
+		"relation": {}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_0",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_0",
+		"text": "In linear Thomson / Compton scattering the duration of the emitted gamma - radiation pulse is determined by the shortest of either the laser or electron beam duration . In an all - optical setup the electron bunch length is of the order of the laser pulse length and the created gamma - rays are of duration of several tens of femtoseconds . Are shorter pulses of gamma - rays necessary ? Generally , short laser pulses are required for the time - resolved monitoring and control of fast - evolving processes with the pump - probe technique . The state - of - the - art time - resolution has achieved the attosecond scale by using extreme ultraviolet radiation , which allows to track the dynamics of an electronic wave packet in an atom \\cite{Krausz_2009} . The required frequencies of the short pulses depend on the characteristic energies of the processes under investigation . The molecular dynamics and chemical reactions can be controlled with a few electronvolt excitations driven by an infrared laser field , and the inner - shell electron dynamics by photons with a few 100 eV up to several keV energies . The next challenge is to time - resolve the intra-nuclear dynamics \\cite{Ledingham_2003,Palffy_2015} . It is known \\cite{Povh_book} that typical energies of nuclear single - particle transitions are of the order of 1 - 10 MeV with typical decay lifetimes of the levels around $10^{-9}-10^{-15}$ s . The energies of the collective nuclear excitations range from several dozens of keV up to 30 MeV . The disintegration time of compound nuclei during nuclear reactions ranges from $10^{-19}-10^{-16}$ s . This sets the scale for the required photon energy and pulse duration . There is a wealth of nuclear phenomena for which the investigation of the time resolved dynamics requires short photon pulses , such as , resonance fluorescence ( 1 fs timescale ) , resonance internal conversion ( 1 as timescale ) and compound nuclei evolution ( zeptosecond timescale ) .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 1079,
+				"end": 1085,
+				"text": "100 eV"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 1092,
+				"end": 1103,
+				"text": "several keV"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 1330,
+				"end": 1340,
+				"text": "1 - 10 MeV"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 1392,
+				"end": 1411,
+				"text": "10^{-9}-10^{-15}$ s"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 1504,
+				"end": 1510,
+				"text": "30 MeV"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 1852,
+				"end": 1856,
+				"text": "1 fs"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "PRIMARY",
+				"start": 1104,
+				"end": 1112,
+				"text": "energies"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "PRIMARY",
+				"start": 1346,
+				"end": 1369,
+				"text": "typical decay lifetimes"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "PRIMARY",
+				"start": 1517,
+				"end": 1580,
+				"text": "disintegration time of compound nuclei during nuclear reactions"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "PRIMARY",
+				"start": 1857,
+				"end": 1866,
+				"text": "timescale"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T8",
+				"arg1": "T4",
+				"rid": "R1"
+			},
+			"R2": {
+				"label": "Direct",
+				"arg0": "T10",
+				"arg1": "T6",
+				"rid": "R2"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_4",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_4",
+		"text": "\\includegraphics[width=8cm]{fig2.eps} \\ caption { ( Color online ) The angle - resolved radiation intensity for photon energies above 1 MeV in a 4 - cycle laser pulse with carrier - envelope phase $\\phi_{CEP}=0$ and azimuthal angle of emission with respect to the laser propagation direction $\\phi=180^\\circ$ ( the spectra are similar at $\\phi\\approx 0$ ) : ( a ) Color coded is Log $_{10}$ [ d $^2\\varepsilon_R/$ d $\\Omega$ d $(t_d/T_0)$ ] rad $^{-2}$ in the detector time $t_d$ , with the radiation energy $\\varepsilon_R$ in units of the electron rest energy $m$ , the laser period $T_0$ , and the emission solid angle $\\Omega$ ; ( b ) Color coded is Log $_{10}$ [ d $^2\\varepsilon_R/$ d $\\Omega$ d $(t/T_0)$ ] rad $^{-2}$ with the electron emission time $t$ ; ( c ) The differential gamma - ray radiation via d $^2\\varepsilon_R/$ d $\\Omega$ d $(t_d/T_0)$ at $\\theta = 20^{\\circ} $ and $\\Delta \\theta = 0.002$ rad . ( d ) The spectral distribution d $^2 \\varepsilon_R/$ d $\\Omega$ d $\\omega$ of the main pulse in ( c ) . The laser and the electron beam parameters are given in the text . } \\label{spectrum}  \\end{figure}",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 128,
+				"end": 139,
+				"text": "above 1 MeV"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 198,
+				"end": 208,
+				"text": "\\phi_{CEP}"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 209,
+				"end": 210,
+				"text": "0"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 293,
+				"end": 297,
+				"text": "\\phi"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 298,
+				"end": 307,
+				"text": "180^\\circ"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 384,
+				"end": 389,
+				"text": "_{10}"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 398,
+				"end": 411,
+				"text": "\\varepsilon_R"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 398,
+				"end": 423,
+				"text": "\\varepsilon_R/$ d $\\Omega"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 417,
+				"end": 423,
+				"text": "\\Omega"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 429,
+				"end": 432,
+				"text": "t_d"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 433,
+				"end": 436,
+				"text": "T_0"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 475,
+				"end": 478,
+				"text": "t_d"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 509,
+				"end": 522,
+				"text": "\\varepsilon_R"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 562,
+				"end": 563,
+				"text": "m"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 585,
+				"end": 588,
+				"text": "T_0"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 622,
+				"end": 628,
+				"text": "\\Omega"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 658,
+				"end": 663,
+				"text": "_{10}"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 672,
+				"end": 685,
+				"text": "\\varepsilon_R"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 691,
+				"end": 697,
+				"text": "\\Omega"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 691,
+				"end": 709,
+				"text": "\\Omega$ d $(t/T_0)"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 703,
+				"end": 708,
+				"text": "t/T_0"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "SYMBOL",
+				"start": 758,
+				"end": 759,
+				"text": "t"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "SYMBOL",
+				"start": 812,
+				"end": 856,
+				"text": "d $^2\\varepsilon_R/$ d $\\Omega$ d $(t_d/T_0)"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "SYMBOL",
+				"start": 817,
+				"end": 830,
+				"text": "\\varepsilon_R"
+			},
+			"T25": {
+				"eid": "T25",
+				"label": "SYMBOL",
+				"start": 836,
+				"end": 842,
+				"text": "\\Omega"
+			},
+			"T26": {
+				"eid": "T26",
+				"label": "SYMBOL",
+				"start": 848,
+				"end": 851,
+				"text": "t_d"
+			},
+			"T27": {
+				"eid": "T27",
+				"label": "SYMBOL",
+				"start": 848,
+				"end": 855,
+				"text": "t_d/T_0"
+			},
+			"T28": {
+				"eid": "T28",
+				"label": "SYMBOL",
+				"start": 852,
+				"end": 855,
+				"text": "T_0"
+			},
+			"T29": {
+				"eid": "T29",
+				"label": "SYMBOL",
+				"start": 862,
+				"end": 868,
+				"text": "\\theta"
+			},
+			"T30": {
+				"eid": "T30",
+				"label": "SYMBOL",
+				"start": 871,
+				"end": 881,
+				"text": "20^{\\circ}"
+			},
+			"T31": {
+				"eid": "T31",
+				"label": "SYMBOL",
+				"start": 889,
+				"end": 895,
+				"text": "\\Delta"
+			},
+			"T32": {
+				"eid": "T32",
+				"label": "SYMBOL",
+				"start": 896,
+				"end": 902,
+				"text": "\\theta"
+			},
+			"T33": {
+				"eid": "T33",
+				"label": "SYMBOL",
+				"start": 905,
+				"end": 915,
+				"text": "0.002$ rad"
+			},
+			"T34": {
+				"eid": "T34",
+				"label": "SYMBOL",
+				"start": 975,
+				"end": 981,
+				"text": "\\Omega"
+			},
+			"T35": {
+				"eid": "T35",
+				"label": "PRIMARY",
+				"start": 112,
+				"end": 127,
+				"text": "photon energies"
+			},
+			"T36": {
+				"eid": "T36",
+				"label": "PRIMARY",
+				"start": 172,
+				"end": 196,
+				"text": "carrier - envelope phase"
+			},
+			"T37": {
+				"eid": "T37",
+				"label": "PRIMARY",
+				"start": 216,
+				"end": 291,
+				"text": "azimuthal angle of emission with respect to the laser propagation direction"
+			},
+			"T38": {
+				"eid": "T38",
+				"label": "PRIMARY",
+				"start": 460,
+				"end": 473,
+				"text": "detector time"
+			},
+			"T39": {
+				"eid": "T39",
+				"label": "PRIMARY",
+				"start": 491,
+				"end": 507,
+				"text": "radiation energy"
+			},
+			"T40": {
+				"eid": "T40",
+				"label": "PRIMARY",
+				"start": 540,
+				"end": 560,
+				"text": "electron rest energy"
+			},
+			"T41": {
+				"eid": "T41",
+				"label": "PRIMARY",
+				"start": 571,
+				"end": 583,
+				"text": "laser period"
+			},
+			"T42": {
+				"eid": "T42",
+				"label": "PRIMARY",
+				"start": 600,
+				"end": 620,
+				"text": "emission solid angle"
+			},
+			"T43": {
+				"eid": "T43",
+				"label": "PRIMARY",
+				"start": 734,
+				"end": 756,
+				"text": "electron emission time"
+			},
+			"T44": {
+				"eid": "T44",
+				"label": "PRIMARY",
+				"start": 928,
+				"end": 949,
+				"text": "spectral distribution"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T35",
+				"arg1": "T1",
+				"rid": "R1"
+			},
+			"R2": {
+				"label": "Direct",
+				"arg0": "T36",
+				"arg1": "T2",
+				"rid": "R2"
+			},
+			"R3": {
+				"label": "Direct",
+				"arg0": "T36",
+				"arg1": "T3",
+				"rid": "R3"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T37",
+				"arg1": "T4",
+				"rid": "R4"
+			},
+			"R5": {
+				"label": "Direct",
+				"arg0": "T37",
+				"arg1": "T5",
+				"rid": "R5"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T38",
+				"arg1": "T12",
+				"rid": "R13"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T39",
+				"arg1": "T13",
+				"rid": "R16"
+			},
+			"R17": {
+				"label": "Direct",
+				"arg0": "T40",
+				"arg1": "T14",
+				"rid": "R17"
+			},
+			"R20": {
+				"label": "Direct",
+				"arg0": "T41",
+				"arg1": "T15",
+				"rid": "R20"
+			},
+			"R24": {
+				"label": "Direct",
+				"arg0": "T42",
+				"arg1": "T16",
+				"rid": "R24"
+			},
+			"R29": {
+				"label": "Direct",
+				"arg0": "T43",
+				"arg1": "T22",
+				"rid": "R29"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T7",
+				"arg1": "T13",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T13",
+				"arg1": "T18",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T18",
+				"arg1": "T24",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T9",
+				"arg1": "T16",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T16",
+				"arg1": "T19",
+				"rid": "R504"
+			},
+			"R505": {
+				"label": "Corefer-Symbol",
+				"arg0": "T19",
+				"arg1": "T25",
+				"rid": "R505"
+			},
+			"R506": {
+				"label": "Corefer-Symbol",
+				"arg0": "T25",
+				"arg1": "T34",
+				"rid": "R506"
+			},
+			"R507": {
+				"label": "Corefer-Symbol",
+				"arg0": "T10",
+				"arg1": "T12",
+				"rid": "R507"
+			},
+			"R508": {
+				"label": "Corefer-Symbol",
+				"arg0": "T12",
+				"arg1": "T26",
+				"rid": "R508"
+			},
+			"R509": {
+				"label": "Corefer-Symbol",
+				"arg0": "T11",
+				"arg1": "T15",
+				"rid": "R509"
+			},
+			"R5010": {
+				"label": "Corefer-Symbol",
+				"arg0": "T15",
+				"arg1": "T21",
+				"rid": "R5010"
+			},
+			"R5011": {
+				"label": "Corefer-Symbol",
+				"arg0": "T21",
+				"arg1": "T28",
+				"rid": "R5011"
+			},
+			"R5012": {
+				"label": "Corefer-Symbol",
+				"arg0": "T29",
+				"arg1": "T32",
+				"rid": "R5012"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_5",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_5",
+		"text": "The simulation results for the gamma - radiation properties above the photon energy of 1 MeV are shown in Fig. ~ \\ref{spectrum} . The applied parameters are the following : the peak intensity of the 4 - cycle laser pulse is $I\\approx 4.9\\times 10^{23}$ W / cm $^2$ ( $\\xi=600$ ) , the laser wavelength $\\lambda_0 = 1$ $\\mu$ m , and the laser beam waist size $w_0$ = 1 $\\mu$ m . The initial kinetic energy of the electrons is $200$ MeV ( $\\gamma_0=392$ , $\\chi_{max}\\approx0.8$ ) . As the electron reflection condition should hold in the laser field , larger initial electron energies $\\gamma_0>\\xi/2$ are required because of radiation losses . We employ an electron bunch of length $L_b=10\\lambda_0$ , and of transverse size $w_b=w_0$ , with the number of electrons $N_e=3\\times 10^{8}$ . The energy as well as angular spread of the bunch are $\\Delta \\gamma/\\gamma_0=\\Delta \\theta=10^{-3}$ . \\begin{figure}",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 87,
+				"end": 92,
+				"text": "1 MeV"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 225,
+				"end": 264,
+				"text": "I\\approx 4.9\\times 10^{23}$ W / cm $^2$"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 303,
+				"end": 312,
+				"text": "\\lambda_0"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 315,
+				"end": 325,
+				"text": "1$ $\\mu$ m"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 359,
+				"end": 362,
+				"text": "w_0"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 366,
+				"end": 375,
+				"text": "1 $\\mu$ m"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 426,
+				"end": 434,
+				"text": "200$ MeV"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 438,
+				"end": 446,
+				"text": "\\gamma_0"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 455,
+				"end": 465,
+				"text": "\\chi_{max}"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 585,
+				"end": 593,
+				"text": "\\gamma_0"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 585,
+				"end": 599,
+				"text": "\\gamma_0>\\xi/2"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 683,
+				"end": 686,
+				"text": "L_b"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 689,
+				"end": 698,
+				"text": "\\lambda_0"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 726,
+				"end": 729,
+				"text": "w_b"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 730,
+				"end": 733,
+				"text": "w_0"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 767,
+				"end": 770,
+				"text": "N_e"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 771,
+				"end": 785,
+				"text": "3\\times 10^{8}"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 844,
+				"end": 857,
+				"text": "\\Delta \\gamma"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "SYMBOL",
+				"start": 851,
+				"end": 857,
+				"text": "\\gamma"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "SYMBOL",
+				"start": 858,
+				"end": 866,
+				"text": "\\gamma_0"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "SYMBOL",
+				"start": 867,
+				"end": 880,
+				"text": "\\Delta \\theta"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "SYMBOL",
+				"start": 874,
+				"end": 880,
+				"text": "\\theta"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "SYMBOL",
+				"start": 881,
+				"end": 888,
+				"text": "10^{-3}"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "PRIMARY",
+				"start": 70,
+				"end": 83,
+				"text": "photon energy"
+			},
+			"T25": {
+				"eid": "T25",
+				"label": "PRIMARY",
+				"start": 177,
+				"end": 220,
+				"text": "peak intensity of the 4 - cycle laser pulse"
+			},
+			"T26": {
+				"eid": "T26",
+				"label": "PRIMARY",
+				"start": 285,
+				"end": 301,
+				"text": "laser wavelength"
+			},
+			"T27": {
+				"eid": "T27",
+				"label": "PRIMARY",
+				"start": 336,
+				"end": 357,
+				"text": "laser beam waist size"
+			},
+			"T28": {
+				"eid": "T28",
+				"label": "PRIMARY",
+				"start": 382,
+				"end": 421,
+				"text": "initial kinetic energy of the electrons"
+			},
+			"T29": {
+				"eid": "T29",
+				"label": "PRIMARY",
+				"start": 558,
+				"end": 583,
+				"text": "initial electron energies"
+			},
+			"T30": {
+				"eid": "T30",
+				"label": "PRIMARY",
+				"start": 657,
+				"end": 671,
+				"text": "electron bunch"
+			},
+			"T31": {
+				"eid": "T31",
+				"label": "PRIMARY",
+				"start": 675,
+				"end": 681,
+				"text": "length"
+			},
+			"T32": {
+				"eid": "T32",
+				"label": "PRIMARY",
+				"start": 709,
+				"end": 724,
+				"text": "transverse size"
+			},
+			"T33": {
+				"eid": "T33",
+				"label": "PRIMARY",
+				"start": 746,
+				"end": 765,
+				"text": "number of electrons"
+			},
+			"T34": {
+				"eid": "T34",
+				"label": "PRIMARY",
+				"start": 793,
+				"end": 838,
+				"text": "energy as well as angular spread of the bunch"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T1",
+				"rid": "R1"
+			},
+			"R2": {
+				"label": "Direct",
+				"arg0": "T25",
+				"arg1": "T2",
+				"rid": "R2"
+			},
+			"R4": {
+				"label": "Direct",
+				"arg0": "T26",
+				"arg1": "T3",
+				"rid": "R4"
+			},
+			"R6": {
+				"label": "Direct",
+				"arg0": "T26",
+				"arg1": "T4",
+				"rid": "R6"
+			},
+			"R8": {
+				"label": "Direct",
+				"arg0": "T27",
+				"arg1": "T5",
+				"rid": "R8"
+			},
+			"R9": {
+				"label": "Direct",
+				"arg0": "T27",
+				"arg1": "T6",
+				"rid": "R9"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T28",
+				"arg1": "T7",
+				"rid": "R10"
+			},
+			"R13": {
+				"label": "Direct",
+				"arg0": "T28",
+				"arg1": "T8",
+				"rid": "R13"
+			},
+			"R14": {
+				"label": "Direct",
+				"arg0": "T28",
+				"arg1": "T9",
+				"rid": "R14"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T29",
+				"arg1": "T10",
+				"rid": "R16"
+			},
+			"R17": {
+				"label": "Direct",
+				"arg0": "T29",
+				"arg1": "T11",
+				"rid": "R17"
+			},
+			"R18": {
+				"label": "Direct",
+				"arg0": "T30",
+				"arg1": "T12",
+				"rid": "R18"
+			},
+			"R19": {
+				"label": "Direct",
+				"arg0": "T31",
+				"arg1": "T12",
+				"rid": "R19"
+			},
+			"R20": {
+				"label": "Direct",
+				"arg0": "T30",
+				"arg1": "T13",
+				"rid": "R20"
+			},
+			"R21": {
+				"label": "Direct",
+				"arg0": "T31",
+				"arg1": "T13",
+				"rid": "R21"
+			},
+			"R22": {
+				"label": "Direct",
+				"arg0": "T32",
+				"arg1": "T14",
+				"rid": "R22"
+			},
+			"R23": {
+				"label": "Direct",
+				"arg0": "T32",
+				"arg1": "T15",
+				"rid": "R23"
+			},
+			"R24": {
+				"label": "Direct",
+				"arg0": "T33",
+				"arg1": "T16",
+				"rid": "R24"
+			},
+			"R25": {
+				"label": "Direct",
+				"arg0": "T33",
+				"arg1": "T17",
+				"rid": "R25"
+			},
+			"R26": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T18",
+				"rid": "R26"
+			},
+			"R27": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T19",
+				"rid": "R27"
+			},
+			"R28": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T20",
+				"rid": "R28"
+			},
+			"R29": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T21",
+				"rid": "R29"
+			},
+			"R30": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T22",
+				"rid": "R30"
+			},
+			"R31": {
+				"label": "Direct",
+				"arg0": "T34",
+				"arg1": "T23",
+				"rid": "R31"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T3",
+				"arg1": "T13",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T4",
+				"arg1": "T6",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T15",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T8",
+				"arg1": "T10",
+				"rid": "R503"
+			},
+			"R504": {
+				"label": "Corefer-Symbol",
+				"arg0": "T10",
+				"arg1": "T20",
+				"rid": "R504"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_7",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_7",
+		"text": "The time - dependent angular resolved radiation intensity is shown in Fig. ~ \\ref{spectrum} ( a ) . The radiation sweeps from the polar angle $\\theta=180^{\\circ}$ down to $\\theta\\approx 20^{\\circ}$ . The duration of the emission decreases with decreasing $\\theta$ . At $\\theta\\approx 180^{\\circ}$ it is mostly determined by the length of the electron bunch , while at small angles it is smaller than the laser period $T_0$ . The duration of the gamma - radiation at $\\theta = 20^{\\circ}$ with an aperture angle $\\Delta \\theta =0.002$ is illustrated in Fig. ~ \\ref{spectrum} ( c ) . The duration of the main gamma - pulse is about \\textbf{ [unused10] } as . This is the main result of this paper : ultrashort gamma ray bursts of attosecond duration can be generated closer to the laser propagation direction , while using much longer laser and electron beams ( 13 fs and 33 fs , respectively , in the given example ) . The spectral distribution of the gamma ray burst is shown in Fig. ~ \\ref{spectrum} ( d ) , with the central frequency being $\\omega \\approx 67 m=34.2$ MeV . Narrower gamma - ray pulses can be detected at smaller polar angles where , however , the mean frequency is smaller .",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 143,
+				"end": 149,
+				"text": "\\theta"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "SYMBOL",
+				"start": 150,
+				"end": 161,
+				"text": "180^{\\circ}"
+			},
+			"T3": {
+				"eid": "T3",
+				"label": "SYMBOL",
+				"start": 172,
+				"end": 178,
+				"text": "\\theta"
+			},
+			"T4": {
+				"eid": "T4",
+				"label": "SYMBOL",
+				"start": 178,
+				"end": 196,
+				"text": "\\approx 20^{\\circ}"
+			},
+			"T5": {
+				"eid": "T5",
+				"label": "SYMBOL",
+				"start": 256,
+				"end": 262,
+				"text": "\\theta"
+			},
+			"T6": {
+				"eid": "T6",
+				"label": "SYMBOL",
+				"start": 270,
+				"end": 276,
+				"text": "\\theta"
+			},
+			"T7": {
+				"eid": "T7",
+				"label": "SYMBOL",
+				"start": 276,
+				"end": 295,
+				"text": "\\approx 180^{\\circ}"
+			},
+			"T8": {
+				"eid": "T8",
+				"label": "SYMBOL",
+				"start": 418,
+				"end": 421,
+				"text": "T_0"
+			},
+			"T9": {
+				"eid": "T9",
+				"label": "SYMBOL",
+				"start": 467,
+				"end": 473,
+				"text": "\\theta"
+			},
+			"T10": {
+				"eid": "T10",
+				"label": "SYMBOL",
+				"start": 476,
+				"end": 486,
+				"text": "20^{\\circ}"
+			},
+			"T11": {
+				"eid": "T11",
+				"label": "SYMBOL",
+				"start": 512,
+				"end": 525,
+				"text": "\\Delta \\theta"
+			},
+			"T12": {
+				"eid": "T12",
+				"label": "SYMBOL",
+				"start": 527,
+				"end": 532,
+				"text": "0.002"
+			},
+			"T13": {
+				"eid": "T13",
+				"label": "SYMBOL",
+				"start": 630,
+				"end": 651,
+				"text": "\\textbf{ [unused10] }"
+			},
+			"T14": {
+				"eid": "T14",
+				"label": "SYMBOL",
+				"start": 630,
+				"end": 654,
+				"text": "\\textbf{ [unused10] } as"
+			},
+			"T15": {
+				"eid": "T15",
+				"label": "SYMBOL",
+				"start": 1043,
+				"end": 1049,
+				"text": "\\omega"
+			},
+			"T16": {
+				"eid": "T16",
+				"label": "SYMBOL",
+				"start": 1050,
+				"end": 1062,
+				"text": "\\approx 67 m"
+			},
+			"T17": {
+				"eid": "T17",
+				"label": "SYMBOL",
+				"start": 1063,
+				"end": 1067,
+				"text": "34.2"
+			},
+			"T18": {
+				"eid": "T18",
+				"label": "SYMBOL",
+				"start": 1063,
+				"end": 1072,
+				"text": "34.2$ MeV"
+			},
+			"T19": {
+				"eid": "T19",
+				"label": "PRIMARY",
+				"start": 130,
+				"end": 141,
+				"text": "polar angle"
+			},
+			"T20": {
+				"eid": "T20",
+				"label": "PRIMARY",
+				"start": 404,
+				"end": 416,
+				"text": "laser period"
+			},
+			"T21": {
+				"eid": "T21",
+				"label": "PRIMARY",
+				"start": 429,
+				"end": 462,
+				"text": "duration of the gamma - radiation"
+			},
+			"T22": {
+				"eid": "T22",
+				"label": "PRIMARY",
+				"start": 496,
+				"end": 510,
+				"text": "aperture angle"
+			},
+			"T23": {
+				"eid": "T23",
+				"label": "PRIMARY",
+				"start": 586,
+				"end": 620,
+				"text": "duration of the main gamma - pulse"
+			},
+			"T24": {
+				"eid": "T24",
+				"label": "PRIMARY",
+				"start": 1018,
+				"end": 1035,
+				"text": "central frequency"
+			}
+		},
+		"relation": {
+			"R5": {
+				"label": "Direct",
+				"arg0": "T19",
+				"arg1": "T1",
+				"rid": "R5"
+			},
+			"R6": {
+				"label": "Direct",
+				"arg0": "T19",
+				"arg1": "T2",
+				"rid": "R6"
+			},
+			"R10": {
+				"label": "Direct",
+				"arg0": "T19",
+				"arg1": "T3",
+				"rid": "R10"
+			},
+			"R11": {
+				"label": "Direct",
+				"arg0": "T19",
+				"arg1": "T4",
+				"rid": "R11"
+			},
+			"R15": {
+				"label": "Direct",
+				"arg0": "T20",
+				"arg1": "T8",
+				"rid": "R15"
+			},
+			"R16": {
+				"label": "Direct",
+				"arg0": "T21",
+				"arg1": "T9",
+				"rid": "R16"
+			},
+			"R17": {
+				"label": "Direct",
+				"arg0": "T21",
+				"arg1": "T10",
+				"rid": "R17"
+			},
+			"R18": {
+				"label": "Direct",
+				"arg0": "T22",
+				"arg1": "T11",
+				"rid": "R18"
+			},
+			"R19": {
+				"label": "Direct",
+				"arg0": "T22",
+				"arg1": "T12",
+				"rid": "R19"
+			},
+			"R20": {
+				"label": "Direct",
+				"arg0": "T23",
+				"arg1": "T13",
+				"rid": "R20"
+			},
+			"R21": {
+				"label": "Direct",
+				"arg0": "T23",
+				"arg1": "T14",
+				"rid": "R21"
+			},
+			"R22": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T15",
+				"rid": "R22"
+			},
+			"R23": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T16",
+				"rid": "R23"
+			},
+			"R24": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T17",
+				"rid": "R24"
+			},
+			"R25": {
+				"label": "Direct",
+				"arg0": "T24",
+				"arg1": "T18",
+				"rid": "R25"
+			},
+			"R500": {
+				"label": "Corefer-Symbol",
+				"arg0": "T1",
+				"arg1": "T3",
+				"rid": "R500"
+			},
+			"R501": {
+				"label": "Corefer-Symbol",
+				"arg0": "T3",
+				"arg1": "T5",
+				"rid": "R501"
+			},
+			"R502": {
+				"label": "Corefer-Symbol",
+				"arg0": "T5",
+				"arg1": "T6",
+				"rid": "R502"
+			},
+			"R503": {
+				"label": "Corefer-Symbol",
+				"arg0": "T6",
+				"arg1": "T9",
+				"rid": "R503"
+			}
+		}
+	},
+	"1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6": {
+		"id": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6",
+		"phase": "test",
+		"topic": "physics.atom_ph",
+		"document": "1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime",
+		"paragraph": "paragraph_6",
+		"prefix": "selected/test/physics.atom_ph-ann8/1504.02393v3.Attosecond_gamma_ray_pulses_via_nonlinear_Compton_scattering_in_the_radiation_dominated_regime/paragraph_6",
+		"text": "\\includegraphics[width=8cm]{fig3.eps}  \\caption{(Color online) Dynamics of a single exemplary electron with respect to the phase [unused10] . Parameters are the same as in Fig.~\\ref{spectrum} . The blue dots present the points where gamma photons are emitted . } \\label{single}  \\end{figure}",
+		"entity": {
+			"T1": {
+				"eid": "T1",
+				"label": "SYMBOL",
+				"start": 129,
+				"end": 139,
+				"text": "[unused10]"
+			},
+			"T2": {
+				"eid": "T2",
+				"label": "PRIMARY",
+				"start": 123,
+				"end": 128,
+				"text": "phase"
+			}
+		},
+		"relation": {
+			"R1": {
+				"label": "Direct",
+				"arg0": "T2",
+				"arg1": "T1",
+				"rid": "R1"
+			}
+		}
+	}
+}

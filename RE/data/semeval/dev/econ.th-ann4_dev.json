@@ -1,0 +1,2482 @@
+{
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_48": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_48",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_48",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_48",
+    "text": "The final step of the proof is to show that every solution trajectory is a closed orbit .\nSince all trajectories circle around $\\mathbf{x^*}$ , it suffices to consider a solution originating at some point $\\mathbf{x_0}$ on the x - bisector between the rest point $\\mathbf{x^*}$ and the state $x=1$ .\nSuppose that once this solution completes a loop around the rest point , it hits the x - bisector again at some point $\\mathbf{x_1}$ , whereas if one were to reverse the flow it would hit the bisector at a point $\\mathbf{x_{-1}}$ .\nThe `` self - negating ' ' property of $C_2$ implies that the mirror image of the phase portrait of the negative of $C_2$ is the phase portrait of $C_2$ ( the x - bisector being the axis of symmetry ) .\nIn particular , the mirror image of the segment of the solution trajectory between $\\mathbf{x_{-1}}$ and $\\mathbf{x_0}$ has to be the segment between $\\mathbf{x_0}$ and $\\mathbf{x_1}$ .\nTherefore $\\mathbf{x_{-1}}=\\mathbf{x_1}$ , but that is only possible if $\\mathbf{x_{-1}}=\\mathbf{x_0}=\\mathbf{x_1}$ , as otherwise $\\mathbf{x_{-1}}$ and $\\mathbf{x_1}$ must be on the opposite sides of $\\mathbf{x_0}$ .\nTherefore all solution trajectories must form closed orbits around $\\mathbf{x^*}$ .\n\\end{proof}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 128,
+        "end": 140,
+        "text": "\\mathbf{x^*}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 248,
+        "end": 262,
+        "text": "the rest point"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 264,
+        "end": 276,
+        "text": "\\mathbf{x^*}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 356,
+        "end": 370,
+        "text": "the rest point"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 1207,
+        "end": 1219,
+        "text": "\\mathbf{x^*}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T3"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_49": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_49",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_49",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_49",
+    "text": "The Proposition \\ref{cgame} suggests that if a three - strategy game has the `` self - negating ' ' property , the solution trajectories and the time - reversed solution trajectories `` meet ' ' , which implies that the trajectories form closed orbits around an interior steady state .\nThis observation provides a link between self - negating games under the IBR dynamics and zero - sum games under the replicator dynamics .\nIn a zero - sum game with an interior equilibrium , every interior solution trajectory is confined to a level set of a Kullback - Leibler divergence function ( see Sec. 9.1.1 of \\cite{Sand} ) .\nThis means the rest point is Lyapunov stable but not asymptotically stable , and that other interior solution trajectories do not converge .\nThe latter need not be the case under the IBR dynamics : game $W$ in Example \\ref{Zeeman} is a self - negating game , in which some interior solution trajectories form closed orbits , while others converge to a pure rest point .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_39": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_39",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_39",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_39",
+    "text": "Observe that the negative of the game $C_2$ is $C_2$ with strategies 2 and 3 interchanged .\n\\begin{center}  \\begin{tabular} { c cc } $C_2=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n2 & 0 & -1 \\\\\n-2 & 1 & 0\n\\end{tabular}\\right)$ & & $-C_2=\\left(\n\\begin{tabular}{ccc}\n0 & 3 & -3 \\\\\n-2 & 0 & 1 \\\\\n2 & -1 & 0\n\\end{tabular}\\right)$ \\end{tabular}  \\end{center}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_11": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_11",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_11",
+    "text": "In the restricted game in which strategy $j$ is eliminated , one can apply the same reasoning to demonstrate that any strategy that becomes dominated will be eliminated as well .\nThus by continuity of the IBR dynamics in the neighborhood of the edge opposite to the vertex $x_j=1$ in the original game ( this edge corresponds to the simplex of the restricted game ) the dynamics will select against the iteratively dominated strategies .\nSee game $A_2$ in the example \\ref{domin} for an illustration to this argument .\n\\end{proof}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 442,
+        "end": 446,
+        "text": "game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 448,
+        "end": 451,
+        "text": "A_2"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_10": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_10",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_10",
+    "text": "In terms of these flow components the change in the population proportion for the strategies $i$ and $j$ can be expressed as \\begin{align*}            _i &=            ^ n \\ left ( P_k x_i + Q_k x_i - R_k x_i\\ right ) + Tx_i x_j\\\\            _j &=            ^ n \\ left ( P_k x_j - Q_k x_j - R_k x_j\\ right )\n- Tx_i x_j \\end{align*}\nand so the change in the difference $d$ in growth rates of the two strategies is always positive :\n\\\n[            =            _i}{x_i}-            _j}{x_j} = 2 \\sum_{k=1} ^ n Q_k + T ( x_i+x_j ) > 0 \\ ]\nTherefore , using the standard method ( see , for instance , Proposition 1 in \\cite{Vio15} ) , $d \\to +\\infty$ as $t \\to \\infty$ , and thus strategy $j$ is eliminated .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 344,
+        "end": 368,
+        "text": "change in the difference"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 370,
+        "end": 371,
+        "text": "d"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_38": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_38",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_38",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_38",
+    "text": "Games of type $C$ require a different approach , since in them the eigenvalues of the Jacobian at the interior rest point are purely imaginary , so the local stability analysis using the Jacobian does not produce an unambiguous result .\nHowever , this obstacle can be overcome once one notices that up to the strategy labels , reversing the order in any C game results in the same game .\n\\begin{prop}  \\label{cgame}\nThe unique interior rest point in any C game is a center , and any trajectory from the interior forms a closed orbit around it .\n\\end{prop}  \\begin{proof}\nThe proposition is proved for the game $C_2$ .\nThe proof for games $C_1$ and $C_3$ is similar .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_12": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_12",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_12",
+    "text": "With a slight adjustment ( $\\pi_{ik}>\\pi_{jk}$ would hold for at least one $k$ , but not necessary all $k \\in \\{1, \\ldots, n\\}$ ) the argument can be applied to weakly dominated strategies as well , but one should only consider weakly dominated strategies after all strictly dominated strategies are eliminated .\nOtherwise , a strategy that is weakly dominated only with respect to a strictly dominated strategy may survive , as illustrated by game $A_1$ in the following example .\n\\begin{example}  \\label{domin} Consider \\footnote{The figures in this and other examples are generated in \\textit{EvoDyn-3s} .\nSee \\cite{SanIzIz18} .} the games $A_1$ and $A_2$ \\begin{center}  \\begin{tabular} { ccc }\n           && $A_2=\\left(\n\\begin{tabular}{ccc}\n3 & 2 & 0 \\\\\n2 & 1 & 3 \\\\\n1 & 0 & 2\n\\end{tabular}\\right)$ \\end{tabular}  \\end{center}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 444,
+        "end": 448,
+        "text": "game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 450,
+        "end": 453,
+        "text": "A_1"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 633,
+        "end": 642,
+        "text": "the games"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 644,
+        "end": 647,
+        "text": "A_1"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 654,
+        "end": 657,
+        "text": "A_2"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 714,
+        "end": 717,
+        "text": "A_2"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T5"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_8": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_8",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_8",
+    "text": "When the population state is between $x^*$ and $0.5$ , the first strategy already has a higher average payoff yet the majority of agents playing it receive the lowest payoff and thus would treat switching to the other strategy as an improvement .\nThe switches in the opposite direction are less likely since the agents currently playing the second strategy would only imitate the minority of strategy 1 agents who currently receive the overall highest payoff .\nIn the remainder of the state space the vector fields of the IBR dynamics and the replicator dynamics point in the same direction .\nFor this to happen , a strategy with a higher average payoff needs to guarantee a better payoff for a larger share of agents than the other strategy .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_9": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_9",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_9",
+    "text": "\\begin{prop}  \\label{dom}\nIf a strategy is ( iteratively ) dominated by another pure strategy , then it is eliminated along any interior solution of the IBR dynamics .\n\\end{prop}  \\begin{proof}\nSuppose that strategy $j$ is dominated by strategy $i$ .\nFix $k \\in \\{1, \\ldots, n\\}$ , by dominance $\\pi_{ik}>\\pi_{jk}$ .\nTake a strategy $p \\ne i, j$ and consider all possible strategy profiles $(p,q)$ that might arise in a match involving an agent playing this strategy .\nFor a fixed $q \\in \\{1, \\ldots, n\\}$ the payoff $\\pi_{pq}$ would fall into one of these three categories :\n\\begin{enumerate} \\item $\\pi_{pq} \\le \\pi_{jk} < \\pi_{ik}$ , in which case there is an inflow into each strategy : $(x_p x_q x_k) x_i$ into strategy $i$ and $(x_p x_q x_k) x_j$ into $j$ .\nLet $P_k x_i$ and $P_k x_j$ denote the total flows in this case .\n\\ item $\\pi_{jk} < \\pi_{pq} \\le \\pi_{ik}$ , so there is outflow from strategy $j$ and inflow into strategy $i$ , with total flows expressed as some $Q_k x_i$ and $Q_k x_j$ .\n\\ item $\\pi_{jk} < \\pi_{ik} < \\pi_{pq}$ , so there is outflow from both strategies , with total outflow expressed by $R_k x_i$ and $R_k x_j$ .\n\\end{enumerate}\nIn addition , there is net inflow $Tx_i x_j$ from strategy $j$ to $i$ which includes at least the terms $x_k ^2 x_i x_j$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 506,
+        "end": 516,
+        "text": "the payoff"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 518,
+        "end": 526,
+        "text": "\\pi_{pq}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 601,
+        "end": 609,
+        "text": "\\pi_{pq}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 849,
+        "end": 857,
+        "text": "\\pi_{pq}"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 1034,
+        "end": 1042,
+        "text": "\\pi_{pq}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1186,
+        "end": 1196,
+        "text": "net inflow"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1198,
+        "end": 1206,
+        "text": "Tx_i x_j"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_13": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_13",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_13",
+    "text": "\\begin{center}  \\begin{figure} [ h ] \\ centering \\begin{tabular} { c cc } $\\includegraphics[scale=0.5]{weakdom.pdf}$ & & $\\includegraphics[scale=0.5]{iterdom.pdf}$ \\end{tabular}  \\caption{Some solution trajectories in games            (left) and            (right).}  \\end{figure}  \\end{center}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_17": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_17",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_17",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_17",
+    "text": "Another example that complements the result of Proposition \\ref{dom} demonstrates that a strategy dominated by mixed strategies may survive .\n\\begin{example}\nConsider the games $A_3$ and $A_4$ with $\\alpha \\in (1,4)$ :\n\\begin{center}  \\begin{tabular} { c cc }\n           \\ alpha            \\ alpha            \\ alpha            & &            \\ alpha            \\ alpha            \\ alpha $ \\\\\n4 & 4 & 1\n\\end{tabular}\\right)$\n\\end{tabular}  \\end{center}\nCompared to game $A_3$ , the order of payoffs in game $A_4$ is reversed .\nIn both games strategy 2 is always the second best , and when $\\alpha < 2.5$ , it is dominated by a mixed strategy of 1 and 3 .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 167,
+        "end": 176,
+        "text": "the games"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 178,
+        "end": 181,
+        "text": "A_3"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 188,
+        "end": 191,
+        "text": "A_4"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 472,
+        "end": 475,
+        "text": "A_3"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 509,
+        "end": 512,
+        "text": "A_4"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_16": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_16",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_16",
+    "text": "In the game $A_2$ strategy 3 is dominated by strategy 2 , and after strategy 3 is eliminated , strategy 2 is dominated by strategy 1 .\nIn this game the solution trajectories originating near the pure state $x_3=1$ first move in the direction of the pure state $x_2=1$ , since when most agents choose strategy 3 almost no one gets to imitate strategy 1 as the majority of strategy 1 agents receive the lowest payoff .\nBut after the population state gets sufficiently close to $x_2=1$ and the strategy 3 becomes almost extinct , agents begin to realize the advantage of 1 over 2 .\n$\\square$ \\end{example}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 13,
+        "end": 16,
+        "text": "A_2"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 3,
+        "end": 11,
+        "text": "the game"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_14": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_14",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_14",
+    "text": "In the game $A_1$ strategy 3 is dominated by both 1 and 2 , strategy 2 is weakly dominated by 1 , but once strategy 3 is eliminated , both 1 and 2 coexist .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 13,
+        "end": 16,
+        "text": "A_1"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 3,
+        "end": 11,
+        "text": "the game"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_28": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_28",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_28",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_28",
+    "text": "First consider the symmetric RPS game with the payoff matrix $A$ and $a,b>0$ . \\\n[ A =\\ left ( \\begin{tabular} { c cc } 0 & $-a$ & $b$ \\\\ $b$ & 0 & $-a$ \\\\ $-a$ & $b$ & 0 \\end{tabular} \\ right ) \\ ]\nFor any values of the payoff parameters the game $A$ induces the same order of payoffs as the standard RPS game , for which the replicator dynamics is \\begin{align*}  \\dot{x} &= x ( z - y ) , \\\\ \\dot{y} &= y ( x - z ) , \\\\ \\dot{z} &= z ( y - x ) , \\end{align*} where $x$ , $y$ , and $z$ are the shares of agents playing Rock , Paper , and Scissors , respectively .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 249,
+        "end": 250,
+        "text": "A"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 239,
+        "end": 247,
+        "text": "the game"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 83,
+        "end": 84,
+        "text": "A"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 62,
+        "end": 63,
+        "text": "A"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 43,
+        "end": 60,
+        "text": "the payoff matrix"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T2",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_29": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_29",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_29",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_29",
+    "text": "The mean dynamics in game $A$ generated by the IBR protocol is \\begin{align*}  \\dot{x} &= x ( z - y ) ( 1 - xy - xz - yz ) , \\\\ \\dot{y} &= y ( x - z ) ( 1 - xy - xz- yz ) , \\\\            &= z ( y - x ) ( 1 - xy - xz - yz )\n\\end{align*}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 21,
+        "end": 25,
+        "text": "game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 27,
+        "end": 28,
+        "text": "A"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_15": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_15",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_15",
+    "text": "From the perspective of an agent playing strategy 3 the remaining two strategies are equally good .\nThe only case when strategy 1 gains advantage over strategy 2 is when an agent playing strategy 2 gets to imitate someone playing 1 against 3 .\nThe probability of observing such a candidate is $x_1x_3$ , so the switch rate from strategy 2 to strategy 1 is low near the pure state $x_3=1$ and near the edge $x_3=0$ .\nIt is relatively high near the center of the simplex where the expression $x_1 x_2 x_3$ is maximized .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 244,
+        "end": 272,
+        "text": "The probability of observing"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 294,
+        "end": 300,
+        "text": "x_1x_3"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_18": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_18",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_18",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_18",
+    "text": "The IBR dynamics in game $A_3$ is\n\\begin{align*}\n           &= x ( 1 - x ) ( 1 - 2 z ) \\\\            &= y ( z - x ) ( 1 - 2 z ) \\\\\n           &= z ( 1 - z ) ( 2 z - 1 )\n\\end{align*} where $x, y$ , and $z$ are the proportions of strategies 1 , 2 , and 3 , respectively .\nWhen exactly half of the population $(z=\\frac12)$ chooses strategy 3 , strategy 2 can survive .\nIn the game $A_3$ , strategy 2 is otherwise eliminated : strategy 1 is better than 2 when $z<\\frac12$ , while 3 is better than 2 when $z>\\frac12$ .\n\\begin{center}  \\begin{figure} [ h ] \\ centering\n\\begin{tabular} { c cc }\n           && $\\includegraphics[scale=0.5]{survival2.pdf}$ \\end{tabular}  \\caption{Some solution trajectories in games            (left) and            (right). The critical region is            .}  \\end{figure}  \\end{center}\nIn game $A_4$ with the reversed order of payoffs the critical region $z=\\frac12$ becomes absorbing , which suggests that strategy 2 survives along any trajectory originating in the interior of the state space .\n$\\square$ \\end{example}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 20,
+        "end": 24,
+        "text": "game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 26,
+        "end": 29,
+        "text": "A_3"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 369,
+        "end": 377,
+        "text": "the game"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 379,
+        "end": 382,
+        "text": "A_3"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 817,
+        "end": 821,
+        "text": "game"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 823,
+        "end": 826,
+        "text": "A_4"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_30": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_30",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_30",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_30",
+    "text": "Thus in the standard RPS game the IBR dynamics is the replicator dynamics with speed adjusted by the positive non-constant function $(1-xy-xz-yz)$ .\nThis relationship helps identify the global behavior of the IBR dynamics in symmetric RPS games .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 97,
+        "end": 131,
+        "text": "the positive non-constant function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 133,
+        "end": 145,
+        "text": "(1-xy-xz-yz)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_24": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_24",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_24",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_24",
+    "text": "For two - strategy games with two distinct payoffs the IBR dynamics and the replicator dynamics coincide .\nThe table below presents all possible cases with 3 or 4 distinct payoffs , grouped by the game type :\nD -- game with a dominant strategy , W -- game with a weakly dominant strategy , C -- coordination game , A -- anticoordination game .\n\\begin{center}  \\begin{tabular} { cc cc cc }\n$D_1$ & $D_2$ & $D_3$ & $D_4$ & $D_5$ & $D_6$ \\\\\n$\\left(\n\\begin{tabular}{cc}\n4 & 3 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n4 & 3 \\\\\n1 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n4 & 2 \\\\\n3 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 4 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 4 \\\\\n1 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 4 \\\\\n1 & 3\n\\end{tabular}\\right)$ \\\\ \\\\\n$D_7$ & $D_8$ & $D_9$ & $D_{10}$ & $D_{11}$ & $D_{12}$ \\\\\n$\\left(\n\\begin{tabular}{cc}\n3 & 3 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 3 \\\\\n1 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 2 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 3 \\\\\n1 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 2 \\\\\n1 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 3 \\\\\n1 & 1\n\\end{tabular}\\right)$ \\\\ \\\\\n$W_1$ & $W_2$ & $W_3$ & $W_4$ & $W_5$ & $W_6$ \\\\\n$\\left(\n\\begin{tabular}{cc}\n3 & 2 \\\\\n3 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 3 \\\\\n1 & 3\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 2 \\\\\n1 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 3 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 1 \\\\\n2 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n1 & 3 \\\\\n1 & 2\n\\end{tabular}\\right)$ \\\\ \\\\\n$C_1$ & $C_2$ & $C_3$ & $C_4$ & $C_5$ & $C_6$ \\\\\n$\\left(\n\\begin{tabular}{cc}\n4 & 2 \\\\\n1 & 3\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n4 & 1 \\\\\n3 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n4 & 1 \\\\\n2 & 3\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 2 \\\\\n1 & 3\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 1 \\\\\n2 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n3 & 1 \\\\\n1 & 2\n\\end{tabular}\\right)$ \\\\ \\\\\n$A_1$ & $A_2$ & $A_3$ & $A_4$ & $A_5$ & $A_6$ \\\\\n$\\left(\n\\begin{tabular}{cc}\n2 & 4 \\\\\n3 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n1 & 4 \\\\\n3 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n1 & 4 \\\\\n2 & 3\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n2 & 3 \\\\\n3 & 1\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n1 & 3 \\\\\n2 & 2\n\\end{tabular}\\right)$ & $\\left(\n\\begin{tabular}{cc}\n1 & 3 \\\\\n2 & 1\n\\end{tabular}\\right)$ \\end{tabular}  \\captionof{table} { types of two - strategy games with 3 or 4 distinct payoffs }\n\\end{center}\nIn games with a ( weakly ) dominant strategy the set of rest points is $\\{0,1\\}$ , and trajectories from any interior state converge to state $x=1$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 209,
+        "end": 210,
+        "text": "D"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 214,
+        "end": 243,
+        "text": "game with a dominant strategy"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 246,
+        "end": 247,
+        "text": "W"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 251,
+        "end": 287,
+        "text": "game with a weakly dominant strategy"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 290,
+        "end": 291,
+        "text": "C"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 295,
+        "end": 312,
+        "text": "coordination game"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 315,
+        "end": 316,
+        "text": "A"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 320,
+        "end": 341,
+        "text": "anticoordination game"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_2": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_2",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_2",
+    "text": "Thus in general the IBR dynamics is a quartic polynomial in $n$ variables $\\{x_1, x_2, \\ldots, x_n\\}$ , but in certain cases , as shown in the next subsection , it reduces to the replicator dynamics which is cubic in $x_i$ and is the mean dynamics for a number of more information - demanding imitative rules ( Imitation via pairwise comparisons of \\cite{Hel92} and \\cite{Sch98} , imitation driven by dissatisfaction of \\cite{BjoWei96} , and imitation of success of \\cite{Hof95im} , see also Section 5.4.2 in \\cite{Sand} ) .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 60,
+        "end": 73,
+        "text": "$n$ variables"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 75,
+        "end": 100,
+        "text": "\\{x_1, x_2, \\ldots, x_n\\}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_3": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_3",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_3",
+    "text": "Under the PPI rule based on \\textit{realized} payoffs , an agent whose strategy $i$ yields payoff $\\pi_{im}$ for some $m \\in S$ switches to strategy $j$ if the observed payoff realization $\\pi_{jk}$ exceeds $\\pi_{im}$ , with a conditional switch rate proportional to the payoff advantage of $j$ , which is $[\\pi_{jk}-\\pi_{im}]_+$ .\nAccounting for the likelihood of each payoff realization $\\pi_{jk}$ one can express the switch rate from strategy $i$ to strategy $j$ as \\\n[ \\rho_{ij} ( \\mathbf{x} , A ) = x_j \\sum_{k=1} ^ n x_k \\sum_{m=1} ^ n x_m [ \\pi_{jk} - \\pi_{im} ]\n_+            \\ ]",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 91,
+        "end": 97,
+        "text": "payoff"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 99,
+        "end": 107,
+        "text": "\\pi_{im}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 208,
+        "end": 216,
+        "text": "\\pi_{im}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 169,
+        "end": 187,
+        "text": "payoff realization"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 189,
+        "end": 197,
+        "text": "\\pi_{jk}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 308,
+        "end": 316,
+        "text": "\\pi_{jk}"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 317,
+        "end": 325,
+        "text": "\\pi_{im}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 390,
+        "end": 398,
+        "text": "\\pi_{jk}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 370,
+        "end": 388,
+        "text": "payoff realization"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 548,
+        "end": 556,
+        "text": "\\pi_{jk}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 559,
+        "end": 567,
+        "text": "\\pi_{im}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 416,
+        "end": 465,
+        "text": "the switch rate from strategy $i$ to strategy $j$"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 473,
+        "end": 501,
+        "text": "\\rho_{ij} ( \\mathbf{x} , A )"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T3"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T6"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Description",
+        "arg0": "T9",
+        "arg1": "T4"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T7"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_25": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_25",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_25",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_25",
+    "text": "\\begin{center}  \\begin{tabular} { | l | l | } \\\nhline types & mean dynamics \\\\ \\hline\n$D_1, D_2, D_4, D_5, D_7, D_8, D_{11}, D_{12}$ &            \\\\\n$D_3, D_6$ &            \\\\\n$D_9$ &            \\\\\n$D_{10}$ &            \\\\\n$W_1, W_6$ &            \\\\\n           &            \\\\\n$W_3$ &            \\\\\n$W_4$ &            \\\\ \\hline\n\\end{tabular}  \\captionof{table}\n{ the mean dynamics for the games with ( weakly ) dominant strategies }\n\\end{center}\nIn coordination games the set of rest points is $\\{0, 1-\\frac{\\sqrt{2}}{2}, \\frac{3-\\sqrt{5}}{2}, \\frac12, 1\\}$ .\nThe interior rest points are repelling , and trajectories from the interior states converge to the boundary states .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_31": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_31",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_31",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_31",
+    "text": "\\begin{prop}\nIn all symmetric RPS games the trajectories under the IBR dynamics are closed orbits around the unique interior rest point $(\\frac13, \\frac13, \\frac13)$ .\n\\end{prop}  \\begin{proof}\nClearly , the only interior solution to the system ( RPS ) is $x^*=y^*=z^*=\\frac13$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_19": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_19",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_19",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_19",
+    "text": "We conclude this section with a stability property for strict equilibria .\nIf a strategy $i$ is the unique best response to itself , then in the neighborhood of a pure state $x_i=1$ any agent who currently employs a strategy $j \\ne i$ would be most likely matched against an opponent playing strategy $i$ , and upon receiving a revision opportunity would most likely observe a candidate earning $\\pi_{ii}$ and as a consequence switch to $i$ .\nThe behavior of such agents would create an inflow into the strategy $i$ which is of higher order than any potential outflow caused by payoff advantages of other strategies over $i$ , so the proportion of agents playing $i$ would increase , making the state $x_i=1$ a stable rest point .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 375,
+        "end": 394,
+        "text": "a candidate earning"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 396,
+        "end": 404,
+        "text": "\\pi_{ii}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_27": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_27",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_27",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_27",
+    "text": "\\begin{center}  \\begin{tabular} { | l| l| l | } \\\nhline types & mean dynamics & interior RP \\\\ \\\nhline $A_1$ & $\\dot{x} = x(1-x)[1-2x^2]$ & $x=\\frac{1}{\\sqrt{2}} \\approx 0.707$ \\\\\n$A_2, A_3, A_5$ & $\\dot{x} = x(1-x)[1-2x]$ & $x=\\frac12$ \\\\\n$A_4, A_6$ & $\\dot{x} = x(1-x)[-x^2-x+1]$ & $x= \\frac{\\sqrt{5}-1}{2} \\approx 0.618$ \\\\ \\\nhline \\end{tabular}  \\captionof{table}\n{ the mean dynamics for anticoordination games }\n\\end{center}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_33": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_33",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_33",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_33",
+    "text": "In general under the replicator dynamics the behavior of the system in the Rock - Paper - Scissors game solely depends on the determinant of the payoff matrix $A$ .\nIf $\\det A = 0$ , the solution trajectories form closed orbits around the interior steady state .\nIf $\\det A >0$ , the interior steady state is a global attractor , whereas if $\\det A < 0$ it is repelling ( \\cite{Zee80} ) .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 141,
+        "end": 158,
+        "text": "the payoff matrix"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 160,
+        "end": 161,
+        "text": "A"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 174,
+        "end": 175,
+        "text": "A"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 272,
+        "end": 273,
+        "text": "A"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_1": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_1",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_1",
+    "text": "Given this \\textit{imitate the better realization} revision protocol , the switch rate $\\rho_{ij}$ from strategy $i$ to strategy $j$ can be expressed as the probability that a payoff drawn from the $j$ - th row of the payoff matrix $A$ exceeds a payoff drawn from the $i$ - th row , with the population state $\\mathbf{x}$ serving as the probability distribution :\n\\\n[ \\rho_{ij} ( \\mathbf{x} , A ) = x_j \\sum_{k=1} ^ n x_k \\sum_{m=1} ^ n x_m            _ { \\{\\pi_{jk} > \\pi_{im}  \\}} \\tag{IBR} \\ ]\nThe population setting offers the following interpretation :\nthe realized payoff of a revising agent playing strategy $i$ equals $\\pi_{im}$ with probability $x_m$ for $m \\in S$ .\nSuch an agent would observe a payoff realization $\\pi_{jk}$ for strategy $j$ with probability $x_j x_k$ for $k \\in S$ .\nSumming over $m$ and $k$ and counting the cases in which the payoff to the candidate strategy $j$ is better yields the probability of switching $\\rho_{ij}(\\mathbf{x}, A)$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 71,
+        "end": 86,
+        "text": "the switch rate"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 88,
+        "end": 97,
+        "text": "\\rho_{ij}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 214,
+        "end": 231,
+        "text": "the payoff matrix"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 233,
+        "end": 234,
+        "text": "A"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 288,
+        "end": 308,
+        "text": "the population state"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 310,
+        "end": 320,
+        "text": "\\mathbf{x}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 368,
+        "end": 377,
+        "text": "\\rho_{ij}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 380,
+        "end": 390,
+        "text": "\\mathbf{x}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 393,
+        "end": 394,
+        "text": "A"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 558,
+        "end": 618,
+        "text": "the realized payoff of a revising agent playing strategy $i$"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 627,
+        "end": 635,
+        "text": "\\pi_{im}"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 642,
+        "end": 653,
+        "text": "probability"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 655,
+        "end": 658,
+        "text": "x_m"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "SYMBOL",
+        "start": 469,
+        "end": 477,
+        "text": "\\pi_{im}"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 437,
+        "end": 440,
+        "text": "x_m"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 704,
+        "end": 712,
+        "text": "a payoff"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 726,
+        "end": 734,
+        "text": "\\pi_{jk}"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "PRIMARY",
+        "start": 758,
+        "end": 769,
+        "text": "probability"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 771,
+        "end": 778,
+        "text": "x_j x_k"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 951,
+        "end": 961,
+        "text": "\\mathbf{x}"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 963,
+        "end": 964,
+        "text": "A"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 941,
+        "end": 950,
+        "text": "\\rho_{ij}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T12"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T14"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T15"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T14",
+        "arg1": "T16"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T18"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T19",
+        "arg1": "T20"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T4"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T6"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T2"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Corefer-Symbol",
+        "arg0": "T22",
+        "arg1": "T9"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T10"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Corefer-Symbol",
+        "arg0": "T21",
+        "arg1": "T11"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_0": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_0",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_0",
+    "text": "\\ noindent\nSuppose that a continuum of agents of mass 1 are randomly matched to play a symmetric two - player game with the payoff matrix $A$ .\nLet $S=\\{1, \\ldots, n\\}$ be the set of strategies , and for $i, j \\in S$ let $\\pi_{ij}$ be the payoff of strategy $i$ against strategy $j$ .\nAt any instant , the population state $\\mathbf{x} = (x_1, x_2, \\ldots, x_n)$ describes the proportion of players choosing each strategy .\nThe set of all such population states is the $(n-1)$ - dimensional simplex $\\Delta = \\{ \\mathbf{x} \\text{ } | \\sum_{i=1}^n x_i =1, x_i \\ge 0\\}$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 120,
+        "end": 137,
+        "text": "the payoff matrix"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 139,
+        "end": 140,
+        "text": "A"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 149,
+        "end": 150,
+        "text": "S"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 172,
+        "end": 193,
+        "text": "the set of strategies"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 235,
+        "end": 282,
+        "text": "the payoff of strategy $i$ against strategy $j$"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 222,
+        "end": 230,
+        "text": "\\pi_{ij}"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 214,
+        "end": 215,
+        "text": "S"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 302,
+        "end": 322,
+        "text": "the population state"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 324,
+        "end": 334,
+        "text": "\\mathbf{x}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 443,
+        "end": 460,
+        "text": "population states"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 511,
+        "end": 521,
+        "text": "\\mathbf{x}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 423,
+        "end": 460,
+        "text": "The set of all such population states"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 337,
+        "end": 360,
+        "text": "(x_1, x_2, \\ldots, x_n)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_32": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_32",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_32",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_32",
+    "text": "Since the IBR dynamics is the speed - adjusted replicator dynamics for this game , the Lyapunov function $H(\\mathbf{x}) = x^* \\log \\frac{x}{x^*} + y^* \\log \\frac{y}{y^*} + z^* \\log \\frac{z}{z^*}$ ( introduced in Theorem 6 in \\cite{Zee80} ) would be constant along the solutions of the IBR dynamics for all symmetric RPS games .\n\\end{proof}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 83,
+        "end": 104,
+        "text": "the Lyapunov function"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 106,
+        "end": 119,
+        "text": "H(\\mathbf{x})"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_26": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_26",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_26",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_26",
+    "text": "\\begin{center}  \\begin{tabular} { | l | l | l | } \\hline types & mean dynamics & interior RP \\\\ \\hline\n$C_1$ & $\\dot{x} = x(1-x)[-2x^2+4x-1]$ & $x=1-\\frac{\\sqrt{2}}{2} \\approx 0.293$ \\\\\n$C_2, C_3, C_5$ & $\\dot{x} = x(1-x)[2x-1]$ & $x=\\frac12$ \\\\\n$C_4, C_6$ & $\\dot{x} = x(1-x)[-x^2+3x-1]$ &            \\\\ \\hline\n\\end{tabular}  \\captionof{table}\n{ the mean dynamics for coordination games }\n\\end{center}\nIn anticoordination games the set of rest points is $\\{0, \\frac12, \\frac{\\sqrt{5}-1}{2}, \\frac{1}{\\sqrt{2}}, 1\\}$ .\nEssentially , the rest points in coordination and anticoordination games are the same save for the order of the strategies .\nThe trajectories from the interior states converge to the interior rest point .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_22": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_22",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_22",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_22",
+    "text": "To obtain a lower bound on $\\dot{x}_i$ , assume that in all other cases strategy $i$ performs worse than its alternatives , i.e. $\\pi_{im} < \\pi_{jk}$ for any $m \\in S$ and $j,k \\ne i$ and $\\pi_{ik} < \\pi_{ji}$ for any $j,k \\ne i$ .\nIn the former case the outflow from strategy $i$ is $\\sum_{m=1}^n x_i x_m \\sum_{j,k \\ne i} x_j x_k = (1-\\epsilon) \\epsilon^2$ , and in the latter it is $\\sum_{k \\ne i} x_i x_k \\sum_{j \\ne i} x_j x_i = (1-\\epsilon)^2 \\epsilon^2$ .\nThe sum of these two components is the upper bound on the outflow from strategy $i$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_36": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_36",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_36",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_36",
+    "text": "The IBR dynamics in game $A_1$ can be written as \\begin{align*} F ( x , y , z ) = \\ left ( \\begin{matrix}  \\dot{x} \\\\ \\dot{y} \\\\ \\dot{z}  \\end{matrix} \\ right ) = \\ left ( \\begin{matrix} x ( z - y ) ( x ^ 2+y+z ) \\\\ y ( x - z ) ( x ^ 2+y+z )\n+yz ( y- x ) ( x+z ) \\\\ z ( y - x ) ( x ^ 2+y+z )\n- yz ( y- x ) ( x+z ) \\end{matrix} \\ right )\n\\end{align*}\nTo identify the interior rest points notice that $\\dot{x}=0$ requires $y=z$ , in which case $\\dot{y}=0$ reduces to \\begin{align*} ( x - y ) \\ left ( x ^ 2+2y -y ( x+y ) \\ right ) =0.           \nPlugging in $x=1-2y$ results in the equation \\begin{align*} ( 1 - 3 y ) \\ left ( 5 y ^ 2 - 3y +1 \\ right ) =0, \\end{align*} with the only real solution $y=\\frac13$ .\nThus the unique interior rest point of the system $F$ is $(\\frac13, \\frac13, \\frac13)$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_4": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_4",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_4",
+    "text": "The PPI rule based on \\textit{average} payoffs generates the switch rates in the form \\ [ \\rho_{ij} ( \\mathbf{x} , A ) = x_j [            \\ ]\nwhere $x_j$ is the probability of sampling an agent whose strategy is $j$ , and the term $[\\pi_j-\\pi_i]_+$ is the ( average ) payoff advantage of strategy $j$ over $i$ .\nDue to linearity of average payoffs in strategy utilization frequencies $x_i$ , both kinds of proportional imitation generate the replicator dynamics as their mean dynamics ( Theorem 3 of \\cite{Sch98} ) : \\[            _i = x_i \\left(\\pi_i - \\bar{\\pi}            \\ ]",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 57,
+        "end": 73,
+        "text": "the switch rates"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 90,
+        "end": 118,
+        "text": "\\rho_{ij} ( \\mathbf{x} , A )"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 157,
+        "end": 215,
+        "text": "the probability of sampling an agent whose strategy is $j$"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 149,
+        "end": 152,
+        "text": "x_j"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 121,
+        "end": 124,
+        "text": "x_j"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 232,
+        "end": 247,
+        "text": "[\\pi_j-\\pi_i]_+"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 252,
+        "end": 309,
+        "text": "the ( average ) payoff advantage of strategy $j$ over $i$"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_5": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_5",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_5",
+    "text": "\\begin{prop}  \\label{payoffs}\nIf the payoff matrix $A$ contains only two distinct payoffs , the IBR dynamics reduces to the replicator dynamics up to a constant change of speed .\n\\end{prop}  \\begin{proof}\nSuppose WLOG that the set of payoffs is $\\{ \\pi_{ij} \\} = \\{0, k\\}$ for some $k>0$ .\nThen for any pair of strategy profiles involving the strategies $i$ and $j$ the conditional switch rates from $i$ to $j$ under the IBR rule are proportional to those under the PPI rule .\nFor any $i,j,k,m \\in \\{1,2, \\ldots, n\\}$ the following holds : \\ [ [ \\pi_{jk} - \\pi_{im} ]_+ = k            _{            >            \\}} , \\]\ntherefore $\\rho_{ij}^{PPI}(\\mathbf{x}, A) = k \\cdot \\rho_{ij}^{IBR}(\\mathbf{x}, A)$ , so the IBR dynamics is the replicator dynamics scaled by $\\frac{1}{k}$ .\n\\end{proof}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 33,
+        "end": 50,
+        "text": "the payoff matrix"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 52,
+        "end": 53,
+        "text": "A"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 366,
+        "end": 429,
+        "text": "the conditional switch rates from $i$ to $j$ under the IBR rule"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 673,
+        "end": 703,
+        "text": "\\rho_{ij}^{IBR}(\\mathbf{x}, A)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_37": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_37",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_37",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_37",
+    "text": "To identify the local behavior of the system $F$ around the interior steady state , project it from $\\mathbb{R}^3$ onto $\\Delta_3$ , the two - dimensional simplex , to obtain the system\n\\begin{align*}  \\hat{F} ( x , y ) = \\ left ( \\begin{matrix} x ( 1 - x - 2y ) ( x ^ 2 - x +1 ) \\\\ y ( 2x+y - 1 )\n( y ^ 2 - y +1 )\n+2xy ( y - x ) ( 1 - x - y )\n\\end{matrix} \\ right )\n\\end{align*}\nThe Jacobian of this system evaluated at the rest point $(\\frac13, \\frac13)$ is \\begin{align*} D\n\\hat{F}  \\left(\\frac13, \\frac13\\right)=\\frac{1} { 27 } \\ left (            -7 &- 14 \\\\ 12 & 9 \\end{matrix} \\ right ) \\end{align*} with the eigenvalues $\\frac{1\\pm2i\\sqrt{26}}{27}$ .\nSince both eigenvalues have positive real parts the rest point is repelling .\n\\\\ ii ) To see the relationship between $A_1$ and $B_1$ , write the matrices $A_1, -A_1$ , and $B_1$ side by side : \\begin{center}\n\\begin{tabular} { c cc } $A_1=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n2 & 0 & -2 \\\\\n-1 & 1 & 0\n\\end{tabular}\\right)$ & $-A_1=\\left(\n\\begin{tabular}{ccc}\n0 & 3 & -3 \\\\\n-2 & 0 & 2 \\\\\n1 & -1 & 0\n\\end{tabular}\\right)$ & $B_1=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n1 & 0 & -1 \\\\\n-2 & 2 & 0\n\\end{tabular}\\right)$ \\end{tabular}  \\end{center}\nThe game $B_1$ can be obtained from $(-A_1)$ by relabeling strategies 2 and 3 .\nFormally the IBR dynamics in game $B_1$ can be written as \\begin{align*} G ( x , y , z ) = \\ left ( \\begin{matrix}  \\dot{x} \\\\ \\dot{y} \\\\\n\\dot{z}  \\end{matrix} \\ right ) = \\ left ( \\begin{matrix} x ( z - y ) ( x ^ 2+y+z ) \\\\ y ( x - z ) ( x^ 2+y+z ) - yz ( x - z ) ( x+y ) \\\\ z ( y - x ) ( x^ 2+y+z ) +yz ( x - z ) ( x+y )\n\\end{matrix} \\ right )\n\\end{align*} so $-F(x,y,z) = G(x, z, y)$ .\nThus the system $G$ is the time - reversed system $F$ , so the eigenvalues of the Jacobian evaluated at the interior rest point of $\\hat{G}$ both have negative real parts , and that rest point is an attractor .\n\\end{proof}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_23": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_23",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_23",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_23",
+    "text": "Subtracting the highest outflow from the lowest inflow yields the desired lower bound :\n\\begin{align*}            _i & = \\sum_{j=1} ^ n x_j \\rho_{ji} ( \\mathbf{x} , A )\n- x_i \\sum_{j=1} ^ n \\rho_{ij} ( \\mathbf{x} , A ) \\\\ & = x_i \\sum_{j=1} ^ n x_j \\sum_{k=1} ^ n x_k \\sum_{m=1} ^ n x_m            _{ \\{\\pi_{jk} < \\pi_{im}  \\}} - x_i \\sum_{j=1} ^ n x_j \\sum_{k=1} ^ n x_k \\sum_{m=1} ^ n x_m            _{ \\{\\pi_{jk} >            \\ } } \\\\ & \\ge x_i^3 \\sum_{j \\ne i} x_j            _{ \\{\\pi_{ji} < \\pi_{ii}  \\}} - x_i \\sum_{m=1} ^ n x_m \\sum_{j,k \\ne i} x_j x_k            _{ \\{\\pi_{jk} > \\pi_{im}  \\}} - x_i^2 \\sum_{k \\ne i} x_k \\sum_{j \\ne i} x_j            _{ \\{\\pi_{ik} <            \\ } }\n\\end{align*}  \\begin{align*}\n& \\ ge ( 1 -\\ epsilon ) ^ 3 \\ epsilon - ( 1 -\\ epsilon ) \\ epsilon ^ 2 - ( 1 -\\ epsilon ) ^ 2 \\ epsilon ^ 2 \\\\ & \\ ge \\ epsilon ( 1 -\\ epsilon ) \\ left ( 1 - 4 \\ epsilon +2 \\ epsilon ^ 2 \\ right ) \\\\ &\n\\ge 0 \\text{ when }  \\epsilon< 1- \\tfrac{1} {\\ sqrt2 } .\n\\end{align*}\nThus whenever $\\epsilon< 1- \\tfrac{1}{\\sqrt2}$ the trajectory from an initial condition with $x_i=1-\\epsilon$ converges to $x_i=1$ , so any strict symmetric equilibrium is locally stable .\n\\end{proof}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_35": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_35",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_35",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_35",
+    "text": "\\begin{prop} i ) The unique interior rest point in any A game is repelling . \\\\\ni i ) For any $i \\in \\{1,2,3\\}$ the game $B_i$ can be obtained from the game $(-A_i)$ by relabeling the strategies .\n\\end{prop}  \\begin{proof} i ) The statement is proved for the game $A_1$ by direct computation .\nThe proofs for games $A_2$ and $A_3$ are similar .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 112,
+        "end": 120,
+        "text": "the game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 122,
+        "end": 125,
+        "text": "B_i"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 148,
+        "end": 156,
+        "text": "the game"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 160,
+        "end": 164,
+        "text": "A_i)"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_21": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_21",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_21",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_21",
+    "text": "Let $x_i = 1- \\epsilon$ .\nSince $(i,i)$ is a strict equilibrium , for any $j \\ne i$ we have $\\pi_{ii} > \\pi_{ji}$ , so strategy $i$ would be imitated by any agent who currently obtains $\\pi_{ji}$ and who observes a candidate obtaining $\\pi_{ii}$ .\nSuch switches to strategy $i$ create an inflow of $x_i^3 \\sum_{j \\ne i} x_j = (1-\\epsilon)^3 \\epsilon$ , which is a lower bound on the inflow into strategy $i$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_7": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_7",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_7",
+    "text": "In this section it is shown that the IBR dynamics need not preserve such cardinal properties as payoff monotonicity and payoff positivity .\nPayoff monotonicity ( \\cite{Nac90} ) requires that the order of growth rates be the same as the order of average payoffs ( if $\\pi_i > \\pi_j$ then $\\frac{\\dot{x_i}}{x_i} > \\frac{\\dot{x_j}}{x_j}$ ) .\nPayoff positivity ( \\cite{Nac90} ) is a weaker requirement that a strategy have a positive growth rate if and only if its payoff is higher than the average payoff in the population .\nWeak payoff positivity ( \\cite{Wei95} ) is an even weaker requirement that among the strategies with above - average payoffs there is one with a positive growth rate .\nThe next example demonstrates that all these properties are violated for the IBR dynamics even in two - strategy games :\n\\begin{example}  \\label{paymon}\nConsider the coordination game with the payoff matrix            \\[ A =\\ left ( \\begin{tabular} { cc } 10 & 0 \\\\ 3 & 3            \\ right ) \\]\nLet $x$ be the frequency of the first ( top ) strategy in the population .\nThe mixed strategy equilibrium in game $A$ is $x^*=0.3$ , and for all $x>x^*$ the average payoff of the first strategy is higher than that of the second strategy .\nBut the IBR dynamics for $A$ is \\ [ \\dot{x} = x ( 1 - x ) ( 2 x - 1 ) , \\ ] so for all $x<0.5$ the proportion of agents playing the first strategy is decreasing .\nThus , for instance , when $x=0.4$ $\\pi_1=4 > 3= \\pi_2$ , but $\\dot{x}(0.4) < 0$ , and so the IBR dynamics is neither payoff monotone nor payoff positive .\n$\\square$ \\end{example}\nDepending on the payoffs , any state $x^* \\in (0,1)$ can be the mixed Nash equilibrium of the game which has the same order of payoffs as game $A$ from the Example \\ref{paymon} .\nYet for all such games the IBR dynamics selects $x=0.5$ as the rest point , so the monotonicity and positivity properties are violated precisely at the states between $x^*$ and $0.5$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_6": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_6",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_6",
+    "text": "The converse of Proposition \\ref{payoffs} need not be true .\nExample \\ref{coordination} contains a game with four distinct payoffs in which both protocols generate the same dynamics .\n\\begin{example}  \\label{coordination}\nConsider the coordination game with the payoff matrix \\ [\\ left ( \\begin{tabular} { cc } 4 & 1 \\\\ 3 & 2            \\ right ) \\ ]\nBoth the IBR and the PPI protocols generate the same dynamics :\n$\\dot{x} = x(1-x) (2x-1)$ .\nUnder the PPI rule an agent with payoff $\\pi_{22} =2$ who observes a candidate with payoff $\\pi_{11}=4$ is twice as likely to switch to strategy 1 than an agent with payoff $\\pi_{21} =3$ , but at the same time an agent with payoff $\\pi_{12} =1$ is twice as likely to switch to strategy 2 when he or she observes a candidate with payoff $\\pi_{21}=3$ rather than a candidate with payoff $\\pi_{22}=2$ .\nThese higher switch rates annihilate each other , so in the end the flows between the strategies are identical to those under the IBR rule , when all switch rates upon observing a better outcome are the same .\n$\\square$ \\end{example}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_20": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_20",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_20",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_20",
+    "text": "\\setcounter{enumi} { 2 } \\begin{prop}\nStrict symmetric equilibria are locally stable with a basin of attraction that includes all states with $x_i > 1- \\tfrac{1}{\\sqrt2}$ .\n\\end{prop}  \\begin{proof}\nSuppose that the strategy profile $(i,i)$ is a strict equilibrium .\nTo show that it is locally stable it is enough to demonstrate that $\\dot{x}_i > 0$ in some neighborhood of the pure state $x_i=1$ as this implies that the function $L(x) = x_i$ is a strict local Lyapunov function for the state $x_i=1$ .\nTo do so , construct the lower bound on $\\dot{x}_i$ by considering a game with the lowest net inflow into the strategy $i$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 212,
+        "end": 232,
+        "text": "the strategy profile"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 234,
+        "end": 239,
+        "text": "(i,i)"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 432,
+        "end": 436,
+        "text": "L(x)"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 462,
+        "end": 479,
+        "text": "Lyapunov function"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_34": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_34",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_34",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_34",
+    "text": "In Table 5 we consider the nine possible orderings over the payoffs in the RPS game .\nIn all cases \\textit{Rock} yields the highest positive payoff .\n\\begin{center}  \\begin{tabular} { c cc } $A_1=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n2 & 0 & -2 \\\\\n-1 & 1 & 0\n\\end{tabular}\\right)$ & $A_2=\\left(\n\\begin{tabular}{ccc}\n0 & -2 & 3 \\\\\n2 & 0 & -1 \\\\\n-3 & 1 & 0\n\\end{tabular}\\right)$ & $A_3=\\left(\n\\begin{tabular}{ccc}\n0 & -1 & 3 \\\\\n2 & 0 & -3 \\\\\n-2 & 1 & 0\n\\end{tabular}\\right)$ \\\\ \\\\\n$B_1=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n1 & 0 & -1 \\\\\n-2 & 2 & 0\n\\end{tabular}\\right)$ & $B_2=\\left(\n\\begin{tabular}{ccc}\n0 & -1 & 3 \\\\\n1 & 0 & -2 \\\\\n-3 & 2 & 0\n\\end{tabular}\\right)$ & $B_3=\\left(\n\\begin{tabular}{ccc}\n0 & -2 & 3 \\\\\n1 & 0 & -3 \\\\\n-1 & 2 & 0\n\\end{tabular}\\right)$ \\\\ \\\\\n$C_1=\\left(\n\\begin{tabular}{ccc}\n0 & -1 & 3 \\\\\n2 & 0 & -2 \\\\\n-3 & 1 & 0\n\\end{tabular}\\right)$ & $C_2=\\left(\n\\begin{tabular}{ccc}\n0 & -3 & 3 \\\\\n2 & 0 & -1 \\\\\n-2 & 1 & 0\n\\end{tabular}\\right)$ &            \\\\\n\\end{tabular}  \\captionof{table}\n{ The interior steady state is repelling in A 1 - A3 , an attractor in B1 - B3 , and a center in C1 - C3 . }\n\\end{center}\nEach B game is obtained from an A game with the same index by reversing the order of payoffs and subsequently relabelling the strategies .\nThis procedure reverses the flows along the solution trajectories , so the repelling rest points in games of type A become attractors in games of type B .\nThe next proposition states this result formally .\n\\begin{center}  \\begin{figure} [ h ] \\\ncentering\n\\begin{tabular} { c cc } $\\includegraphics[scale=0.42]{rpsa1.pdf}$ & $\\includegraphics[scale=0.42]{rpsb3.pdf}$ & $\\includegraphics[scale=0.42]{rpsc2.pdf}$ \\end{tabular}  \\caption{Some solution trajectories for games A1, B3, and C2.}  \\end{figure}  \\end{center}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_47": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_47",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_47",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_47",
+    "text": "\\begin{figure} [ h ] \\begin{center}  \\includegraphics{selfneg.pdf}  \\end{center}  \\caption{The solution trajectory from            (blue) and the time-reversed solution trajectory from            (red).}  \\end{figure}",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_46": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_46",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_46",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_46",
+    "text": "Similarly , in region 4 the slope of the x - nullcline $z-y=0$ equal to $-\\tfrac12$ exceeds the slope of the line $z=const$ equal to $-1$ , and in the region 6 the slope of the y - nullcline $(x-z)(x^2+y+z^2)+2xyz=0$ is \\begin{align*}  \\frac{dy} { dx } = - 2 \\frac{x^2+y+z^2+(x-z)^2+2yz-2xy} { x ^ 2+y+z ^ 2+ ( x - z ) ( 1 - 2 z ) +2 xz - 2 xy } \\end{align*} so that at $\\mathbf{x^*}$ it becomes \\begin{align*}  \\frac{dy} { dx } |_{ \\mathbf{x} = \\mathbf{x^*} }\n& = - 2 \\frac{17y^2-10y+2} { 11 y ^ 2 - 8 y +2 } < 0 \\end{align*} whereas the line $x=const$ is vertical .\nHence the trajectories originating in both regions 4 and 6 have to escape them via the null clines .\nTherefore the solution trajectory from any interior initial condition circles around the interior rest point $\\mathbf{x^*}$ by sequentially entering and exiting each of the six regions via the null clines .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 371,
+        "end": 383,
+        "text": "\\mathbf{x^*}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 446,
+        "end": 458,
+        "text": "\\mathbf{x^*}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 754,
+        "end": 777,
+        "text": "the interior rest point"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 779,
+        "end": 791,
+        "text": "\\mathbf{x^*}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Corefer-Symbol",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_44": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_44",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_44",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_44",
+    "text": "Given the signs of the null clines , the possible directions of motion in each of the six regions are restricted to a particular 60 - degree wedge .\nFor instance , in region 1 , $x$ and $z$ must be decreasing , while $y$ is increasing , so a solution originating from a point inside region 1 can only move toward the boundary $z=0$ or the nullcline $\\dot{z}=0$ .\nBut as the solution gets closer to the boundary , the speed $\\dot{z}$ approaches 0 , while the speeds $\\dot{x}$ and $\\dot{y}$ are bounded away from 0 within the red area that restricts the feasible directions of motion ( Formally , as $z \\rightarrow 0$ , $\\dot{x} \\rightarrow -xy(x^2+y)$ ; $\\dot{y} \\rightarrow xy(x^2+y)$ ; $\\dot{z} \\rightarrow 0$ , so near the edge $z=0$ the direction of motion is almost parallel to the edge . )\nThus a solution originating inside region 1 has to exit it via the z - nullcline .\nSimilarly , the solutions originating in regions 3 and 5 have to escape them via the x - and the y - null clines , correspondingly .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_50": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_50",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_50",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_50",
+    "text": "In this section we provide two more examples that relate the IBR and the replicator dynamics .\nFirst , we show that the game from the example 1 of Zeeman ( 1980 ) admits two interior rest points under the IBR dynamics .\nSuch behavior is impossible under the replicator dynamics , under which in non-degenerate games there can be at most one interior rest point ( Theorem 3 in \\cite{Zee80} ) .\nSecond , we construct a self - negating game in which the interior is split into two regions , one containing closed orbits around the interior rest point , and the other being a basin of attraction for a pure rest point .\nUp to the position of the rest point , both dynamics are equivalent .\n\\begin{example}\n\\label{Zeeman}\nConsider the games $Z$ and $W$ :\n\\begin{center}  \\begin{tabular} { ccc } $Z=\\left(\n\\begin{tabular}{ccc}\n0 & 6 & -4 \\\\\n-3 & 0 & 5 \\\\\n-1 & 3 & 0\n\\end{tabular}\\right)$ && $W=\\left(\n\\begin{tabular}{ccc}\n0 & 4 & 3 \\\\\n1 & 3 & 5 \\\\\n3 & 2 & 6\n\\end{tabular}\\right)$ \\end{tabular}  \\end{center}\nGame $Z$ is the game from the Example 1 in \\cite{Zee80} .\nThe IBR dynamics in it \\begin{align*}\n           &= x ( 1 - x ) \\ left ( x ^2+y-z\\ right )\n- 2x ^2yz \\\\\n           &= -y ( 1 -y ) \\ left ( x+y ^ 2-z\\ right )\n+2 x ^2yz \\\\\n           & = z ( x - y ) \\ left ( z-x ^2-y ^2\\right )\n\\end{align*} yields two distinct interior rest points $\\mathbf{z_1}=(\\frac13,\\frac13,\\frac13)$ and $\\mathbf{z_2}\\approx(0.575, 0.088, 0.338)$ .\nAt $\\mathbf{z_1}$ the relevant eigenvalues are $\\tfrac{1}{27}\\left(-1\\pm2i \\sqrt5\\right)$ , so this rest point is stable , whereas at $\\mathbf{z_2}$ the eigenvalues are 0.41 and - 0.041 , so it is unstable .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 726,
+        "end": 735,
+        "text": "the games"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 737,
+        "end": 738,
+        "text": "Z"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 745,
+        "end": 746,
+        "text": "W"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 791,
+        "end": 792,
+        "text": "Z"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 886,
+        "end": 887,
+        "text": "W"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1002,
+        "end": 1006,
+        "text": "Game"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1008,
+        "end": 1009,
+        "text": "Z"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_51": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_51",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_51",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_51",
+    "text": "\\begin{center}  \\begin{figure} [ h ] \\ centering\n\\begin{tabular} { ccc }\n           && $\\includegraphics[scale=0.5]{zeeman2.pdf}$ \\end{tabular}  \\caption{Some solution trajectories in games            (left) and            (right).}\n\\end{figure}  \\end{center}\nGame $W$ has the self - negating property , so there are closed orbits around the interior rest point , but a part of the interior of the simplex is the basin of attraction of the state $x_3=1$ .\nIn the time - reversed game $x_1=1$ becomes the attractor , while the interior rest point preserves its region with the closed orbits .\n\\end{example}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 260,
+        "end": 264,
+        "text": "Game"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 266,
+        "end": 267,
+        "text": "W"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_45": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_45",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_45",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_45",
+    "text": "Solutions originating in region 2 cannot reach the boundary as $z$ must be increasing .\nBut it is not immediately obvious that they cannot hit the rest point $\\mathbf{x^*}$ .\nTo exclude this possibility , one has to show that the y - component of every point in the region 2 is at least as high as the y - component of $\\mathbf{x^*}$ , so that $\\mathbf{x^*}$ can not be reached as $y$ must be increasing .\nThis will be the case if the slope of the z - null cline at $\\mathbf{x^*}$ is not lower than the slope of the line $y=const$ .\nTo compute that slope , simplify the system $H$ to \\begin{align*}\nH ( x , y , z ) = \\ left ( \\begin{matrix}            \\\\            \\\\                       \\right ) = \\ left ( \\begin{matrix} x ( z - y ) ( x ^ 2+y+z ) \\\\ y ( x- z ) ( x ^ 2+y+z ^2 )\n+2xy ^ 2z\\\\ z ( y - x ) ( x ^ 2+y ^ 2+z )\n- 2xyz ^ 2            \\ right )\n\\end{align*} so that the equation for the z - nullcline becomes $(y-x)(x^2+y^2+z)-2xyz=0$ .\nUsing $z=1-x-y$ , apply the Implicit Function Theorem to compute the slope of the z - null cline :\n\\begin{align*}  \\frac{dy} { dx } = \\frac{x^2+y^2+z-(y-x)(2x-1)+2yz-2xy} { x ^ 2+y ^ 2+z+\n( y - x ) ( 2y - 1 ) - 2xz+2xy }\n\\end{align*}\nThe rest point $\\mathbf{x^*}$ is characterized by $z=y$ and $x=1-2y$ , so the slope of the z - null cline at $\\mathbf{x^*}$ can be expressed solely in terms of $y$ :\n\\begin{align*}            { dx } |_{            = \\mathbf{x^*} } &= \\frac{(1-2y)^2+y^2+y-(3y-1)(1-4y)+2y^2-2y(1-2y)} { ( 1 - 2 y ) ^ 2+y ^ 2+y + ( 3 y - 1 ) ( 2 y - 1 ) } \\\\ &= \\frac{23y^2-12y+2} { 11 y ^ 2 - 8 y +2 } > 0 \\end{align*}\nThus at the rest point $\\mathbf{x^*}$ the z - nullcline has a positive slope , whereas the slope of the line $y=const$ is 0 ( in standard coordinates ) .\nTherefore at any point in the interior of region 2 , $y > y(\\mathbf{x^*})$ , and the trajectories originating in that region have to escape it via the y - nullcline .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 143,
+        "end": 157,
+        "text": "the rest point"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 159,
+        "end": 171,
+        "text": "\\mathbf{x^*}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 320,
+        "end": 332,
+        "text": "\\mathbf{x^*}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 345,
+        "end": 357,
+        "text": "\\mathbf{x^*}"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 467,
+        "end": 479,
+        "text": "\\mathbf{x^*}"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1183,
+        "end": 1197,
+        "text": "The rest point"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1199,
+        "end": 1211,
+        "text": "\\mathbf{x^*}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1399,
+        "end": 1411,
+        "text": "\\mathbf{x^*}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 1592,
+        "end": 1606,
+        "text": "the rest point"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 1608,
+        "end": 1620,
+        "text": "\\mathbf{x^*}"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 1798,
+        "end": 1810,
+        "text": "\\mathbf{x^*}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T6",
+        "arg1": "T1"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T5"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Corefer-Description",
+        "arg0": "T9",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_41": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_41",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_41",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_41",
+    "text": "To identify the interior rest points of the system $H$ observe that $\\dot{x}=0$ requires $z=y$ , so that $x=1-y-z=1-2y$ .\nPlugging the expressions for $x$ and $z$ into $\\dot{y}=0$ yields the equation \\ [ 1 - 6y +16y ^ 2 - 19 y ^ 3 =0 , \\ ] which only has one root $y \\approx 0.374$ in the interval $[0,1]$ .\nThus $\\mathbf{x^*} \\approx (0.252, 0.374, 0.374)$ is the unique interior rest point of the system $H$ .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 40,
+        "end": 50,
+        "text": "the system"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 52,
+        "end": 53,
+        "text": "H"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_40": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_40",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_40",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_40",
+    "text": "Formally , the IBR dynamics in $C_2$ \\begin{align*} H ( x , y , z ) = \\ left ( \\begin{matrix}  \\dot{x} \\\\ \\dot{y} \\\\ \\dot{z}  \\end{matrix} \\ right ) = \\ left ( \\begin{matrix} x ( z - y ) ( x ^ 2+y+z ) \\\\ y ( x - z ) ( x ^ 2+y+z )\n- yz ( x ^ 2- xy -xz - yz ) \\\\ z ( y - x ) ( x ^ 2+y+z ) + yz ( x ^ 2- xy - xz - yz )\n\\end{matrix} \\ right ) \\end{align*} has the property $-H(x,y,z) = H(x, z, y)$ .",
+    "entity": {},
+    "relation": {}
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_42": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_42",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_42",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_42",
+    "text": "To show that the solution trajectories originating in the interior of the simplex form closed orbits around the rest point $\\mathbf{x^*}$ , we first show that any such solution circles around $\\mathbf{x^*}$ and then apply the `` self - negating ' ' property to conclude that any circular solution trajectory must be indeed a closed orbit .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 108,
+        "end": 122,
+        "text": "the rest point"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 124,
+        "end": 136,
+        "text": "\\mathbf{x^*}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 193,
+        "end": 205,
+        "text": "\\mathbf{x^*}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Symbol",
+        "arg0": "T3",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_43": {
+    "id": "1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_43",
+    "phase": "dev",
+    "topic": "econ.th",
+    "document": "1907.04272v1.Ordinal_Imitative_Dynamics",
+    "paragraph": "paragraph_43",
+    "prefix": "selected/dev/econ.th-ann4/1907.04272v1.Ordinal_Imitative_Dynamics/paragraph_43",
+    "text": "\\begin{figure} [ h ] \\begin{center}  \\includegraphics{nullclines.pdf}  \\end{center}  \\caption{Left: the nullclines divide the simplex into 6 regions. Right: solution trajectories from the marked points have to remain within the red areas.}\n\\end{figure}\nObserve that the x - nullcline is the x - bisector , while the y - nullcline and z - nullcline originate at states $y=1$ and $z=1$ , respectively , pass through the interior rest point $\\mathbf{x^*}$ and hit the opposite edges of the simplex .\nTogether the null clines divide the simplex into six regions :\n$x$ is decreasing in regions 1 , 2 , and 3 , and increasing in regions 4 , 5 , and 6 ; $y$ is decreasing in 3 , 4 , and 5 , and increasing in 6 , 1 , and 2 ; $z$ is decreasing in regions 5 , 6 , and 1 , and increasing in regions 2 , 3 , and 4 .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 414,
+        "end": 437,
+        "text": "the interior rest point"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 439,
+        "end": 451,
+        "text": "\\mathbf{x^*}"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  }
+}

@@ -1,0 +1,3984 @@
+{
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_11": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_11",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_11",
+    "text": "Typically for our experiments exploring nonlinear interactions with Rb vapor , we choose a vapor generation beam wavelength of 805 nm , since it is far away from both the Rb $D_{1}$ and $D_{2}$ lines and hence would not lead to any resonant interaction with Rb vapor or cause significant AC stark shifting of its hyperfine levels at high intensities \\cite{slepkov_pra} .\nAdditionally , it is easy to separate a probe tuned to any Rb transition from the vapor generation beam using a spectral filter .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 175,
+        "end": 180,
+        "text": "D_{1}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 187,
+        "end": 192,
+        "text": "D_{2}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 194,
+        "end": 199,
+        "text": "lines"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 91,
+        "end": 123,
+        "text": "vapor generation beam wavelength"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 127,
+        "end": 133,
+        "text": "805 nm"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_10": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_10",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_10",
+    "text": "We also examine the wavelength dependence of the vapor generation beam within the band gap of the fiber .\nFigure 5 shows the generated OD as a function of wavelength of the vapor generation beam ( blue points ) .\nThe green arrows in the figure indicate the $D_{1}$ and $D_{2}$ transitions of Rb .\nThe OD at each wavelength is measured for 30 m W of power transmitted through the fiber .\nWe also plot the transmission data for the PBGF ( red curve ) \\cite{nkt} .\nIt is observed that the OD generated from 800 to 805 nm is 3 X that generated at wavelengths within the band edge .\nWe find that OD generation decreases as the wavelength of the vapor generation beam is tuned further away from the photonic band gap .\nWe believe this is due to increase in the guiding loss which reduces the power of the vapor generation beam as it propagates along the fiber .\nThus , OD's are generated most efficiently when the vapor generation beam wavelength is chosen to be at the band edge of the PBGF .\nThis is as expected since the optical mode would become more delocalized at the edge of the band - gap and more of the light from the vapor generation beam will be at the core walls .\nThe Ti :S laser used for the experiment is tunable only to 772 nm , and hence we could not acquire data below this wavelength further into the bandgap .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 258,
+        "end": 263,
+        "text": "D_{1}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 270,
+        "end": 275,
+        "text": "D_{2}"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 277,
+        "end": 294,
+        "text": "transitions of Rb"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 339,
+        "end": 345,
+        "text": "30 m W"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 349,
+        "end": 384,
+        "text": "power transmitted through the fiber"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 504,
+        "end": 517,
+        "text": "800 to 805 nm"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 543,
+        "end": 554,
+        "text": "wavelengths"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1231,
+        "end": 1237,
+        "text": "772 nm"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 1287,
+        "end": 1297,
+        "text": "wavelength"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 930,
+        "end": 940,
+        "text": "wavelength"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 622,
+        "end": 632,
+        "text": "wavelength"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T11",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_12": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_12",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_12",
+    "text": "As a final test of the origin of the Rb vapor in the core , we performed the experiment using a mode - locked Ti :S laser .\nThe pulsed source was used to study the impact of average versus peak power on the vapor generation process .\nA 100 - fs pulse with a repetition rate of 80 MHz and average power of 100 mW ( 40 KW peak power ) was used to generate the vapor .\nFigure 6 plots the OD generated using a pulsed source , as a function of elapsed time .\nIt is observed that a stable OD = 20 ${\\pm}$ 3 is generated for over 100 mins at an average power of 22 mW transmitted through the fiber .\nIt can be inferred that the OD's generated using a pulsed source are comparable to those using a CW beam at similar average powers as shown in Fig. 4 .\nThis indicates that the density of Rb atoms inside the core of the PBGF depends on the average and not the peak power of the vapor generation beam .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 258,
+        "end": 273,
+        "text": "repetition rate"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 277,
+        "end": 283,
+        "text": "80 MHz"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 288,
+        "end": 301,
+        "text": "average power"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 305,
+        "end": 311,
+        "text": "100 mW"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 314,
+        "end": 319,
+        "text": "40 KW"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 320,
+        "end": 330,
+        "text": "peak power"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 483,
+        "end": 485,
+        "text": "OD"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 488,
+        "end": 500,
+        "text": "20 ${\\pm}$ 3"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 538,
+        "end": 551,
+        "text": "average power"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 555,
+        "end": 560,
+        "text": "22 mW"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 439,
+        "end": 451,
+        "text": "elapsed time"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 523,
+        "end": 531,
+        "text": "100 mins"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 385,
+        "end": 387,
+        "text": "OD"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 621,
+        "end": 623,
+        "text": "OD"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T6",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T9",
+        "arg1": "T3"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T12"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Description",
+        "arg0": "T14",
+        "arg1": "T7"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Description",
+        "arg0": "T7",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_8": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_8",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_8",
+    "text": "We first demonstrate large OD's using a CW vapor generation beam .\nA strong CW beam at 805 nm is coupled into the fiber , and the generated OD is continuously monitored by measuring the transmission spectrum of the probe beam .\nFigure 3 shows the OD as a function of elapsed time .\nWe observe that high OD's , as large as 200 , are generated for a few minutes and thereafter a stable OD = 50 ${\\pm}$ 5 is observed for over 100 minutes , which represents a 1000 X improvement of operation time of the system over that previously reported \\cite{Bhagwat, Saikat, Pablo, Viv1,Vivek_natphoton, Vivek_prl, Prathamesh, Walmsley} .\nFor our Rb - PBGF system , an OD $\\sim$ 50 corresponds to an atomic number density ${N{\\approx}10^{19}}$ atoms / m ${^{3}}$ .\nThe transmitted power of the vapor generation beam through the fiber is 35 m W for 150 m W of power at the input end .\nThe low transmission through the PBGF is due to the presence of Rb at the core walls which increases scattering losses and modifies the guiding properties of the fiber over time after long exposure .\nThe generated OD is also measured as a function of vapor generation beam power as shown in Fig. 4 .\nWe see that beyond a power of 23 m W , the generated OD continues to increase .\nThis indicates that larger OD's can be generated using vapor generation beams with higher average powers .\nCurrently we are limited by the CW power of the Ti : S oscillator , and we expect that higher OD's can be generated at larger average powers levels of the vapor generation beam .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 322,
+        "end": 325,
+        "text": "200"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 298,
+        "end": 306,
+        "text": "high OD'"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 377,
+        "end": 386,
+        "text": "stable OD"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 389,
+        "end": 401,
+        "text": "50 ${\\pm}$ 5"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 423,
+        "end": 434,
+        "text": "100 minutes"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 267,
+        "end": 279,
+        "text": "elapsed time"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 654,
+        "end": 656,
+        "text": "OD"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 658,
+        "end": 666,
+        "text": "\\sim$ 50"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 685,
+        "end": 706,
+        "text": "atomic number density"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 707,
+        "end": 747,
+        "text": "${N{\\approx}10^{19}}$ atoms / m ${^{3}}$"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 754,
+        "end": 771,
+        "text": "transmitted power"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 822,
+        "end": 828,
+        "text": "35 m W"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 833,
+        "end": 840,
+        "text": "150 m W"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 844,
+        "end": 866,
+        "text": "power at the input end"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 1190,
+        "end": 1195,
+        "text": "power"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 1199,
+        "end": 1205,
+        "text": "23 m W"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T10"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T12"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T13"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T16"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_9": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_9",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_9",
+    "text": "\\begin{figure} [ ht ] \\centerline{\\includegraphics[width=0.5\\columnwidth]{od_lambda_eb_11.eps} } \\caption{Optical depth (OD) generated due to the vapor generation beam is plotted as a function of its wavelength (blue points). The curve in red shows the transmission data of the fiber and defines its band-gap \\cite{nkt} .\nThe green arrows indicate the $D_{1}$ and $D_{2}$ transition of Rb .\nIt is observed that the OD's generated at wavelengths within the band gap are lower than at wavelengths close to the edge and slightly beyond .\nAs we move further away from the edge , the generated OD's decrease . }\n\\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 106,
+        "end": 119,
+        "text": "Optical depth"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 121,
+        "end": 123,
+        "text": "OD"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 353,
+        "end": 358,
+        "text": "D_{1}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 365,
+        "end": 370,
+        "text": "D_{2}"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 372,
+        "end": 382,
+        "text": "transition"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 415,
+        "end": 417,
+        "text": "OD"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 589,
+        "end": 591,
+        "text": "OD"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T2"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_13": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_13",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_13",
+    "text": "\\begin{figure} [ ht ] \\centerline{\\includegraphics[width=0.5\\columnwidth]{tisaphod_11.eps} } \\caption{OD generated due to pulsed high peak power beam is plotted as a function of elapsed time. It is observed that a stable OD = 20            3 is generated for over 90 minutes of operation. The average power through the core is 22 mW while the peak power is 40 KW.}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 293,
+        "end": 306,
+        "text": "average power"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 327,
+        "end": 332,
+        "text": "22 mW"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 343,
+        "end": 353,
+        "text": "peak power"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 357,
+        "end": 362,
+        "text": "40 KW"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 221,
+        "end": 223,
+        "text": "OD"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 226,
+        "end": 241,
+        "text": "20 9999999999 3"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 264,
+        "end": 274,
+        "text": "90 minutes"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 178,
+        "end": 190,
+        "text": "elapsed time"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 102,
+        "end": 104,
+        "text": "OD"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T5",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_16": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_16",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_16",
+    "text": "\\bibitem{Kumar}\nP. Kumar , Opt. Lett \\textbf{15} , 1476 ( 1990 ) .\n\\bibitem{Bhagwat} A. R. Bhagwat , A. D. Slepkov , V. Venkataraman , P. Londero , and A. L. Gaeta , Phys. Rev. A \\textbf{79} , 063809 ( 2009 ) .\n\\bibitem{Saikat} S. Ghosh , A. R. Bhagwat , C. K. Renshaw , S. Goh , and A. L. Gaeta , Phys. Rev. Lett \\textbf{97} , 023603 , ( 2006 ) .\n\\bibitem{Pablo} P. Londero , V. Venkataraman , A. R. Bhagwat , A. D. Slepkov , and A. L. Gaeta , Phys. Rev. Lett. \\textbf{103} , 043602 ( 2009 ) .\n\\bibitem{Viv1} V. Venkataraman , P. Londero , A. R. Bhagwat , A. D. Slepkov , and A. L. Gaeta , Opt. Lett \\textbf{35} , 2287 ( 2010 ) .\n\\bibitem{Sprague} M. R. Sprague , D. G. England , A. Abdolvand , J. Nunn , X. Jin , W. S. Kolthammer , M. Barbieri , B. Rigal , P. S. Michelberger , T. F. M. Champion , P. St. J. Russell , and I. A. Walmsley , New J Phys \\textbf{15} , 055013 ( 2013 ) .\n\\bibitem{Epple} G. Epple , K. S. Kleinbach , T. G. Euser , N. Y. Joly , T. Pfau , P. St. J. Russell , and R. L $\\ddot{o}$ w , Nat. Commun \\textbf{5} , 1 ( 2014 ) .\n\\bibitem{Vivek_natphoton} V. Venkataraman , K. Saha and A. L. Gaeta , Nat. Photonics \\textbf{7} , 138 ( 2013 ) .\n\\bibitem{Luiten} C. Perrella , P. S. Light , J. D. Anstie , F. Benabid , T. M. Stace , A. G. White , and A. N. Luiten , Phys. Rev. A \\textbf{88} , 013819 ( 2013 ) .\n\\bibitem{Vivek_prl} V. Venkataraman , K. Saha , P. Londero , and A. L. Gaeta , Phys. Rev. Lett. \\textbf{107} , 193902 ( 2011 ) .\n\\bibitem{Prathamesh} P. S. Donvalkar , V. Venkataraman , S. Clemmen , K. Saha and A. L. Gaeta , Opt. Lett \\textbf{39} , 1557 ( 2014 ) .\n\\bibitem{Walmsley} M. R. Sprague , P. S. Michelberger , T. F. M. Champion , D. G. England , J. Nunn , X.- M. Jin , W. S. Kolthammer , A. Abdolvand , P. St. J. Russell , and I. A. Walmsley , Nat. Photonics \\textbf{8} , 287 ( 2014 ) .\n\\bibitem{Blatt} F. Blatt , T. Halfmann , and T. Peters , Opt. Lett \\textbf{39} , 446 ( 2014 ) .\n\\bibitem{russel_hg} U. Vogl , C. Peuntinger , N. Y. Joly , P. St. J. Russell , C. Marquardt , and G. Leuchs , Opt. Exp \\textbf{22} , 29375 ( 2014 ) .\n\\bibitem{slepkov_pra}\nA. D. Slepkov , A. R. Bhagwat , V. Venkataraman , P. Londero , and A. L. Gaeta , Phys. Rev. A \\textbf{81} , 053825 ( 2010 ) .\n\\bibitem{Kasturi}\nK. Saha , V. Venkataraman , P. Londero , and A. L. Gaeta , Phys. Rev. A \\textbf{83} , 033833 ( 2011 ) .\n\\bibitem{Munro}\nW. J. Munro , K. Nemoto , and T. P. Spiller , New J Phys \\textbf{7} , 137 ( 2005 ) .\n\\bibitem{Steck}\nD. A. Steck , `` $^{87}Rb$ and $^{85}Rb$ $D_{1}$ line data , \"\nhttp://steck.us/alkalidata/ ( 2013 ) .\n\\bibitem{slepkov_optexp}\nA. D. Slepkov , A. R. Bhagwat , V. Venkataraman , P. Londero , and A. L. Gaeta , Opt. Exp \\textbf{16} , 18976 ( 2008 ) .\n\\bibitem{nkt} \" NKT Photonics PCF , \" http://assets.newport.com/webDocuments-EN/images/15128.PDF\n\\end{thebibliography}",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_14": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_14",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_14",
+    "text": "Based on our observations , we propose a model that explains the dynamics of Rb atoms inside the fiber core .\nIt has been suggested that the OD inside the core is generated by a fast mechanism and a slow mechanism \\cite{Bhagwat} .\nThe OD's generated by the fast process ( i.e. , laser desorption of Rb atoms chemically bonded to the core wall ) are usually low ( OD ${\\sim}$ 0.5 ) but require short regeneration times ${\\sim}$ 50 $\\mu$ s \\cite{Bhagwat} , while those generated from the slow mechanism are extremely large ( OD ${\\sim}$ 1000 ) , and last for only a few seconds \\cite{slepkov_optexp} .\nThe source for the generation of such high OD's by the slow mechanism are atoms that are contained in Rb nanoclusters which can be thermally evaporated at considerably low average power levels .\nAs the average power of the vapor generation beam is low , the atoms cannot be prevented from sticking to the walls of the core and hence the vapor quickly disappears leading to operation time scales limited to a few seconds .\nHowever , atoms that are chemically bound to the surface of the core walls require larger powers to be released .\nAs the power of the vapor generation beam is continuously increased , beyond those required for the slow mechanism , more and more atoms chemically held to the core walls are released and a state of equilibrium is reached for each power level , leading to a stable and sustained OD for extended time scales ranging up to a few hours .\nOur results shown in Fig. 5 , also indicate that the vapor generation efficiency is greater at wavelengths at the photonic band edge of the fiber .\nThis is a result of more of the field being pushed into the cladding as the guiding efficiency lowers .\nThus , as we tune the vapor generation beam away from the band gap , the intensity of the beam close to the walls of the fiber - core starts increasing which prevents the atoms from sticking to the walls , thereby assisting in the efficient generation of large OD's .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 363,
+        "end": 365,
+        "text": "OD"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 367,
+        "end": 378,
+        "text": "{\\sim}$ 0.5"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 399,
+        "end": 417,
+        "text": "regeneration times"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 419,
+        "end": 437,
+        "text": "{\\sim}$ 50 $\\mu$ s"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 523,
+        "end": 525,
+        "text": "OD"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 527,
+        "end": 539,
+        "text": "{\\sim}$ 1000"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 141,
+        "end": 143,
+        "text": "OD"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 643,
+        "end": 645,
+        "text": "OD"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 1415,
+        "end": 1417,
+        "text": "OD"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 1984,
+        "end": 1986,
+        "text": "OD"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T5",
+        "arg1": "T1"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T1",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T8",
+        "arg1": "T5"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Description",
+        "arg0": "T9",
+        "arg1": "T8"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_15": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_15",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_15",
+    "text": "In summary we demonstrate continuous ODs for times that are ${\\textgreater}$ 1000 X longer than those previously demonstrated .\nOur observations indicate that vapor generation is more efficient at the photonic band edge as the field mode inside the core is more concentrated near the surface which prevents the atoms from sticking to the core wall .\nWe also establish that the vapor generation process depends on the average and not the peak power .\nWe believe our system will allow us to attain continuous , strong light - matter interactions at the single - photon level .",
+    "entity": {},
+    "relation": {}
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_2": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_2",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_2",
+    "text": "\\begin{figure} [ ht ] \\centerline{\\includegraphics[width=0.65\\columnwidth]{fig1.eps} } \\caption{A weak probe beam at 795 nm and a vapor generation beam are sent counterpropagating into the Rb-filled photonic band-gap fiber (PBGF) using 10X objectives. The probe is scanned across the            line of Rb. After propagating through the fiber, the probe beam is cleared out using spectral filters from any stray light that originates from the back reflected component of the vapor generation beam. The absorption of the probe beam is measured with a photodiode.}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 199,
+        "end": 222,
+        "text": "photonic band-gap fiber"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 224,
+        "end": 228,
+        "text": "PBGF"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 284,
+        "end": 294,
+        "text": "9999999999"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 295,
+        "end": 299,
+        "text": "line"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_3": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_3",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_3",
+    "text": "In this work , we report a 1000 X improvement in interaction times in Rb - PBGF over those previously achieved in such systems for OD's            50 .\nSuch long operating times were achieved using vapor generation beams with substantially higher average powers and wavelengths close to the band edge of the PBGF .\nThe generated OD's are commensurate with those required for all previous demonstrations of optical modulation using the Rb - PBGF system \\cite{Pablo, Viv1, Vivek_natphoton, Vivek_prl, Prathamesh, Kasturi} .\nThis capability greatly facilitates performing experiments related to weak nonlinearity - based quantum computing \\cite{Munro} .\nVarying the power and wavelength of the vapor generation beam offers further insight into the mechanism leading to sustained OD's .\nWe also investigate vapor generation using mode - locked pulses and compare it with our results using a continuous - wave ( CW ) beam , and we conclude that it is the average and not the peak power which facilitates the generation of high OD's .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 887,
+        "end": 904,
+        "text": "continuous - wave"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 907,
+        "end": 909,
+        "text": "CW"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 131,
+        "end": 133,
+        "text": "OD"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 136,
+        "end": 149,
+        "text": "9999999999 50"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 329,
+        "end": 331,
+        "text": "OD"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 1022,
+        "end": 1024,
+        "text": "OD"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 776,
+        "end": 778,
+        "text": "OD"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T5",
+        "arg1": "T3"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T7",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_1": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_1",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_1",
+    "text": "Nonlinear interactions between photons is a longstanding goal in quantum optics .\nLarge photon - photon interaction strengths have been realized by means of creating a Rydberg blockade in cold atomic ensembles \\cite{Payeronel} or by using cavity quantum electrodynamics \\cite{Chen,Tiecke,Ritter,Rauschenbeutel} .\nSuch ultralow power light matter interactions can be applied to quantum information processing \\cite{Sven} , quantum non-demolition measurements by the process of cross -phase modulation \\cite{Imamoglu} , and noiseless frequency conversion \\cite{Kumar} .\nA less complex approach for strong photon - photon interactions is to use systems that exhibit large Kerr nonlinearities .\nThe requirements for achieving such nonlinearities in atomic / molecular vapors are a high optical depth ( OD ) and small cross sectional area to achieve high intensities for low power levels \\cite{Bhagwat} .\nAlkali metal vapors confined to hollow - core photonic band - gap fibers ( PBGF ) have extremely large optical nonlinearities \\cite{Saikat,Pablo,Viv1,Sprague,Epple} , and large cross phase shifts \\cite{Vivek_natphoton, Luiten} , all optical amplitude modulation \\cite{Vivek_prl} , frequency translation \\cite{Prathamesh} and quantum memory \\cite{Walmsley} have been demonstrated using such systems .\nMore recently , high OD's have been observed by loading cold atoms in a PBGF from a MOT \\cite{Blatt} and the diffusive loading of a kagom \\'e style PBGF with mercury vapor, capable of achieving high optical nonlinearities in the UV regime \\cite{russel_hg} .\nA drawback for the warm Rb - filled PBGF platform has been the short time scales of operation , ranging from about a few seconds to a minute .\nFurthermore , the system requires an extended duration ( $> 3$ hrs ) to re-establish high OD operation \\cite{Bhagwat,Sprague,slepkov_pra} .\nTheories have been proposed to understand the dynamics of Rb atoms inside the fiber core and their interaction with the inner walls of the core \\cite{Bhagwat} .\nA detailed analysis suggests that Rb nanoclusters form inside the core of the fibers , and their subsequent vaporization using intense beams is responsible for the high OD .\nHowever , the Rb vapor obtained by thermal vapor generation from the nano-clusters is quickly lost to the fiber walls .\nThus , high OD's that are a key to achieving high third order nonlinearities are available only for a few seconds which largely limits the operation time of the system .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 782,
+        "end": 795,
+        "text": "optical depth"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 798,
+        "end": 800,
+        "text": "OD"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 946,
+        "end": 972,
+        "text": "photonic band - gap fibers"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 975,
+        "end": 979,
+        "text": "PBGF"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 1321,
+        "end": 1323,
+        "text": "OD"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 1372,
+        "end": 1376,
+        "text": "PBGF"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1448,
+        "end": 1452,
+        "text": "PBGF"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1594,
+        "end": 1598,
+        "text": "PBGF"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 1791,
+        "end": 1793,
+        "text": "OD"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 2171,
+        "end": 2173,
+        "text": "OD"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 2308,
+        "end": 2310,
+        "text": "OD"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 1747,
+        "end": 1755,
+        "text": "duration"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 1759,
+        "end": 1767,
+        "text": "> 3$ hrs"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T6",
+        "arg1": "T4"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T5"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_0": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_0",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_0",
+    "text": "\\begin{abstract}\nWe demonstrate high optical depths ( 50 ${\\pm}$ 5 ) , lasting for hours in Rubidium - filled hollow - core photonic band - gap fibers , which represents a 1000 X improvement over operation times previously reported .\nWe investigate the vapor generation mechanism using both a continuous - wave and a pulsed light source and find that the mechanism for generating the Rubidium atoms is primarily due to thermal vaporization .\nContinuous generation of large vapor densities should enable measurements at the single - photon level by averaging over longer time scales .\n\\end{abstract}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 37,
+        "end": 51,
+        "text": "optical depths"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 54,
+        "end": 66,
+        "text": "50 ${\\pm}$ 5"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_4": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_4",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_4",
+    "text": "\\begin{figure} [ ht ] \\centerline{\\includegraphics[width=0.5\\columnwidth]{od_curvestogether_june2015_3.eps} } \\caption{The absorption of the probe beam is plotted as a function of detuning, for vapor generation beam at (a) 17.3 mW, (b) 48 mW. The frequency scale is zeroed at the F = 3            F' = 3 transition on the            Rb            line. Each of the above absorption curves is fit to a Voigt function taking into account the Doppler and transit time broadened hyperfine transition on the            Rb and            Rb            line. From the fit, the temperature of the Rb vapor in the core can be estimated to be                        500 K.}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 280,
+        "end": 303,
+        "text": "F = 3 9999999999 F' = 3"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 304,
+        "end": 314,
+        "text": "transition"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 322,
+        "end": 346,
+        "text": "9999999998 Rb 9999999997"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 347,
+        "end": 351,
+        "text": "line"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 503,
+        "end": 545,
+        "text": "9999999996 Rb and 9999999995 Rb 9999999994"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 546,
+        "end": 550,
+        "text": "line"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 570,
+        "end": 581,
+        "text": "temperature"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 633,
+        "end": 661,
+        "text": "9999999993  9999999992 500 K"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_5": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_5",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_5",
+    "text": "The Rb chamber design containing the PBGF is the same as that used previously \\cite{Vivek_natphoton,Vivek_prl,Prathamesh, Kasturi} .\nA standard cleaning procedure for vacuum components was followed , after which we pre-baked the chamber for over a month to achieve ultra high vacuum ( $< 10^{-9}$ Torr ) before the Rb vapor was released .\nThe Rb density slowly builds up in the core of the PBGF over a period of two weeks by diffusion of warm Rb vapor from the chamber .\nA 9 - cm - long commercially available PBGF ( NKT photonics , AIR 6 - 800 ) is used for this experiment .\nThe inset of Fig. 1 shows an SEM image of the fiber cross section .\nThe Rb vapor is confined to the core of the PBGF , which is 6 - ${\\mu}$ m in diameter as indicated in the figure .\nAn external cavity diode laser ( Toptica , TA 100 ) tuned to the $D_{1}$ line of $^{85}$ Rb and set to a mode - hope - free scan serves as the weak probe .\nThe power of the probe beam is maintained at $\\sim$ 1 nW , which is below the saturation power of Rb vapor in the core of the PBGF \\cite{Steck} .\nThe CW output from a home - built Titanium sapphire ( Ti : S ) laser , tunable from 772 nm to 810 nm is used for Rb vapor generation .\nFor pulsed measurements , the laser is mode - locked to generate 100 - fs pulses at a repetition rate of 80 MHz .\nBoth the probe and vapor generation beams are free - space coupled into the fiber using 10 X objectives .\nIncluding coupling losses , the transmission through the fiber exposed to Rb vapor gradually drops over a month to 23\\% during continuous operation as compared to 70\\% for a pristine fiber .\nFormation of metallic clusters at the core walls make the transmission loss high over a broad frequency range .\nThe transmission of a fully loaded fiber prior to vapor generation can be as low as 10\\% and the transmission rises gradually to 23\\% for off - resonant vapor generation as the Rb atoms are released from the core walls .\nThe Rb vapor in the chamber is an isotopic mixture of $^{85}$ Rb and $^{87}$ Rb in a ratio of 7 : 3 .\nAs seen in Fig. 1 , both probe and vapor generation beams are sent counter propagating into the fiber , so that the weak probe can be easily separated .\nThe probe beam after propagation is separated using a band - pass filter at 795 nm and is measured using a photodiode .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 1096,
+        "end": 1104,
+        "text": "Titanium"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 1105,
+        "end": 1113,
+        "text": "sapphire"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 1116,
+        "end": 1118,
+        "text": "Ti"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 1121,
+        "end": 1122,
+        "text": "S"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 276,
+        "end": 282,
+        "text": "vacuum"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 285,
+        "end": 301,
+        "text": "$< 10^{-9}$ Torr"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 473,
+        "end": 479,
+        "text": "9 - cm"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 482,
+        "end": 486,
+        "text": "long"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 705,
+        "end": 718,
+        "text": "6 - ${\\mu}$ m"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 722,
+        "end": 730,
+        "text": "diameter"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 826,
+        "end": 831,
+        "text": "D_{1}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "PRIMARY",
+        "start": 833,
+        "end": 851,
+        "text": "line of $^{85}$ Rb"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 920,
+        "end": 925,
+        "text": "power"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 962,
+        "end": 972,
+        "text": "\\sim$ 1 nW"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 1283,
+        "end": 1298,
+        "text": "repetition rate"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 1302,
+        "end": 1308,
+        "text": "80 MHz"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "PRIMARY",
+        "start": 1449,
+        "end": 1461,
+        "text": "transmission"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 1532,
+        "end": 1536,
+        "text": "23\\%"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "SYMBOL",
+        "start": 1580,
+        "end": 1584,
+        "text": "70\\%"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "PRIMARY",
+        "start": 1724,
+        "end": 1736,
+        "text": "transmission"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 1804,
+        "end": 1808,
+        "text": "10\\%"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 1849,
+        "end": 1853,
+        "text": "23\\%"
+      },
+      "T23": {
+        "eid": "T23",
+        "label": "PRIMARY",
+        "start": 1975,
+        "end": 1991,
+        "text": "isotopic mixture"
+      },
+      "T24": {
+        "eid": "T24",
+        "label": "SYMBOL",
+        "start": 1995,
+        "end": 2020,
+        "text": "$^{85}$ Rb and $^{87}$ Rb"
+      },
+      "T25": {
+        "eid": "T25",
+        "label": "SYMBOL",
+        "start": 2035,
+        "end": 2040,
+        "text": "7 : 3"
+      },
+      "T26": {
+        "eid": "T26",
+        "label": "PRIMARY",
+        "start": 2026,
+        "end": 2031,
+        "text": "ratio"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T12",
+        "arg1": "T11"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T14"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T16"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T18"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T17",
+        "arg1": "T19"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T20",
+        "arg1": "T21"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T20",
+        "arg1": "T22"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T23",
+        "arg1": "T24"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Direct",
+        "arg0": "T26",
+        "arg1": "T25"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Corefer-Description",
+        "arg0": "T20",
+        "arg1": "T17"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_7": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_7",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_7",
+    "text": "We estimate the generated OD by fitting the absorption experienced by the probe to a Voigt function .\nFigure 2 , shows the probe absorption ( blue points ) during a scan across the $D_{1}$ line of $^{85}$ Rb and $^{87}$ Rb at different powers of the vapor generation beam .\nAll detunings are measured with respect to the F = 3 $\\rightarrow$ F' = 3 transition on the $^{85}$ Rb $D_{1}$ line .\nWe fit the probe absorption data to a Voigt profile ( red curve ) which takes into account both the homogenous ( Lorentzian ) and inhomogenously Doppler broadened ( Gaussian ) line shapes .\nSince the Rb atoms are confined to a 6 - ${\\mu}$ m core , the interaction time with the optical mode is limited to the time it takes for the atoms to move across the beam and leads to transit - time broadening of the absorption lines , which we take into account while simulating the Voigt function \\cite{slepkov_optexp,slepkov_pra} .\nThe temperature of the Rb atoms inside the core is inferred to be $T$ $\\sim$ 500 K from the Voigt function fit in Fig 2 ( a ) - ( b ) .\nThe higher temperature of the atoms ( 500 K ) as compared to the chamber temperature of 373 K appears to be a result of the high kinetic energy of the released atoms \\cite{slepkov_optexp} which also results in the increased Doppler broadening of the Rb transition lines .\nWe also note that the large OD's are only generated when the vapor generation beam is coupled into the fiber core .\nSecondly , the OD inside a 2 - cm - long section of the chamber is 0.5 , which tells us that the 0.5 - mm - long air gap region between the fiber tip and the chamber view - port on each side contribute negligibly to the total OD when the vapor generation beam is coupled into the fiber .",
+    "entity": {
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 984,
+        "end": 985,
+        "text": "T"
+      },
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 921,
+        "end": 948,
+        "text": "temperature of the Rb atoms"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 1064,
+        "end": 1088,
+        "text": "temperature of the atoms"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 321,
+        "end": 347,
+        "text": "F = 3 $\\rightarrow$ F' = 3"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 348,
+        "end": 389,
+        "text": "transition on the $^{85}$ Rb $D_{1}$ line"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 988,
+        "end": 999,
+        "text": "\\sim$ 500 K"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 1091,
+        "end": 1096,
+        "text": "500 K"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 1468,
+        "end": 1474,
+        "text": "2 - cm"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "PRIMARY",
+        "start": 1477,
+        "end": 1481,
+        "text": "long"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 1456,
+        "end": 1458,
+        "text": "OD"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 1508,
+        "end": 1511,
+        "text": "0.5"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 1538,
+        "end": 1546,
+        "text": "0.5 - mm"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "PRIMARY",
+        "start": 1554,
+        "end": 1618,
+        "text": "air gap region between the fiber tip and the chamber view - port"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Corefer-Description",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T7"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T13",
+        "arg1": "T12"
+      }
+    }
+  },
+  "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_6": {
+    "id": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_6",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1509.04737v1.Continuous_generation_of_Rubidium_vapor_in_hollow_core_photonic_band_gap_fibers/paragraph_6",
+    "text": "\\begin{figure} [ hb ] \\centerline{\\includegraphics[width=0.5\\columnwidth]{od_time_cw_1.eps} } \\caption{ Optical depth (OD) generated due to CW vapor generation is plotted as a function of elapsed time. It is observed that high OD's            200 are generated for a few minutes and thereafter the OD stabilizes to 50            5 for over 100 minutes of operation. The measurement is performed for 35 mW of vapor generation beam power transmitted through the PBGF.}  \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 104,
+        "end": 117,
+        "text": "Optical depth"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 119,
+        "end": 121,
+        "text": "OD"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 227,
+        "end": 229,
+        "text": "OD"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 232,
+        "end": 246,
+        "text": "9999999999 200"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 298,
+        "end": 300,
+        "text": "OD"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 315,
+        "end": 330,
+        "text": "50 9999999998 5"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 340,
+        "end": 351,
+        "text": "100 minutes"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 188,
+        "end": 200,
+        "text": "elapsed time"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 399,
+        "end": 404,
+        "text": "35 mW"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 408,
+        "end": 435,
+        "text": "vapor generation beam power"
+      }
+    },
+    "relation": {
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Description",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T5",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_11": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_11",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_11",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_11",
+    "text": "The difference between the corrections of the digital locks in the Sr1 and Sr2 standards yields the momentary frequency difference between the two clocks .\nThe measured frequency stability in fractional units represented by the Allan standard deviation is presented in Fig. ~ \\ref{fig:allan} { with two standards operating synchronously and asynchronously ( red and green lines , respectively ) .\nThe short - time stability of the standards , up to 100 ~s of averaging , is limited by the quality of the ultrastable laser .\nThe synchronous operation is mostly free from ultrastable laser fluctuations , except of small residual caused by independent setting of digital locks in the two standards .\nThe measured stability of the synchronously operated clocks , with a clock cycle time of 1.32 ~s and interrogation time of 40 ~ ms , reached $7\\times 10^{-17}$ after 10000 ~s of averaging .\nThe two fundamental limitations of the optical clock stability , i.e. the quantum projection noise ( QPN ) limit \\cite{Santarelli99} for N = 32000 atoms of an individual clock and the Dick effect limit \\cite{Dick87,Santarelli98} , derived from the power spectral density of the ultrastable clock laser and the clock cycle time , are also depicted in Fig. ~ \\ref{fig:allan} . }",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 1025,
+        "end": 1026,
+        "text": "N"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 1035,
+        "end": 1040,
+        "text": "atoms"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 962,
+        "end": 986,
+        "text": "quantum projection noise"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 401,
+        "end": 423,
+        "text": "short - time stability"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 449,
+        "end": 455,
+        "text": "100 ~s"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 767,
+        "end": 783,
+        "text": "clock cycle time"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 787,
+        "end": 794,
+        "text": "1.32 ~s"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 799,
+        "end": 817,
+        "text": "interrogation time"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 821,
+        "end": 828,
+        "text": "40 ~ ms"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 702,
+        "end": 720,
+        "text": "measured stability"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 840,
+        "end": 856,
+        "text": "7\\times 10^{-17}"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 989,
+        "end": 992,
+        "text": "QPN"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 1029,
+        "end": 1034,
+        "text": "32000"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Count",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T12"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Count",
+        "arg0": "T2",
+        "arg1": "T13"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_10": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_10",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_10",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_10",
+    "text": "The local representation of the Coordinated Universal Time ( see e.g. \\cite{Whibberley11} ) at AOS in Borowiec , UTC ( AOS ) , is realized directly in the form of a 1 PPS ( one - pulse - per - second ) by a system of an active H - maser ( CH 1 - 75 A ) and an offset generator ( Symmetricom Auxiliary Output Generator -- AOG ) .\nThe active H - maser provides good stability over measurement times of up to a few days , with an Allan deviation of $2 \\times 10^{-13}$ at an averaging time of $\\tau=1$ ~s and decreasing as $1/\\sqrt\\tau$ up to the averaging time of $\\tau=10^{4}$ ~s .\nThe AOG compensates the linear frequency drift of the maser on a daily basis and adds corrections in respect to the UTC , extrapolated from differences UTC - UTC ( AOS ) and UTCr - UTC ( AOS ) published monthly and weekly , respectively , in Circular - T \\cite{CircT} .\nThe details of the frequency chain at the AOS are presented in Fig. \\ref{fig:aos} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 529,
+        "end": 532,
+        "text": "tau"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 492,
+        "end": 495,
+        "text": "tau"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 472,
+        "end": 486,
+        "text": "averaging time"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 544,
+        "end": 558,
+        "text": "averaging time"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 564,
+        "end": 567,
+        "text": "tau"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 32,
+        "end": 58,
+        "text": "Coordinated Universal Time"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 113,
+        "end": 116,
+        "text": "UTC"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 733,
+        "end": 736,
+        "text": "UTC"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 739,
+        "end": 742,
+        "text": "UTC"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 755,
+        "end": 759,
+        "text": "UTCr"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 762,
+        "end": 765,
+        "text": "UTC"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 697,
+        "end": 700,
+        "text": "UTC"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 167,
+        "end": 170,
+        "text": "PPS"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "PRIMARY",
+        "start": 179,
+        "end": 199,
+        "text": "pulse - per - second"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 291,
+        "end": 317,
+        "text": "Auxiliary Output Generator"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 321,
+        "end": 324,
+        "text": "AOG"
+      },
+      "T17": {
+        "eid": "T17",
+        "label": "SYMBOL",
+        "start": 585,
+        "end": 588,
+        "text": "AOG"
+      },
+      "T18": {
+        "eid": "T18",
+        "label": "SYMBOL",
+        "start": 165,
+        "end": 166,
+        "text": "1"
+      },
+      "T19": {
+        "eid": "T19",
+        "label": "PRIMARY",
+        "start": 427,
+        "end": 442,
+        "text": "Allan deviation"
+      },
+      "T20": {
+        "eid": "T20",
+        "label": "SYMBOL",
+        "start": 447,
+        "end": 464,
+        "text": "2 \\times 10^{-13}"
+      },
+      "T21": {
+        "eid": "T21",
+        "label": "SYMBOL",
+        "start": 496,
+        "end": 501,
+        "text": "1$ ~s"
+      },
+      "T22": {
+        "eid": "T22",
+        "label": "SYMBOL",
+        "start": 568,
+        "end": 578,
+        "text": "10^{4}$ ~s"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Corefer-Symbol",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T2"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T5",
+        "arg1": "T1"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Corefer-Symbol",
+        "arg0": "T9",
+        "arg1": "T8"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Corefer-Symbol",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Corefer-Symbol",
+        "arg0": "T8",
+        "arg1": "T12"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Corefer-Symbol",
+        "arg0": "T12",
+        "arg1": "T7"
+      },
+      "R12": {
+        "rid": "R12",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T13"
+      },
+      "R13": {
+        "rid": "R13",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T16"
+      },
+      "R14": {
+        "rid": "R14",
+        "label": "Corefer-Symbol",
+        "arg0": "T17",
+        "arg1": "T16"
+      },
+      "R15": {
+        "rid": "R15",
+        "label": "Direct",
+        "arg0": "T14",
+        "arg1": "T18"
+      },
+      "R16": {
+        "rid": "R16",
+        "label": "Direct",
+        "arg0": "T19",
+        "arg1": "T20"
+      },
+      "R17": {
+        "rid": "R17",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T21"
+      },
+      "R18": {
+        "rid": "R18",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T22"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_12": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_12",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_12",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_12",
+    "text": "\\begin{figure} [ h ! ] \\ centering\n\\includegraphics[width=0.5\\columnwidth]{allan3}\n\\caption{{{\\bf The measured frequency stability.}\nThe frequency difference of the two synchronously and asynchronously operated two optical lattice standards ( red and green lines , respectively ) } and between Sr1 system and the UTC ( AOS ) ( blue { line } ) in fractional units represented by the Allan standard deviation .\nThe comparison between Sr1 and UTC ( AOS ) was made over the dedicated 330 ~ km - long stabilized fibre optic link .\n{ The two fundamental limitations of the optical clock stability , i.e. the quantum projection noise ( QPN ) limit , which is $\\sqrt{2} $ times the QPN limit for N = 32000 atoms of an individual clock , and the Dick effect limit , derived from the power spectral density of the ultrastable clock laser for a clock cycle time of 1.32 ~ s , are depicted by black and violet lines , respectively . }\n\\label{fig:allan} } \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 688,
+        "end": 689,
+        "text": "N"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 698,
+        "end": 703,
+        "text": "atoms"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 480,
+        "end": 488,
+        "text": "330 ~ km"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 491,
+        "end": 495,
+        "text": "long"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 602,
+        "end": 626,
+        "text": "quantum projection noise"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 629,
+        "end": 632,
+        "text": "QPN"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 674,
+        "end": 677,
+        "text": "QPN"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 834,
+        "end": 850,
+        "text": "clock cycle time"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 854,
+        "end": 862,
+        "text": "1.32 ~ s"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "SYMBOL",
+        "start": 692,
+        "end": 697,
+        "text": "32000"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Count",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Corefer-Symbol",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T8",
+        "arg1": "T9"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Count",
+        "arg0": "T2",
+        "arg1": "T10"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_8": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_8",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_8",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_8",
+    "text": "The short - time frequency reference of the optical standards , i.e. the ultrastable laser , is an Extended Cavity Diode Laser ( ECDL ) locked to the TEM ${}_{00}$ mode of the high - Q cavity .\nThe light from the ultrastable laser is transferred to the Sr1 and Sr2 standards and to the optical frequency comb through optical fibres .\nEach fibre has a system of active Doppler cancellation of the fibre - link noises to assure the transfer of stable optical frequencies \\cite{Ma94} .",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_9": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_9",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_9",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_9",
+    "text": "To estimate the quality of the link , the pre-installation tests with a 300 ~ km - long fiber on spools and bidirectional optical amplifiers were performed .\nThe stability of the remote 10 ~ MHz signal was measured with respect to the local input , using the A7 - MX Signal Stability Analyser .\nThe overlapping Allan deviation is equal to $4\\times 10^{-13}$ for 1 ~s integration period , and drops down to $3\\times 10^{-16}$ within 1 ~ h ( Fig. \\ref{fig:bounce} ) .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 72,
+        "end": 80,
+        "text": "300 ~ km"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 83,
+        "end": 87,
+        "text": "long"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 311,
+        "end": 326,
+        "text": "Allan deviation"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 340,
+        "end": 356,
+        "text": "4\\times 10^{-13}"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 362,
+        "end": 366,
+        "text": "1 ~s"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 367,
+        "end": 385,
+        "text": "integration period"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 407,
+        "end": 423,
+        "text": "3\\times 10^{-16}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 432,
+        "end": 437,
+        "text": "1 ~ h"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T8"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T7"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_13": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_13",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_13",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_13",
+    "text": "The stability of the Sr1 was also compared with the stability of the UTC ( AOS ) maintained by the hydrogen maser in AOS in Borowiec .\nThe comparison was made over the dedicated 330 ~ km - long stabilized fibre optic link ( { blue line } in Fig. ~ \\ref{fig:allan} ) .\nThis measured frequency stability provides information about the overall statistical uncertainty of the reference frequency of the hydrogen maser , the stability of the fibre link , and of optical frequency comb .\n{ For example , the plateau at around 2000 ~ s corresponds to the $\\pm 1^\\circ$ C fluctuations of temperature in the room where part of the frequency chain at the AOS in Borowiec ( micro-stepper and frequency distribution amplifiers ) is placed . }",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 178,
+        "end": 186,
+        "text": "330 ~ km"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 189,
+        "end": 193,
+        "text": "long"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 549,
+        "end": 563,
+        "text": "\\pm 1^\\circ$ C"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 564,
+        "end": 591,
+        "text": "fluctuations of temperature"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_17": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_17",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_17",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_17",
+    "text": "{ The shift induced by the BBR can be described as a static shift with a small dynamic correction \\cite{middelmann1} .\nThe static contribution is proportional to the differential static polarisability of the two clock states \\cite{middelmann2,marianna} and the mean square value of the electric field at temperature $T$ .\nThe dynamic correction is calculated similarly as in Ref. ~ \\cite{middelmann2} .\nTwo transitions to the states $5s5p$ $^3P_1$ and $5s5p$ $^1P_1$ contribute to the dynamic shift of the $5s^2$ $^1S_0$ ground state and four transitions to the states $5s4d$ $^3D_1$ , $5s6s$ $^3S_1$ , $5p^2$ $^3P_1$ and $5s5d$ $^3D_1$ contribute to the dynamic shift of the $5s5p$ $^3P_0$ excited state ( see Ref. \\cite{marianna,porsev2} ) .\nThe relevant parameters of the transitions are taken from Ref. \\cite{marianna,chem} . }",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 304,
+        "end": 315,
+        "text": "temperature"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 317,
+        "end": 318,
+        "text": "T"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 426,
+        "end": 432,
+        "text": "states"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 433,
+        "end": 447,
+        "text": "$5s5p$ $^3P_1$"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 452,
+        "end": 466,
+        "text": "$5s5p$ $^1P_1$"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 506,
+        "end": 520,
+        "text": "$5s^2$ $^1S_0$"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 521,
+        "end": 533,
+        "text": "ground state"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "PRIMARY",
+        "start": 562,
+        "end": 568,
+        "text": "states"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 569,
+        "end": 583,
+        "text": "$5s4d$ $^3D_1$"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 407,
+        "end": 418,
+        "text": "transitions"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "PRIMARY",
+        "start": 543,
+        "end": 554,
+        "text": "transitions"
+      },
+      "T12": {
+        "eid": "T12",
+        "label": "SYMBOL",
+        "start": 586,
+        "end": 600,
+        "text": "$5s6s$ $^3S_1$"
+      },
+      "T13": {
+        "eid": "T13",
+        "label": "SYMBOL",
+        "start": 603,
+        "end": 617,
+        "text": "$5p^2$ $^3P_1$"
+      },
+      "T14": {
+        "eid": "T14",
+        "label": "SYMBOL",
+        "start": 622,
+        "end": 636,
+        "text": "$5s5d$ $^3D_1$"
+      },
+      "T15": {
+        "eid": "T15",
+        "label": "PRIMARY",
+        "start": 691,
+        "end": 704,
+        "text": "excited state"
+      },
+      "T16": {
+        "eid": "T16",
+        "label": "SYMBOL",
+        "start": 676,
+        "end": 690,
+        "text": "$5s5p$ $^3P_0$"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Description",
+        "arg0": "T8",
+        "arg1": "T3"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T5"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Corefer-Description",
+        "arg0": "T11",
+        "arg1": "T10"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T9"
+      },
+      "R8": {
+        "rid": "R8",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T12"
+      },
+      "R9": {
+        "rid": "R9",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T13"
+      },
+      "R10": {
+        "rid": "R10",
+        "label": "Direct",
+        "arg0": "T11",
+        "arg1": "T14"
+      },
+      "R11": {
+        "rid": "R11",
+        "label": "Direct",
+        "arg0": "T15",
+        "arg1": "T16"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_16": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_16",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_16",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_16",
+    "text": "{ The frequency stability ( within 1 ~ MHz ) of the lattice 813 ~ nm light was assured by narrowing and locking the lattice laser ( pre-tuned to the magic wavelength 368 ~ 554.58 ( 28 ) ~ GHz \\cite{Akatsuka10} with accuracy of 200 ~ MHz by a High Finesse WS 6 / 200 wavemeter ) to the ultrastable 689 ~ nm laser by a Fabry - Perot transfer cavity .\nThe length of the transfer cavity , i.e. wavelength of the cavity modes , was controlled by a piezoelectric transducer and temperature of the cavity spacer .\nThe lattice light shift and its uncertainty are evaluated by making a series of several interlaced locks corresponding to different lattice depths .\nDifferent waists of the lattices in Sr1 and Sr2 ( 152 and 108 ~ $\\mu$ m , respectively ) and different depths of the lattices result in different values of measured residual light shift in Sr1 and Sr2 . }",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 6,
+        "end": 25,
+        "text": "frequency stability"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 28,
+        "end": 42,
+        "text": "within 1 ~ MHz"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 215,
+        "end": 223,
+        "text": "accuracy"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 227,
+        "end": 236,
+        "text": "200 ~ MHz"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 155,
+        "end": 165,
+        "text": "wavelength"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 166,
+        "end": 191,
+        "text": "368 ~ 554.58 ( 28 ) ~ GHz"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 297,
+        "end": 305,
+        "text": "689 ~ nm"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 706,
+        "end": 709,
+        "text": "152"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 714,
+        "end": 727,
+        "text": "108 ~ $\\mu$ m"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 666,
+        "end": 688,
+        "text": "waists of the lattices"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_14": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_14",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_14",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_14",
+    "text": "We have evaluated the main contributions to the frequency shifts in both Sr1 and Sr2 standards .\n{ The accuracy budgets are compared in Table \\ref{tab:acc} for typical experimental conditions : applied B - fields inducing clock transition equal to 2.725 and 2.383 mT , clock laser intensities equal to 207 and 488 m W / cm ${}^2$ and resultant Rabi frequencies \\cite{Taichenachev06} equal to 7.4 and 9.7 Hz for Sr1 and Sr2 , respectively . }\nMost of the systematic contributions presented there were evaluated by making a series of several simultaneous ( interlaced ) locks to the atomic line with different values of particular physical parameter in one of the standard , with the other standard serving as a stable reference .\nExamples of such evaluations are presented in Fig. ~ \\ref{fig:shifts} .\nThe notable exceptions were the black body radiation ( BBR ) shift , gravitational red shift and post-processed corrections between { UTC ( AOS ) , UTC and TT ( the SI second on the geoid ) . }",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 269,
+        "end": 292,
+        "text": "clock laser intensities"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 302,
+        "end": 305,
+        "text": "207"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 310,
+        "end": 329,
+        "text": "488 m W / cm ${}^2$"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 344,
+        "end": 360,
+        "text": "Rabi frequencies"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 392,
+        "end": 395,
+        "text": "7.4"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 400,
+        "end": 406,
+        "text": "9.7 Hz"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 194,
+        "end": 212,
+        "text": "applied B - fields"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 248,
+        "end": 253,
+        "text": "2.725"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 258,
+        "end": 266,
+        "text": "2.383 mT"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 833,
+        "end": 853,
+        "text": "black body radiation"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 856,
+        "end": 859,
+        "text": "BBR"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T6"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R6": {
+        "rid": "R6",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T9"
+      },
+      "R7": {
+        "rid": "R7",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T11"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_28": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_28",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_28",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_28",
+    "text": "\\bibitem{BIPM88} Bureau International des Poids et Mesures ( BIPM ) { \\em Recommended Values Of Standard Frequencies For Applications Including The Practical Realization Of The Metre And Secondary Representations Of The Definition Of The Second , Strontium 88 Atom ( $f\\approx~429$ THz ) } , ( BIPM , S\\`evres , France , 2009 )",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 105,
+        "end": 116,
+        "text": "Frequencies"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 268,
+        "end": 269,
+        "text": "f"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 269,
+        "end": 285,
+        "text": "\\approx~429$ THz"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_29": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_29",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_29",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_29",
+    "text": "\\bibitem{Akatsuka10}\nT. Akatsuka , M. Takamoto , and H. Katori , Three - dimensional optical lattice clock with bosonic ${}^{88}$ Sr atoms { \\em Phys. Rev. A} {\\bf 81} 023402 ( 2010 )",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_15": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_15",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_15",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_15",
+    "text": "\\begin{figure} [ h ! ] \\ centering \\includegraphics[width=\\textwidth]{shifts}  \\caption{ {\\bf Examples of evaluations of systematic shifts.}\nLeft panel : evaluation of the quadratic Zeeman shift { in Sr2 } .\nThe second order Zeeman correction depends on the absolute value of the magnetic field therefore similar measurements are made in all three directions\n{ B ${}_0$ = 2.383 mT corresponds to the applied B - field inducing clock transition at standard operating conditions .\nRight panel : evaluation of the probe light shift in Sr2 } .\n{ I ${}_0$ = 488 mW / cm ${}^2$ corresponds to the clock laser intensity at standard operating conditions . }\n\\label{fig:shifts} } \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 361,
+        "end": 369,
+        "text": "B ${}_0$"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 400,
+        "end": 417,
+        "text": "applied B - field"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 542,
+        "end": 550,
+        "text": "I ${}_0$"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 591,
+        "end": 645,
+        "text": "clock laser intensity at standard operating conditions"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 372,
+        "end": 380,
+        "text": "2.383 mT"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 553,
+        "end": 571,
+        "text": "488 mW / cm ${}^2$"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T5"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T6"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_18": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_18",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_18",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_18",
+    "text": "The UTC ( AOS ) signal in AOS in Borowiec is corrected with respect to the Earth 's Geoid , therefore the measurements at KL FAMO also have to be corrected with respect to the Geoid with the gravitational red shift .\nThe local height over the Geoid , 50 ( 2 ) ~ m , and the gravimetrically measured local value of the gravitational acceleration , 9.8127208 ( 26 ) ~ m / s ${}^2$ , were used for this correction .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 221,
+        "end": 248,
+        "text": "local height over the Geoid"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 251,
+        "end": 263,
+        "text": "50 ( 2 ) ~ m"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 318,
+        "end": 344,
+        "text": "gravitational acceleration"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 347,
+        "end": 378,
+        "text": "9.8127208 ( 26 ) ~ m / s ${}^2$"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_24": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_24",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_24",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_24",
+    "text": "\\bibitem{Rosenband08} T. Rosenband { \\em et al.} Frequency Ratio of Al            and Hg            Single-Ion Optical Clocks, Metrology at the 17th Decimal Place {\\em Science} { \\ bf 319 } 1808 ( 2008 )",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_2": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_2",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_2",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_2",
+    "text": "\\address{            Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University, Grudzi\\c{a} dzka 5 , PL - 87-100\nToru\\'n , Poland \\\\ $^2$ Department of Electronics , AGH University of Science and Technology , al. Mickiewicza 30 , PL - 30-059 , Krak\\'ow , Poland \\\\ $^3$ Time and Frequency Department , Astrogeodynamic Observatory of Space Research Center , Borowiec , Drapa\\l{} ka 4 , PL - 62-035 K\\'ornik , Poland \\\\ $^4$ M. Smoluchowski Institute of Physics , Faculty of Physics , Astronomy and Applied Computer Science , Jagiellonian University , St. \\L{} ojasiewicza 11 , PL - 30-348 Krak\\'ow , Poland \\\\ $^5$ Institute of Experimental Physics , Faculty of Physics , University of Warsaw , Pasteura 5 , PL - 02-093 Warsaw , Poland }",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_3": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_3",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_3",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_3",
+    "text": "\\begin{abstract}\nWe report a stability below $7\\times 10{}^{-17}$ of two independent optical lattice clocks operating with bosonic ${}^{88}$ Sr isotope .\nThe value ( 429 ~ 228 ~ 066 ~ 418 ~ 008.3 ( 1.9 ) ${}_{syst}$ ( 0.9 ) ${}_{stat}$ ~ Hz ) of the absolute frequency of the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition was measured with an optical frequency comb referenced to the local representation of the UTC by the 330 km - long stabilized fibre optical link .\nThe result was verified by series of measurements on two independent optical lattice clocks and agrees with recommendation of Bureau International des Poids et Mesures .\n\\end{abstract}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 166,
+        "end": 240,
+        "text": "429 ~ 228 ~ 066 ~ 418 ~ 008.3 ( 1.9 ) ${}_{syst}$ ( 0.9 ) ${}_{stat}$ ~ Hz"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 250,
+        "end": 268,
+        "text": "absolute frequency"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 277,
+        "end": 305,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 307,
+        "end": 317,
+        "text": "transition"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 419,
+        "end": 425,
+        "text": "330 km"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 428,
+        "end": 432,
+        "text": "long"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_25": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_25",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_25",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_25",
+    "text": "\\bibitem{Ye14}\nB. J. Bloom { \\ em et al. }\nAn optical lattice clock with accuracy and stability at the $10^{-18}$ level { \\em Nature} {\\bf 506} 71-75 ( 2014 )",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_19": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_19",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_19",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_19",
+    "text": "The described procedure yielded the absolute frequency of the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ clock transition in bosonic ${}^{88}$ Sr equal to 429 ~ 228 ~ 066 418 ~008.3 ( 1.9 ) ${}_{syst}$ ( 0.9 )            ~ Hz for Sr1 and 429 ~ 228 ~ 066 418 ~007.3 ( 2.8 ) ${}_{syst}$ ( 0.9 ) ${}_{stat}$ ~ Hz for Sr2 .\nFig ~ \\ref{fig:evol} documents the measurement record of both Sr1 and Sr2 standards , binned at 100 ~s and histograms of the frequency measurements , plotted with an offset frequency $\\nu_{BIPM}$ =429 ~ 228 ~ 066 418 ~ 012 ~ Hz , i.e the BIPM recommended value \\cite{BIPM88} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 36,
+        "end": 54,
+        "text": "absolute frequency"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 62,
+        "end": 92,
+        "text": "${}^{1}S_{0}$ -- ${}^{3}P_{0}$"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 93,
+        "end": 109,
+        "text": "clock transition"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 143,
+        "end": 213,
+        "text": "429 ~ 228 ~ 066 418 ~008.3 ( 1.9 ) ${}_{syst}$ ( 0.9 ) 9999999995 ~ Hz"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 226,
+        "end": 297,
+        "text": "429 ~ 228 ~ 066 418 ~007.3 ( 2.8 ) ${}_{syst}$ ( 0.9 ) ${}_{stat}$ ~ Hz"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 474,
+        "end": 490,
+        "text": "offset frequency"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "SYMBOL",
+        "start": 492,
+        "end": 502,
+        "text": "\\nu_{BIPM}"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 505,
+        "end": 535,
+        "text": "429 ~ 228 ~ 066 418 ~ 012 ~ Hz"
+      }
+    },
+    "relation": {
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T5"
+      },
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T7"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T8"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_27": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_27",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_27",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_27",
+    "text": "\\bibitem{Falke14} S. Falke { \\ em et al. }\nA strontium lattice clock with $3\\times10^{-17}$ inaccuracy and its frequency { \\em New J. Phys.} {\\bf 16} 073023 ( 2014 )",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_1": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_1",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_1",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_1",
+    "text": "\\author{Piotr Morzy\\'nski            , Marcin Bober            , Dobros\\l{}\nawa Bartoszek - Bober $^1$ , Jerzy Nawrocki $^3$ , Przemys \\l{}aw Krehlik            , \\L{} ukasz \\'Sliwczy\\'nski            , Marcin Lipi\\'nski            , Piotr Mas\\l{}owski            , Agata Cygan            , Piotr Dunst            , Micha\\l{} Garus $^1$ , Daniel Lisak $^1$ , Jerzy Zachorowski $^4$ , Wojciech Gawlik $^4$ , Czes \\l{}aw Radzewicz            , Roman Ciury\\l{} o $^1$ ,\nMicha \\l{} Zawada            }",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_0": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_0",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_0",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_0",
+    "text": "\\begin{document}  \\title{Absolute measurement of the            --             clock transition in neutral            Sr over the 330~km-long stabilized fibre optic link}",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_26": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_26",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_26",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_26",
+    "text": "\\bibitem{Hinkley13} N. Hinkley { \\em et al.} An atomic clock with            instability {\\em Science} { \\ bf 341 } 1215-8 ( 2013 )",
+    "entity": {},
+    "relation": {}
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_22": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_22",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_22",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_22",
+    "text": "\\begin{figure} [ h ! ] \\ centering \\includegraphics[width=0.5\\columnwidth]{zestawienie}  \\caption{ {\\bf Comparison of the            Sr            --            transition frequency with the previously known values.}\n1 ) is the value directly measured in Ref. \\cite{Baillard07} , 2 ) has been calculated from the frequency of the clock transition in ${}^{87}$ Sr \\cite{LeTargat13, Hinkley13, Falke14} and the measured isotope shift ${}^{88}$ Sr - ${}^{87}$ Sr in Ref. ~ \\cite{Akatsuka08} .\nDashed horizontal band represents the value recommended by the BIPM ~            .            } \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 122,
+        "end": 160,
+        "text": "9999999999 Sr 9999999998 -- 9999999997"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 161,
+        "end": 171,
+        "text": "transition"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_4": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_4",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_4",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_4",
+    "text": "Ultracold neutral atoms in an optical lattice ~ \\cite{Ido03} are seen as an alternative to single - ions ~ \\cite{Rosenband08} for development of optical frequency standards .\nAll best present realizations of the strontium optical clocks are made with fermionic strontium isotope ${}^{87}$ Sr ~ \\cite{Ye14, LeTargat13, Hinkley13, Falke14, Ushijima14} , since the bosonic isotopes are expected to have larger collisional effects on the clock transition .\nAdditionally , the bosonic isotopes require at least one extra field to induce the clock transition , which implies careful control of this field and its respective field shift .\nOn the other hand , the bosonic lattice clocks have some advantages over their fermionic counterpart : no first order Zeeman shift , no vector or tensor lattice Stark shifts and much higher isotopic abundance .\nLack of hyperfine structures in both ${}^{1}S_{0}$ and ${}^{3}P_{0}$ states and higher abundance reduce the time required for one lock cycle .\nFurthermore , the set - up of cooling and trapping the bosonic isotope is simpler , which is important for transportable systems .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "PRIMARY",
+        "start": 261,
+        "end": 278,
+        "text": "strontium isotope"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "SYMBOL",
+        "start": 280,
+        "end": 291,
+        "text": "{}^{87}$ Sr"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 881,
+        "end": 892,
+        "text": "{}^{1}S_{0}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 899,
+        "end": 910,
+        "text": "{}^{3}P_{0}"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 912,
+        "end": 918,
+        "text": "states"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T1",
+        "arg1": "T2"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T4"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_5": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_5",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_5",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_5",
+    "text": "The experimental difficulties in limiting and characterising the collisional shift in bosons are the reason why there are only two reported measurements of the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition in ${}^{88}$ Sr so far ~ \\cite{Baillard07,Akatsuka08} .\nTo calculate the recommended frequency values for the practical realizations of the metre ( MeP ) and secondary representations of the second ( SRS ) , the BIPM takes into account the weighted average of independently obtained frequencies .\nA limited pool of available measurements forced the BIMP to set practical relative uncertainties above the $1\\times 10^{-14}$ level when the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition in ${}^{88}$ Sr is used as MeP and restrain in recommending this transition as SRS ~ \\cite{BIPM88} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 161,
+        "end": 189,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 191,
+        "end": 201,
+        "text": "transition"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 360,
+        "end": 399,
+        "text": "secondary representations of the second"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 402,
+        "end": 405,
+        "text": "SRS"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "SYMBOL",
+        "start": 350,
+        "end": 353,
+        "text": "MeP"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "PRIMARY",
+        "start": 312,
+        "end": 347,
+        "text": "practical realizations of the metre"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 582,
+        "end": 595,
+        "text": "uncertainties"
+      },
+      "T8": {
+        "eid": "T8",
+        "label": "SYMBOL",
+        "start": 607,
+        "end": 623,
+        "text": "1\\times 10^{-14}"
+      },
+      "T9": {
+        "eid": "T9",
+        "label": "SYMBOL",
+        "start": 641,
+        "end": 669,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T10": {
+        "eid": "T10",
+        "label": "PRIMARY",
+        "start": 671,
+        "end": 681,
+        "text": "transition"
+      },
+      "T11": {
+        "eid": "T11",
+        "label": "SYMBOL",
+        "start": 709,
+        "end": 712,
+        "text": "MeP"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T6",
+        "arg1": "T5"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T8"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T10",
+        "arg1": "T9"
+      },
+      "R5": {
+        "rid": "R5",
+        "label": "Corefer-Symbol",
+        "arg0": "T11",
+        "arg1": "T5"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_23": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_23",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_23",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_23",
+    "text": "We have performed a series of measurements of the absolute frequency of the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition in neutral ${}^{88}$ Sr .\nThe measurements has been made in two independent optical lattice clocks with an optical frequency comb referenced to the UTC ( AOS ) by a long distance stabilized fibre optic link .\nOur results have comparable accuracy to those indirectly derived in Ref. ~ \\cite{Akatsuka08} and one order of magnitude better accuracy than value measured directly and reported in Ref. ~ \\cite{Baillard07} .\nPresented results agree with the recommendation of Bureau International des Poids et Mesures and should improve the accuracy of future recommendation .\nIn conclusion , ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition in the bosonic strontium seems to be a good candidate for practical representation of the second with stability of the order of 10 ${}^{-17}$ , particularly for transportable systems .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 704,
+        "end": 732,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 734,
+        "end": 744,
+        "text": "transition"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 77,
+        "end": 105,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 107,
+        "end": 117,
+        "text": "transition"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_21": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_21",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_21",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_21",
+    "text": "In Fig. ~ \\ref{fig:zestawienie} we present comparison of the ${}^{88}$ Sr ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition frequency with the previously known values .\nThe only direct measurement with ${}^{88}$ Sr we found in the literature has the uncertainty ten times bigger than the values reported in this paper ~ \\cite{Baillard07} .\nThe most precise value of the transition frequency was evaluated based on the measurement of the isotope shift ${}^{88}$ Sr - ${}^{87}$ Sr in Ref. ~ \\cite{Akatsuka08} and from the frequency of the clock transition in ${}^{87}$ Sr \\cite{LeTargat13, Hinkley13, Falke14} .\nDashed horizontal band in Fig. ~ \\ref{fig:zestawienie} represents the value recommended by the BIPM ~ \\cite{BIPM88} .\nWe believe that better control of the magnetic field would enable measurement of the ${}^{88}$ Sr ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition frequency with accuracy at least order of magnitude better and recommendation of this transition as SRS .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 61,
+        "end": 104,
+        "text": "${}^{88}$ Sr ${}^{1}S_{0}$ -- ${}^{3}P_{0}$"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 105,
+        "end": 115,
+        "text": "transition"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "SYMBOL",
+        "start": 805,
+        "end": 848,
+        "text": "${}^{88}$ Sr ${}^{1}S_{0}$ -- ${}^{3}P_{0}$"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "PRIMARY",
+        "start": 849,
+        "end": 859,
+        "text": "transition"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T4",
+        "arg1": "T3"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Corefer-Description",
+        "arg0": "T4",
+        "arg1": "T2"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_7": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_7",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_7",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_7",
+    "text": "A simplified scheme of the system of two optical lattice clocks is depicted in Fig. \\ref{fig:general} .\nTwo optical frequency standards ( Sr1 and Sr2 ) are based on the ${}^{1}S_{0}$ -- ${}^{3}P_{0}$ transition in neutral ${}^{88}$ Sr atoms .\nTwo clouds of cold atoms in Sr1 and Sr2 , trapped in the vertical optical lattices , are independently probed by an ultrastable laser with spectral width below 1 ~ Hz .\nThe laser beam is split into two optical paths .\nThe frequencies of both beams are independently digitally locked to the narrow atomic resonances in each standard by feedback to the acousto-optic frequency shifters .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 170,
+        "end": 198,
+        "text": "{}^{1}S_{0}$ -- ${}^{3}P_{0}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 200,
+        "end": 210,
+        "text": "transition"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 382,
+        "end": 396,
+        "text": "spectral width"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 403,
+        "end": 409,
+        "text": "1 ~ Hz"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T4"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_6": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_6",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_6",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_6",
+    "text": "There are two known ways to limit the effects of the collisions : the first , the measurements in the optical lattice trap with low atomic density and high confinement to suppress tunnelling effects \\cite{Lisdat09} ; the second , the use of higher dimensional optical lattice trap ~ \\cite{Akatsuka08} .\nIn our system the low value of collisional shift is ensured by a large waist of the lattice and trapping only a few atoms per lattice site in a trap .\nWe report a system of two independent bosonic strontium optical lattice standards with ${}^{88}$ Sr probed with a single shared ultranarrow laser .\nThe absolute frequency of the clock transition is measured by the use of a frequency - doubled Er : fibre polarization - mode - locked optical frequency comb referenced to the UTC ( AOS ) and UTC ( PL ) \\cite{Azoubib03,Jiang15} via the 330 ~ km - long stabilized fibre optic link of the OPTIME network ~ \\cite{Sliwczynski13,Krehlik15} .",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 838,
+        "end": 846,
+        "text": "330 ~ km"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 849,
+        "end": 853,
+        "text": "long"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      }
+    }
+  },
+  "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_20": {
+    "id": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_20",
+    "phase": "dev",
+    "topic": "physics.atom_ph",
+    "document": "1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link",
+    "paragraph": "paragraph_20",
+    "prefix": "selected/dev/physics.atom_ph-ann9/1512.02156v1.Absolute_measurement_of_the_1_S__0_3_P__0_clock_transition_in_neutral_88_Sr_over_the_330_km_long_stabilized_fibre_optic_link/paragraph_20",
+    "text": "\\begin{figure} [ h ! ] \\ centering\n\\includegraphics[width=\\textwidth]{Srevol}\n\\caption{{ {\\bf Frequencies of the            --            clock transition in bosonic            Sr recorded in Sr1 and Sr2 at the indicated MJD (top and bottom panels, respectively).}\nIn the left panels each solid circle represent 100 ~ s of averaged data , the light and dark - green regions represent 1 ~ $\\sigma$ standard deviation and standard deviation of the mean , respectively .\nThe offset frequency $\\nu_{BIPM}$ is the BIPM recommended frequency value \\cite{BIPM88} .\nThe right panels show a histogram of the frequency measurements with fitted Gaussian function .\n} \\label{fig:evol} } \\end{figure}",
+    "entity": {
+      "T1": {
+        "eid": "T1",
+        "label": "SYMBOL",
+        "start": 490,
+        "end": 500,
+        "text": "\\nu_{BIPM}"
+      },
+      "T2": {
+        "eid": "T2",
+        "label": "PRIMARY",
+        "start": 509,
+        "end": 541,
+        "text": "BIPM recommended frequency value"
+      },
+      "T3": {
+        "eid": "T3",
+        "label": "PRIMARY",
+        "start": 472,
+        "end": 488,
+        "text": "offset frequency"
+      },
+      "T4": {
+        "eid": "T4",
+        "label": "SYMBOL",
+        "start": 390,
+        "end": 395,
+        "text": "sigma"
+      },
+      "T5": {
+        "eid": "T5",
+        "label": "PRIMARY",
+        "start": 138,
+        "end": 154,
+        "text": "clock transition"
+      },
+      "T6": {
+        "eid": "T6",
+        "label": "SYMBOL",
+        "start": 113,
+        "end": 137,
+        "text": "9999999999 -- 9999999998"
+      },
+      "T7": {
+        "eid": "T7",
+        "label": "PRIMARY",
+        "start": 397,
+        "end": 415,
+        "text": "standard deviation"
+      }
+    },
+    "relation": {
+      "R1": {
+        "rid": "R1",
+        "label": "Direct",
+        "arg0": "T3",
+        "arg1": "T1"
+      },
+      "R2": {
+        "rid": "R2",
+        "label": "Direct",
+        "arg0": "T2",
+        "arg1": "T1"
+      },
+      "R3": {
+        "rid": "R3",
+        "label": "Direct",
+        "arg0": "T5",
+        "arg1": "T6"
+      },
+      "R4": {
+        "rid": "R4",
+        "label": "Direct",
+        "arg0": "T7",
+        "arg1": "T4"
+      }
+    }
+  }
+}
