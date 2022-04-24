@@ -1,5 +1,5 @@
 # symlink
-Code for "JBNU-CCLab at SemEval-2022 Task 12: Fusing Maximum Entity Information for Linking Mathematical Symbols to Their Descriptions", SemEval 2022 (top-ranked)
+Code for "JBNU-CCLab at SemEval-2022 Task 12: Machine Reading Comprehension and Span Pair Classification for Linking Mathematical Symbols to Their Descriptions", SemEval@NAACL2022 (1st at all subtasks)
 
 ## Requirements
 * [PyTorch](http://pytorch.org/) >= 1.7.1
