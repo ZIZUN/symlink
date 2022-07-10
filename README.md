@@ -1,5 +1,7 @@
 # symlink
-Code for "JBNU-CCLab at SemEval-2022 Task 12: Machine Reading Comprehension and Span Pair Classification for Linking Mathematical Symbols to Their Descriptions", SemEval@NAACL2022 (1st at all subtasks) [paper](https://aclanthology.org/2022.semeval-1.231/)
+Code for "JBNU-CCLab at SemEval-2022 Task 12: Machine Reading Comprehension and Span Pair Classification for Linking Mathematical Symbols to Their Descriptions", SemEval@NAACL2022 (1st at all subtasks)
+
+[paper(https://aclanthology.org/2022.semeval-1.231/)](https://aclanthology.org/2022.semeval-1.231/)
 
 ## Requirements
 * [PyTorch](http://pytorch.org/) >= 1.7.1
