@@ -37,6 +37,9 @@ python ./RE/get_ensemble_result.py
 python ./make_result/make_result.py
 ```
 
+## Model Checkpoint
+https://drive.google.com/file/d/1SFm791Z7KW0GAZ45PyIak5xsL_LdVFOb/view?usp=sharing
+
 ## References
 * [mrc-for-flat-nested-ner](https://github.com/ShannonAI/mrc-for-flat-nested-ner)
 
